@@ -1,0 +1,250 @@
+- generic [active] [ref=e1]:
+  - link "Jump to content" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "Site" [ref=e6]:
+        - generic "Main menu" [ref=e7]:
+          - button "Main menu" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: Main menu
+      - link "Wikipedia The Free Encyclopedia" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - generic [ref=e13]:
+          - img "Wikipedia" [ref=e14]
+          - img "The Free Encyclopedia" [ref=e15]
+    - generic [ref=e16]:
+      - search [ref=e17]:
+        - generic [ref=e20]:
+          - searchbox "Search Wikipedia" [ref=e23]
+          - button "Search" [ref=e25]
+      - navigation "Personal tools" [ref=e26]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Donate" [ref=e32] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+          - listitem [ref=e33]:
+            - link "Create account" [ref=e34] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:CreateAccount&returnto=Slovan+Bratislava
+          - listitem [ref=e35]:
+            - link "Log in" [ref=e36] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:UserLogin&returnto=Slovan+Bratislava
+  - generic [ref=e38]:
+    - main [ref=e42]:
+      - generic [ref=e43]:
+        - heading "Slovan Bratislava" [level=1] [ref=e44]:
+          - generic [ref=e45]: Slovan Bratislava
+        - generic [ref=e46]:
+          - button "Go to an article in another language. Available in 9 languages" [ref=e47] [cursor=pointer]
+          - generic [ref=e50]: 9 languages
+      - generic [ref=e52]:
+        - navigation "Namespaces" [ref=e54]:
+          - generic [ref=e55]:
+            - generic:
+              - list:
+                - listitem [ref=e56]:
+                  - link "Article" [ref=e57] [cursor=pointer]:
+                    - /url: /wiki/Slovan_Bratislava
+                    - generic [ref=e58]: Article
+                - listitem [ref=e59]:
+                  - link "Talk" [ref=e60] [cursor=pointer]:
+                    - /url: /wiki/Talk:Slovan_Bratislava
+                    - generic [ref=e61]: Talk
+        - generic [ref=e62]:
+          - navigation "Views" [ref=e63]:
+            - generic [ref=e64]:
+              - generic:
+                - list:
+                  - listitem [ref=e65]:
+                    - link "Read" [ref=e66] [cursor=pointer]:
+                      - /url: /wiki/Slovan_Bratislava
+                      - generic [ref=e67]: Read
+                  - listitem [ref=e68]:
+                    - link "Edit" [ref=e69] [cursor=pointer]:
+                      - /url: /w/index.php?title=Slovan_Bratislava&action=edit
+                      - generic [ref=e70]: Edit
+                  - listitem [ref=e71]:
+                    - link "View history" [ref=e72] [cursor=pointer]:
+                      - /url: /w/index.php?title=Slovan_Bratislava&action=history
+                      - generic [ref=e73]: View history
+          - navigation "Page tools" [ref=e74]:
+            - generic [ref=e75]:
+              - button "Tools" [ref=e76] [cursor=pointer]
+              - generic [ref=e78] [cursor=pointer]: Tools
+      - navigation "Appearance" [ref=e81]:
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - generic [ref=e85]: Appearance
+            - button "hide" [ref=e86] [cursor=pointer]
+          - generic [ref=e87]:
+            - generic [ref=e88]: Text
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - generic [ref=e93]:
+                  - generic [ref=e94]:
+                    - radio "Small" [ref=e95]
+                    - generic [ref=e98]: Small
+                  - generic [ref=e99]:
+                    - radio "Standard" [checked] [ref=e100]
+                    - generic [ref=e103]: Standard
+                  - generic [ref=e104]:
+                    - radio "Large" [ref=e105]
+                    - generic [ref=e108]: Large
+          - generic [ref=e109]:
+            - generic [ref=e110]: Width
+            - list [ref=e112]:
+              - listitem [ref=e113]:
+                - generic [ref=e115]:
+                  - generic [ref=e116]:
+                    - radio "Standard" [checked] [ref=e117]
+                    - generic [ref=e120]: Standard
+                  - generic [ref=e121]:
+                    - radio "Wide" [ref=e122]
+                    - generic [ref=e125]: Wide
+          - generic [ref=e126]:
+            - generic [ref=e127]: Color
+            - list [ref=e129]:
+              - listitem [ref=e130]:
+                - generic [ref=e132]:
+                  - generic [ref=e133]:
+                    - radio "Automatic" [ref=e134]
+                    - generic [ref=e137]: Automatic
+                  - generic [ref=e138]:
+                    - radio "Light" [checked] [ref=e139]
+                    - generic [ref=e142]: Light
+                  - generic [ref=e143]:
+                    - radio "Dark" [ref=e144]
+                    - generic [ref=e147]: Dark
+      - generic "Slovan Bratislava" [ref=e148]:
+        - generic [ref=e150]: From Wikipedia, the free encyclopedia
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - link "Sorry to interrupt, but our fundraiser won't last long. This Monday, we ask you to join the 2% of readers who give. If everyone reading this right now gave just €2,75, we'd hit our goal quickly. €2,75 is all we ask. Give €2,75 Maybe later" [ref=e153] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e154]:
+                - strong [ref=e155]: Sorry to interrupt, but our fundraiser won't last long.
+                - text: This Monday, we ask you to join the 2% of readers who give. If everyone reading this right now gave just €2,75, we'd hit our goal quickly. €2,75 is all we ask.
+              - generic [ref=e156]:
+                - button "Give €2,75" [ref=e157]
+                - button "Maybe later" [ref=e158]
+            - img "Close" [ref=e160] [cursor=pointer]
+          - region "fundraising banner" [ref=e163]:
+            - generic [ref=e164]:
+              - generic [ref=e165]:
+                - img [ref=e166]
+                - text: "18 May: Wikipedia still can't be sold"
+              - generic [ref=e170]: We're sorry we've made several attempts to reach you lately, but it's Monday, 18 May, and we still need some help. If everyone reading this gave €2,75 today, we'd hit our goal in a few hours. Most readers don't donate; less than 2% do. Wikipedia is run by a nonprofit, not by a billionaire. So if Wikipedia has given you €2,75 worth of knowledge, please give. Any contribution helps, whether it's €2,75 or €25.
+              - generic [ref=e172]:
+                - button "Give €2,75" [ref=e173] [cursor=pointer]:
+                  - generic [ref=e174]: Give €2,75
+                - button "Give a different amount" [ref=e175] [cursor=pointer]
+                - img [ref=e178]
+              - generic:
+                - img
+            - generic [ref=e181]:
+              - button "Maybe later" [ref=e182] [cursor=pointer]:
+                - text: Maybe later
+                - img [ref=e183]
+              - button "I already donated" [ref=e188] [cursor=pointer]
+              - button "Close" [ref=e189] [cursor=pointer]:
+                - text: Close
+                - img [ref=e190]
+        - generic [ref=e194]:
+          - paragraph [ref=e195]:
+            - text: Slovan Bratislava is a name for multiple sport clubs based in
+            - link "Bratislava" [ref=e196] [cursor=pointer]:
+              - /url: /wiki/Bratislava
+            - text: ", Slovakia"
+          - list [ref=e197]:
+            - listitem [ref=e198]:
+              - link "HC Slovan Bratislava" [ref=e199] [cursor=pointer]:
+                - /url: /wiki/HC_Slovan_Bratislava
+              - text: (ice hockey)
+            - listitem [ref=e200]:
+              - link "ŠK Slovan Bratislava" [ref=e201] [cursor=pointer]:
+                - /url: /wiki/%C5%A0K_Slovan_Bratislava
+              - text: (men's football)
+            - listitem [ref=e202]:
+              - link "ŠK Slovan Bratislava (women)" [ref=e203] [cursor=pointer]:
+                - /url: /wiki/%C5%A0K_Slovan_Bratislava_(women)
+              - text: (women's football)
+          - note [ref=e204]:
+            - link "Disambiguation icon" [ref=e206] [cursor=pointer]:
+              - /url: /wiki/File:Disambig_gray.svg
+              - img "Disambiguation icon" [ref=e207]
+            - generic [ref=e208]:
+              - text: This
+              - link "disambiguation" [ref=e209] [cursor=pointer]:
+                - /url: /wiki/Help:Disambiguation
+              - text: page lists articles associated with the title Slovan Bratislava.
+              - generic [ref=e210]:
+                - text: If an
+                - link "internal link" [ref=e211] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/w/index.php?title=Special:WhatLinksHere/Slovan_Bratislava&namespace=0
+                - text: incorrectly led you here, you may wish to change the link to point directly to the intended article.
+        - generic [ref=e213]:
+          - link "Category" [ref=e214] [cursor=pointer]:
+            - /url: /wiki/Help:Category
+          - text: ":"
+          - list [ref=e215]:
+            - listitem [ref=e216]:
+              - link "Disambiguation pages" [ref=e217] [cursor=pointer]:
+                - /url: /wiki/Category:Disambiguation_pages
+    - contentinfo [ref=e219]:
+      - list [ref=e220]:
+        - listitem [ref=e221]: This page was last edited on 14 April 2025, at 21:44 (UTC).
+        - listitem [ref=e222]:
+          - text: Text is available under the
+          - link "Creative Commons Attribution-ShareAlike 4.0 License" [ref=e223] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+          - text: ; additional terms may apply. By using this site, you agree to the
+          - link "Terms of Use" [ref=e224] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+          - text: and
+          - link "Privacy Policy" [ref=e225] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+          - text: . Wikipedia® is a registered trademark of the
+          - link "Wikimedia Foundation, Inc." [ref=e226] [cursor=pointer]:
+            - /url: https://wikimediafoundation.org/
+          - text: ", a non-profit organization."
+      - list:
+        - listitem [ref=e227]:
+          - link "Privacy policy" [ref=e228] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e229]:
+          - link "About Wikipedia" [ref=e230] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:About
+        - listitem [ref=e231]:
+          - link "Disclaimers" [ref=e232] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:General_disclaimer
+        - listitem [ref=e233]:
+          - link "Contact Wikipedia" [ref=e234] [cursor=pointer]:
+            - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+        - listitem [ref=e235]:
+          - link "Legal & safety contacts" [ref=e236] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+        - listitem [ref=e237]:
+          - link "Code of Conduct" [ref=e238] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e239]:
+          - link "Developers" [ref=e240] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e241]:
+          - link "Statistics" [ref=e242] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/en.wikipedia.org
+        - listitem [ref=e243]:
+          - link "Cookie statement" [ref=e244] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e245]:
+          - link "Mobile view" [ref=e246] [cursor=pointer]:
+            - /url: //en.wikipedia.org/w/index.php?title=Slovan_Bratislava&mobileaction=toggle_view_mobile
+      - list [ref=e247]:
+        - listitem [ref=e248]:
+          - link "Wikimedia Foundation" [ref=e249] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e251]
+        - listitem [ref=e252]:
+          - link "Powered by MediaWiki" [ref=e253] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e255]
+  - generic [ref=e256]:
+    - list

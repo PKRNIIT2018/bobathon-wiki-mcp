@@ -1,0 +1,422 @@
+- generic [active] [ref=e1]:
+  - link "Jump to content" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "Site" [ref=e6]:
+        - generic "Main menu" [ref=e7]:
+          - button "Main menu" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: Main menu
+      - link "Wikipedia The Free Encyclopedia" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - generic [ref=e13]:
+          - img "Wikipedia" [ref=e14]
+          - img "The Free Encyclopedia" [ref=e15]
+    - generic [ref=e16]:
+      - search [ref=e17]:
+        - generic [ref=e20]:
+          - searchbox "Search Wikipedia" [ref=e23]
+          - button "Search" [ref=e25]
+      - navigation "Personal tools" [ref=e26]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Donate" [ref=e32] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+          - listitem [ref=e33]:
+            - link "Create account" [ref=e34] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:CreateAccount&returnto=Special%3ASearch&returntoquery=go%3DGo%26search%3Dplaywright.dev
+          - listitem [ref=e35]:
+            - link "Log in" [ref=e36] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:UserLogin&returnto=Special%3ASearch&returntoquery=go%3DGo%26search%3Dplaywright.dev
+  - generic [ref=e38]:
+    - main [ref=e42]:
+      - generic [ref=e43]:
+        - heading "Search results" [level=1] [ref=e44]
+        - link "Help" [ref=e47] [cursor=pointer]:
+          - /url: /wiki/Help:Searching
+          - text: Help
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - navigation "Namespaces"
+        - generic [ref=e52]:
+          - navigation "Views"
+          - navigation "Page tools" [ref=e53]:
+            - generic [ref=e54]:
+              - button "Tools" [ref=e55] [cursor=pointer]
+              - generic [ref=e57] [cursor=pointer]: Tools
+      - navigation "Appearance" [ref=e60]:
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - generic [ref=e64]: Appearance
+            - button "hide" [ref=e65] [cursor=pointer]
+          - generic [ref=e66]:
+            - generic [ref=e67]: Text
+            - list [ref=e69]:
+              - listitem [ref=e70]:
+                - generic [ref=e71]:
+                  - generic [ref=e72]:
+                    - generic [ref=e73]:
+                      - radio "Small" [disabled] [ref=e74]
+                      - generic [ref=e77]: Small
+                    - generic [ref=e78]:
+                      - radio "Standard" [disabled] [ref=e79]
+                      - generic [ref=e82]: Standard
+                    - generic [ref=e83]:
+                      - radio "Large" [disabled] [ref=e84]
+                      - generic [ref=e87]: Large
+                  - paragraph [ref=e88]: This page always uses small font size
+          - generic [ref=e89]:
+            - generic [ref=e90]: Width
+            - list [ref=e92]:
+              - listitem [ref=e93]:
+                - generic [ref=e95]:
+                  - generic [ref=e96]:
+                    - radio "Standard" [checked] [ref=e97]
+                    - generic [ref=e100]: Standard
+                  - generic [ref=e101]:
+                    - radio "Wide" [ref=e102]
+                    - generic [ref=e105]: Wide
+          - generic [ref=e106]:
+            - generic [ref=e107]: Color
+            - list [ref=e109]:
+              - listitem [ref=e110]:
+                - generic [ref=e112]:
+                  - generic [ref=e113]:
+                    - radio "Automatic" [ref=e114]
+                    - generic [ref=e117]: Automatic
+                  - generic [ref=e118]:
+                    - radio "Light" [checked] [ref=e119]
+                    - generic [ref=e122]: Light
+                  - generic [ref=e123]:
+                    - radio "Dark" [ref=e124]
+                    - generic [ref=e127]: Dark
+      - generic "Search results" [ref=e128]:
+        - generic [ref=e129]:
+          - generic [ref=e131]:
+            - generic:
+              - generic [ref=e134]:
+                - combobox [ref=e137]: playwright.dev
+                - button "Search" [ref=e142] [cursor=pointer]
+              - generic [ref=e143]:
+                - text: Results
+                - strong [ref=e144]: 1 – 20
+                - text: of
+                - strong [ref=e145]: "815"
+            - generic [ref=e146]:
+              - button "Advanced search:" [ref=e149] [cursor=pointer]:
+                - generic [ref=e151]:
+                  - generic [ref=e152]: "Advanced search:"
+                  - list "Currently used search terms"
+              - button "Search in:" [ref=e156] [cursor=pointer]:
+                - generic [ref=e158]:
+                  - generic [ref=e159]: "Search in:"
+                  - list "Currently active namespace filters" [ref=e160]:
+                    - listitem "(Article)" [ref=e161]:
+                      - generic [ref=e162]: (Article)
+                      - button "Remove" [ref=e164]
+          - generic [ref=e167]:
+            - paragraph [ref=e169]:
+              - generic [ref=e170]:
+                - text: The page "
+                - link "Playwright.dev" [ref=e171] [cursor=pointer]:
+                  - /url: /w/index.php?title=Playwright.dev&action=edit&redlink=1
+                - text: "\" does not exist. You can"
+                - link "create a draft and submit it for review" [ref=e172] [cursor=pointer]:
+                  - /url: /wiki/Wikipedia:Article_wizard
+                - text: or
+                - link "request that a redirect be created" [ref=e173] [cursor=pointer]:
+                  - /url: /wiki/Wikipedia:Articles_for_creation/Redirects
+                - text: ", but consider checking the search results below to see whether the topic is already covered."
+            - generic [ref=e175]:
+              - combobox [ref=e178]:
+                - option "20 items" [selected]
+                - option "50 items"
+                - option "100 items"
+                - option "250 items"
+                - option "500 items"
+              - generic [ref=e179]:
+                - button "First page" [ref=e180] [cursor=pointer]
+                - button "Previous page" [ref=e182] [cursor=pointer]
+                - button "Next page" [ref=e184] [cursor=pointer]
+            - list [ref=e187]:
+              - listitem [ref=e188]:
+                - generic [ref=e189]:
+                  - img [ref=e192]
+                  - generic [ref=e195]:
+                    - link "Playwright (software)" [ref=e197] [cursor=pointer]:
+                      - /url: /wiki/Playwright_(software)
+                    - generic [ref=e198]: browsers are not installed by default. The current Playwright version supports Stable, Beta, Dev, and Canary channels of Google Chrome and Microsoft...
+                    - generic [ref=e199]: 12 KB (1,122 words) - 15:43, 9 February 2026
+              - listitem [ref=e200]:
+                - generic [ref=e201]:
+                  - link "Thumbnail for Robot Framework" [ref=e203] [cursor=pointer]:
+                    - /url: /wiki/Robot_Framework
+                    - img "Thumbnail for Robot Framework" [ref=e204]
+                  - generic [ref=e205]:
+                    - link "Robot Framework" [ref=e207] [cursor=pointer]:
+                      - /url: /wiki/Robot_Framework
+                    - generic [ref=e208]: Browser *** Test Cases *** Example Test New Page https://playwright.dev Get Text h1 == 🎭 Playwright These libraries are best implemented in Python, but using...
+                    - generic [ref=e209]: 6 KB (498 words) - 21:59, 29 November 2025
+              - listitem [ref=e210]:
+                - generic [ref=e211]:
+                  - img [ref=e214]
+                  - generic [ref=e217]:
+                    - link "List of TypeScript software and tools" [ref=e219] [cursor=pointer]:
+                      - /url: /wiki/List_of_TypeScript_software_and_tools
+                    - generic [ref=e220]: com/mochajs/mocha-examples/blob/main/packages/typescript/README.md https://playwright.dev/docs/test-typescript https://testing-library.com/docs/react-testing-library/intro/...
+                    - generic [ref=e221]: 9 KB (967 words) - 01:48, 1 April 2026
+              - listitem [ref=e222]:
+                - generic [ref=e223]:
+                  - img [ref=e226]
+                  - generic [ref=e229]:
+                    - link "Mauritian literature" [ref=e231] [cursor=pointer]:
+                      - /url: /wiki/Mauritian_literature
+                    - generic [ref=e232]: authors write in English, Bhojpuri, and Morisyen. Mauritius's renowned playwright Dev Virahsawmy writes exclusively in Morisyen. Important authors include...
+                    - generic [ref=e233]: 5 KB (457 words) - 19:14, 11 April 2026
+              - listitem [ref=e234]:
+                - generic [ref=e235]:
+                  - img [ref=e238]
+                  - generic [ref=e241]:
+                    - link "Dev Virahsawmy" [ref=e243] [cursor=pointer]:
+                      - /url: /wiki/Dev_Virahsawmy
+                    - generic [ref=e244]: Dev Virahsawmy (16 March 1942 – 7 November 2023) was a Mauritian politician, playwright, poet and advocate of the Mauritian Creole language. Though he...
+                    - generic [ref=e245]: 19 KB (1,939 words) - 20:14, 16 April 2026
+              - listitem [ref=e246]:
+                - generic [ref=e247]:
+                  - link "Thumbnail for Sohaila Kapur" [ref=e249] [cursor=pointer]:
+                    - /url: /wiki/Sohaila_Kapur
+                    - img "Thumbnail for Sohaila Kapur" [ref=e250]
+                  - generic [ref=e251]:
+                    - generic [ref=e252]:
+                      - link "Sohaila Kapur" [ref=e253] [cursor=pointer]:
+                        - /url: /wiki/Sohaila_Kapur
+                      - generic [ref=e254]: (category Hindi dramatists and playwrights)
+                    - generic [ref=e255]: India. The niece of famous Indian actor Dev Anand. Her mother, Sheel Kanta Kapur was the sister of Chetan, Dev and Vijay Anand. She is the third and the...
+                    - generic [ref=e256]: 8 KB (529 words) - 07:38, 31 December 2025
+              - listitem [ref=e257]:
+                - generic [ref=e258]:
+                  - img [ref=e261]
+                  - generic [ref=e264]:
+                    - link "Culture of Mauritius" [ref=e266] [cursor=pointer]:
+                      - /url: /wiki/Culture_of_Mauritius
+                    - generic [ref=e267]: Abhimanyu Unnuth and Pahlad Ramsurrun in Hindi. Mauritius's renowned playwright Dev Virahsawmy writes exclusively in Morisyen. Important authors include...
+                    - generic [ref=e268]: 52 KB (4,824 words) - 22:33, 6 September 2025
+              - listitem [ref=e269]:
+                - generic [ref=e270]:
+                  - link "Thumbnail for Debbarma" [ref=e272] [cursor=pointer]:
+                    - /url: /wiki/Debbarma
+                    - img "Thumbnail for Debbarma" [ref=e273]
+                  - generic [ref=e274]:
+                    - generic [ref=e275]:
+                      - link "Debbarma" [ref=e276] [cursor=pointer]:
+                        - /url: /wiki/Debbarma
+                      - generic [ref=e277]:
+                        - text: (redirect from
+                        - link "Dev burman" [ref=e278] [cursor=pointer]:
+                          - /url: /wiki/Dev_burman
+                        - text: )
+                    - generic [ref=e279]: consist of Debbarma, Deb Barma, DebBarma, Dev Barma, Dev Varma, Deb Burman, Dev Burman, Debbarman, Dev Barman, Dev Varman and Devvarman. Although Debbarmas...
+                    - generic [ref=e280]: 7 KB (587 words) - 14:45, 15 February 2026
+              - listitem [ref=e281]:
+                - generic [ref=e282]:
+                  - link "Thumbnail for Nabaneeta Dev Sen" [ref=e284] [cursor=pointer]:
+                    - /url: /wiki/Nabaneeta_Dev_Sen
+                    - img "Thumbnail for Nabaneeta Dev Sen" [ref=e285]
+                  - generic [ref=e286]:
+                    - link "Nabaneeta Dev Sen" [ref=e288] [cursor=pointer]:
+                      - /url: /wiki/Nabaneeta_Dev_Sen
+                    - generic [ref=e289]: Nabaneeta Dev Sen (Nôbonita Deb Sen; 13 January 1938 – 7 November 2019) was an Indian writer and academic. After studying arts and comparative literature...
+                    - generic [ref=e290]: 22 KB (1,809 words) - 04:38, 29 April 2026
+              - listitem [ref=e291]:
+                - generic [ref=e292]:
+                  - link "Thumbnail for Arjun Deo Charan" [ref=e294] [cursor=pointer]:
+                    - /url: /wiki/Arjun_Deo_Charan
+                    - img "Thumbnail for Arjun Deo Charan" [ref=e295]
+                  - generic [ref=e296]:
+                    - generic [ref=e297]:
+                      - link "Arjun Deo Charan" [ref=e298] [cursor=pointer]:
+                        - /url: /wiki/Arjun_Deo_Charan
+                      - generic [ref=e299]:
+                        - text: (redirect from
+                        - link "Arjun Dev Charan" [ref=e300] [cursor=pointer]:
+                          - /url: /wiki/Arjun_Dev_Charan
+                        - text: )
+                    - generic [ref=e301]: Arjun Deo Charan (born 1954) is a Rajasthani poet, critic, playwright, theatre director and translator. A prominent figure in Indian theatre, he is among...
+                    - generic [ref=e302]: 7 KB (524 words) - 17:34, 7 March 2026
+              - listitem [ref=e303]:
+                - generic [ref=e304]:
+                  - img [ref=e307]
+                  - generic [ref=e310]:
+                    - link "Narsingh Dev Jamwal" [ref=e312] [cursor=pointer]:
+                      - /url: /wiki/Narsingh_Dev_Jamwal
+                    - generic [ref=e313]: Narsingh Dev Jamwal (born 1931) is an Indian writer and playwright from Jammu, who has authored 48 books, including Sanjhi Dharti Bakhle Mahnu (novel)...
+                    - generic [ref=e314]: 5 KB (306 words) - 11:11, 26 November 2025
+              - listitem [ref=e315]:
+                - generic [ref=e316]:
+                  - img [ref=e319]
+                  - generic [ref=e322]:
+                    - link "Dev Kumar" [ref=e324] [cursor=pointer]:
+                      - /url: /wiki/Dev_Kumar
+                    - generic [ref=e325]: Dev Kumar (born 4 February 1972)[citation needed] is a Dalit writer and dramatist from India. A member of the Bhangi community, he established the Apna...
+                    - generic [ref=e326]: 2 KB (135 words) - 10:41, 6 June 2025
+              - listitem [ref=e327]:
+                - generic [ref=e328]:
+                  - img [ref=e331]
+                  - generic [ref=e334]:
+                    - generic [ref=e335]:
+                      - link "Gopaldev" [ref=e336] [cursor=pointer]:
+                        - /url: /wiki/Gopaldev
+                      - generic [ref=e337]:
+                        - text: (redirect from
+                        - link "Gopal Dev" [ref=e338] [cursor=pointer]:
+                          - /url: /wiki/Gopal_Dev
+                        - text: )
+                    - generic [ref=e339]: Gopaldev (1540–1611) was an Indian poet, dramatist and chief preacher of the Vaishnava sect in eastern Assam. He was belonged from Bhabanipur, Assam so...
+                    - generic [ref=e340]: 5 KB (308 words) - 05:05, 25 June 2025
+              - listitem [ref=e341]:
+                - generic [ref=e342]:
+                  - img [ref=e345]
+                  - generic [ref=e348]:
+                    - generic [ref=e349]:
+                      - link "Khadaan" [ref=e350] [cursor=pointer]:
+                        - /url: /wiki/Khadaan
+                      - generic [ref=e351]: (category Dev Entertainment Ventures films)
+                    - generic [ref=e352]: Produced by Nispal Singh and Dev under the banners of Surinder Films and Dev Entertainment Ventures respectively, the film stars Dev in dual roles, alongside...
+                    - generic [ref=e353]: 148 KB (10,648 words) - 10:45, 18 April 2026
+              - listitem [ref=e354]:
+                - generic [ref=e355]:
+                  - img [ref=e358]
+                  - generic [ref=e361]:
+                    - link "Tilda Cobham-Hervey" [ref=e363] [cursor=pointer]:
+                      - /url: /wiki/Tilda_Cobham-Hervey
+                    - generic [ref=e364]: Hollywood Reporter, describing it as a "breakout performance". Cobham-Hervey and Dev Patel co-wrote and co-directed a short film, Roborovski, about a hamster...
+                    - generic [ref=e365]: 25 KB (1,980 words) - 14:46, 18 April 2026
+              - listitem [ref=e366]:
+                - generic [ref=e367]:
+                  - img [ref=e370]
+                  - generic [ref=e373]:
+                    - link "List of Hindi film families" [ref=e375] [cursor=pointer]:
+                      - /url: /wiki/List_of_Hindi_film_families
+                    - generic [ref=e376]: Shekhar Kapur) Balraj Sahni (actor) Bhisham Sahni (playwright, actor, novelist and brother of Balraj Sahni) Dev Anand Parikshit Sahni Shekhar Kapur Navin Nischol...
+                    - generic [ref=e377]: 136 KB (12,487 words) - 03:58, 17 May 2026
+              - listitem [ref=e378]:
+                - generic [ref=e379]:
+                  - link "Thumbnail for Asmodeus" [ref=e381] [cursor=pointer]:
+                    - /url: /wiki/Asmodeus
+                    - img "Thumbnail for Asmodeus" [ref=e382]
+                  - generic [ref=e383]:
+                    - link "Asmodeus" [ref=e385] [cursor=pointer]:
+                      - /url: /wiki/Asmodeus
+                    - generic [ref=e386]: the later Pahlavi-form "Khashm-dev" ("Khashm dev" = "Æshma dev"), written with the Aramaic "sheda," but pronounced "dev." [..] Asmodeus (Ashmedai) embodies...
+                    - generic [ref=e387]: 38 KB (4,377 words) - 00:15, 16 May 2026
+              - listitem [ref=e388]:
+                - generic [ref=e389]:
+                  - img [ref=e392]
+                  - generic [ref=e395]:
+                    - generic [ref=e396]:
+                      - link "Varma (surname)" [ref=e397] [cursor=pointer]:
+                        - /url: /wiki/Varma_(surname)
+                      - generic [ref=e398]:
+                        - text: (section
+                        - link "Dev Burman" [ref=e399] [cursor=pointer]:
+                          - /url: /wiki/Varma_(surname)#Dev_Burman
+                        - text: )
+                    - generic [ref=e400]: Dev Burman, from the Tripura royal family; Indian Sitarist and Dhrupad singer Rahul Dev Burman, Indian music composer and singer, son of Sachin Dev Burman...
+                    - generic [ref=e401]: 13 KB (1,651 words) - 02:10, 17 May 2026
+              - listitem [ref=e402]:
+                - generic [ref=e403]:
+                  - img [ref=e406]
+                  - generic [ref=e409]:
+                    - generic [ref=e410]:
+                      - link "Satyadev" [ref=e411] [cursor=pointer]:
+                        - /url: /wiki/Satyadev
+                      - generic [ref=e412]:
+                        - text: (redirect from
+                        - link "Satya Dev" [ref=e413] [cursor=pointer]:
+                          - /url: /wiki/Satya_Dev
+                        - text: )
+                    - generic [ref=e414]: Satyadev Satyadev Dubey (1936–2011), Indian theatre director, actor, playwright, screenwriter, and film actor and director Satyadev Katare (1955–2016)...
+                    - generic [ref=e415]: 1 KB (151 words) - 08:27, 13 October 2025
+              - listitem [ref=e416]:
+                - generic [ref=e417]:
+                  - link "Thumbnail for List of awards and nominations received by Kalki Koechlin" [ref=e419] [cursor=pointer]:
+                    - /url: /wiki/List_of_awards_and_nominations_received_by_Kalki_Koechlin
+                    - img "Thumbnail for List of awards and nominations received by Kalki Koechlin" [ref=e420]
+                  - generic [ref=e421]:
+                    - link "List of awards and nominations received by Kalki Koechlin" [ref=e423] [cursor=pointer]:
+                      - /url: /wiki/List_of_awards_and_nominations_received_by_Kalki_Koechlin
+                    - generic [ref=e424]: accolades as a National Film Award, a Filmfare Award, The Hindu Metroplus Playwright Award, and two Screen Awards among others. She was conferred with the...
+                    - generic [ref=e425]: 14 KB (603 words) - 07:24, 31 January 2026
+            - generic [ref=e426]:
+              - list:
+                - listitem [ref=e427]:
+                  - link "Quotes from Wikiquote" [ref=e430] [cursor=pointer]:
+                    - /url: https://en.wikiquote.org/wiki/Special:Search?search=playwright.dev&fulltext=1
+                  - link "Kalki Koechlin" [ref=e432] [cursor=pointer]:
+                    - /url: https://en.wikiquote.org/wiki/Kalki_Koechlin
+                  - generic [ref=e433]: is an Indian actress and playwright of French descent who debuted in Anurag Kashyap's critically acclaimed 2009 Hindi film Dev.D. Obviously I think I've
+                  - link "See all results" [ref=e435] [cursor=pointer]:
+                    - /url: https://en.wikiquote.org/wiki/Special:Search?search=playwright.dev&fulltext=1
+                - listitem [ref=e436]:
+                  - link "Texts from Wikisource" [ref=e439] [cursor=pointer]:
+                    - /url: https://en.wikisource.org/wiki/Special:Search?search=playwright.dev&fulltext=1
+                  - link "Literary Research Guide/L" [ref=e441] [cursor=pointer]:
+                    - /url: https://en.wikisource.org/wiki/Literary_Research_Guide/L
+                  - generic [ref=e442]: "comp. Hicken (1996; 269 pp.); 1995–1999, comp. Hicken ([London?]: Career Dev. Group–The Lib. Assn., [2000?]; 194 pp.). Fiction Index, [1945–95]: A Guide"
+                  - link "See all results" [ref=e444] [cursor=pointer]:
+                    - /url: https://en.wikisource.org/wiki/Special:Search?search=playwright.dev&fulltext=1
+            - generic [ref=e446]:
+              - combobox [ref=e449]:
+                - option "20 items" [selected]
+                - option "50 items"
+                - option "100 items"
+                - option "250 items"
+                - option "500 items"
+              - generic [ref=e450]:
+                - button "First page" [ref=e451] [cursor=pointer]
+                - button "Previous page" [ref=e453] [cursor=pointer]
+                - button "Next page" [ref=e455] [cursor=pointer]
+    - contentinfo [ref=e458]:
+      - list
+      - list:
+        - listitem [ref=e459]:
+          - link "Privacy policy" [ref=e460] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e461]:
+          - link "About Wikipedia" [ref=e462] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:About
+        - listitem [ref=e463]:
+          - link "Disclaimers" [ref=e464] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:General_disclaimer
+        - listitem [ref=e465]:
+          - link "Contact Wikipedia" [ref=e466] [cursor=pointer]:
+            - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+        - listitem [ref=e467]:
+          - link "Legal & safety contacts" [ref=e468] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+        - listitem [ref=e469]:
+          - link "Code of Conduct" [ref=e470] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e471]:
+          - link "Developers" [ref=e472] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e473]:
+          - link "Statistics" [ref=e474] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/en.wikipedia.org
+        - listitem [ref=e475]:
+          - link "Cookie statement" [ref=e476] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e477]:
+          - link "Mobile view" [ref=e478] [cursor=pointer]:
+            - /url: //en.wikipedia.org/w/index.php?title=Special:Search&go=Go&search=playwright.dev&mobileaction=toggle_view_mobile
+      - list [ref=e479]:
+        - listitem [ref=e480]:
+          - link "Wikimedia Foundation" [ref=e481] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e483]
+        - listitem [ref=e484]:
+          - link "Powered by MediaWiki" [ref=e485] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e487]
+  - generic [ref=e488]:
+    - list

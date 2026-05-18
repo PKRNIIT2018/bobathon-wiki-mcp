@@ -1,0 +1,2892 @@
+- generic [active] [ref=e1]:
+  - link "Jump to content" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "Site" [ref=e6]:
+        - generic "Main menu" [ref=e7]:
+          - button "Main menu" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: Main menu
+      - link "Wikipedia The Free Encyclopedia" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - generic [ref=e13]:
+          - img "Wikipedia" [ref=e14]
+          - img "The Free Encyclopedia" [ref=e15]
+    - generic [ref=e16]:
+      - search [ref=e17]:
+        - generic [ref=e20]:
+          - searchbox "Search Wikipedia" [ref=e23]
+          - button "Search" [ref=e25]
+      - navigation "Personal tools" [ref=e26]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Donate" [ref=e32] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+          - listitem [ref=e33]:
+            - link "Create account" [ref=e34] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:CreateAccount&returnto=HC+Slovan+Bratislava
+          - listitem [ref=e35]:
+            - link "Log in" [ref=e36] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:UserLogin&returnto=HC+Slovan+Bratislava
+  - generic [ref=e38]:
+    - navigation "Contents" [ref=e42]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "Contents" [level=2] [ref=e46]
+          - button "hide" [ref=e47] [cursor=pointer]
+        - list [ref=e48]:
+          - listitem [ref=e49]:
+            - link "(Top)" [ref=e50] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e51]: (Top)
+          - listitem [ref=e52]:
+            - link "History" [ref=e53] [cursor=pointer]:
+              - /url: "#History"
+              - generic [ref=e54]: History
+            - button "Toggle History subsection" [expanded] [ref=e55]:
+              - generic [ref=e57]: Toggle History subsection
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "KHL" [ref=e60] [cursor=pointer]:
+                  - /url: "#KHL"
+                  - generic [ref=e61]: KHL
+                - list [ref=e62]:
+                  - listitem [ref=e63]:
+                    - link "2012–13 season" [ref=e64] [cursor=pointer]:
+                      - /url: "#2012–13_season"
+                      - generic [ref=e65]: 2012–13 season
+                    - list
+          - listitem [ref=e66]:
+            - link "Mascot" [ref=e67] [cursor=pointer]:
+              - /url: "#Mascot"
+              - generic [ref=e68]: Mascot
+            - list
+          - listitem [ref=e69]:
+            - link "Logo" [ref=e70] [cursor=pointer]:
+              - /url: "#Logo"
+              - generic [ref=e71]: Logo
+            - list
+          - listitem [ref=e72]:
+            - link "Rivalries" [ref=e73] [cursor=pointer]:
+              - /url: "#Rivalries"
+              - generic [ref=e74]: Rivalries
+            - list
+          - listitem [ref=e75]:
+            - link "Season-by-season record" [ref=e76] [cursor=pointer]:
+              - /url: "#Season-by-season_record"
+              - generic [ref=e77]: Season-by-season record
+            - list
+          - listitem [ref=e78]:
+            - link "Honours" [ref=e79] [cursor=pointer]:
+              - /url: "#Honours"
+              - generic [ref=e80]: Honours
+            - button "Toggle Honours subsection" [expanded] [ref=e81]:
+              - generic [ref=e83]: Toggle Honours subsection
+            - list [ref=e84]:
+              - listitem [ref=e85]:
+                - link "Domestic" [ref=e86] [cursor=pointer]:
+                  - /url: "#Domestic"
+                  - generic [ref=e87]: Domestic
+                - list
+              - listitem [ref=e88]:
+                - link "International" [ref=e89] [cursor=pointer]:
+                  - /url: "#International"
+                  - generic [ref=e90]: International
+                - list
+              - listitem [ref=e91]:
+                - link "Pre-season" [ref=e92] [cursor=pointer]:
+                  - /url: "#Pre-season"
+                  - generic [ref=e93]: Pre-season
+                - list
+          - listitem [ref=e94]:
+            - link "Players" [ref=e95] [cursor=pointer]:
+              - /url: "#Players"
+              - generic [ref=e96]: Players
+            - button "Toggle Players subsection" [expanded] [ref=e97]:
+              - generic [ref=e99]: Toggle Players subsection
+            - list [ref=e100]:
+              - listitem [ref=e101]:
+                - link "Current roster" [ref=e102] [cursor=pointer]:
+                  - /url: "#Current_roster"
+                  - generic [ref=e103]: Current roster
+                - list
+              - listitem [ref=e104]:
+                - link "Franchise scoring leaders" [ref=e105] [cursor=pointer]:
+                  - /url: "#Franchise_scoring_leaders"
+                  - generic [ref=e106]: Franchise scoring leaders
+                - list
+          - listitem [ref=e107]:
+            - link "Staff" [ref=e108] [cursor=pointer]:
+              - /url: "#Staff"
+              - generic [ref=e109]: Staff
+            - button "Toggle Staff subsection" [expanded] [ref=e110]:
+              - generic [ref=e112]: Toggle Staff subsection
+            - list [ref=e113]:
+              - listitem [ref=e114]:
+                - link "Head coaches" [ref=e115] [cursor=pointer]:
+                  - /url: "#Head_coaches"
+                  - generic [ref=e116]: Head coaches
+                - list
+          - listitem [ref=e117]:
+            - link "Hall of Fame" [ref=e118] [cursor=pointer]:
+              - /url: "#Hall_of_Fame"
+              - generic [ref=e119]: Hall of Fame
+            - button "Toggle Hall of Fame subsection" [expanded] [ref=e120]:
+              - generic [ref=e122]: Toggle Hall of Fame subsection
+            - list [ref=e123]:
+              - listitem [ref=e124]:
+                - link "Hockey Hall of Fame" [ref=e125] [cursor=pointer]:
+                  - /url: "#Hockey_Hall_of_Fame"
+                  - generic [ref=e126]: Hockey Hall of Fame
+                - list
+              - listitem [ref=e127]:
+                - link "IIHF Hall of Fame" [ref=e128] [cursor=pointer]:
+                  - /url: "#IIHF_Hall_of_Fame"
+                  - generic [ref=e129]: IIHF Hall of Fame
+                - list
+          - listitem [ref=e130]:
+            - link "References" [ref=e131] [cursor=pointer]:
+              - /url: "#References"
+              - generic [ref=e132]: References
+            - list
+          - listitem [ref=e133]:
+            - link "External links" [ref=e134] [cursor=pointer]:
+              - /url: "#External_links"
+              - generic [ref=e135]: External links
+            - list
+    - main [ref=e137]:
+      - generic [ref=e138]:
+        - heading "HC Slovan Bratislava" [level=1] [ref=e139]:
+          - generic [ref=e140]: HC Slovan Bratislava
+        - generic [ref=e141]:
+          - button "Go to an article in another language. Available in 29 languages" [ref=e142] [cursor=pointer]
+          - generic [ref=e145]: 29 languages
+      - generic [ref=e147]:
+        - navigation "Namespaces" [ref=e149]:
+          - generic [ref=e150]:
+            - generic:
+              - list:
+                - listitem [ref=e151]:
+                  - link "Article" [ref=e152] [cursor=pointer]:
+                    - /url: /wiki/HC_Slovan_Bratislava
+                    - generic [ref=e153]: Article
+                - listitem [ref=e154]:
+                  - link "Talk" [ref=e155] [cursor=pointer]:
+                    - /url: /wiki/Talk:HC_Slovan_Bratislava
+                    - generic [ref=e156]: Talk
+        - generic [ref=e157]:
+          - navigation "Views" [ref=e158]:
+            - generic [ref=e159]:
+              - generic:
+                - list:
+                  - listitem [ref=e160]:
+                    - link "Read" [ref=e161] [cursor=pointer]:
+                      - /url: /wiki/HC_Slovan_Bratislava
+                      - generic [ref=e162]: Read
+                  - listitem [ref=e163]:
+                    - link "Edit" [ref=e164] [cursor=pointer]:
+                      - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit
+                      - generic [ref=e165]: Edit
+                  - listitem [ref=e166]:
+                    - link "View history" [ref=e167] [cursor=pointer]:
+                      - /url: /w/index.php?title=HC_Slovan_Bratislava&action=history
+                      - generic [ref=e168]: View history
+          - navigation "Page tools" [ref=e169]:
+            - generic [ref=e170]:
+              - button "Tools" [ref=e171] [cursor=pointer]
+              - generic [ref=e173] [cursor=pointer]: Tools
+      - navigation "Appearance" [ref=e176]:
+        - generic [ref=e178]:
+          - generic [ref=e179]:
+            - generic [ref=e180]: Appearance
+            - button "hide" [ref=e181] [cursor=pointer]
+          - generic [ref=e182]:
+            - generic [ref=e183]: Text
+            - list [ref=e185]:
+              - listitem [ref=e186]:
+                - generic [ref=e188]:
+                  - generic [ref=e189]:
+                    - radio "Small" [ref=e190]
+                    - generic [ref=e193]: Small
+                  - generic [ref=e194]:
+                    - radio "Standard" [checked] [ref=e195]
+                    - generic [ref=e198]: Standard
+                  - generic [ref=e199]:
+                    - radio "Large" [ref=e200]
+                    - generic [ref=e203]: Large
+          - generic [ref=e204]:
+            - generic [ref=e205]: Width
+            - list [ref=e207]:
+              - listitem [ref=e208]:
+                - generic [ref=e210]:
+                  - generic [ref=e211]:
+                    - radio "Standard" [checked] [ref=e212]
+                    - generic [ref=e215]: Standard
+                  - generic [ref=e216]:
+                    - radio "Wide" [ref=e217]
+                    - generic [ref=e220]: Wide
+          - generic [ref=e221]:
+            - generic [ref=e222]: Color
+            - list [ref=e224]:
+              - listitem [ref=e225]:
+                - generic [ref=e227]:
+                  - generic [ref=e228]:
+                    - radio "Automatic" [ref=e229]
+                    - generic [ref=e232]: Automatic
+                  - generic [ref=e233]:
+                    - radio "Light" [checked] [ref=e234]
+                    - generic [ref=e237]: Light
+                  - generic [ref=e238]:
+                    - radio "Dark" [ref=e239]
+                    - generic [ref=e242]: Dark
+      - generic "HC Slovan Bratislava" [ref=e243]:
+        - generic [ref=e245]: From Wikipedia, the free encyclopedia
+        - generic [ref=e246]:
+          - generic [ref=e247]:
+            - link "Sorry to interrupt, but our fundraiser won't last long. This Monday, we ask you to join the 2% of readers who give. If everyone reading this right now gave just €2,75, we'd hit our goal quickly. €2,75 is all we ask. Give €2,75 Maybe later" [ref=e248] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e249]:
+                - strong [ref=e250]: Sorry to interrupt, but our fundraiser won't last long.
+                - text: This Monday, we ask you to join the 2% of readers who give. If everyone reading this right now gave just €2,75, we'd hit our goal quickly. €2,75 is all we ask.
+              - generic [ref=e251]:
+                - button "Give €2,75" [ref=e252]
+                - button "Maybe later" [ref=e253]
+            - img "Close" [ref=e255] [cursor=pointer]
+          - region "fundraising banner" [ref=e258]:
+            - generic [ref=e259]:
+              - generic [ref=e260]:
+                - img [ref=e261]
+                - text: "18 May: Wikipedia still can't be sold"
+              - generic [ref=e265]: We're sorry we've made several attempts to reach you lately, but it's Monday, 18 May, and we still need some help. If everyone reading this gave €2,75 today, we'd hit our goal in a few hours. Most readers don't donate; less than 2% do. Wikipedia is run by a nonprofit, not by a billionaire. So if Wikipedia has given you €2,75 worth of knowledge, please give. Any contribution helps, whether it's €2,75 or €25.
+              - generic [ref=e267]:
+                - button "Give €2,75" [ref=e268] [cursor=pointer]:
+                  - generic [ref=e269]: Give €2,75
+                - button "Give a different amount" [ref=e270] [cursor=pointer]
+                - img [ref=e273]
+              - generic:
+                - img
+            - generic [ref=e276]:
+              - button "Maybe later" [ref=e277] [cursor=pointer]:
+                - text: Maybe later
+                - img [ref=e278]
+              - button "I already donated" [ref=e283] [cursor=pointer]
+              - button "Close" [ref=e284] [cursor=pointer]:
+                - text: Close
+                - img [ref=e285]
+        - generic [ref=e289]:
+          - table [ref=e290]:
+            - rowgroup [ref=e291]:
+              - row "HC Slovan Bratislava" [ref=e292]:
+                - columnheader "HC Slovan Bratislava" [ref=e293]
+              - row [ref=e294]:
+                - cell [ref=e295]:
+                  - link [ref=e297] [cursor=pointer]:
+                    - /url: /wiki/File:HC_Slovan_Bratislava_logo.svg
+                    - img [ref=e298]
+              - row "Nickname Belasí (the Sky Blues), Orli (the Eagles)" [ref=e299]:
+                - rowheader "Nickname" [ref=e300]
+                - cell "Belasí (the Sky Blues), Orli (the Eagles)" [ref=e301]:
+                  - generic [ref=e302]:
+                    - text: Belasí (the Sky Blues),
+                    - text: Orli (the Eagles)
+              - row "City Bratislava, Slovakia" [ref=e303]:
+                - rowheader "City" [ref=e304]
+                - cell "Bratislava, Slovakia" [ref=e305]:
+                  - link "Bratislava" [ref=e306] [cursor=pointer]:
+                    - /url: /wiki/Bratislava
+                  - text: ","
+                  - link "Slovakia" [ref=e307] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+              - row "League Slovak Extraliga (1993–2012, 2019–present) Kontinental Hockey League (2012–2019)" [ref=e308]:
+                - rowheader "League" [ref=e309]
+                - cell "Slovak Extraliga (1993–2012, 2019–present) Kontinental Hockey League (2012–2019)" [ref=e310]:
+                  - link "Slovak Extraliga" [ref=e312] [cursor=pointer]:
+                    - /url: /wiki/Tipos_Extraliga_(hockey)
+                  - text: (1993–2012, 2019–present)
+                  - list [ref=e313]:
+                    - listitem [ref=e314]:
+                      - link "Kontinental Hockey League" [ref=e315] [cursor=pointer]:
+                        - /url: /wiki/Kontinental_Hockey_League
+                      - text: (2012–2019)
+              - row "Founded 1921; 105 years ago" [ref=e316]:
+                - rowheader "Founded" [ref=e317]
+                - cell "1921; 105 years ago" [ref=e318]
+              - row "Home arena Ondrej Nepela Arena (capacity 10,055)" [ref=e319]:
+                - rowheader "Home arena" [ref=e320]
+                - cell "Ondrej Nepela Arena (capacity 10,055)" [ref=e321]:
+                  - link "Ondrej Nepela Arena" [ref=e322] [cursor=pointer]:
+                    - /url: /wiki/Ondrej_Nepela_Arena
+                  - text: (capacity 10,055)
+              - row "Colours Sky blue, white, dark blue" [ref=e323]:
+                - rowheader "Colours" [ref=e324]
+                - cell "Sky blue, white, dark blue" [ref=e325]: Sky blue, white, dark blue
+              - row "Owners JTRE sports & entertainment a.s. (Peter Korbačka, chairman)[1][2]" [ref=e329]:
+                - rowheader "Owners" [ref=e330]
+                - cell "JTRE sports & entertainment a.s. (Peter Korbačka, chairman)[1][2]" [ref=e331]:
+                  - text: JTRE sports & entertainment a.s.
+                  - text: (Peter Korbačka, chairman)
+                  - superscript [ref=e332]:
+                    - link "[1]" [ref=e333] [cursor=pointer]:
+                      - /url: "#cite_note-1"
+                  - superscript [ref=e334]:
+                    - link "[2]" [ref=e335] [cursor=pointer]:
+                      - /url: "#cite_note-2"
+              - row "General manager Lukáš Havlíček" [ref=e336]:
+                - rowheader "General manager" [ref=e337]
+                - cell "Lukáš Havlíček" [ref=e338]
+              - row "Head coach Brad Tapper" [ref=e339]:
+                - rowheader "Head coach" [ref=e340]
+                - cell "Brad Tapper" [ref=e341]:
+                  - link "Brad Tapper" [ref=e342] [cursor=pointer]:
+                    - /url: /wiki/Brad_Tapper
+              - row "Captain Tomáš Marcinko" [ref=e343]:
+                - rowheader "Captain" [ref=e344]
+                - cell "Tomáš Marcinko" [ref=e345]:
+                  - link "Tomáš Marcinko" [ref=e346] [cursor=pointer]:
+                    - /url: /wiki/Tom%C3%A1%C5%A1_Marcinko
+              - row "Affiliates HC TEBS Bratislava" [ref=e347]:
+                - rowheader "Affiliates" [ref=e348]
+                - cell "HC TEBS Bratislava" [ref=e349]:
+                  - link "HC TEBS Bratislava" [ref=e350] [cursor=pointer]:
+                    - /url: /wiki/HC_TEBS_Bratislava
+              - row "Farm club Modré Krídla Slovan (disbanded)" [ref=e351]:
+                - rowheader "Farm club" [ref=e352]
+                - cell "Modré Krídla Slovan (disbanded)" [ref=e353]
+              - row "Website www.hcslovan.sk" [ref=e354]:
+                - rowheader "Website" [ref=e355]
+                - cell "www.hcslovan.sk" [ref=e356]:
+                  - link "www.hcslovan.sk" [ref=e357] [cursor=pointer]:
+                    - /url: https://www.hcslovan.sk/sk/
+          - paragraph [ref=e358]:
+            - text: Hockey Club Slovan Bratislava (
+            - link "Slovak" [ref=e359] [cursor=pointer]:
+              - /url: /wiki/Slovak_language
+            - text: ": Hokejový klub Slovan Bratislava) is a professional"
+            - link "ice hockey" [ref=e360] [cursor=pointer]:
+              - /url: /wiki/Ice_hockey
+            - text: club based in
+            - link "Bratislava" [ref=e361] [cursor=pointer]:
+              - /url: /wiki/Bratislava
+            - text: ", Slovakia. In 2012, it left the"
+            - link "Slovak Extraliga" [ref=e362] [cursor=pointer]:
+              - /url: /wiki/Tipsport_Liga_(hockey)
+            - text: and joined the international
+            - link "Kontinental Hockey League" [ref=e363] [cursor=pointer]:
+              - /url: /wiki/Kontinental_Hockey_League
+            - text: (KHL). In 2019, it returned to the Tipos Extraliga. The club has won nine Slovak championships (most recently in 2022), one Czechoslovak championship (1979) and one IIHF Continental Cup (2004), making it the second most successful hockey club in Slovak history after their biggest rival
+            - link "HC Košice" [ref=e364] [cursor=pointer]:
+              - /url: /wiki/HC_Ko%C5%A1ice
+            - text: . The team plays its home games at
+            - link "Ondrej Nepela Arena" [ref=e365] [cursor=pointer]:
+              - /url: /wiki/Ondrej_Nepela_Arena
+            - text: ", also known as Tipos Arena. The team is nicknamed Belasí, which means the \"sky blues\" in English."
+          - generic [ref=e366]:
+            - heading "History" [level=2] [ref=e367]
+            - generic [ref=e368]:
+              - text: "["
+              - link "edit" [ref=e369] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=1
+              - text: "]"
+          - paragraph [ref=e370]:
+            - text: The sports club Slovan Bratislava was founded in 1919 as a football club, then called 1.CsSK Bratislava. In 1921, a hockey section was founded as "CsSK hockey". It played its first game in December 1924 against
+            - link "Wiener EV" [ref=e371] [cursor=pointer]:
+              - /url: /wiki/Wiener_EV
+            - text: from
+            - link "Vienna" [ref=e372] [cursor=pointer]:
+              - /url: /wiki/Vienna
+            - text: ", losing 6–1. In 1948, the name of the club was changed to Slovan Bratislava, which has been kept until today."
+            - superscript [ref=e373]:
+              - link "[3]" [ref=e374] [cursor=pointer]:
+                - /url: "#cite_note-history-3"
+          - paragraph [ref=e375]:
+            - text: For many years following World War II, Slovan was the only Slovak representative in the highest Czechoslovak league, and achieved several second-place finishes in the championship. The only title in the
+            - link "Czechoslovak First Ice Hockey League" [ref=e376] [cursor=pointer]:
+              - /url: /wiki/Czechoslovak_First_Ice_Hockey_League
+            - text: was achieved under coach Ladislav Horsky in the 1978–79 season. Additionally, the youth teams won several championships.
+            - superscript [ref=e377]:
+              - link "[3]" [ref=e378] [cursor=pointer]:
+                - /url: "#cite_note-history-3"
+          - paragraph [ref=e379]:
+            - text: After the
+            - link "separation of Slovakia and the Czech Republic" [ref=e380] [cursor=pointer]:
+              - /url: /wiki/Dissolution_of_Czechoslovakia
+            - text: in 1993, Slovan played in the
+            - link "Slovak Extraliga" [ref=e381] [cursor=pointer]:
+              - /url: /wiki/Tipos_Extraliga_(hockey)
+            - text: and won eight championship titles over 19 years.
+            - superscript [ref=e382]:
+              - link "[3]" [ref=e383] [cursor=pointer]:
+                - /url: "#cite_note-history-3"
+          - paragraph [ref=e384]:
+            - text: In addition to the success achieved in Slovakia, Slovan also performed well internationally, with three
+            - link "Spengler Cup" [ref=e385] [cursor=pointer]:
+              - /url: /wiki/Spengler_Cup
+            - text: wins in a row in 1972, 1973 and 1974. It is also one of only four clubs to play all four seasons of the
+            - link "European Hockey League" [ref=e386] [cursor=pointer]:
+              - /url: /wiki/European_Hockey_League
+            - text: ", progressing to the playoff stage each year. Another highlight was winning the"
+            - link "IIHF Continental Cup" [ref=e387] [cursor=pointer]:
+              - /url: /wiki/IIHF_Continental_Cup
+            - text: in the
+            - link "2003–04 season" [ref=e388] [cursor=pointer]:
+              - /url: /wiki/2003%E2%80%9304_IIHF_Continental_Cup
+            - text: . From 2011 to 2013, Slovan participated in the
+            - link "European Trophy" [ref=e389] [cursor=pointer]:
+              - /url: /wiki/European_Trophy
+            - text: international pre-season tournament.
+            - superscript [ref=e390]:
+              - link "[3]" [ref=e391] [cursor=pointer]:
+                - /url: "#cite_note-history-3"
+          - generic [ref=e392]:
+            - heading "KHL" [level=3] [ref=e393]
+            - generic [ref=e394]:
+              - text: "["
+              - link "edit" [ref=e395] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=2
+              - text: "]"
+          - paragraph [ref=e396]:
+            - text: In March 2012, Slovan filed an application to play in the
+            - link "Kontinental Hockey League" [ref=e397] [cursor=pointer]:
+              - /url: /wiki/Kontinental_Hockey_League
+            - text: (KHL).
+            - superscript [ref=e398]:
+              - link "[4]" [ref=e399] [cursor=pointer]:
+                - /url: "#cite_note-4"
+            - text: On 21 June 2012, Slovan Bratislava was officially admitted to the KHL, after they fulfilled all necessary conditions. Founded in 1921, they were the oldest KHL team by a large margin, as there were no ice hockey leagues in the former
+            - link "Union of Soviet Socialist Republics" [ref=e400] [cursor=pointer]:
+              - /url: /wiki/Soviet_Union
+            - text: prior to 1946.
+            - superscript [ref=e401]:
+              - link "[5]" [ref=e402] [cursor=pointer]:
+                - /url: "#cite_note-5"
+          - generic [ref=e403]:
+            - heading "2012–13 season" [level=4] [ref=e404]: 2012–13 season
+            - generic [ref=e405]:
+              - text: "["
+              - link "edit" [ref=e406] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=3
+              - text: "]"
+          - note [ref=e407]:
+            - text: "See also:"
+            - link "2012–13 HC Slovan Bratislava season" [ref=e408] [cursor=pointer]:
+              - /url: /wiki/2012%E2%80%9313_HC_Slovan_Bratislava_season
+          - paragraph [ref=e409]:
+            - text: In May, Slovan signed Rostislav Čada as the new head coach for the first KHL season, who had had a KHL experience from working at
+            - link "Avangard Omsk" [ref=e410] [cursor=pointer]:
+              - /url: /wiki/Avangard_Omsk
+            - text: .
+            - superscript [ref=e411]:
+              - link "[6]" [ref=e412] [cursor=pointer]:
+                - /url: "#cite_note-6"
+            - text: After playing two friendly matches against KHL teams and the
+            - link "European Trophy" [ref=e413] [cursor=pointer]:
+              - /url: /wiki/European_Trophy
+            - text: during the summer months, Slovan opened the
+            - link "2012–13 season" [ref=e414] [cursor=pointer]:
+              - /url: /wiki/2012%E2%80%9313_KHL_season
+            - text: with a home game against Ukrainian
+            - link "HC Donbass" [ref=e415] [cursor=pointer]:
+              - /url: /wiki/HC_Donbass
+            - text: on 6 September 2012, losing 2–4 in front of a capacity crowd. The first win was achieved 4 days later by defeating
+            - link "Spartak Moscow" [ref=e416] [cursor=pointer]:
+              - /url: /wiki/HC_Spartak_Moscow
+            - text: 2–1 after a
+            - link "shootout" [ref=e417] [cursor=pointer]:
+              - /url: /wiki/Overtime_(ice_hockey)#Shootout
+            - text: . During the
+            - link "NHL lockout" [ref=e418] [cursor=pointer]:
+              - /url: /wiki/2012%E2%80%9313_NHL_lockout
+            - text: between September 2012 and January 2013, the two defenders
+            - link "Ľubomír Višňovský" [ref=e419] [cursor=pointer]:
+              - /url: /wiki/%C4%BDubom%C3%ADr_Vi%C5%A1%C5%88ovsk%C3%BD
+            - text: and
+            - link "Andrej Sekera" [ref=e420] [cursor=pointer]:
+              - /url: /wiki/Andrej_Sekera
+            - text: enhanced the team. Slovan ended the season with 78 points as 6th of the Western conference and thus clinched a
+            - link "play-off" [ref=e421] [cursor=pointer]:
+              - /url: /wiki/Playoffs
+            - text: spot in their first KHL season.
+            - superscript [ref=e422]:
+              - link "[7]" [ref=e423] [cursor=pointer]:
+                - /url: "#cite_note-7"
+            - text: In the first play-off round, Slovan played against then-defending champion
+            - link "Dynamo Moscow" [ref=e424] [cursor=pointer]:
+              - /url: /wiki/HC_Dynamo_Moscow
+            - text: and lost all four matches.
+          - paragraph [ref=e425]:
+            - text: During the regular season, Slovan had sold out 25 out of its 26 home games with an average attendance of 9,977 spectators, which was the seventh-highest average attendance in Europe that season.
+            - superscript [ref=e426]:
+              - link "[8]" [ref=e427] [cursor=pointer]:
+                - /url: "#cite_note-8"
+          - generic [ref=e428]:
+            - heading "Mascot" [level=2] [ref=e429]
+            - generic [ref=e430]:
+              - text: "["
+              - link "edit" [ref=e431] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=4
+              - text: "]"
+          - paragraph [ref=e432]:
+            - text: Before the start of
+            - link "2013–14" [ref=e433] [cursor=pointer]:
+              - /url: /wiki/2013%E2%80%9314_KHL_season
+            - text: season, it was announced that the franchise will have a new mascot called Harvy. The mascot's name was determined by fans and its appearance will be of a
+            - link "bald eagle" [ref=e434] [cursor=pointer]:
+              - /url: /wiki/Bald_eagle
+            - text: ", which is also on HC Slovan's logo."
+            - superscript [ref=e435]:
+              - link "[9]" [ref=e436] [cursor=pointer]:
+                - /url: "#cite_note-9"
+          - generic [ref=e437]:
+            - heading "Logo" [level=2] [ref=e438]
+            - generic [ref=e439]:
+              - text: "["
+              - link "edit" [ref=e440] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=5
+              - text: "]"
+          - figure "The previous HC Slovan Bratislava logo" [ref=e441]:
+            - link [ref=e442] [cursor=pointer]:
+              - /url: /wiki/File:Slovan_Bratislava_Logo.svg
+              - img [ref=e443]
+            - generic [ref=e444]: The previous HC Slovan Bratislava logo
+          - paragraph [ref=e445]:
+            - text: The rebranding of four leading Bratislava clubs in three sports –
+            - link "ice hockey" [ref=e446] [cursor=pointer]:
+              - /url: /wiki/Ice_hockey
+            - text: ","
+            - link "basketball" [ref=e447] [cursor=pointer]:
+              - /url: /wiki/Basketball
+            - text: ", and"
+            - link "volleyball" [ref=e448] [cursor=pointer]:
+              - /url: /wiki/Volleyball
+            - text: "– marks the completion of their unification under the new owner, JTRE Sports & Entertainment. This is reflected in a shared name and visual identity. From june 2025, the clubs operated under a single name: Slovan Bratislava"
+            - superscript [ref=e449]:
+              - link "[10]" [ref=e450] [cursor=pointer]:
+                - /url: "#cite_note-10"
+            - superscript [ref=e451]:
+              - link "[11]" [ref=e452] [cursor=pointer]:
+                - /url: "#cite_note-11"
+          - paragraph [ref=e453]:
+            - text: The new visual identity was created by the agency 2:Score, which has extensive experience with sports projects. The agency is behind, for example, the rebranding of football club
+            - link "Sparta Prague" [ref=e454] [cursor=pointer]:
+              - /url: /wiki/AC_Sparta_Prague
+            - text: and ice hockey club
+            - link "Kometa Brno" [ref=e455] [cursor=pointer]:
+              - /url: /wiki/HC_Kometa_Brno
+            - text: ", the anniversary season of"
+            - link "FC Hradec Králové" [ref=e456] [cursor=pointer]:
+              - /url: /wiki/FC_Hradec_Kr%C3%A1lov%C3%A9
+            - text: ", as well as a long-term partnership with the"
+            - link "Chance League" [ref=e457] [cursor=pointer]:
+              - /url: /wiki/Czech_First_League
+            - text: – the top Czech football competition, which launched its biggest branding campaign, Fenomén, this summer.
+          - generic [ref=e458]:
+            - heading "Rivalries" [level=2] [ref=e459]
+            - generic [ref=e460]:
+              - text: "["
+              - link "edit" [ref=e461] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=6
+              - text: "]"
+          - paragraph [ref=e462]:
+            - text: While competing in the Czechoslovak league, Slovan's main rival was
+            - link "HK Dukla Trenčín" [ref=e463] [cursor=pointer]:
+              - /url: /wiki/HK_Dukla_Tren%C4%8D%C3%ADn
+            - text: . While competing in the
+            - link "Slovak Extraliga" [ref=e464] [cursor=pointer]:
+              - /url: /wiki/Tipos_Extraliga_(hockey)
+            - text: ", Slovan has various rivals around the country, most notably"
+            - link "HC Košice" [ref=e465] [cursor=pointer]:
+              - /url: /wiki/HC_Ko%C5%A1ice
+            - text: ","
+            - link "HK Dukla Trenčín" [ref=e466] [cursor=pointer]:
+              - /url: /wiki/HK_Dukla_Tren%C4%8D%C3%ADn
+            - text: and
+            - link "HK Nitra" [ref=e467] [cursor=pointer]:
+              - /url: /wiki/HK_Nitra
+            - text: .
+          - paragraph [ref=e468]:
+            - text: In Slovan's first two seasons in the
+            - link "KHL" [ref=e469] [cursor=pointer]:
+              - /url: /wiki/Kontinental_Hockey_League
+            - text: ", its biggest rival was"
+            - link "Lev Prague" [ref=e470] [cursor=pointer]:
+              - /url: /wiki/HC_Lev_Praha
+            - text: . The rivalry started when, in their first game,
+            - link "HC Lev" [ref=e471] [cursor=pointer]:
+              - /url: /wiki/HC_Lev_Praha
+            - text: "'s"
+            - link "Zdeno Chára" [ref=e472] [cursor=pointer]:
+              - /url: /wiki/Zdeno_Ch%C3%A1ra
+            - text: body-checked Slovan's team captain
+            - link "Miroslav Šatan" [ref=e473] [cursor=pointer]:
+              - /url: /wiki/Miroslav_%C5%A0atan
+            - text: ", after which Šatan was out of the lineup for the rest of the season."
+            - superscript [ref=e474]:
+              - link "[12]" [ref=e475] [cursor=pointer]:
+                - /url: "#cite_note-12"
+            - text: The fairness of this hit was the centre of many discussions. The games between Slovan and Lev were among the most anticipated of the season for both teams.
+            - superscript [ref=e476]:
+              - link "[13]" [ref=e477] [cursor=pointer]:
+                - /url: "#cite_note-SlovanLevGames-13"
+            - text: However, Lev Praha folded after the 2013–14 season.
+          - generic [ref=e478]:
+            - heading "Season-by-season record" [level=2] [ref=e479]
+            - generic [ref=e480]:
+              - text: "["
+              - link "edit" [ref=e481] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=7
+              - text: "]"
+          - paragraph [ref=e482]:
+            - generic [ref=e483]:
+              - text: This is a partial list of the last eleven seasons completed by HC Slovan Bratislava. For the full season-by-season history, see
+              - link "List of HC Slovan Bratislava seasons" [ref=e484] [cursor=pointer]:
+                - /url: /wiki/List_of_HC_Slovan_Bratislava_seasons
+              - text: .
+          - paragraph [ref=e485]: "Note: GP = Games played, W = Wins, OTW = Overtime/shootout wins, OTL = Overtime/shootout losses, L = Losses, Pts = Points, GF = Goals for, GA = Goals against"
+          - table [ref=e486]:
+            - rowgroup [ref=e487]:
+              - row "Season GP W OTW OTL L Pts GF GA Finish Playoffs" [ref=e488]:
+                - cell "Season" [ref=e489]
+                - cell "GP" [ref=e490]
+                - cell "W" [ref=e491]
+                - cell "OTW" [ref=e492]
+                - cell "OTL" [ref=e493]
+                - cell "L" [ref=e494]
+                - cell "Pts" [ref=e495]
+                - cell "GF" [ref=e496]
+                - cell "GA" [ref=e497]
+                - cell "Finish" [ref=e498]
+                - cell "Playoffs" [ref=e499]
+              - row "2014–15 60 15 5 8 32 63 136 188 7th, Bobrov did not qualify" [ref=e500]:
+                - cell "2014–15" [ref=e501]:
+                  - link "2014–15" [ref=e503] [cursor=pointer]:
+                    - /url: /wiki/2014%E2%80%9315_KHL_season
+                - cell "60" [ref=e504]
+                - cell "15" [ref=e505]
+                - cell "5" [ref=e506]
+                - cell "8" [ref=e507]
+                - cell "32" [ref=e508]
+                - cell "63" [ref=e509]
+                - cell "136" [ref=e510]
+                - cell "188" [ref=e511]
+                - cell "7th, Bobrov" [ref=e512]
+                - cell "did not qualify" [ref=e513]
+              - row "2015–16 60 21 11 4 24 89 154 148 3rd, Bobrov Lost in Conference Quarterfinals, 0–4 (CSKA Moscow)" [ref=e514]:
+                - cell "2015–16" [ref=e515]:
+                  - link "2015–16" [ref=e516] [cursor=pointer]:
+                    - /url: /wiki/2015%E2%80%9316_KHL_season
+                - cell "60" [ref=e517]
+                - cell "21" [ref=e518]
+                - cell "11" [ref=e519]
+                - cell "4" [ref=e520]
+                - cell "24" [ref=e521]
+                - cell "89" [ref=e522]
+                - cell "154" [ref=e523]
+                - cell "148" [ref=e524]
+                - cell "3rd, Bobrov" [ref=e525]
+                - cell "Lost in Conference Quarterfinals, 0–4 (CSKA Moscow)" [ref=e526]:
+                  - text: Lost in Conference Quarterfinals, 0–4 (
+                  - link "CSKA Moscow" [ref=e527] [cursor=pointer]:
+                    - /url: /wiki/HC_CSKA_Moscow
+                  - text: )
+              - row "2016–17 60 22 7 5 26 85 144 166 4th, Bobrov did not qualify" [ref=e528]:
+                - cell "2016–17" [ref=e529]:
+                  - link "2016–17" [ref=e530] [cursor=pointer]:
+                    - /url: /wiki/2016%E2%80%9317_KHL_season
+                - cell "60" [ref=e531]
+                - cell "22" [ref=e532]
+                - cell "7" [ref=e533]
+                - cell "5" [ref=e534]
+                - cell "26" [ref=e535]
+                - cell "85" [ref=e536]
+                - cell "144" [ref=e537]
+                - cell "166" [ref=e538]
+                - cell "4th, Bobrov" [ref=e539]
+                - cell "did not qualify" [ref=e540]
+              - row "2017–18 56 15 3 7 31 58 119 187 5th, Bobrov did not qualify" [ref=e541]:
+                - cell "2017–18" [ref=e542]:
+                  - link "2017–18" [ref=e543] [cursor=pointer]:
+                    - /url: /wiki/2017%E2%80%9318_KHL_season
+                - cell "56" [ref=e544]
+                - cell "15" [ref=e545]
+                - cell "3" [ref=e546]
+                - cell "7" [ref=e547]
+                - cell "31" [ref=e548]
+                - cell "58" [ref=e549]
+                - cell "119" [ref=e550]
+                - cell "187" [ref=e551]
+                - cell "5th, Bobrov" [ref=e552]
+                - cell "did not qualify" [ref=e553]
+              - row "2018–19 62 10 5 3 44 33 101 213 6th, Tarasov did not qualify" [ref=e554]:
+                - cell "2018–19" [ref=e555]:
+                  - link "2018–19" [ref=e556] [cursor=pointer]:
+                    - /url: /wiki/2018%E2%80%9319_KHL_season
+                - cell "62" [ref=e557]
+                - cell "10" [ref=e558]
+                - cell "5" [ref=e559]
+                - cell "3" [ref=e560]
+                - cell "44" [ref=e561]
+                - cell "33" [ref=e562]
+                - cell "101" [ref=e563]
+                - cell "213" [ref=e564]
+                - cell "6th, Tarasov" [ref=e565]
+                - cell "did not qualify" [ref=e566]
+              - row "2019–20 55 29 8 5 13 108 191 118 2nd, Extraliga Not held due to the coronavirus pandemic" [ref=e567]:
+                - cell "2019–20" [ref=e568]:
+                  - link "2019–20" [ref=e569] [cursor=pointer]:
+                    - /url: /wiki/2019%E2%80%9320_Slovak_Extraliga_season
+                - cell "55" [ref=e570]
+                - cell "29" [ref=e571]
+                - cell "8" [ref=e572]
+                - cell "5" [ref=e573]
+                - cell "13" [ref=e574]
+                - cell "108" [ref=e575]
+                - cell "191" [ref=e576]
+                - cell "118" [ref=e577]
+                - cell "2nd, Extraliga" [ref=e578]
+                - cell "Not held due to the coronavirus pandemic" [ref=e579]:
+                  - generic [ref=e580]:
+                    - text: Not held due to the
+                    - link "coronavirus pandemic" [ref=e581] [cursor=pointer]:
+                      - /url: /wiki/COVID-19_pandemic
+              - row "2020–21 50 26 6 4 14 94 146 115 4th, Extraliga Lost in Semifinals, 1–4 (HKM Zvolen)" [ref=e582]:
+                - cell "2020–21" [ref=e583]:
+                  - link "2020–21" [ref=e584] [cursor=pointer]:
+                    - /url: /wiki/2020%E2%80%9321_Slovak_Extraliga_season
+                - cell "50" [ref=e585]
+                - cell "26" [ref=e586]
+                - cell "6" [ref=e587]
+                - cell "4" [ref=e588]
+                - cell "14" [ref=e589]
+                - cell "94" [ref=e590]
+                - cell "146" [ref=e591]
+                - cell "115" [ref=e592]
+                - cell "4th, Extraliga" [ref=e593]
+                - cell "Lost in Semifinals, 1–4 (HKM Zvolen)" [ref=e594]:
+                  - text: Lost in Semifinals, 1–4 (
+                  - link "HKM Zvolen" [ref=e595] [cursor=pointer]:
+                    - /url: /wiki/HKM_Zvolen
+                  - text: )
+              - row "2021–22 50 32 3 5 10 104 189 118 1st, Extraliga Slovak Extraliga Champions, 4–2 (HK Nitra)" [ref=e596]:
+                - cell "2021–22" [ref=e597]:
+                  - link "2021–22" [ref=e598] [cursor=pointer]:
+                    - /url: /wiki/2021%E2%80%9322_Slovak_Extraliga_season
+                - cell "50" [ref=e599]
+                - cell "32" [ref=e600]
+                - cell "3" [ref=e601]
+                - cell "5" [ref=e602]
+                - cell "10" [ref=e603]
+                - cell "104" [ref=e604]
+                - cell "189" [ref=e605]
+                - cell "118" [ref=e606]
+                - cell "1st, Extraliga" [ref=e607]
+                - cell "Slovak Extraliga Champions, 4–2 (HK Nitra)" [ref=e608]:
+                  - generic [ref=e609]:
+                    - link "Slovak Extraliga Champions" [ref=e610] [cursor=pointer]:
+                      - /url: /wiki/2021%E2%80%9322_Slovak_Extraliga_season
+                    - text: ", 4–2 ("
+                    - link "HK Nitra" [ref=e611] [cursor=pointer]:
+                      - /url: /wiki/HK_Nitra
+                    - text: )
+              - row "2022–23 50 27 3 6 14 93 162 115 2nd, Extraliga Lost in Quarterfinals, 2–4 (Dukla Michalovce)" [ref=e612]:
+                - cell "2022–23" [ref=e613]:
+                  - link "2022–23" [ref=e614] [cursor=pointer]:
+                    - /url: /wiki/2022%E2%80%9323_Slovak_Extraliga_season
+                - cell "50" [ref=e615]
+                - cell "27" [ref=e616]
+                - cell "3" [ref=e617]
+                - cell "6" [ref=e618]
+                - cell "14" [ref=e619]
+                - cell "93" [ref=e620]
+                - cell "162" [ref=e621]
+                - cell "115" [ref=e622]
+                - cell "2nd, Extraliga" [ref=e623]
+                - cell "Lost in Quarterfinals, 2–4 (Dukla Michalovce)" [ref=e624]:
+                  - text: Lost in Quarterfinals, 2–4 (
+                  - link "Dukla Michalovce" [ref=e625] [cursor=pointer]:
+                    - /url: /wiki/HK_Dukla_Michalovce
+                  - text: )
+              - row "2023–24 50 21 5 4 20 77 157 160 5th, Extraliga Lost in Quarterfinals, 0–4 (Košice)" [ref=e626]:
+                - cell "2023–24" [ref=e627]:
+                  - link "2023–24" [ref=e628] [cursor=pointer]:
+                    - /url: /wiki/2023%E2%80%9324_Slovak_Extraliga_season
+                - cell "50" [ref=e629]
+                - cell "21" [ref=e630]
+                - cell "5" [ref=e631]
+                - cell "4" [ref=e632]
+                - cell "20" [ref=e633]
+                - cell "77" [ref=e634]
+                - cell "157" [ref=e635]
+                - cell "160" [ref=e636]
+                - cell "5th, Extraliga" [ref=e637]
+                - cell "Lost in Quarterfinals, 0–4 (Košice)" [ref=e638]:
+                  - text: Lost in Quarterfinals, 0–4 (
+                  - link "Košice" [ref=e639] [cursor=pointer]:
+                    - /url: /wiki/HC_Ko%C5%A1ice
+                  - text: )
+              - row "2024–25 54 21 5 8 20 81 164 159 7th, Extraliga Lost in Wild card round, 1–3 (Zvolen)" [ref=e640]:
+                - cell "2024–25" [ref=e641]:
+                  - link "2024–25" [ref=e642] [cursor=pointer]:
+                    - /url: /wiki/2024%E2%80%9325_Slovak_Extraliga_season
+                - cell "54" [ref=e643]
+                - cell "21" [ref=e644]
+                - cell "5" [ref=e645]
+                - cell "8" [ref=e646]
+                - cell "20" [ref=e647]
+                - cell "81" [ref=e648]
+                - cell "164" [ref=e649]
+                - cell "159" [ref=e650]
+                - cell "7th, Extraliga" [ref=e651]
+                - cell "Lost in Wild card round, 1–3 (Zvolen)" [ref=e652]:
+                  - text: Lost in Wild card round, 1–3 (
+                  - link "Zvolen" [ref=e653] [cursor=pointer]:
+                    - /url: /wiki/HKM_Zvolen
+                  - text: )
+          - generic [ref=e654]:
+            - heading "Honours" [level=2] [ref=e655]
+            - generic [ref=e656]:
+              - text: "["
+              - link "edit" [ref=e657] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=8
+              - text: "]"
+          - generic [ref=e658]:
+            - heading "Domestic" [level=3] [ref=e659]
+            - generic [ref=e660]:
+              - text: "["
+              - link "edit" [ref=e661] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=9
+              - text: "]"
+          - list [ref=e662]:
+            - listitem [ref=e663]:
+              - link "Slovak Extraliga" [ref=e665] [cursor=pointer]:
+                - /url: /wiki/Tipos_Extraliga_(hockey)
+              - list [ref=e666]:
+                - listitem [ref=e667]:
+                  - img "1st place, gold medalist(s)" [ref=e671]
+                  - generic [ref=e672]:
+                    - text: "Winners (9):"
+                    - link "1997–98" [ref=e673] [cursor=pointer]:
+                      - /url: /wiki/1997%E2%80%9398_Slovak_Extraliga_season
+                    - text: ","
+                    - link "1999–2000" [ref=e674] [cursor=pointer]:
+                      - /url: /wiki/1999%E2%80%932000_Slovak_Extraliga_season
+                    - text: ","
+                    - link "2001–02" [ref=e675] [cursor=pointer]:
+                      - /url: /wiki/2001%E2%80%9302_Slovak_Extraliga_season
+                    - text: ","
+                    - link "2002–03" [ref=e676] [cursor=pointer]:
+                      - /url: /wiki/2002%E2%80%9303_Slovak_Extraliga_season
+                    - text: ","
+                    - link "2004–05" [ref=e677] [cursor=pointer]:
+                      - /url: /wiki/2004%E2%80%9305_Slovak_Extraliga_season
+                    - text: ","
+                    - link "2006–07" [ref=e678] [cursor=pointer]:
+                      - /url: /wiki/2006%E2%80%9307_Slovak_Extraliga_season
+                    - text: ","
+                    - link "2007–08" [ref=e679] [cursor=pointer]:
+                      - /url: /wiki/2007%E2%80%9308_Slovak_Extraliga_season
+                    - text: ","
+                    - link "2011–12" [ref=e680] [cursor=pointer]:
+                      - /url: /wiki/2011%E2%80%9312_Slovak_Extraliga_season
+                    - text: ","
+                    - link "2021–22" [ref=e681] [cursor=pointer]:
+                      - /url: /wiki/2021%E2%80%9322_Slovak_Extraliga_season
+                - listitem [ref=e682]:
+                  - img "2nd place, silver medalist(s)" [ref=e686]
+                  - generic [ref=e687]:
+                    - text: "Runners-up (2):"
+                    - link "1998–99" [ref=e688] [cursor=pointer]:
+                      - /url: /wiki/1998%E2%80%9399_Slovak_Extraliga_season
+                    - text: ","
+                    - link "2009–10" [ref=e689] [cursor=pointer]:
+                      - /url: /wiki/2009%E2%80%9310_Slovak_Extraliga_season
+                    - text: ","
+                    - link "2025-2026" [ref=e690] [cursor=pointer]:
+                      - /url: /wiki/2025%E2%80%9326_Slovak_Extraliga_season
+                - listitem [ref=e691]:
+                  - img "3rd place, bronze medalist(s)" [ref=e695]
+                  - generic [ref=e696]:
+                    - text: "3rd place (5):"
+                    - link "1994–95" [ref=e697] [cursor=pointer]:
+                      - /url: /wiki/1994%E2%80%9395_Slovak_Extraliga_season
+                    - text: ","
+                    - link "1995–96" [ref=e698] [cursor=pointer]:
+                      - /url: /wiki/1995%E2%80%9396_Slovak_Extraliga_season
+                    - text: ","
+                    - link "2000–01" [ref=e699] [cursor=pointer]:
+                      - /url: /wiki/2000%E2%80%9301_Slovak_Extraliga_season
+                    - text: ","
+                    - link "2003–04" [ref=e700] [cursor=pointer]:
+                      - /url: /wiki/2003%E2%80%9304_Slovak_Extraliga_season
+                    - text: ","
+                    - link "2008–09" [ref=e701] [cursor=pointer]:
+                      - /url: /wiki/2008%E2%80%9309_Slovak_Extraliga_season
+          - list [ref=e702]:
+            - listitem [ref=e703]:
+              - link "Czechoslovak Extraliga" [ref=e705] [cursor=pointer]:
+                - /url: /wiki/Czechoslovak_First_Ice_Hockey_League
+              - list [ref=e706]:
+                - listitem [ref=e707]:
+                  - img "1st place, gold medalist(s)" [ref=e711]
+                  - generic [ref=e712]:
+                    - text: "Winners (1):"
+                    - link "1978–79" [ref=e713] [cursor=pointer]:
+                      - /url: /wiki/1978%E2%80%9379_Czechoslovak_Extraliga_season
+                - listitem [ref=e714]:
+                  - img "2nd place, silver medalist(s)" [ref=e718]
+                  - generic [ref=e719]:
+                    - text: "Runners-up (8):"
+                    - link "1948–49" [ref=e720] [cursor=pointer]:
+                      - /url: /wiki/1948%E2%80%9349_Czechoslovak_Extraliga_season
+                    - text: ","
+                    - link "1959–60" [ref=e721] [cursor=pointer]:
+                      - /url: /wiki/1959%E2%80%9360_Czechoslovak_Extraliga_season
+                    - text: ","
+                    - link "1960–61" [ref=e722] [cursor=pointer]:
+                      - /url: /wiki/1960%E2%80%9361_Czechoslovak_Extraliga_season
+                    - text: ","
+                    - link "1961–62" [ref=e723] [cursor=pointer]:
+                      - /url: /wiki/1961%E2%80%9362_Czechoslovak_Extraliga_season
+                    - text: ","
+                    - link "1963–64" [ref=e724] [cursor=pointer]:
+                      - /url: /wiki/1963%E2%80%9364_Czechoslovak_Extraliga_season
+                    - text: ","
+                    - link "1964–65" [ref=e725] [cursor=pointer]:
+                      - /url: /wiki/1964%E2%80%9365_Czechoslovak_Extraliga_season
+                    - text: ","
+                    - link "1969–70" [ref=e726] [cursor=pointer]:
+                      - /url: /wiki/1969%E2%80%9370_Czechoslovak_Extraliga_season
+                    - text: ","
+                    - link "1971–72" [ref=e727] [cursor=pointer]:
+                      - /url: /wiki/1971%E2%80%9372_Czechoslovak_Extraliga_season
+                - listitem [ref=e728]:
+                  - img "3rd place, bronze medalist(s)" [ref=e732]
+                  - generic [ref=e733]:
+                    - text: "3rd place (9):"
+                    - link "1945–46" [ref=e734] [cursor=pointer]:
+                      - /url: /wiki/1945%E2%80%9346_Czechoslovak_Extraliga_season
+                    - text: ","
+                    - link "1946–47" [ref=e735] [cursor=pointer]:
+                      - /url: /wiki/1946%E2%80%9347_Czechoslovak_Extraliga_season
+                    - text: ","
+                    - link "1947–48" [ref=e736] [cursor=pointer]:
+                      - /url: /wiki/1947%E2%80%9348_Czechoslovak_Extraliga_season
+                    - text: ","
+                    - link "1962–63" [ref=e737] [cursor=pointer]:
+                      - /url: /wiki/1962%E2%80%9363_Czechoslovak_Extraliga_season
+                    - text: ","
+                    - link "1965–66" [ref=e738] [cursor=pointer]:
+                      - /url: /wiki/1965%E2%80%9366_Czechoslovak_Extraliga_season
+                    - text: ","
+                    - link "1968–69" [ref=e739] [cursor=pointer]:
+                      - /url: /wiki/1968%E2%80%9369_Czechoslovak_Extraliga_season
+                    - text: ","
+                    - link "1970–71" [ref=e740] [cursor=pointer]:
+                      - /url: /wiki/1970%E2%80%9371_Czechoslovak_Extraliga_season
+                    - text: ","
+                    - link "1972–73" [ref=e741] [cursor=pointer]:
+                      - /url: /wiki/1972%E2%80%9373_Czechoslovak_Extraliga_season
+                    - text: ","
+                    - link "1979–80" [ref=e742] [cursor=pointer]:
+                      - /url: /wiki/1979%E2%80%9380_Czechoslovak_Extraliga_season
+          - list [ref=e743]:
+            - listitem [ref=e744]:
+              - link "Slovak Hockey League" [ref=e746] [cursor=pointer]:
+                - /url: /wiki/Slovak_League_(ice_hockey)
+              - list [ref=e747]:
+                - listitem [ref=e748]:
+                  - img "1st place, gold medalist(s)" [ref=e752]
+                  - generic [ref=e753]:
+                    - text: "Winners (2):"
+                    - link "1940–41" [ref=e754] [cursor=pointer]:
+                      - /url: /wiki/Slovak_League_(ice_hockey)#1940–41
+                    - text: ","
+                    - link "1941–42" [ref=e755] [cursor=pointer]:
+                      - /url: /wiki/Slovak_League_(ice_hockey)#1941–42
+                - listitem [ref=e756]:
+                  - img "2nd place, silver medalist(s)" [ref=e760]
+                  - generic [ref=e761]:
+                    - text: "Runners-up (2):"
+                    - link "1942–43" [ref=e762] [cursor=pointer]:
+                      - /url: /wiki/Slovak_League_(ice_hockey)#1942–43
+                    - text: ","
+                    - link "1943–44" [ref=e763] [cursor=pointer]:
+                      - /url: /wiki/Slovak_League_(ice_hockey)#1943–44
+          - list [ref=e764]:
+            - listitem [ref=e765]:
+              - link "1st. Slovak National Hockey League" [ref=e767] [cursor=pointer]:
+                - /url: /wiki/1st._Slovak_National_Hockey_League
+              - list [ref=e768]:
+                - listitem [ref=e769]:
+                  - img "1st place, gold medalist(s)" [ref=e773]
+                  - text: "Winners (2): 1981–82, 1989–90"
+          - list [ref=e774]:
+            - listitem [ref=e775]:
+              - link "2nd. Czechoslovak Hockey League" [ref=e777] [cursor=pointer]:
+                - /url: /wiki/2nd._Czechoslovak_Hockey_League
+              - list [ref=e778]:
+                - listitem [ref=e779]:
+                  - img "2nd place, silver medalist(s)" [ref=e783]
+                  - text: "Runners-up (1): 1954–55"
+          - generic [ref=e784]:
+            - heading "International" [level=3] [ref=e785]
+            - generic [ref=e786]:
+              - text: "["
+              - link "edit" [ref=e787] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=10
+              - text: "]"
+          - list [ref=e788]:
+            - listitem [ref=e789]:
+              - link "IIHF European Cup" [ref=e791] [cursor=pointer]:
+                - /url: /wiki/IIHF_European_Cup
+              - list [ref=e792]:
+                - listitem [ref=e793]:
+                  - img "3rd place, bronze medalist(s)" [ref=e797]
+                  - generic [ref=e798]:
+                    - text: "3rd place (1):"
+                    - link "1979–80" [ref=e799] [cursor=pointer]:
+                      - /url: /wiki/1979%E2%80%9380_IIHF_European_Cup
+          - list [ref=e800]:
+            - listitem [ref=e801]:
+              - link "IIHF Continental Cup" [ref=e803] [cursor=pointer]:
+                - /url: /wiki/IIHF_Continental_Cup
+              - list [ref=e804]:
+                - listitem [ref=e805]:
+                  - img "1st place, gold medalist(s)" [ref=e809]
+                  - generic [ref=e810]:
+                    - text: "Winners (1):"
+                    - link "2003–04" [ref=e811] [cursor=pointer]:
+                      - /url: /wiki/2003%E2%80%9304_IIHF_Continental_Cup
+                - listitem [ref=e812]:
+                  - img "3rd place, bronze medalist(s)" [ref=e816]
+                  - generic [ref=e817]:
+                    - text: "3rd place (1):"
+                    - link "2000–01" [ref=e818] [cursor=pointer]:
+                      - /url: /wiki/2000%E2%80%9301_IIHF_Continental_Cup
+          - list [ref=e819]:
+            - listitem [ref=e820]:
+              - generic [ref=e821]:
+                - text: IIHF
+                - link "Champions Hockey League" [ref=e822] [cursor=pointer]:
+                  - /url: /wiki/Champions_Hockey_League
+              - list [ref=e823]:
+                - listitem [ref=e824]: "Groupe Stage (2): 2021–22, 2022–23"
+          - generic [ref=e825]:
+            - heading "Pre-season" [level=3] [ref=e826]
+            - generic [ref=e827]:
+              - text: "["
+              - link "edit" [ref=e828] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=11
+              - text: "]"
+          - list [ref=e829]:
+            - listitem [ref=e830]:
+              - link "Spengler Cup" [ref=e832] [cursor=pointer]:
+                - /url: /wiki/Spengler_Cup
+              - list [ref=e833]:
+                - listitem [ref=e834]:
+                  - img "1st place, gold medalist(s)" [ref=e838]
+                  - text: "Winners (3): 1972, 1973, 1974"
+            - listitem [ref=e839]:
+              - link "Tatra Cup" [ref=e841] [cursor=pointer]:
+                - /url: /wiki/Tatra_Cup
+              - list [ref=e842]:
+                - listitem [ref=e843]:
+                  - img "1st place, gold medalist(s)" [ref=e847]
+                  - text: "Winners (5): 1974, 1975, 1990, 1997, 1998"
+            - listitem [ref=e848]:
+              - link "Rona Cup" [ref=e850] [cursor=pointer]:
+                - /url: /wiki/Rona_Cup
+              - list [ref=e851]:
+                - listitem [ref=e852]:
+                  - img "1st place, gold medalist(s)" [ref=e856]
+                  - text: "Winners (1): 1998"
+          - generic [ref=e857]:
+            - heading "Players" [level=2] [ref=e858]
+            - generic [ref=e859]:
+              - text: "["
+              - link "edit" [ref=e860] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=12
+              - text: "]"
+          - generic [ref=e861]:
+            - heading "Current roster" [level=3] [ref=e862]
+            - generic [ref=e863]:
+              - text: "["
+              - link "edit" [ref=e864] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=13
+              - text: "]"
+          - note [ref=e865]:
+            - text: "See also:"
+            - link "HC Slovan Bratislava all-time roster" [ref=e866] [cursor=pointer]:
+              - /url: /wiki/HC_Slovan_Bratislava_all-time_roster
+          - list [ref=e868]:
+            - listitem [ref=e869]:
+              - link "view" [ref=e870] [cursor=pointer]:
+                - /url: /wiki/Template:HC_Slovan_Bratislava_roster
+              - text: ·
+            - listitem [ref=e871]:
+              - link "talk" [ref=e872] [cursor=pointer]:
+                - /url: /wiki/Template_talk:HC_Slovan_Bratislava_roster
+              - text: ·
+            - listitem [ref=e873]:
+              - link "edit" [ref=e874] [cursor=pointer]:
+                - /url: /wiki/Special:EditPage/Template:HC_Slovan_Bratislava_roster
+          - paragraph [ref=e875]:
+            - text: As of 24 November 2024
+            - superscript [ref=e876]:
+              - link "[14]" [ref=e877] [cursor=pointer]:
+                - /url: "#cite_note-14"
+            - superscript [ref=e878]:
+              - link "[15]" [ref=e879] [cursor=pointer]:
+                - /url: "#cite_note-15"
+          - table [ref=e880]:
+            - caption
+            - rowgroup [ref=e881]:
+              - row "No. Nat Player Pos S/G Age Acquired Birthplace" [ref=e882]:
+                - columnheader "No." [ref=e883] [cursor=pointer]:
+                  - link "No." [ref=e884]:
+                    - /url: /wiki/Number_(sports)#Ice_hockey
+                - columnheader "Nat" [ref=e885] [cursor=pointer]:
+                  - link "Nat" [ref=e886]:
+                    - /url: /wiki/Nationality
+                - columnheader "Player" [ref=e887] [cursor=pointer]
+                - columnheader "Pos" [ref=e888] [cursor=pointer]:
+                  - link "Pos" [ref=e889]:
+                    - /url: /wiki/Position_(team_sports)
+                - columnheader "S/G" [ref=e890] [cursor=pointer]:
+                  - link "S" [ref=e891]:
+                    - /url: /wiki/Shot_(ice_hockey)
+                  - text: /
+                  - link "G" [ref=e892]:
+                    - /url: /wiki/Glove_(ice_hockey)#Goaltender's_gloves
+                - columnheader "Age" [ref=e893] [cursor=pointer]
+                - columnheader "Acquired" [ref=e894] [cursor=pointer]
+                - columnheader "Birthplace" [ref=e895]
+            - rowgroup [ref=e896]:
+              - row "14 United States Sena Acolatse D R 35 2024 Hayward, California, United States" [ref=e897]:
+                - cell "14" [ref=e898]
+                - cell "United States" [ref=e899]:
+                  - link "United States" [ref=e903] [cursor=pointer]:
+                    - /url: /wiki/United_States
+                    - img "United States" [ref=e904]
+                - rowheader "Sena Acolatse" [ref=e905]:
+                  - link "Sena Acolatse" [ref=e909] [cursor=pointer]:
+                    - /url: /wiki/Sena_Acolatse
+                - cell "D" [ref=e910]:
+                  - link "D" [ref=e911] [cursor=pointer]:
+                    - /url: /wiki/Defenceman
+                - cell "R" [ref=e912]
+                - cell "35" [ref=e913]: "35"
+                - cell "2024" [ref=e914]:
+                  - link "2024" [ref=e915] [cursor=pointer]:
+                    - /url: /wiki/2024%E2%80%9325_Slovak_Extraliga_season
+                - cell "Hayward, California, United States" [ref=e916]:
+                  - link "Hayward, California" [ref=e917] [cursor=pointer]:
+                    - /url: /wiki/Hayward,_California
+                  - text: ","
+                  - link "United States" [ref=e918] [cursor=pointer]:
+                    - /url: /wiki/United_States
+              - row "87 Sweden Jonas Ahnelöv D L 38 2023 Huddinge, Sweden" [ref=e919]:
+                - cell "87" [ref=e920]
+                - cell "Sweden" [ref=e921]:
+                  - link "Sweden" [ref=e925] [cursor=pointer]:
+                    - /url: /wiki/Sweden
+                    - img "Sweden" [ref=e926]
+                - rowheader "Jonas Ahnelöv" [ref=e927]:
+                  - link "Jonas Ahnelöv" [ref=e931] [cursor=pointer]:
+                    - /url: /wiki/Jonas_Ahnel%C3%B6v
+                - cell "D" [ref=e932]:
+                  - link "D" [ref=e933] [cursor=pointer]:
+                    - /url: /wiki/Defenceman
+                - cell "L" [ref=e934]
+                - cell "38" [ref=e935]: "38"
+                - cell "2023" [ref=e936]:
+                  - link "2023" [ref=e937] [cursor=pointer]:
+                    - /url: /wiki/2023-24_Slovak_Extraliga_season
+                - cell "Huddinge, Sweden" [ref=e938]:
+                  - link "Huddinge, Sweden" [ref=e939] [cursor=pointer]:
+                    - /url: /wiki/Huddinge,_Sweden
+              - row "65 Slovakia Patrik Andrisík G L 23 2024 Ilava, Slovakia" [ref=e940]:
+                - cell "65" [ref=e941]
+                - cell "Slovakia" [ref=e942]:
+                  - link "Slovakia" [ref=e946] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e947]
+                - rowheader "Patrik Andrisík" [ref=e948]:
+                  - link "Patrik Andrisík" [ref=e952] [cursor=pointer]:
+                    - /url: /w/index.php?title=Patrik_Andris%C3%ADk&action=edit&redlink=1
+                - cell "G" [ref=e953]:
+                  - link "G" [ref=e954] [cursor=pointer]:
+                    - /url: /wiki/Goaltender
+                - cell "L" [ref=e955]
+                - cell "23" [ref=e956]: "23"
+                - cell "2024" [ref=e957]:
+                  - link "2024" [ref=e958] [cursor=pointer]:
+                    - /url: /wiki/2024-25_Slovak_Extraliga_season
+                - cell "Ilava, Slovakia" [ref=e959]:
+                  - link "Ilava, Slovakia" [ref=e960] [cursor=pointer]:
+                    - /url: /wiki/Ilava
+              - row "5 Slovakia Patrik Bačík D L 31 2024 Bratislava, Slovakia" [ref=e961]:
+                - cell "5" [ref=e962]
+                - cell "Slovakia" [ref=e963]:
+                  - link "Slovakia" [ref=e967] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e968]
+                - rowheader "Patrik Bačík" [ref=e969]:
+                  - link "Patrik Bačík" [ref=e973] [cursor=pointer]:
+                    - /url: /wiki/Patrik_Ba%C4%8D%C3%ADk
+                - cell "D" [ref=e974]:
+                  - link "D" [ref=e975] [cursor=pointer]:
+                    - /url: /wiki/Defenceman
+                - cell "L" [ref=e976]
+                - cell "31" [ref=e977]: "31"
+                - cell "2024" [ref=e978]:
+                  - link "2024" [ref=e979] [cursor=pointer]:
+                    - /url: /wiki/2024%E2%80%9325_Slovak_Extraliga_season
+                - cell "Bratislava, Slovakia" [ref=e980]:
+                  - link "Bratislava, Slovakia" [ref=e981] [cursor=pointer]:
+                    - /url: /wiki/Bratislava,_Slovakia
+              - row "83 Slovakia Martin Bakoš LW R 36 2024 Spišská Nová Ves, Czechoslovakia" [ref=e982]:
+                - cell "83" [ref=e983]
+                - cell "Slovakia" [ref=e984]:
+                  - link "Slovakia" [ref=e988] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e989]
+                - rowheader "Martin Bakoš" [ref=e990]:
+                  - link "Martin Bakoš" [ref=e994] [cursor=pointer]:
+                    - /url: /wiki/Martin_Bako%C5%A1
+                - cell "LW" [ref=e995]:
+                  - link "LW" [ref=e996] [cursor=pointer]:
+                    - /url: /wiki/Winger_(ice_hockey)
+                - cell "R" [ref=e997]
+                - cell "36" [ref=e998]: "36"
+                - cell "2024" [ref=e999]:
+                  - link "2024" [ref=e1000] [cursor=pointer]:
+                    - /url: /wiki/2024-25_Slovak_Extraliga_season
+                - cell "Spišská Nová Ves, Czechoslovakia" [ref=e1001]:
+                  - link "Spišská Nová Ves" [ref=e1002] [cursor=pointer]:
+                    - /url: /wiki/Spi%C5%A1sk%C3%A1_Nov%C3%A1_Ves
+                  - text: ","
+                  - link "Czechoslovakia" [ref=e1003] [cursor=pointer]:
+                    - /url: /wiki/Czechoslovakia
+              - row "74 Slovakia Boris Brincko D L 27 2024 Poprad, Slovakia" [ref=e1004]:
+                - cell "74" [ref=e1005]
+                - cell "Slovakia" [ref=e1006]:
+                  - link "Slovakia" [ref=e1010] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e1011]
+                - rowheader "Boris Brincko" [ref=e1012]:
+                  - link "Boris Brincko" [ref=e1016] [cursor=pointer]:
+                    - /url: /wiki/Boris_Brincko
+                - cell "D" [ref=e1017]:
+                  - link "D" [ref=e1018] [cursor=pointer]:
+                    - /url: /wiki/Defenceman
+                - cell "L" [ref=e1019]
+                - cell "27" [ref=e1020]: "27"
+                - cell "2024" [ref=e1021]:
+                  - link "2024" [ref=e1022] [cursor=pointer]:
+                    - /url: /wiki/2024%E2%80%9325_Slovak_Extraliga_season
+                - cell "Poprad, Slovakia" [ref=e1023]:
+                  - link "Poprad, Slovakia" [ref=e1024] [cursor=pointer]:
+                    - /url: /wiki/Poprad,_Slovakia
+              - row "71 Slovakia Tomas Dudas C L 21 2023 Žilina, Slovakia" [ref=e1025]:
+                - cell "71" [ref=e1026]
+                - cell "Slovakia" [ref=e1027]:
+                  - link "Slovakia" [ref=e1031] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e1032]
+                - rowheader "Tomas Dudas" [ref=e1033]:
+                  - link "Tomas Dudas" [ref=e1037] [cursor=pointer]:
+                    - /url: /w/index.php?title=Tomas_Dudas&action=edit&redlink=1
+                - cell "C" [ref=e1038]:
+                  - link "C" [ref=e1039] [cursor=pointer]:
+                    - /url: /wiki/Centre_(ice_hockey)
+                - cell "L" [ref=e1040]
+                - cell "21" [ref=e1041]: "21"
+                - cell "2023" [ref=e1042]:
+                  - link "2023" [ref=e1043] [cursor=pointer]:
+                    - /url: /wiki/2023-24_Slovak_Extraliga_season
+                - cell "Žilina, Slovakia" [ref=e1044]:
+                  - link "Žilina, Slovakia" [ref=e1045] [cursor=pointer]:
+                    - /url: /wiki/%C5%BDilina
+              - row "30 Slovakia Denis Godla G L 31 2023 Kežmarok, Slovakia" [ref=e1046]:
+                - cell "30" [ref=e1047]
+                - cell "Slovakia" [ref=e1048]:
+                  - link "Slovakia" [ref=e1052] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e1053]
+                - rowheader "Denis Godla" [ref=e1054]:
+                  - link "Denis Godla" [ref=e1058] [cursor=pointer]:
+                    - /url: /wiki/Denis_Godla
+                - cell "G" [ref=e1059]:
+                  - link "G" [ref=e1060] [cursor=pointer]:
+                    - /url: /wiki/Goaltender
+                - cell "L" [ref=e1061]
+                - cell "31" [ref=e1062]: "31"
+                - cell "2023" [ref=e1063]:
+                  - link "2023" [ref=e1064] [cursor=pointer]:
+                    - /url: /wiki/2023%E2%80%9324_Slovak_Extraliga_season
+                - cell "Kežmarok, Slovakia" [ref=e1065]:
+                  - link "Kežmarok, Slovakia" [ref=e1066] [cursor=pointer]:
+                    - /url: /wiki/Ke%C5%BEmarok
+              - row "98 Slovakia Andrej Golian D L 25 2021 Banská Bystrica, Slovakia" [ref=e1067]:
+                - cell "98" [ref=e1068]
+                - cell "Slovakia" [ref=e1069]:
+                  - link "Slovakia" [ref=e1073] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e1074]
+                - rowheader "Andrej Golian" [ref=e1075]:
+                  - link "Andrej Golian" [ref=e1079] [cursor=pointer]:
+                    - /url: /w/index.php?title=Andrej_Golian&action=edit&redlink=1
+                - cell "D" [ref=e1080]:
+                  - link "D" [ref=e1081] [cursor=pointer]:
+                    - /url: /wiki/Defenceman
+                - cell "L" [ref=e1082]
+                - cell "25" [ref=e1083]: "25"
+                - cell "2021" [ref=e1084]:
+                  - link "2021" [ref=e1085] [cursor=pointer]:
+                    - /url: /wiki/2021%E2%80%9322_Slovak_Extraliga_season
+                - cell "Banská Bystrica, Slovakia" [ref=e1086]:
+                  - link "Banská Bystrica" [ref=e1087] [cursor=pointer]:
+                    - /url: /wiki/Bansk%C3%A1_Bystrica
+                  - text: ","
+                  - link "Slovakia" [ref=e1088] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+              - row "44 Canada Mitchell Hoelscher C L 26 2024 Waterloo, Ontario, Canada" [ref=e1089]:
+                - cell "44" [ref=e1090]
+                - cell "Canada" [ref=e1091]:
+                  - link "Canada" [ref=e1095] [cursor=pointer]:
+                    - /url: /wiki/Canada
+                    - img "Canada" [ref=e1096]
+                - rowheader "Mitchell Hoelscher" [ref=e1097]:
+                  - link "Mitchell Hoelscher" [ref=e1101] [cursor=pointer]:
+                    - /url: /w/index.php?title=Mitchell_Hoelscher&action=edit&redlink=1
+                - cell "C" [ref=e1102]:
+                  - link "C" [ref=e1103] [cursor=pointer]:
+                    - /url: /wiki/Centre_(ice_hockey)
+                - cell "L" [ref=e1104]
+                - cell "26" [ref=e1105]: "26"
+                - cell "2024" [ref=e1106]:
+                  - link "2024" [ref=e1107] [cursor=pointer]:
+                    - /url: /wiki/2024-25_Slovak_Extraliga_season
+                - cell "Waterloo, Ontario, Canada" [ref=e1108]:
+                  - link "Waterloo, Ontario" [ref=e1109] [cursor=pointer]:
+                    - /url: /wiki/Waterloo,_Ontario
+                  - text: ","
+                  - link "Canada" [ref=e1110] [cursor=pointer]:
+                    - /url: /wiki/Canada
+              - row "31 Finland Henri Kiviaho G L 32 2024 Lappeenranta, Finland" [ref=e1111]:
+                - cell "31" [ref=e1112]
+                - cell "Finland" [ref=e1113]:
+                  - link "Finland" [ref=e1117] [cursor=pointer]:
+                    - /url: /wiki/Finland
+                    - img "Finland" [ref=e1118]
+                - rowheader "Henri Kiviaho" [ref=e1119]:
+                  - link "Henri Kiviaho" [ref=e1123] [cursor=pointer]:
+                    - /url: /wiki/Henri_Kiviaho
+                - cell "G" [ref=e1124]:
+                  - link "G" [ref=e1125] [cursor=pointer]:
+                    - /url: /wiki/Goaltender
+                - cell "L" [ref=e1126]
+                - cell "32" [ref=e1127]: "32"
+                - cell "2024" [ref=e1128]:
+                  - link "2024" [ref=e1129] [cursor=pointer]:
+                    - /url: /wiki/2024-25_Slovak_Extraliga_season
+                - cell "Lappeenranta, Finland" [ref=e1130]:
+                  - link "Lappeenranta, Finland" [ref=e1131] [cursor=pointer]:
+                    - /url: /wiki/Lappeenranta,_Finland
+              - row "82 Slovakia Tomas Kralovic D R 20 2024 Bratislava, Slovakia" [ref=e1132]:
+                - cell "82" [ref=e1133]
+                - cell "Slovakia" [ref=e1134]:
+                  - link "Slovakia" [ref=e1138] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e1139]
+                - rowheader "Tomas Kralovic" [ref=e1140]:
+                  - link "Tomas Kralovic" [ref=e1144] [cursor=pointer]:
+                    - /url: /w/index.php?title=Tomas_Kralovic&action=edit&redlink=1
+                - cell "D" [ref=e1145]:
+                  - link "D" [ref=e1146] [cursor=pointer]:
+                    - /url: /wiki/Defenceman
+                - cell "R" [ref=e1147]
+                - cell "20" [ref=e1148]: "20"
+                - cell "2024" [ref=e1149]:
+                  - link "2024" [ref=e1150] [cursor=pointer]:
+                    - /url: /wiki/2024-25_Slovak_Extraliga_season
+                - cell "Bratislava, Slovakia" [ref=e1151]:
+                  - link "Bratislava, Slovakia" [ref=e1152] [cursor=pointer]:
+                    - /url: /wiki/Bratislava,_Slovakia
+              - row "77 Slovakia Branislav Kubka D R 37 2023 Detva, Czechoslovakia" [ref=e1153]:
+                - cell "77" [ref=e1154]
+                - cell "Slovakia" [ref=e1155]:
+                  - link "Slovakia" [ref=e1159] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e1160]
+                - rowheader "Branislav Kubka" [ref=e1161]:
+                  - link "Branislav Kubka" [ref=e1165] [cursor=pointer]:
+                    - /url: /wiki/Branislav_Kubka
+                - cell "D" [ref=e1166]:
+                  - link "D" [ref=e1167] [cursor=pointer]:
+                    - /url: /wiki/Defenceman
+                - cell "R" [ref=e1168]
+                - cell "37" [ref=e1169]: "37"
+                - cell "2023" [ref=e1170]:
+                  - link "2023" [ref=e1171] [cursor=pointer]:
+                    - /url: /wiki/2023%E2%80%9324_Slovak_Extraliga_season
+                - cell "Detva, Czechoslovakia" [ref=e1172]:
+                  - link "Detva" [ref=e1173] [cursor=pointer]:
+                    - /url: /wiki/Detva
+                  - text: ","
+                  - link "Czechoslovakia" [ref=e1174] [cursor=pointer]:
+                    - /url: /wiki/Czechoslovakia
+              - row "16 Slovakia Roman Kukumberg LW L 21 2022 Bratislava, Slovakia" [ref=e1175]:
+                - cell "16" [ref=e1176]
+                - cell "Slovakia" [ref=e1177]:
+                  - link "Slovakia" [ref=e1181] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e1182]
+                - rowheader "Roman Kukumberg" [ref=e1183]:
+                  - link "Roman Kukumberg" [ref=e1187] [cursor=pointer]:
+                    - /url: /w/index.php?title=Roman_Kukumberg_jun.&action=edit&redlink=1
+                - cell "LW" [ref=e1188]:
+                  - link "LW" [ref=e1189] [cursor=pointer]:
+                    - /url: /wiki/Winger_(ice_hockey)
+                - cell "L" [ref=e1190]
+                - cell "21" [ref=e1191]: "21"
+                - cell "2022" [ref=e1192]:
+                  - link "2022" [ref=e1193] [cursor=pointer]:
+                    - /url: /wiki/2022-23_Slovak_Extraliga_season
+                - cell "Bratislava, Slovakia" [ref=e1194]:
+                  - link "Bratislava, Slovakia" [ref=e1195] [cursor=pointer]:
+                    - /url: /wiki/Bratislava,_Slovakia
+              - row "70 Slovakia Adam Lukošík C L 24 2020 Prešov, Slovakia" [ref=e1196]:
+                - cell "70" [ref=e1197]
+                - cell "Slovakia" [ref=e1198]:
+                  - link "Slovakia" [ref=e1202] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e1203]
+                - rowheader "Adam Lukošík" [ref=e1204]:
+                  - link "Adam Lukošík" [ref=e1208] [cursor=pointer]:
+                    - /url: /w/index.php?title=Adam_Luko%C5%A1%C3%ADk&action=edit&redlink=1
+                - cell "C" [ref=e1209]:
+                  - link "C" [ref=e1210] [cursor=pointer]:
+                    - /url: /wiki/Centre_(ice_hockey)
+                - cell "L" [ref=e1211]
+                - cell "24" [ref=e1212]: "24"
+                - cell "2020" [ref=e1213]:
+                  - link "2020" [ref=e1214] [cursor=pointer]:
+                    - /url: /wiki/2020%E2%80%9321_Slovak_Extraliga_season
+                - cell "Prešov, Slovakia" [ref=e1215]:
+                  - link "Prešov, Slovakia" [ref=e1216] [cursor=pointer]:
+                    - /url: /wiki/Pre%C5%A1ov
+              - row "43 Slovakia Patrik Maier D L 29 2020 Bratislava, Slovakia" [ref=e1217]:
+                - cell "43" [ref=e1218]
+                - cell "Slovakia" [ref=e1219]:
+                  - link "Slovakia" [ref=e1223] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e1224]
+                - rowheader "Patrik Maier" [ref=e1225]:
+                  - link "Patrik Maier" [ref=e1229] [cursor=pointer]:
+                    - /url: /wiki/Patrik_Maier
+                - cell "D" [ref=e1230]:
+                  - link "D" [ref=e1231] [cursor=pointer]:
+                    - /url: /wiki/Defenceman
+                - cell "L" [ref=e1232]
+                - cell "29" [ref=e1233]: "29"
+                - cell "2020" [ref=e1234]:
+                  - link "2020" [ref=e1235] [cursor=pointer]:
+                    - /url: /wiki/2020%E2%80%9321_Slovak_Extraliga_season
+                - cell "Bratislava, Slovakia" [ref=e1236]:
+                  - link "Bratislava, Slovakia" [ref=e1237] [cursor=pointer]:
+                    - /url: /wiki/Bratislava,_Slovakia
+              - row "20 Slovakia Jakub Minárik C L 25 2022 Topoľčany, Slovakia" [ref=e1238]:
+                - cell "20" [ref=e1239]
+                - cell "Slovakia" [ref=e1240]:
+                  - link "Slovakia" [ref=e1244] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e1245]
+                - rowheader "Jakub Minárik" [ref=e1246]:
+                  - link "Jakub Minárik" [ref=e1250] [cursor=pointer]:
+                    - /url: /w/index.php?title=Jakub_Min%C3%A1rik&action=edit&redlink=1
+                - cell "C" [ref=e1251]:
+                  - link "C" [ref=e1252] [cursor=pointer]:
+                    - /url: /wiki/Centre_(ice_hockey)
+                - cell "L" [ref=e1253]
+                - cell "25" [ref=e1254]: "25"
+                - cell "2022" [ref=e1255]:
+                  - link "2022" [ref=e1256] [cursor=pointer]:
+                    - /url: /wiki/2022%E2%80%9323_Slovak_Extraliga_season
+                - cell "Topoľčany, Slovakia" [ref=e1257]:
+                  - link "Topoľčany, Slovakia" [ref=e1258] [cursor=pointer]:
+                    - /url: /wiki/Topo%C4%BE%C4%8Dany
+              - row "88 United States Austin Ortega RW R 32 2024 Escondido, California, United States" [ref=e1259]:
+                - cell "88" [ref=e1260]
+                - cell "United States" [ref=e1261]:
+                  - link "United States" [ref=e1265] [cursor=pointer]:
+                    - /url: /wiki/United_States
+                    - img "United States" [ref=e1266]
+                - rowheader "Austin Ortega" [ref=e1267]:
+                  - link "Austin Ortega" [ref=e1271] [cursor=pointer]:
+                    - /url: /wiki/Austin_Ortega
+                - cell "RW" [ref=e1272]:
+                  - link "RW" [ref=e1273] [cursor=pointer]:
+                    - /url: /wiki/Winger_(ice_hockey)
+                - cell "R" [ref=e1274]
+                - cell "32" [ref=e1275]: "32"
+                - cell "2024" [ref=e1276]:
+                  - link "2024" [ref=e1277] [cursor=pointer]:
+                    - /url: /wiki/2024-25_Slovak_Extraliga_season
+                - cell "Escondido, California, United States" [ref=e1278]:
+                  - link "Escondido, California" [ref=e1279] [cursor=pointer]:
+                    - /url: /wiki/Escondido,_California
+                  - text: ","
+                  - link "United States" [ref=e1280] [cursor=pointer]:
+                    - /url: /wiki/United_States
+              - row "28 Slovakia Richard Pánik RW L 35 2024 Martin, Czechoslovakia" [ref=e1281]:
+                - cell "28" [ref=e1282]
+                - cell "Slovakia" [ref=e1283]:
+                  - link "Slovakia" [ref=e1287] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e1288]
+                - rowheader "Richard Pánik" [ref=e1289]:
+                  - link "Richard Pánik" [ref=e1293] [cursor=pointer]:
+                    - /url: /wiki/Richard_P%C3%A1nik
+                - cell "RW" [ref=e1294]:
+                  - link "RW" [ref=e1295] [cursor=pointer]:
+                    - /url: /wiki/Winger_(ice_hockey)
+                - cell "L" [ref=e1296]
+                - cell "35" [ref=e1297]: "35"
+                - cell "2024" [ref=e1298]:
+                  - link "2024" [ref=e1299] [cursor=pointer]:
+                    - /url: /wiki/2024-25_Slovak_Extraliga_season
+                - cell "Martin, Czechoslovakia" [ref=e1300]:
+                  - link "Martin" [ref=e1301] [cursor=pointer]:
+                    - /url: /wiki/Martin,_Slovakia
+                  - text: ","
+                  - link "Czechoslovakia" [ref=e1302] [cursor=pointer]:
+                    - /url: /wiki/Czechoslovakia
+              - row "39 United States Liam Pecararo (A) LW L 30 2022 Canton, Massachusetts, United States" [ref=e1303]:
+                - cell "39" [ref=e1304]
+                - cell "United States" [ref=e1305]:
+                  - link "United States" [ref=e1309] [cursor=pointer]:
+                    - /url: /wiki/United_States
+                    - img "United States" [ref=e1310]
+                - rowheader "Liam Pecararo (A)" [ref=e1311]:
+                  - link "Liam Pecararo" [ref=e1315] [cursor=pointer]:
+                    - /url: /w/index.php?title=Liam_Pecararo&action=edit&redlink=1
+                  - text: (
+                  - link "A" [ref=e1317] [cursor=pointer]:
+                    - /url: /wiki/Captain_(ice_hockey)#Alternate_captains
+                  - text: )
+                - cell "LW" [ref=e1318]:
+                  - link "LW" [ref=e1319] [cursor=pointer]:
+                    - /url: /wiki/Winger_(ice_hockey)
+                - cell "L" [ref=e1320]
+                - cell "30" [ref=e1321]: "30"
+                - cell "2022" [ref=e1322]:
+                  - link "2022" [ref=e1323] [cursor=pointer]:
+                    - /url: /wiki/2022%E2%80%9323_Slovak_Extraliga_season
+                - cell "Canton, Massachusetts, United States" [ref=e1324]:
+                  - link "Canton, Massachusetts" [ref=e1325] [cursor=pointer]:
+                    - /url: /wiki/Canton,_Massachusetts
+                  - text: ","
+                  - link "United States" [ref=e1326] [cursor=pointer]:
+                    - /url: /wiki/United_States
+              - row "72 Russia Vadim Pereskokov C L 32 2024 Oral, Kazakhstan" [ref=e1327]:
+                - cell "72" [ref=e1328]
+                - cell "Russia" [ref=e1329]:
+                  - link "Russia" [ref=e1333] [cursor=pointer]:
+                    - /url: /wiki/Russia
+                    - img "Russia" [ref=e1334]
+                - rowheader "Vadim Pereskokov" [ref=e1335]:
+                  - link "Vadim Pereskokov" [ref=e1339] [cursor=pointer]:
+                    - /url: /wiki/Vadim_Pereskokov
+                - cell "C" [ref=e1340]:
+                  - link "C" [ref=e1341] [cursor=pointer]:
+                    - /url: /wiki/Centre_(ice_hockey)
+                - cell "L" [ref=e1342]
+                - cell "32" [ref=e1343]: "32"
+                - cell "2024" [ref=e1344]:
+                  - link "2024" [ref=e1345] [cursor=pointer]:
+                    - /url: /wiki/2024-25_Slovak_Extraliga_season
+                - cell "Oral, Kazakhstan" [ref=e1346]:
+                  - link "Oral, Kazakhstan" [ref=e1347] [cursor=pointer]:
+                    - /url: /wiki/Oral,_Kazakhstan
+              - row "95 Czech Republic Jonáš Peterek C R 25 2024 Havířov, Czech Republic" [ref=e1348]:
+                - cell "95" [ref=e1349]
+                - cell "Czech Republic" [ref=e1350]:
+                  - link "Czech Republic" [ref=e1354] [cursor=pointer]:
+                    - /url: /wiki/Czech_Republic
+                    - img "Czech Republic" [ref=e1355]
+                - rowheader "Jonáš Peterek" [ref=e1356]:
+                  - link "Jonáš Peterek" [ref=e1360] [cursor=pointer]:
+                    - /url: /w/index.php?title=Jon%C3%A1%C5%A1_Peterek&action=edit&redlink=1
+                - cell "C" [ref=e1361]:
+                  - link "C" [ref=e1362] [cursor=pointer]:
+                    - /url: /wiki/Centre_(ice_hockey)
+                - cell "R" [ref=e1363]
+                - cell "25" [ref=e1364]: "25"
+                - cell "2024" [ref=e1365]:
+                  - link "2024" [ref=e1366] [cursor=pointer]:
+                    - /url: /wiki/2024-25_Slovak_Extraliga_season
+                - cell "Havířov, Czech Republic" [ref=e1367]:
+                  - link "Havířov, Czech Republic" [ref=e1368] [cursor=pointer]:
+                    - /url: /wiki/Hav%C3%AD%C5%99ov
+              - row "63 Slovakia Miroslav Preisinger C L 35 2021 Bratislava, Czechoslovakia" [ref=e1369]:
+                - cell "63" [ref=e1370]
+                - cell "Slovakia" [ref=e1371]:
+                  - link "Slovakia" [ref=e1375] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e1376]
+                - rowheader "Miroslav Preisinger" [ref=e1377]:
+                  - link "Miroslav Preisinger" [ref=e1381] [cursor=pointer]:
+                    - /url: /wiki/Miroslav_Preisinger
+                - cell "C" [ref=e1382]:
+                  - link "C" [ref=e1383] [cursor=pointer]:
+                    - /url: /wiki/Centre_(ice_hockey)
+                - cell "L" [ref=e1384]
+                - cell "35" [ref=e1385]: "35"
+                - cell "2021" [ref=e1386]:
+                  - link "2021" [ref=e1387] [cursor=pointer]:
+                    - /url: /wiki/2021%E2%80%9322_Slovak_Extraliga_season
+                - cell "Bratislava, Czechoslovakia" [ref=e1388]:
+                  - link "Bratislava" [ref=e1389] [cursor=pointer]:
+                    - /url: /wiki/Bratislava
+                  - text: ","
+                  - link "Czechoslovakia" [ref=e1390] [cursor=pointer]:
+                    - /url: /wiki/Czechoslovakia
+              - row "25 Slovakia Radovan Puliš RW L 34 2024 Hliník nad Hronom, Czechoslovakia" [ref=e1391]:
+                - cell "25" [ref=e1392]
+                - cell "Slovakia" [ref=e1393]:
+                  - link "Slovakia" [ref=e1397] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e1398]
+                - rowheader "Radovan Puliš" [ref=e1399]:
+                  - link "Radovan Puliš" [ref=e1403] [cursor=pointer]:
+                    - /url: /wiki/Radovan_Puli%C5%A1
+                - cell "RW" [ref=e1404]:
+                  - link "RW" [ref=e1405] [cursor=pointer]:
+                    - /url: /wiki/Winger_(ice_hockey)
+                - cell "L" [ref=e1406]
+                - cell "34" [ref=e1407]: "34"
+                - cell "2024" [ref=e1408]:
+                  - link "2024" [ref=e1409] [cursor=pointer]:
+                    - /url: /wiki/2024-25_Slovak_Extraliga_season
+                - cell "Hliník nad Hronom, Czechoslovakia" [ref=e1410]:
+                  - link "Hliník nad Hronom" [ref=e1411] [cursor=pointer]:
+                    - /url: /wiki/Hlin%C3%ADk_nad_Hronom
+                  - text: ","
+                  - link "Czechoslovakia" [ref=e1412] [cursor=pointer]:
+                    - /url: /wiki/Czechoslovakia
+              - row "8 Slovakia Michal Sersen (C) D L 40 2012 Gelnica, Czechoslovakia" [ref=e1413]:
+                - cell "8" [ref=e1414]
+                - cell "Slovakia" [ref=e1415]:
+                  - link "Slovakia" [ref=e1419] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e1420]
+                - rowheader "Michal Sersen (C)" [ref=e1421]:
+                  - link "Michal Sersen" [ref=e1425] [cursor=pointer]:
+                    - /url: /wiki/Michal_Sersen
+                  - text: (
+                  - link "C" [ref=e1427] [cursor=pointer]:
+                    - /url: /wiki/Captain_(ice_hockey)
+                  - text: )
+                - cell "D" [ref=e1428]:
+                  - link "D" [ref=e1429] [cursor=pointer]:
+                    - /url: /wiki/Defenceman
+                - cell "L" [ref=e1430]
+                - cell "40" [ref=e1431]: "40"
+                - cell "2012" [ref=e1432]:
+                  - link "2012" [ref=e1433] [cursor=pointer]:
+                    - /url: /wiki/2012%E2%80%9313_KHL_season
+                - cell "Gelnica, Czechoslovakia" [ref=e1434]:
+                  - link "Gelnica" [ref=e1435] [cursor=pointer]:
+                    - /url: /wiki/Gelnica
+                  - text: ","
+                  - link "Czechoslovakia" [ref=e1436] [cursor=pointer]:
+                    - /url: /wiki/Czechoslovakia
+              - row "49 Slovakia Samuel Takáč (A) LW L 34 2021 Poprad, Czechoslovakia" [ref=e1437]:
+                - cell "49" [ref=e1438]
+                - cell "Slovakia" [ref=e1439]:
+                  - link "Slovakia" [ref=e1443] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e1444]
+                - rowheader "Samuel Takáč (A)" [ref=e1445]:
+                  - link "Samuel Takáč" [ref=e1449] [cursor=pointer]:
+                    - /url: /wiki/Samuel_Tak%C3%A1%C4%8D
+                  - text: (
+                  - link "A" [ref=e1451] [cursor=pointer]:
+                    - /url: /wiki/Captain_(ice_hockey)#Alternate_captains
+                  - text: )
+                - cell "LW" [ref=e1452]:
+                  - link "LW" [ref=e1453] [cursor=pointer]:
+                    - /url: /wiki/Winger_(ice_hockey)
+                - cell "L" [ref=e1454]
+                - cell "34" [ref=e1455]: "34"
+                - cell "2021" [ref=e1456]:
+                  - link "2021" [ref=e1457] [cursor=pointer]:
+                    - /url: /wiki/2021%E2%80%9322_Slovak_Extraliga_season
+                - cell "Poprad, Czechoslovakia" [ref=e1458]:
+                  - link "Poprad" [ref=e1459] [cursor=pointer]:
+                    - /url: /wiki/Poprad
+                  - text: ","
+                  - link "Czechoslovakia" [ref=e1460] [cursor=pointer]:
+                    - /url: /wiki/Czechoslovakia
+              - row "11 Canada Josh Lawrence C L 24 2026 Fredericton, Canada" [ref=e1461]:
+                - cell "11" [ref=e1462]
+                - cell "Canada" [ref=e1463]:
+                  - link "Canada" [ref=e1467] [cursor=pointer]:
+                    - /url: /wiki/Canada
+                    - img "Canada" [ref=e1468]
+                - rowheader "Josh Lawrence" [ref=e1469]:
+                  - link "Josh Lawrence" [ref=e1473] [cursor=pointer]:
+                    - /url: /w/index.php?title=Josh_Lawrence&action=edit&redlink=1
+                - cell "C" [ref=e1474]:
+                  - link "C" [ref=e1475] [cursor=pointer]:
+                    - /url: /wiki/Centre_(ice_hockey)
+                - cell "L" [ref=e1476]
+                - cell "24" [ref=e1477]: "24"
+                - cell "2026" [ref=e1478]:
+                  - link "2026" [ref=e1479] [cursor=pointer]:
+                    - /url: /wiki/2024-25_Slovak_Extraliga_season
+                - cell "Fredericton, Canada" [ref=e1480]:
+                  - link "Fredericton" [ref=e1481] [cursor=pointer]:
+                    - /url: /wiki/Fredericton
+                  - text: ","
+                  - link "Canada" [ref=e1482] [cursor=pointer]:
+                    - /url: /wiki/Canada
+            - rowgroup
+          - generic [ref=e1483]:
+            - heading "Franchise scoring leaders" [level=3] [ref=e1484]
+            - generic [ref=e1485]:
+              - text: "["
+              - link "edit" [ref=e1486] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=14
+              - text: "]"
+          - paragraph [ref=e1487]:
+            - text: These are the top-ten-point-scorers in franchise history. Figures are updated after each completed season.
+            - superscript [ref=e1488]:
+              - link "[16]" [ref=e1489] [cursor=pointer]:
+                - /url: "#cite_note-16"
+          - list [ref=e1490]:
+            - listitem [ref=e1491]:
+              - generic [ref=e1492]: "*"
+              - text: – current Slovan player
+          - paragraph [ref=e1493]:
+            - generic [ref=e1494]: "Note: Pos = Position; GP = Games played; G = Goals; A = Assists; Pts = Points; P/G = Points per game"
+          - generic [ref=e1495]:
+            - table "Points" [ref=e1496]:
+              - caption [ref=e1497]: Points
+              - rowgroup [ref=e1498]:
+                - row "Player Pos GP G A Pts P/G" [ref=e1499]:
+                  - columnheader "Player" [ref=e1500]
+                  - columnheader "Pos" [ref=e1501]
+                  - columnheader "GP" [ref=e1502]
+                  - columnheader "G" [ref=e1503]
+                  - columnheader "A" [ref=e1504]
+                  - columnheader "Pts" [ref=e1505]
+                  - columnheader "P/G" [ref=e1506]
+                - row "Slovakia Richard Kapuš C 583 194 305 499 0.86" [ref=e1507]:
+                  - cell "Slovakia Richard Kapuš" [ref=e1508]:
+                    - link "Slovakia" [ref=e1511] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1512]
+                    - link "Richard Kapuš" [ref=e1513] [cursor=pointer]:
+                      - /url: /wiki/Richard_Kapu%C5%A1
+                  - cell "C" [ref=e1514]
+                  - cell "583" [ref=e1515]
+                  - cell "194" [ref=e1516]
+                  - cell "305" [ref=e1517]
+                  - cell "499" [ref=e1518]
+                  - cell "0.86" [ref=e1519]
+                - row "Czechoslovakia Václav Nedomanský C 327 277 157 434 1.33" [ref=e1520]:
+                  - cell "Czechoslovakia Václav Nedomanský" [ref=e1521]:
+                    - generic [ref=e1522]:
+                      - link "Czechoslovakia" [ref=e1525] [cursor=pointer]:
+                        - /url: /wiki/Czechoslovakia
+                        - img "Czechoslovakia" [ref=e1526]
+                      - link "Václav Nedomanský" [ref=e1527] [cursor=pointer]:
+                        - /url: /wiki/V%C3%A1clav_Nedomansk%C3%BD
+                  - cell "C" [ref=e1528]
+                  - cell "327" [ref=e1529]
+                  - cell "277" [ref=e1530]
+                  - cell "157" [ref=e1531]
+                  - cell "434" [ref=e1532]
+                  - cell "1.33" [ref=e1533]
+                - row "Slovakia Zdeno Cíger LW 321 146 234 380 1.18" [ref=e1534]:
+                  - cell "Slovakia Zdeno Cíger" [ref=e1535]:
+                    - link "Slovakia" [ref=e1538] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1539]
+                    - link "Zdeno Cíger" [ref=e1540] [cursor=pointer]:
+                      - /url: /wiki/Zdeno_C%C3%ADger
+                  - cell "LW" [ref=e1541]
+                  - cell "321" [ref=e1542]
+                  - cell "146" [ref=e1543]
+                  - cell "234" [ref=e1544]
+                  - cell "380" [ref=e1545]
+                  - cell "1.18" [ref=e1546]
+                - row "Slovakia Martin Kuľha RW 420 187 184 371 0.88" [ref=e1547]:
+                  - cell "Slovakia Martin Kuľha" [ref=e1548]:
+                    - link "Slovakia" [ref=e1551] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1552]
+                    - link "Martin Kuľha" [ref=e1553] [cursor=pointer]:
+                      - /url: /wiki/Martin_Ku%C4%BEha
+                  - cell "RW" [ref=e1554]
+                  - cell "420" [ref=e1555]
+                  - cell "187" [ref=e1556]
+                  - cell "184" [ref=e1557]
+                  - cell "371" [ref=e1558]
+                  - cell "0.88" [ref=e1559]
+                - row "Slovakia Ján Lipiansky C 429 180 179 359 0.84" [ref=e1560]:
+                  - cell "Slovakia Ján Lipiansky" [ref=e1561]:
+                    - link "Slovakia" [ref=e1564] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1565]
+                    - link "Ján Lipiansky" [ref=e1566] [cursor=pointer]:
+                      - /url: /wiki/J%C3%A1n_Lipiansky
+                  - cell "C" [ref=e1567]
+                  - cell "429" [ref=e1568]
+                  - cell "180" [ref=e1569]
+                  - cell "179" [ref=e1570]
+                  - cell "359" [ref=e1571]
+                  - cell "0.84" [ref=e1572]
+                - row "Slovakia Marián Šťastný RW 225 204 153 357 1.59" [ref=e1573]:
+                  - cell "Slovakia Marián Šťastný" [ref=e1574]:
+                    - link "Slovakia" [ref=e1577] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1578]
+                    - link "Marián Šťastný" [ref=e1579] [cursor=pointer]:
+                      - /url: /wiki/Mari%C3%A1n_%C5%A0%C5%A5astn%C3%BD
+                  - cell "RW" [ref=e1580]
+                  - cell "225" [ref=e1581]
+                  - cell "204" [ref=e1582]
+                  - cell "153" [ref=e1583]
+                  - cell "357" [ref=e1584]
+                  - cell "1.59" [ref=e1585]
+                - row "Slovakia Martin Hujsa LW 354 153 195 348 0.98" [ref=e1586]:
+                  - cell "Slovakia Martin Hujsa" [ref=e1587]:
+                    - link "Slovakia" [ref=e1590] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1591]
+                    - link "Martin Hujsa" [ref=e1592] [cursor=pointer]:
+                      - /url: /wiki/Martin_Hujsa
+                  - cell "LW" [ref=e1593]
+                  - cell "354" [ref=e1594]
+                  - cell "153" [ref=e1595]
+                  - cell "195" [ref=e1596]
+                  - cell "348" [ref=e1597]
+                  - cell "0.98" [ref=e1598]
+                - row "Slovakia Ján Jaško LW 402 193 153 346 0.86" [ref=e1599]:
+                  - cell "Slovakia Ján Jaško" [ref=e1600]:
+                    - link "Slovakia" [ref=e1603] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1604]
+                    - link "Ján Jaško" [ref=e1605] [cursor=pointer]:
+                      - /url: /w/index.php?title=J%C3%A1n_Ja%C5%A1ko&action=edit&redlink=1
+                  - cell "LW" [ref=e1606]
+                  - cell "402" [ref=e1607]
+                  - cell "193" [ref=e1608]
+                  - cell "153" [ref=e1609]
+                  - cell "346" [ref=e1610]
+                  - cell "0.86" [ref=e1611]
+                - row "Slovakia Dárius Rusnák F 314 170 164 334 1.06" [ref=e1612]:
+                  - cell "Slovakia Dárius Rusnák" [ref=e1613]:
+                    - link "Slovakia" [ref=e1616] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1617]
+                    - link "Dárius Rusnák" [ref=e1618] [cursor=pointer]:
+                      - /url: /wiki/D%C3%A1rius_Rusn%C3%A1k
+                  - cell "F" [ref=e1619]
+                  - cell "314" [ref=e1620]
+                  - cell "170" [ref=e1621]
+                  - cell "164" [ref=e1622]
+                  - cell "334" [ref=e1623]
+                  - cell "1.06" [ref=e1624]
+                - row "Slovakia Dušan Pašek C 327 174 132 306 0.94" [ref=e1625]:
+                  - cell "Slovakia Dušan Pašek" [ref=e1626]:
+                    - link "Slovakia" [ref=e1629] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1630]
+                    - link "Dušan Pašek" [ref=e1631] [cursor=pointer]:
+                      - /url: /wiki/Du%C5%A1an_Pa%C5%A1ek
+                  - cell "C" [ref=e1632]
+                  - cell "327" [ref=e1633]
+                  - cell "174" [ref=e1634]
+                  - cell "132" [ref=e1635]
+                  - cell "306" [ref=e1636]
+                  - cell "0.94" [ref=e1637]
+            - table "Goals" [ref=e1638]:
+              - caption [ref=e1639]: Goals
+              - rowgroup [ref=e1640]:
+                - row "Player Pos G" [ref=e1641]:
+                  - columnheader "Player" [ref=e1642]
+                  - columnheader "Pos" [ref=e1643]
+                  - columnheader "G" [ref=e1644]
+                - row "Czechoslovakia Václav Nedomanský C 277" [ref=e1645]:
+                  - cell "Czechoslovakia Václav Nedomanský" [ref=e1646]:
+                    - generic [ref=e1647]:
+                      - link "Czechoslovakia" [ref=e1650] [cursor=pointer]:
+                        - /url: /wiki/Czechoslovakia
+                        - img "Czechoslovakia" [ref=e1651]
+                      - link "Václav Nedomanský" [ref=e1652] [cursor=pointer]:
+                        - /url: /wiki/V%C3%A1clav_Nedomansk%C3%BD
+                  - cell "C" [ref=e1653]
+                  - cell "277" [ref=e1654]
+                - row "Slovakia Marián Šťastný RW 204" [ref=e1655]:
+                  - cell "Slovakia Marián Šťastný" [ref=e1656]:
+                    - link "Slovakia" [ref=e1659] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1660]
+                    - link "Marián Šťastný" [ref=e1661] [cursor=pointer]:
+                      - /url: /wiki/Mari%C3%A1n_%C5%A0%C5%A5astn%C3%BD
+                  - cell "RW" [ref=e1662]
+                  - cell "204" [ref=e1663]
+                - row "Slovakia Richard Kapuš C 194" [ref=e1664]:
+                  - cell "Slovakia Richard Kapuš" [ref=e1665]:
+                    - link "Slovakia" [ref=e1668] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1669]
+                    - link "Richard Kapuš" [ref=e1670] [cursor=pointer]:
+                      - /url: /wiki/Richard_Kapu%C5%A1
+                  - cell "C" [ref=e1671]
+                  - cell "194" [ref=e1672]
+                - row "Slovakia Ján Jaško LW 193" [ref=e1673]:
+                  - cell "Slovakia Ján Jaško" [ref=e1674]:
+                    - link "Slovakia" [ref=e1677] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1678]
+                    - link "Ján Jaško" [ref=e1679] [cursor=pointer]:
+                      - /url: /w/index.php?title=J%C3%A1n_Ja%C5%A1ko&action=edit&redlink=1
+                  - cell "LW" [ref=e1680]
+                  - cell "193" [ref=e1681]
+                - row "Slovakia Martin Kuľha RW 187" [ref=e1682]:
+                  - cell "Slovakia Martin Kuľha" [ref=e1683]:
+                    - link "Slovakia" [ref=e1686] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1687]
+                    - link "Martin Kuľha" [ref=e1688] [cursor=pointer]:
+                      - /url: /wiki/Martin_Ku%C4%BEha
+                  - cell "RW" [ref=e1689]
+                  - cell "187" [ref=e1690]
+                - row "Slovakia Ján Lipiansky C 180" [ref=e1691]:
+                  - cell "Slovakia Ján Lipiansky" [ref=e1692]:
+                    - link "Slovakia" [ref=e1695] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1696]
+                    - link "Ján Lipiansky" [ref=e1697] [cursor=pointer]:
+                      - /url: /wiki/J%C3%A1n_Lipiansky
+                  - cell "C" [ref=e1698]
+                  - cell "180" [ref=e1699]
+                - row "Slovakia Dušan Pašek C 174" [ref=e1700]:
+                  - cell "Slovakia Dušan Pašek" [ref=e1701]:
+                    - link "Slovakia" [ref=e1704] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1705]
+                    - link "Dušan Pašek" [ref=e1706] [cursor=pointer]:
+                      - /url: /wiki/Du%C5%A1an_Pa%C5%A1ek
+                  - cell "C" [ref=e1707]
+                  - cell "174" [ref=e1708]
+                - row "Slovakia Dárius Rusnák F 170" [ref=e1709]:
+                  - cell "Slovakia Dárius Rusnák" [ref=e1710]:
+                    - link "Slovakia" [ref=e1713] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1714]
+                    - link "Dárius Rusnák" [ref=e1715] [cursor=pointer]:
+                      - /url: /wiki/D%C3%A1rius_Rusn%C3%A1k
+                  - cell "F" [ref=e1716]
+                  - cell "170" [ref=e1717]
+                - row "Slovakia Ivan Dornič RW 159" [ref=e1718]:
+                  - cell "Slovakia Ivan Dornič" [ref=e1719]:
+                    - link "Slovakia" [ref=e1722] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1723]
+                    - link "Ivan Dornič" [ref=e1724] [cursor=pointer]:
+                      - /url: /wiki/Ivan_Dorni%C4%8D
+                  - cell "RW" [ref=e1725]
+                  - cell "159" [ref=e1726]
+                - row "Slovakia Martin Hujsa LW 153" [ref=e1727]:
+                  - cell "Slovakia Martin Hujsa" [ref=e1728]:
+                    - link "Slovakia" [ref=e1731] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1732]
+                    - link "Martin Hujsa" [ref=e1733] [cursor=pointer]:
+                      - /url: /wiki/Martin_Hujsa
+                  - cell "LW" [ref=e1734]
+                  - cell "153" [ref=e1735]
+            - table "Assists" [ref=e1736]:
+              - caption [ref=e1737]: Assists
+              - rowgroup [ref=e1738]:
+                - row "Player Pos A" [ref=e1739]:
+                  - columnheader "Player" [ref=e1740]
+                  - columnheader "Pos" [ref=e1741]
+                  - columnheader "A" [ref=e1742]
+                - row "Slovakia Richard Kapuš C 305" [ref=e1743]:
+                  - cell "Slovakia Richard Kapuš" [ref=e1744]:
+                    - link "Slovakia" [ref=e1747] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1748]
+                    - link "Richard Kapuš" [ref=e1749] [cursor=pointer]:
+                      - /url: /wiki/Richard_Kapu%C5%A1
+                  - cell "C" [ref=e1750]
+                  - cell "305" [ref=e1751]
+                - row "Slovakia Zdeno Cíger LW 234" [ref=e1752]:
+                  - cell "Slovakia Zdeno Cíger" [ref=e1753]:
+                    - link "Slovakia" [ref=e1756] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1757]
+                    - link "Zdeno Cíger" [ref=e1758] [cursor=pointer]:
+                      - /url: /wiki/Zdeno_C%C3%ADger
+                  - cell "LW" [ref=e1759]
+                  - cell "234" [ref=e1760]
+                - row "Slovakia Martin Hujsa LW 195" [ref=e1761]:
+                  - cell "Slovakia Martin Hujsa" [ref=e1762]:
+                    - link "Slovakia" [ref=e1765] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1766]
+                    - link "Martin Hujsa" [ref=e1767] [cursor=pointer]:
+                      - /url: /wiki/Martin_Hujsa
+                  - cell "LW" [ref=e1768]
+                  - cell "195" [ref=e1769]
+                - row "Slovakia Martin Kuľha RW 184" [ref=e1770]:
+                  - cell "Slovakia Martin Kuľha" [ref=e1771]:
+                    - link "Slovakia" [ref=e1774] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1775]
+                    - link "Martin Kuľha" [ref=e1776] [cursor=pointer]:
+                      - /url: /wiki/Martin_Ku%C4%BEha
+                  - cell "RW" [ref=e1777]
+                  - cell "184" [ref=e1778]
+                - row "Slovakia Ján Lipiansky C 179" [ref=e1779]:
+                  - cell "Slovakia Ján Lipiansky" [ref=e1780]:
+                    - link "Slovakia" [ref=e1783] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1784]
+                    - link "Ján Lipiansky" [ref=e1785] [cursor=pointer]:
+                      - /url: /wiki/J%C3%A1n_Lipiansky
+                  - cell "C" [ref=e1786]
+                  - cell "179" [ref=e1787]
+                - row "Czech Republic Petr Pavlas D 175" [ref=e1788]:
+                  - cell "Czech Republic Petr Pavlas" [ref=e1789]:
+                    - link "Czech Republic" [ref=e1792] [cursor=pointer]:
+                      - /url: /wiki/Czech_Republic
+                      - img "Czech Republic" [ref=e1793]
+                    - link "Petr Pavlas" [ref=e1794] [cursor=pointer]:
+                      - /url: /wiki/Petr_Pavlas
+                  - cell "D" [ref=e1795]
+                  - cell "175" [ref=e1796]
+                - row "Slovakia Dárius Rusnák F 164" [ref=e1797]:
+                  - cell "Slovakia Dárius Rusnák" [ref=e1798]:
+                    - link "Slovakia" [ref=e1801] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1802]
+                    - link "Dárius Rusnák" [ref=e1803] [cursor=pointer]:
+                      - /url: /wiki/D%C3%A1rius_Rusn%C3%A1k
+                  - cell "F" [ref=e1804]
+                  - cell "164" [ref=e1805]
+                - row "Czechoslovakia Václav Nedomanský C 157" [ref=e1806]:
+                  - cell "Czechoslovakia Václav Nedomanský" [ref=e1807]:
+                    - generic [ref=e1808]:
+                      - link "Czechoslovakia" [ref=e1811] [cursor=pointer]:
+                        - /url: /wiki/Czechoslovakia
+                        - img "Czechoslovakia" [ref=e1812]
+                      - link "Václav Nedomanský" [ref=e1813] [cursor=pointer]:
+                        - /url: /wiki/V%C3%A1clav_Nedomansk%C3%BD
+                  - cell "C" [ref=e1814]
+                  - cell "157" [ref=e1815]
+                - row "Slovakia Marián Šťastný RW 153" [ref=e1816]:
+                  - cell "Slovakia Marián Šťastný" [ref=e1817]:
+                    - link "Slovakia" [ref=e1820] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1821]
+                    - link "Marián Šťastný" [ref=e1822] [cursor=pointer]:
+                      - /url: /wiki/Mari%C3%A1n_%C5%A0%C5%A5astn%C3%BD
+                  - cell "RW" [ref=e1823]
+                  - cell "153" [ref=e1824]
+                - row "Slovakia Ján Jaško LW 153" [ref=e1825]:
+                  - cell "Slovakia Ján Jaško" [ref=e1826]:
+                    - link "Slovakia" [ref=e1829] [cursor=pointer]:
+                      - /url: /wiki/Slovakia
+                      - img "Slovakia" [ref=e1830]
+                    - link "Ján Jaško" [ref=e1831] [cursor=pointer]:
+                      - /url: /w/index.php?title=J%C3%A1n_Ja%C5%A1ko&action=edit&redlink=1
+                  - cell "LW" [ref=e1832]
+                  - cell "153" [ref=e1833]
+            - paragraph
+          - generic [ref=e1834]:
+            - heading "Staff" [level=2] [ref=e1835]
+            - generic [ref=e1836]:
+              - text: "["
+              - link "edit" [ref=e1837] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=15
+              - text: "]"
+          - generic [ref=e1838]:
+            - heading "Head coaches" [level=3] [ref=e1839]
+            - generic [ref=e1840]:
+              - text: "["
+              - link "edit" [ref=e1841] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=16
+              - text: "]"
+          - paragraph [ref=e1842]: "These are the head coaches of HC Slovan Bratislava since they joined the Czechoslovak Extraliga:"
+          - list [ref=e1844]:
+            - listitem [ref=e1845]:
+              - link "Josef Maleček" [ref=e1846] [cursor=pointer]:
+                - /url: /wiki/Josef_Male%C4%8Dek
+              - link "1945" [ref=e1847] [cursor=pointer]:
+                - /url: /wiki/1945%E2%80%9346_Czechoslovak_Extraliga_season
+              - text: –
+              - link "1948" [ref=e1848] [cursor=pointer]:
+                - /url: /wiki/1947%E2%80%9348_Czechoslovak_Extraliga_season
+            - listitem [ref=e1849]:
+              - link "Michal Polóni" [ref=e1850] [cursor=pointer]:
+                - /url: /w/index.php?title=Michal_Pol%C3%B3ni&action=edit&redlink=1
+              - link "1948" [ref=e1851] [cursor=pointer]:
+                - /url: /wiki/1948%E2%80%9349_Czechoslovak_Extraliga_season
+              - text: –
+              - link "1952" [ref=e1852] [cursor=pointer]:
+                - /url: /wiki/1951%E2%80%9352_Czechoslovak_Extraliga_season
+            - listitem [ref=e1853]:
+              - link "Zdeněk Bláha" [ref=e1854] [cursor=pointer]:
+                - /url: /wiki/Zden%C4%9Bk_Bl%C3%A1ha
+              - link "1952" [ref=e1855] [cursor=pointer]:
+                - /url: /wiki/1952%E2%80%9353_Czechoslovak_Extraliga_season
+              - text: –
+              - link "1955" [ref=e1856] [cursor=pointer]:
+                - /url: /wiki/1954%E2%80%9355_Czechoslovak_Extraliga_season
+            - listitem [ref=e1857]:
+              - link "Jiří Anton" [ref=e1858] [cursor=pointer]:
+                - /url: /w/index.php?title=Ji%C5%99%C3%AD_Anton&action=edit&redlink=1
+              - link "1955" [ref=e1859] [cursor=pointer]:
+                - /url: /wiki/1955%E2%80%9356_Czechoslovak_Extraliga_season
+              - text: –
+              - link "1957" [ref=e1860] [cursor=pointer]:
+                - /url: /wiki/1956%E2%80%9357_Czechoslovak_Extraliga_season
+            - listitem [ref=e1861]:
+              - link "Michal Polóni" [ref=e1862] [cursor=pointer]:
+                - /url: /w/index.php?title=Michal_Pol%C3%B3ni&action=edit&redlink=1
+              - link "1957" [ref=e1863] [cursor=pointer]:
+                - /url: /wiki/1957%E2%80%9358_Czechoslovak_Extraliga_season
+              - text: –
+              - link "1958" [ref=e1864] [cursor=pointer]:
+                - /url: /wiki/1956%E2%80%9357_Czechoslovak_Extraliga_season
+            - listitem [ref=e1865]:
+              - link "Ladislav Horský" [ref=e1866] [cursor=pointer]:
+                - /url: /wiki/Ladislav_Horsk%C3%BD
+              - link "1958" [ref=e1867] [cursor=pointer]:
+                - /url: /wiki/1958%E2%80%9359_Czechoslovak_Extraliga_season
+              - text: –
+              - link "1963" [ref=e1868] [cursor=pointer]:
+                - /url: /wiki/1962%E2%80%9363_Czechoslovak_Extraliga_season
+            - listitem [ref=e1869]:
+              - link "Rastislav Jančuška" [ref=e1870] [cursor=pointer]:
+                - /url: /w/index.php?title=Rastislav_Jan%C4%8Du%C5%A1ka&action=edit&redlink=1
+              - link "1963" [ref=e1871] [cursor=pointer]:
+                - /url: /wiki/1963%E2%80%9364_Czechoslovak_Extraliga_season
+              - text: –
+              - link "1966" [ref=e1872] [cursor=pointer]:
+                - /url: /wiki/1965%E2%80%9366_Czechoslovak_Extraliga_season
+            - listitem [ref=e1873]:
+              - link "Ladislav Horský" [ref=e1874] [cursor=pointer]:
+                - /url: /wiki/Ladislav_Horsk%C3%BD
+              - link "1966" [ref=e1875] [cursor=pointer]:
+                - /url: /wiki/1966%E2%80%9367_Czechoslovak_Extraliga_season
+              - text: –
+              - link "1968" [ref=e1876] [cursor=pointer]:
+                - /url: /wiki/1967%E2%80%9368_Czechoslovak_Extraliga_season
+            - listitem [ref=e1877]:
+              - link "Ján Starší" [ref=e1878] [cursor=pointer]:
+                - /url: /wiki/J%C3%A1n_Star%C5%A1%C3%AD
+              - link "1968" [ref=e1879] [cursor=pointer]:
+                - /url: /wiki/1968%E2%80%9369_Czechoslovak_Extraliga_season
+              - text: –
+              - link "1972" [ref=e1880] [cursor=pointer]:
+                - /url: /wiki/1971%E2%80%9372_Czechoslovak_Extraliga_season
+            - listitem [ref=e1881]:
+              - link "Karol Fako" [ref=e1882] [cursor=pointer]:
+                - /url: /w/index.php?title=Karol_Fako&action=edit&redlink=1
+              - link "1972/73" [ref=e1883] [cursor=pointer]:
+                - /url: /wiki/1972%E2%80%9373_Czechoslovak_Extraliga_season
+            - listitem [ref=e1884]:
+              - link "Ján Starší" [ref=e1885] [cursor=pointer]:
+                - /url: /wiki/J%C3%A1n_Star%C5%A1%C3%AD
+              - link "1972" [ref=e1886] [cursor=pointer]:
+                - /url: /wiki/1972%E2%80%9373_Czechoslovak_Extraliga_season
+              - text: –
+              - link "1974" [ref=e1887] [cursor=pointer]:
+                - /url: /wiki/1973%E2%80%9374_Czechoslovak_Extraliga_season
+            - listitem [ref=e1888]:
+              - link "Juraj Mitošinka" [ref=e1889] [cursor=pointer]:
+                - /url: /w/index.php?title=Juraj_Mito%C5%A1inka&action=edit&redlink=1
+              - link "1974" [ref=e1890] [cursor=pointer]:
+                - /url: /wiki/1974%E2%80%9375_Czechoslovak_Extraliga_season
+              - text: –
+              - link "1976" [ref=e1891] [cursor=pointer]:
+                - /url: /wiki/1975%E2%80%9376_Czechoslovak_Extraliga_season
+            - listitem [ref=e1892]:
+              - link "Ladislav Horský" [ref=e1893] [cursor=pointer]:
+                - /url: /wiki/Ladislav_Horsk%C3%BD
+              - link "1976" [ref=e1894] [cursor=pointer]:
+                - /url: /wiki/1976%E2%80%9377_Czechoslovak_Extraliga_season
+              - text: –
+              - link "1981" [ref=e1895] [cursor=pointer]:
+                - /url: /wiki/1980%E2%80%9381_Czechoslovak_Extraliga_season
+            - listitem [ref=e1896]:
+              - link "Jaroslav Walter" [ref=e1897] [cursor=pointer]:
+                - /url: /wiki/Jaroslav_Walter
+              - link "1981" [ref=e1898] [cursor=pointer]:
+                - /url: /wiki/1981%E2%80%9382_Czechoslovak_Extraliga_season
+              - text: –
+              - link "1982/83" [ref=e1899] [cursor=pointer]:
+                - /url: /wiki/1982%E2%80%9383_Czechoslovak_Extraliga_season
+            - listitem [ref=e1900]:
+              - link "Július Haas" [ref=e1901] [cursor=pointer]:
+                - /url: /w/index.php?title=J%C3%BAlius_Haas&action=edit&redlink=1
+              - link "1982/83" [ref=e1902] [cursor=pointer]:
+                - /url: /wiki/1982%E2%80%9383_Czechoslovak_Extraliga_season
+            - listitem [ref=e1903]:
+              - link "Břetislav Guryča" [ref=e1904] [cursor=pointer]:
+                - /url: /w/index.php?title=B%C5%99etislav_Gury%C4%8Da&action=edit&redlink=1
+              - link "1983/84" [ref=e1905] [cursor=pointer]:
+                - /url: /wiki/1983%E2%80%9384_Czechoslovak_Extraliga_season
+            - listitem [ref=e1906]:
+              - link "Július Haas" [ref=e1907] [cursor=pointer]:
+                - /url: /w/index.php?title=J%C3%BAlius_Haas&action=edit&redlink=1
+              - link "1984/85" [ref=e1908] [cursor=pointer]:
+                - /url: /wiki/1984%E2%80%9385_Czechoslovak_Extraliga_season
+            - listitem [ref=e1909]:
+              - link "Jozef Golonka" [ref=e1910] [cursor=pointer]:
+                - /url: /wiki/Jozef_Golonka
+              - link "1985" [ref=e1911] [cursor=pointer]:
+                - /url: /wiki/1985%E2%80%9386_Czechoslovak_Extraliga_season
+              - text: –
+              - link "1987/88" [ref=e1912] [cursor=pointer]:
+                - /url: /wiki/1987%E2%80%9388_Czechoslovak_Extraliga_season
+            - listitem [ref=e1913]:
+              - link "Július Haas" [ref=e1914] [cursor=pointer]:
+                - /url: /w/index.php?title=J%C3%BAlius_Haas&action=edit&redlink=1
+              - link "1987/88" [ref=e1915] [cursor=pointer]:
+                - /url: /wiki/1987%E2%80%9388_Czechoslovak_Extraliga_season
+            - listitem [ref=e1916]:
+              - link "R.Tománek" [ref=e1917] [cursor=pointer]:
+                - /url: /w/index.php?title=R.Tom%C3%A1nek&action=edit&redlink=1
+              - link "1988/89" [ref=e1918] [cursor=pointer]:
+                - /url: /wiki/1988%E2%80%9389_Czechoslovak_Extraliga_season
+            - listitem [ref=e1919]:
+              - link "Július Haas" [ref=e1920] [cursor=pointer]:
+                - /url: /w/index.php?title=J%C3%BAlius_Haas&action=edit&redlink=1
+              - link "1988/89" [ref=e1921] [cursor=pointer]:
+                - /url: /wiki/1988%E2%80%9389_Czechoslovak_Extraliga_season
+            - listitem [ref=e1922]:
+              - link "Ján Filc" [ref=e1923] [cursor=pointer]:
+                - /url: /w/index.php?title=J%C3%A1n_Filc&action=edit&redlink=1
+              - link "1989/90" [ref=e1924] [cursor=pointer]:
+                - /url: /wiki/1989%E2%80%9390_Czechoslovak_Extraliga_season
+            - listitem [ref=e1925]:
+              - link "Jaroslav Walter" [ref=e1926] [cursor=pointer]:
+                - /url: /wiki/Jaroslav_Walter
+              - link "1990" [ref=e1927] [cursor=pointer]:
+                - /url: /wiki/1989%E2%80%9390_Czechoslovak_Extraliga_season
+              - text: –
+              - link "1992" [ref=e1928] [cursor=pointer]:
+                - /url: /wiki/1991%E2%80%9392_Czechoslovak_Extraliga_season
+            - listitem [ref=e1929]:
+              - link "Dušan Žiška" [ref=e1930] [cursor=pointer]:
+                - /url: /w/index.php?title=Du%C5%A1an_%C5%BDi%C5%A1ka&action=edit&redlink=1
+              - link "1992" [ref=e1931] [cursor=pointer]:
+                - /url: /wiki/1992%E2%80%9393_Czechoslovak_Extraliga_season
+              - text: –
+              - link "1997" [ref=e1932] [cursor=pointer]:
+                - /url: /wiki/1996%E2%80%9397_Slovak_Extraliga_season
+            - listitem [ref=e1933]:
+              - link "Ernest Bokroš" [ref=e1934] [cursor=pointer]:
+                - /url: /wiki/Ernest_Bokro%C5%A1
+              - link "1996" [ref=e1935] [cursor=pointer]:
+                - /url: /wiki/1996%E2%80%9397_Slovak_Extraliga_season
+              - text: –
+              - link "1999/00" [ref=e1936] [cursor=pointer]:
+                - /url: /wiki/1999%E2%80%9300_Slovak_Extraliga_season
+            - listitem [ref=e1937]:
+              - link "František Hossa" [ref=e1938] [cursor=pointer]:
+                - /url: /wiki/Franti%C5%A1ek_Hossa
+              - link "1999/00" [ref=e1939] [cursor=pointer]:
+                - /url: /wiki/1999%E2%80%9300_Slovak_Extraliga_season
+              - text: –
+              - link "2001" [ref=e1940] [cursor=pointer]:
+                - /url: /wiki/2000%E2%80%9301_Slovak_Extraliga_season
+            - listitem [ref=e1941]:
+              - link "Miloš Říha" [ref=e1942] [cursor=pointer]:
+                - /url: /wiki/Milo%C5%A1_%C5%98%C3%ADha
+              - link "2001/02" [ref=e1943] [cursor=pointer]:
+                - /url: /wiki/2001%E2%80%9302_Slovak_Extraliga_season
+            - listitem [ref=e1944]:
+              - link "Július Šupler" [ref=e1945] [cursor=pointer]:
+                - /url: /wiki/J%C3%BAlius_%C5%A0upler
+              - link "2002/03" [ref=e1946] [cursor=pointer]:
+                - /url: /wiki/2002%E2%80%9303_Slovak_Extraliga_season
+            - listitem [ref=e1947]:
+              - link "Ľubomír Pokovič" [ref=e1948] [cursor=pointer]:
+                - /url: /w/index.php?title=%C4%BDubom%C3%ADr_Pokovi%C4%8D&action=edit&redlink=1
+              - link "2003/04" [ref=e1949] [cursor=pointer]:
+                - /url: /wiki/2003%E2%80%9304_Slovak_Extraliga_season
+            - listitem [ref=e1950]:
+              - link "Miloš Říha" [ref=e1951] [cursor=pointer]:
+                - /url: /wiki/Milo%C5%A1_%C5%98%C3%ADha
+              - link "2004/05" [ref=e1952] [cursor=pointer]:
+                - /url: /wiki/2004%E2%80%9305_Slovak_Extraliga_season
+            - listitem [ref=e1953]:
+              - link "Ján Jaško" [ref=e1954] [cursor=pointer]:
+                - /url: /w/index.php?title=J%C3%A1n_Ja%C5%A1ko&action=edit&redlink=1
+              - link "2005/06" [ref=e1955] [cursor=pointer]:
+                - /url: /wiki/2005%E2%80%9306_Slovak_Extraliga_season
+            - listitem [ref=e1956]:
+              - link "Rostislav Čada" [ref=e1957] [cursor=pointer]:
+                - /url: /w/index.php?title=Rostislav_%C4%8Cada&action=edit&redlink=1
+              - link "2006/07" [ref=e1958] [cursor=pointer]:
+                - /url: /wiki/2006%E2%80%9307_Slovak_Extraliga_season
+            - listitem [ref=e1959]:
+              - link "Zdeno Cíger" [ref=e1960] [cursor=pointer]:
+                - /url: /wiki/Zdeno_C%C3%ADger
+              - link "2006/07" [ref=e1961] [cursor=pointer]:
+                - /url: /wiki/2006%E2%80%9307_Slovak_Extraliga_season
+              - text: –
+              - link "2008/09" [ref=e1962] [cursor=pointer]:
+                - /url: /wiki/2008%E2%80%9309_Slovak_Extraliga_season
+            - listitem [ref=e1963]:
+              - link "Antonín Stavjaňa" [ref=e1964] [cursor=pointer]:
+                - /url: /wiki/Anton%C3%ADn_Stavja%C5%88a
+              - link "2008/09" [ref=e1965] [cursor=pointer]:
+                - /url: /wiki/2008%E2%80%9309_Slovak_Extraliga_season
+              - text: –
+              - link "2010" [ref=e1966] [cursor=pointer]:
+                - /url: /wiki/2009%E2%80%9310_Slovak_Extraliga_season
+            - listitem [ref=e1967]:
+              - link "Pavel Hynek" [ref=e1968] [cursor=pointer]:
+                - /url: /w/index.php?title=Pavel_Hynek&action=edit&redlink=1
+              - link "2010/11" [ref=e1969] [cursor=pointer]:
+                - /url: /wiki/2010%E2%80%9311_Slovak_Extraliga_season
+            - listitem [ref=e1970]:
+              - link "Zdeno Cíger" [ref=e1971] [cursor=pointer]:
+                - /url: /wiki/Zdeno_C%C3%ADger
+              - link "2010/11" [ref=e1972] [cursor=pointer]:
+                - /url: /wiki/2010%E2%80%9311_Slovak_Extraliga_season
+            - listitem [ref=e1973]:
+              - link "Štefan Mikeš" [ref=e1974] [cursor=pointer]:
+                - /url: /w/index.php?title=%C5%A0tefan_Mike%C5%A1&action=edit&redlink=1
+              - link "2011/12" [ref=e1975] [cursor=pointer]:
+                - /url: /wiki/2011%E2%80%9312_Slovak_Extraliga_season
+            - listitem [ref=e1976]:
+              - link "Jan Neliba" [ref=e1977] [cursor=pointer]:
+                - /url: /wiki/Jan_Neliba
+              - link "2011/12" [ref=e1978] [cursor=pointer]:
+                - /url: /wiki/2011%E2%80%9312_Slovak_Extraliga_season
+            - listitem [ref=e1979]:
+              - link "Rostislav Čada" [ref=e1980] [cursor=pointer]:
+                - /url: /w/index.php?title=Rostislav_%C4%8Cada&action=edit&redlink=1
+              - link "2012" [ref=e1981] [cursor=pointer]:
+                - /url: /wiki/2012%E2%80%9313_KHL_season
+              - text: –
+              - link "2014" [ref=e1982] [cursor=pointer]:
+                - /url: /wiki/2014%E2%80%9315_KHL_season
+            - listitem [ref=e1983]:
+              - link "Miloš Říha" [ref=e1984] [cursor=pointer]:
+                - /url: /wiki/Milo%C5%A1_%C5%98%C3%ADha
+              - link "2015" [ref=e1985] [cursor=pointer]:
+                - /url: /wiki/2015-16_KHL_season
+              - text: –
+              - link "2017" [ref=e1986] [cursor=pointer]:
+                - /url: /wiki/2017-18_KHL_season
+            - listitem [ref=e1987]:
+              - link "Vladimír Országh" [ref=e1988] [cursor=pointer]:
+                - /url: /wiki/Vladim%C3%ADr_Orsz%C3%A1gh
+              - link "2018" [ref=e1989] [cursor=pointer]:
+                - /url: /wiki/2018-19_KHL_season
+            - listitem [ref=e1990]:
+              - link "Roman Stantien" [ref=e1991] [cursor=pointer]:
+                - /url: /wiki/Roman_Stantien
+              - text: 2019 – 2021
+            - listitem [ref=e1992]:
+              - link "Robert Dome" [ref=e1993] [cursor=pointer]:
+                - /url: /wiki/R%C3%B3bert_D%C3%B6me
+              - text: 2021 –
+          - generic [ref=e1994]:
+            - heading "Hall of Fame" [level=2] [ref=e1995]
+            - generic [ref=e1996]:
+              - text: "["
+              - link "edit" [ref=e1997] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=17
+              - text: "]"
+          - paragraph [ref=e1998]: "The following players associated with HC Slovan Bratislava have been inducted in various Halls of Fame:"
+          - generic [ref=e1999]:
+            - heading "Hockey Hall of Fame" [level=3] [ref=e2000]:
+              - link "Hockey Hall of Fame" [ref=e2001] [cursor=pointer]:
+                - /url: /wiki/Hockey_Hall_of_Fame
+            - generic [ref=e2002]:
+              - text: "["
+              - link "edit" [ref=e2003] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=18
+              - text: "]"
+          - paragraph [ref=e2004]:
+            - link "Hockey Hall of Fame" [ref=e2005] [cursor=pointer]:
+              - /url: /wiki/Hockey_Hall_of_Fame
+            - text: is located in
+            - link "Toronto, Ontario" [ref=e2006] [cursor=pointer]:
+              - /url: /wiki/Toronto
+            - text: ", Canada."
+          - table [ref=e2007]:
+            - rowgroup [ref=e2008]:
+              - row "Name Category Inducted" [ref=e2009]:
+                - columnheader "Name" [ref=e2010]
+                - columnheader "Category" [ref=e2011]
+                - columnheader "Inducted" [ref=e2012]
+              - row "Slovakia Peter Šťastný Player 1998" [ref=e2013]:
+                - cell "Slovakia Peter Šťastný" [ref=e2014]:
+                  - link "Slovakia" [ref=e2017] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e2018]
+                  - link "Peter Šťastný" [ref=e2019] [cursor=pointer]:
+                    - /url: /wiki/Peter_%C5%A0%C5%A5astn%C3%BD
+                - cell "Player" [ref=e2020]
+                - cell "1998" [ref=e2021]
+          - generic [ref=e2022]:
+            - heading "IIHF Hall of Fame" [level=3] [ref=e2023]
+            - generic [ref=e2024]:
+              - text: "["
+              - link "edit" [ref=e2025] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=19
+              - text: "]"
+          - paragraph [ref=e2026]:
+            - text: The IIHF Hall of Fame is intended to honor individuals who have made valuable contributions both internationally and in their home countries.
+            - superscript [ref=e2027]:
+              - link "[17]" [ref=e2028] [cursor=pointer]:
+                - /url: "#cite_note-nhl-17"
+          - table [ref=e2029]:
+            - rowgroup [ref=e2030]:
+              - row "Name Category Inducted" [ref=e2031]:
+                - columnheader "Name" [ref=e2032]
+                - columnheader "Category" [ref=e2033]
+                - columnheader "Inducted" [ref=e2034]
+              - row "Czech Republic Václav Nedomanský Player 1997" [ref=e2035]:
+                - cell "Czech Republic Václav Nedomanský" [ref=e2036]:
+                  - link "Czech Republic" [ref=e2039] [cursor=pointer]:
+                    - /url: /wiki/Czech_Republic
+                    - img "Czech Republic" [ref=e2040]
+                  - link "Václav Nedomanský" [ref=e2041] [cursor=pointer]:
+                    - /url: /wiki/V%C3%A1clav_Nedomansk%C3%BD
+                - cell "Player" [ref=e2042]
+                - cell "1997" [ref=e2043]
+              - row "Slovakia Vladimír Dzurilla Player 1998" [ref=e2044]:
+                - cell "Slovakia Vladimír Dzurilla" [ref=e2045]:
+                  - link "Slovakia" [ref=e2048] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e2049]
+                  - link "Vladimír Dzurilla" [ref=e2050] [cursor=pointer]:
+                    - /url: /wiki/Vladim%C3%ADr_Dzurilla
+                - cell "Player" [ref=e2051]
+                - cell "1998" [ref=e2052]
+              - row "Slovakia Jozef Golonka Player 1998" [ref=e2053]:
+                - cell "Slovakia Jozef Golonka" [ref=e2054]:
+                  - link "Slovakia" [ref=e2057] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e2058]
+                  - link "Jozef Golonka" [ref=e2059] [cursor=pointer]:
+                    - /url: /wiki/Jozef_Golonka
+                - cell "Player" [ref=e2060]
+                - cell "1998" [ref=e2061]
+              - row "Slovakia Ján Starší Builder 1999" [ref=e2062]:
+                - cell "Slovakia Ján Starší" [ref=e2063]:
+                  - link "Slovakia" [ref=e2066] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e2067]
+                  - link "Ján Starší" [ref=e2068] [cursor=pointer]:
+                    - /url: /wiki/J%C3%A1n_Star%C5%A1%C3%AD
+                - cell "Builder" [ref=e2069]
+                - cell "1999" [ref=e2070]
+              - row "Slovakia Peter Šťastný Player 2000" [ref=e2071]:
+                - cell "Slovakia Peter Šťastný" [ref=e2072]:
+                  - link "Slovakia" [ref=e2075] [cursor=pointer]:
+                    - /url: /wiki/Slovakia
+                    - img "Slovakia" [ref=e2076]
+                  - link "Peter Šťastný" [ref=e2077] [cursor=pointer]:
+                    - /url: /wiki/Peter_%C5%A0%C5%A5astn%C3%BD
+                - cell "Player" [ref=e2078]
+                - cell "2000" [ref=e2079]
+          - generic [ref=e2080]:
+            - heading "References" [level=2] [ref=e2081]
+            - generic [ref=e2082]:
+              - text: "["
+              - link "edit" [ref=e2083] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=20
+              - text: "]"
+          - list [ref=e2085]:
+            - listitem [ref=e2086]:
+              - link "Jump up" [ref=e2089] [cursor=pointer]:
+                - /url: "#cite_ref-1"
+                - text: ^
+              - generic [ref=e2090]:
+                - generic [ref=e2091]:
+                  - link "\"Elena Hrubá predáva svoj väčšinový podiel v HC SLOVAN Bratislava spoločnosti JTRE sports & entertainment a. s.\"" [ref=e2092] [cursor=pointer]:
+                    - /url: https://www.hcslovan.sk/sk/article/elena-hruba-predava-svoj-vacsinovy-podiel-v-hc-slovan-bratislava-spolocnosti-jtre-sports-entertainment-a-s
+                  - text: hcslovan.sk (in Slovak). HC Slovan Bratislava.
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=hcslovan.sk&rft.atitle=Elena+Hrub%C3%A1+pred%C3%A1va+svoj+v%C3%A4%C4%8D%C5%A1inov%C3%BD+podiel+v+HC+SLOVAN+Bratislava+spolo%C4%8Dnosti+JTRE+sports+%26+entertainment+a.+s.&rft_id=https%3A%2F%2Fwww.hcslovan.sk%2Fsk%2Farticle%2Felena-hruba-predava-svoj-vacsinovy-podiel-v-hc-slovan-bratislava-spolocnosti-jtre-sports-entertainment-a-s&rfr_id=info%3Asid%2Fen.wikipedia.org%3AHC+Slovan+Bratislava"
+            - listitem [ref=e2093]:
+              - link "Jump up" [ref=e2096] [cursor=pointer]:
+                - /url: "#cite_ref-2"
+                - text: ^
+              - generic [ref=e2097]:
+                - generic [ref=e2098]:
+                  - link "\"Svoje podiely v HC SLOVAN Bratislava predávajú aj menšinoví akcionári\"" [ref=e2099] [cursor=pointer]:
+                    - /url: https://www.hcslovan.sk/sk/article/svoje-podiely-v-hc-slovan-bratislava-predavaju-aj-mensinovi-akcionari
+                  - text: . hcslovan.sk (in Slovak).
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=hcslovan.sk&rft.atitle=Svoje+podiely+v+HC+SLOVAN+Bratislava+pred%C3%A1vaj%C3%BA+aj+men%C5%A1inov%C3%AD+akcion%C3%A1ri&rft_id=https%3A%2F%2Fwww.hcslovan.sk%2Fsk%2Farticle%2Fsvoje-podiely-v-hc-slovan-bratislava-predavaju-aj-mensinovi-akcionari&rfr_id=info%3Asid%2Fen.wikipedia.org%3AHC+Slovan+Bratislava"
+            - listitem [ref=e2100]:
+              - generic [ref=e2101]:
+                - text: ^
+                - 'link "Jump up to: a" [ref=e2102] [cursor=pointer]':
+                  - /url: "#cite_ref-history_3-0"
+                  - generic [ref=e2103]: "Jump up to:"
+                  - superscript [ref=e2104]:
+                    - generic [ref=e2105]: a
+                - link "b" [ref=e2106] [cursor=pointer]:
+                  - /url: "#cite_ref-history_3-1"
+                  - superscript [ref=e2107]:
+                    - generic [ref=e2108]: b
+                - link "c" [ref=e2109] [cursor=pointer]:
+                  - /url: "#cite_ref-history_3-2"
+                  - superscript [ref=e2110]:
+                    - generic [ref=e2111]: c
+                - link "d" [ref=e2112] [cursor=pointer]:
+                  - /url: "#cite_ref-history_3-3"
+                  - superscript [ref=e2113]:
+                    - generic [ref=e2114]: d
+              - generic [ref=e2115]:
+                - generic [ref=e2116]:
+                  - link "\"História klubu\"" [ref=e2117] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20120321185148/http://www.hcslovan.sk/klub/historia/historia-klubu.html
+                  - text: (in Slovak). hcslovan.sk. 1 September 2011. Archived from
+                  - link "the original" [ref=e2118] [cursor=pointer]:
+                    - /url: http://www.hcslovan.sk/klub/historia/historia-klubu.html
+                  - text: on 21 March 2012.
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Hist%C3%B3ria+klubu&rft.pub=hcslovan.sk&rft.date=2011-09-01&rft_id=http%3A%2F%2Fwww.hcslovan.sk%2Fklub%2Fhistoria%2Fhistoria-klubu.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3AHC+Slovan+Bratislava"
+            - listitem [ref=e2119]:
+              - link "Jump up" [ref=e2122] [cursor=pointer]:
+                - /url: "#cite_ref-4"
+                - text: ^
+              - generic [ref=e2123]:
+                - generic [ref=e2124]:
+                  - link "\"The Slovakian candidate\"" [ref=e2125] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20201112020159/https://en.khl.ru/news/2012/03/29/24546.html
+                  - text: . khl.ru. 29 March 2012. Archived from
+                  - link "the original" [ref=e2126] [cursor=pointer]:
+                    - /url: http://en.khl.ru/news/2012/03/29/24546.html
+                  - text: on 12 November 2020
+                  - generic [ref=e2127]: . Retrieved 30 March 2012
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=The+Slovakian+candidate&rft.pub=khl.ru&rft.date=2012-03-29&rft_id=http%3A%2F%2Fen.khl.ru%2Fnews%2F2012%2F03%2F29%2F24546.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3AHC+Slovan+Bratislava"
+            - listitem [ref=e2128]:
+              - link "Jump up" [ref=e2131] [cursor=pointer]:
+                - /url: "#cite_ref-5"
+                - text: ^
+              - generic [ref=e2132]:
+                - generic [ref=e2133]:
+                  - link "\"Slovan získal definitívny súhlas na štart v KHL\"" [ref=e2134] [cursor=pointer]:
+                    - /url: http://www.hcslovan.sk/novinky/z-kuchyne-slovana/slovan-ziskal-definitivny-suhlas-na-start-v-khl.html
+                  - text: (in Slovak). hcslovan.sk. 21 June 2012.
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Slovan+z%C3%ADskal+definit%C3%ADvny+s%C3%BAhlas+na+%C5%A1tart+v+KHL&rft.pub=hcslovan.sk&rft.date=2012-06-21&rft_id=http%3A%2F%2Fwww.hcslovan.sk%2Fnovinky%2Fz-kuchyne-slovana%2Fslovan-ziskal-definitivny-suhlas-na-start-v-khl.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3AHC+Slovan+Bratislava"
+                - superscript [ref=e2135]:
+                  - generic [ref=e2136]:
+                    - text: "["
+                    - link "permanent dead link" [ref=e2138] [cursor=pointer]:
+                      - /url: /wiki/Wikipedia:Link_rot
+                    - text: "]"
+            - listitem [ref=e2139]:
+              - link "Jump up" [ref=e2142] [cursor=pointer]:
+                - /url: "#cite_ref-6"
+                - text: ^
+              - generic [ref=e2143]:
+                - generic [ref=e2144]:
+                  - link "\"Rostislav Čada oficiálne novým hlavným trénerom\"" [ref=e2145] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20120625214423/http://www.hcslovan.sk/novinky/z-kuchyne-slovana/rostislav-cada-oficialne-novym-hlavnym-trenerom-hc-slovan-bratislava.html
+                  - text: (in Slovak). HC Slovan. 2 May 2012. Archived from
+                  - link "the original" [ref=e2146] [cursor=pointer]:
+                    - /url: http://www.hcslovan.sk/novinky/z-kuchyne-slovana/rostislav-cada-oficialne-novym-hlavnym-trenerom-hc-slovan-bratislava.html
+                  - text: on 25 June 2012
+                  - generic [ref=e2147]: . Retrieved 2 May 2012
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Rostislav+%C4%8Cada+ofici%C3%A1lne+nov%C3%BDm+hlavn%C3%BDm+tr%C3%A9nerom&rft.pub=HC+Slovan&rft.date=2012-05-02&rft_id=http%3A%2F%2Fwww.hcslovan.sk%2Fnovinky%2Fz-kuchyne-slovana%2Frostislav-cada-oficialne-novym-hlavnym-trenerom-hc-slovan-bratislava.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3AHC+Slovan+Bratislava"
+            - listitem [ref=e2148]:
+              - link "Jump up" [ref=e2151] [cursor=pointer]:
+                - /url: "#cite_ref-7"
+                - text: ^
+              - generic [ref=e2152]:
+                - generic [ref=e2153]:
+                  - link "\"Slovan sa dočkal, postúpil do play-off\"" [ref=e2154] [cursor=pointer]:
+                    - /url: https://sport.sme.sk/c/6701380/slovan-sa-dockal-postupil-do-play-off.html
+                  - text: (in Slovak). SME. 13 January 2013.
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Slovan+sa+do%C4%8Dkal%2C+post%C3%BApil+do+play-off&rft.pub=SME&rft.date=2013-01-13&rft_id=http%3A%2F%2Fsport.sme.sk%2Fc%2F6701380%2Fslovan-sa-dockal-postupil-do-play-off.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3AHC+Slovan+Bratislava"
+            - listitem [ref=e2155]:
+              - link "Jump up" [ref=e2158] [cursor=pointer]:
+                - /url: "#cite_ref-8"
+                - text: ^
+              - generic [ref=e2159]:
+                - generic [ref=e2160]:
+                  - text: THE CALAMITY (25 February 2013).
+                  - link "Континентальная Хоккейная Лига. Итоги сезона" [ref=e2161] [cursor=pointer]:
+                    - /url: http://www.sports.ru/tribuna/blogs/teilnahme/427177.html
+                  - text: (in Russian). sports.ru.
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=%D0%9A%D0%BE%D0%BD%D1%82%D0%B8%D0%BD%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F+%D0%A5%D0%BE%D0%BA%D0%BA%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F+%D0%9B%D0%B8%D0%B3%D0%B0.+%D0%98%D1%82%D0%BE%D0%B3%D0%B8+%D1%81%D0%B5%D0%B7%D0%BE%D0%BD%D0%B0&rft.pub=sports.ru&rft.date=2013-02-25&rft.au=THE+CALAMITY&rft_id=http%3A%2F%2Fwww.sports.ru%2Ftribuna%2Fblogs%2Fteilnahme%2F427177.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3AHC+Slovan+Bratislava"
+            - listitem [ref=e2162]:
+              - link "Jump up" [ref=e2165] [cursor=pointer]:
+                - /url: "#cite_ref-9"
+                - text: ^
+              - generic [ref=e2166]:
+                - generic [ref=e2167]:
+                  - link "\"Maskotom Slovana bude orliak Harvy\"" [ref=e2168] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20130905015003/http://sport.aktuality.sk/c/154606/maskotom-slovana-bude-orliak-harvy/
+                  - text: (in Slovak). Sport.sk. 2 September 2013. Archived from
+                  - link "the original" [ref=e2169] [cursor=pointer]:
+                    - /url: http://sport.aktuality.sk/c/154606/maskotom-slovana-bude-orliak-harvy/
+                  - text: on 5 September 2013
+                  - generic [ref=e2170]: . Retrieved 3 September 2013
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Maskotom+Slovana+bude+orliak+Harvy&rft.pub=Sport.sk&rft.date=2013-09-02&rft_id=http%3A%2F%2Fsport.aktuality.sk%2Fc%2F154606%2Fmaskotom-slovana-bude-orliak-harvy%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3AHC+Slovan+Bratislava"
+            - listitem [ref=e2171]:
+              - link "Jump up" [ref=e2174] [cursor=pointer]:
+                - /url: "#cite_ref-10"
+                - text: ^
+              - generic [ref=e2175]:
+                - generic [ref=e2176]:
+                  - link "\"JTRE posilňuje bratislavskú športovú komunitu\"" [ref=e2177] [cursor=pointer]:
+                    - /url: https://www.hcslovan.sk/sk/article/jtre-posilnuje-bratislavsku-sportovu-komunitu
+                  - text: . hcslovan.sk (in Slovak).
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=hcslovan.sk&rft.atitle=JTRE+posil%C5%88uje+bratislavsk%C3%BA+%C5%A1portov%C3%BA+komunitu&rft_id=https%3A%2F%2Fwww.hcslovan.sk%2Fsk%2Farticle%2Fjtre-posilnuje-bratislavsku-sportovu-komunitu&rfr_id=info%3Asid%2Fen.wikipedia.org%3AHC+Slovan+Bratislava"
+            - listitem [ref=e2178]:
+              - link "Jump up" [ref=e2181] [cursor=pointer]:
+                - /url: "#cite_ref-11"
+                - text: ^
+              - generic [ref=e2182]:
+                - generic [ref=e2183]:
+                  - link "\"Predstavujeme novú identitu klubov SLOVAN Bratislava\"" [ref=e2184] [cursor=pointer]:
+                    - /url: https://www.hcslovan.sk/sk/article/predstavujeme-novu-identitu-klubov-slovan-bratislava
+                  - text: . hcslovan.sk (in Slovak).
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=hcslovan.sk&rft.atitle=Predstavujeme+nov%C3%BA+identitu+klubov+SLOVAN+Bratislava&rft_id=https%3A%2F%2Fwww.hcslovan.sk%2Fsk%2Farticle%2Fpredstavujeme-novu-identitu-klubov-slovan-bratislava&rfr_id=info%3Asid%2Fen.wikipedia.org%3AHC+Slovan+Bratislava"
+            - listitem [ref=e2185]:
+              - link "Jump up" [ref=e2188] [cursor=pointer]:
+                - /url: "#cite_ref-12"
+                - text: ^
+              - generic [ref=e2189]:
+                - generic [ref=e2190]:
+                  - link "\"Slovan vyhral v derby nad Levom, Chára vyradil Šatana\"" [ref=e2191] [cursor=pointer]:
+                    - /url: http://www.webnoviny.sk/khl/hokejisti-slovana-remizuju-v-derby-s-pr/570328-clanok.html
+                  - text: (in Slovak). WebNoviny.sk. 3 November 2012
+                  - generic [ref=e2192]: . Retrieved 15 July 2013
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Slovan+vyhral+v+derby+nad+Levom%2C+Ch%C3%A1ra+vyradil+%C5%A0atana&rft.pub=WebNoviny.sk&rft.date=2012-11-03&rft_id=http%3A%2F%2Fwww.webnoviny.sk%2Fkhl%2Fhokejisti-slovana-remizuju-v-derby-s-pr%2F570328-clanok.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3AHC+Slovan+Bratislava"
+            - listitem [ref=e2193]:
+              - link "Jump up" [ref=e2196] [cursor=pointer]:
+                - /url: "#cite_ref-SlovanLevGames_13-0"
+                - text: ^
+              - generic [ref=e2197]:
+                - generic [ref=e2198]:
+                  - link "\"LEV and Slovan renew Czecho-Slovakian derby\"" [ref=e2199] [cursor=pointer]:
+                    - /url: http://www.levpraha.com/clanek.asp?id=LEV-and-Slovan-renew-Czecho-Slovakian-derby-477
+                  - text: . HC Lev Praha. 14 October 2013
+                  - generic [ref=e2200]: . Retrieved 24 October 2013
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=LEV+and+Slovan+renew+Czecho-Slovakian+derby&rft.pub=HC+Lev+Praha&rft.date=2013-10-14&rft_id=http%3A%2F%2Fwww.levpraha.com%2Fclanek.asp%3Fid%3DLEV-and-Slovan-renew-Czecho-Slovakian-derby-477&rfr_id=info%3Asid%2Fen.wikipedia.org%3AHC+Slovan+Bratislava"
+            - listitem [ref=e2201]:
+              - link "Jump up" [ref=e2204] [cursor=pointer]:
+                - /url: "#cite_ref-14"
+                - text: ^
+              - generic [ref=e2205]:
+                - generic [ref=e2206]:
+                  - link "\"Team Roster / HC Slovan\"" [ref=e2207] [cursor=pointer]:
+                    - /url: https://www.hcslovan.sk/sk/stats/roster/995/team/667015
+                  - text: . www.hcslovan.sk
+                  - generic [ref=e2208]: . Retrieved 16 February 2024
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Team+Roster+%2F+HC+Slovan&rft.pub=www.hcslovan.sk&rft_id=https%3A%2F%2Fwww.hcslovan.sk%2Fsk%2Fstats%2Froster%2F995%2Fteam%2F667015&rfr_id=info%3Asid%2Fen.wikipedia.org%3AHC+Slovan+Bratislava"
+            - listitem [ref=e2209]:
+              - link "Jump up" [ref=e2212] [cursor=pointer]:
+                - /url: "#cite_ref-15"
+                - text: ^
+              - generic [ref=e2213]:
+                - generic [ref=e2214]:
+                  - link "\"Team Roster / HC Slovan\"" [ref=e2215] [cursor=pointer]:
+                    - /url: http://www.eliteprospects.com/team.php?team=169
+                  - text: . www.eliteprospects.com
+                  - generic [ref=e2216]: . Retrieved 16 February 2024
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Team+Roster+%2F+HC+Slovan&rft.pub=www.eliteprospects.com&rft_id=http%3A%2F%2Fwww.eliteprospects.com%2Fteam.php%3Fteam%3D169&rfr_id=info%3Asid%2Fen.wikipedia.org%3AHC+Slovan+Bratislava"
+            - listitem [ref=e2217]:
+              - link "Jump up" [ref=e2220] [cursor=pointer]:
+                - /url: "#cite_ref-16"
+                - text: ^
+              - generic [ref=e2221]:
+                - generic [ref=e2222]:
+                  - link "\"HC Slovan Bratislava\"" [ref=e2223] [cursor=pointer]:
+                    - /url: http://www.eliteprospects.com/team.php?team=169
+                  - text: . EliteProspects.
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=HC+Slovan+Bratislava&rft.pub=EliteProspects&rft_id=http%3A%2F%2Fwww.eliteprospects.com%2Fteam.php%3Fteam%3D169&rfr_id=info%3Asid%2Fen.wikipedia.org%3AHC+Slovan+Bratislava"
+            - listitem [ref=e2224]:
+              - link "Jump up" [ref=e2227] [cursor=pointer]:
+                - /url: "#cite_ref-nhl_17-0"
+                - text: ^
+              - generic [ref=e2228]:
+                - generic [ref=e2229]:
+                  - link "\"IIHF Hall of Fame inducts six new members\"" [ref=e2230] [cursor=pointer]:
+                    - /url: http://www.nhl.com/ice/news.htm?id=510916
+                  - text: . National Hockey League
+                  - generic [ref=e2231]: . Retrieved 5 March 2010
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=IIHF+Hall+of+Fame+inducts+six+new+members&rft.pub=National+Hockey+League&rft_id=http%3A%2F%2Fwww.nhl.com%2Fice%2Fnews.htm%3Fid%3D510916&rfr_id=info%3Asid%2Fen.wikipedia.org%3AHC+Slovan+Bratislava"
+          - generic [ref=e2232]:
+            - heading "External links" [level=2] [ref=e2233]
+            - generic [ref=e2234]:
+              - text: "["
+              - link "edit" [ref=e2235] [cursor=pointer]:
+                - /url: /w/index.php?title=HC_Slovan_Bratislava&action=edit&section=21
+              - text: "]"
+          - list [ref=e2236]:
+            - listitem [ref=e2237]:
+              - link "Official website" [ref=e2240] [cursor=pointer]:
+                - /url: http://www.hcslovan.sk
+              - link "Edit this at Wikidata" [ref=e2242] [cursor=pointer]:
+                - /url: https://www.wikidata.org/wiki/Q730151#P856
+                - img "Edit this at Wikidata" [ref=e2243]
+              - text: — HC Slovan Bratislava
+          - navigation "HC Slovan Bratislava" [ref=e2244]:
+            - table [ref=e2245]:
+              - rowgroup [ref=e2246]:
+                - row "[show] v · t · e HC Slovan Bratislava" [ref=e2247]:
+                  - columnheader "[show] v · t · e HC Slovan Bratislava" [ref=e2248]:
+                    - button "[show]" [ref=e2249] [cursor=pointer]
+                    - list [ref=e2251]:
+                      - listitem [ref=e2252]:
+                        - link "v" [ref=e2253] [cursor=pointer]:
+                          - /url: /wiki/Template:HC_Slovan_Bratislava
+                        - text: ·
+                      - listitem [ref=e2254]:
+                        - link "t" [ref=e2255] [cursor=pointer]:
+                          - /url: /wiki/Template_talk:HC_Slovan_Bratislava
+                        - text: ·
+                      - listitem [ref=e2256]:
+                        - link "e" [ref=e2257] [cursor=pointer]:
+                          - /url: /wiki/Special:EditPage/Template:HC_Slovan_Bratislava
+                    - generic [ref=e2258]: HC Slovan Bratislava
+                - row: ·
+                - row: · · · · ·
+                - row: · · · · ·
+                - row: ": · : · : ·"
+                - row
+                - row
+                - row
+                - row: ·
+          - navigation "Links to related articles" [ref=e2259]:
+            - table [ref=e2260]:
+              - rowgroup [ref=e2261]:
+                - row "[show] Links to related articles" [ref=e2262]:
+                  - columnheader "[show] Links to related articles" [ref=e2263]:
+                    - button "[show]" [ref=e2264] [cursor=pointer]
+                    - generic [ref=e2265]: Links to related articles
+                - row: "[] · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · [] · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · () · () · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ( · · · ) · · · · · · · · ·"
+          - navigation "Authority control databases Edit this at Wikidata" [ref=e2266]:
+            - table [ref=e2267]:
+              - rowgroup [ref=e2268]:
+                - row "Authority control databases Edit this at Wikidata VIAF" [ref=e2269]:
+                  - rowheader "Authority control databases Edit this at Wikidata" [ref=e2270]:
+                    - link "Authority control databases" [ref=e2271] [cursor=pointer]:
+                      - /url: /wiki/Help:Authority_control
+                    - link "Edit this at Wikidata" [ref=e2273] [cursor=pointer]:
+                      - /url: https://www.wikidata.org/wiki/Q730151#identifiers
+                      - img "Edit this at Wikidata" [ref=e2274]
+                  - cell "VIAF" [ref=e2275]:
+                    - list [ref=e2277]:
+                      - listitem [ref=e2278]:
+                        - link "VIAF" [ref=e2280] [cursor=pointer]:
+                          - /url: https://viaf.org/viaf/510156565684123500002
+        - generic [ref=e2282]:
+          - link "Categories" [ref=e2283] [cursor=pointer]:
+            - /url: /wiki/Help:Category
+          - text: ":"
+          - list [ref=e2284]:
+            - listitem [ref=e2285]:
+              - link "HC Slovan Bratislava" [ref=e2286] [cursor=pointer]:
+                - /url: /wiki/Category:HC_Slovan_Bratislava
+            - listitem [ref=e2287]:
+              - link "Ice hockey teams in Slovakia" [ref=e2288] [cursor=pointer]:
+                - /url: /wiki/Category:Ice_hockey_teams_in_Slovakia
+            - listitem [ref=e2289]:
+              - link "Ice hockey teams in Czechoslovakia" [ref=e2290] [cursor=pointer]:
+                - /url: /wiki/Category:Ice_hockey_teams_in_Czechoslovakia
+            - listitem [ref=e2291]:
+              - link "Sport in Bratislava" [ref=e2292] [cursor=pointer]:
+                - /url: /wiki/Category:Sport_in_Bratislava
+            - listitem [ref=e2293]:
+              - link "Former Kontinental Hockey League teams" [ref=e2294] [cursor=pointer]:
+                - /url: /wiki/Category:Former_Kontinental_Hockey_League_teams
+            - listitem [ref=e2295]:
+              - link "Ice hockey clubs established in 1921" [ref=e2296] [cursor=pointer]:
+                - /url: /wiki/Category:Ice_hockey_clubs_established_in_1921
+            - listitem [ref=e2297]:
+              - link "1921 establishments in Czechoslovakia" [ref=e2298] [cursor=pointer]:
+                - /url: /wiki/Category:1921_establishments_in_Czechoslovakia
+            - listitem [ref=e2299]:
+              - link "Bobrov Division" [ref=e2300] [cursor=pointer]:
+                - /url: /wiki/Category:Bobrov_Division
+    - contentinfo [ref=e2302]:
+      - list [ref=e2303]:
+        - listitem [ref=e2304]: This page was last edited on 3 May 2026, at 14:41 (UTC).
+        - listitem [ref=e2305]:
+          - text: Text is available under the
+          - link "Creative Commons Attribution-ShareAlike 4.0 License" [ref=e2306] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+          - text: ; additional terms may apply. By using this site, you agree to the
+          - link "Terms of Use" [ref=e2307] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+          - text: and
+          - link "Privacy Policy" [ref=e2308] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+          - text: . Wikipedia® is a registered trademark of the
+          - link "Wikimedia Foundation, Inc." [ref=e2309] [cursor=pointer]:
+            - /url: https://wikimediafoundation.org/
+          - text: ", a non-profit organization."
+      - list:
+        - listitem [ref=e2310]:
+          - link "Privacy policy" [ref=e2311] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e2312]:
+          - link "About Wikipedia" [ref=e2313] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:About
+        - listitem [ref=e2314]:
+          - link "Disclaimers" [ref=e2315] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:General_disclaimer
+        - listitem [ref=e2316]:
+          - link "Contact Wikipedia" [ref=e2317] [cursor=pointer]:
+            - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+        - listitem [ref=e2318]:
+          - link "Legal & safety contacts" [ref=e2319] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+        - listitem [ref=e2320]:
+          - link "Code of Conduct" [ref=e2321] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e2322]:
+          - link "Developers" [ref=e2323] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e2324]:
+          - link "Statistics" [ref=e2325] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/en.wikipedia.org
+        - listitem [ref=e2326]:
+          - link "Cookie statement" [ref=e2327] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e2328]:
+          - link "Mobile view" [ref=e2329] [cursor=pointer]:
+            - /url: //en.wikipedia.org/w/index.php?title=HC_Slovan_Bratislava&mobileaction=toggle_view_mobile
+      - list [ref=e2330]:
+        - listitem [ref=e2331]:
+          - link "Wikimedia Foundation" [ref=e2332] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e2334]
+        - listitem [ref=e2335]:
+          - link "Powered by MediaWiki" [ref=e2336] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e2338]
+  - generic [ref=e2339]:
+    - list

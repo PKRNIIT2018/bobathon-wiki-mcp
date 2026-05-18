@@ -1,0 +1,443 @@
+- generic [active] [ref=e1]:
+  - link "Jump to content" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "Site" [ref=e6]:
+        - generic "Main menu" [ref=e7]:
+          - button "Main menu" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: Main menu
+      - link "Wikipedia The Free Encyclopedia" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - generic [ref=e13]:
+          - img "Wikipedia" [ref=e14]
+          - img "The Free Encyclopedia" [ref=e15]
+    - generic [ref=e16]:
+      - search [ref=e17]:
+        - generic [ref=e20]:
+          - searchbox "Search Wikipedia" [ref=e23]
+          - button "Search" [ref=e25]
+      - navigation "Personal tools" [ref=e26]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Donate" [ref=e32] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+          - listitem [ref=e33]:
+            - link "Create account" [ref=e34] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:CreateAccount&returnto=The+Slovak+Spectator
+          - listitem [ref=e35]:
+            - link "Log in" [ref=e36] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:UserLogin&returnto=The+Slovak+Spectator
+  - generic [ref=e38]:
+    - navigation "Contents" [ref=e42]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "Contents" [level=2] [ref=e46]
+          - button "hide" [ref=e47] [cursor=pointer]
+        - list [ref=e48]:
+          - listitem [ref=e49]:
+            - link "(Top)" [ref=e50] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e51]: (Top)
+          - listitem [ref=e52]:
+            - link "References" [ref=e53] [cursor=pointer]:
+              - /url: "#References"
+              - generic [ref=e54]: References
+            - list
+          - listitem [ref=e55]:
+            - link "External links" [ref=e56] [cursor=pointer]:
+              - /url: "#External_links"
+              - generic [ref=e57]: External links
+            - list
+    - main [ref=e59]:
+      - generic [ref=e60]:
+        - heading "The Slovak Spectator" [level=1] [ref=e61]
+        - generic [ref=e62]:
+          - button "Go to an article in another language. Available in 5 languages" [ref=e63] [cursor=pointer]
+          - generic [ref=e66]: 5 languages
+      - generic [ref=e68]:
+        - navigation "Namespaces" [ref=e70]:
+          - generic [ref=e71]:
+            - generic:
+              - list:
+                - listitem [ref=e72]:
+                  - link "Article" [ref=e73] [cursor=pointer]:
+                    - /url: /wiki/The_Slovak_Spectator
+                    - generic [ref=e74]: Article
+                - listitem [ref=e75]:
+                  - link "Talk" [ref=e76] [cursor=pointer]:
+                    - /url: /wiki/Talk:The_Slovak_Spectator
+                    - generic [ref=e77]: Talk
+        - generic [ref=e78]:
+          - navigation "Views" [ref=e79]:
+            - generic [ref=e80]:
+              - generic:
+                - list:
+                  - listitem [ref=e81]:
+                    - link "Read" [ref=e82] [cursor=pointer]:
+                      - /url: /wiki/The_Slovak_Spectator
+                      - generic [ref=e83]: Read
+                  - listitem [ref=e84]:
+                    - link "Edit" [ref=e85] [cursor=pointer]:
+                      - /url: /w/index.php?title=The_Slovak_Spectator&action=edit
+                      - generic [ref=e86]: Edit
+                  - listitem [ref=e87]:
+                    - link "View history" [ref=e88] [cursor=pointer]:
+                      - /url: /w/index.php?title=The_Slovak_Spectator&action=history
+                      - generic [ref=e89]: View history
+          - navigation "Page tools" [ref=e90]:
+            - generic [ref=e91]:
+              - button "Tools" [ref=e92] [cursor=pointer]
+              - generic [ref=e94] [cursor=pointer]: Tools
+      - navigation "Appearance" [ref=e97]:
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - generic [ref=e101]: Appearance
+            - button "hide" [ref=e102] [cursor=pointer]
+          - generic [ref=e103]:
+            - generic [ref=e104]: Text
+            - list [ref=e106]:
+              - listitem [ref=e107]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]:
+                    - radio "Small" [ref=e111]
+                    - generic [ref=e114]: Small
+                  - generic [ref=e115]:
+                    - radio "Standard" [checked] [ref=e116]
+                    - generic [ref=e119]: Standard
+                  - generic [ref=e120]:
+                    - radio "Large" [ref=e121]
+                    - generic [ref=e124]: Large
+          - generic [ref=e125]:
+            - generic [ref=e126]: Width
+            - list [ref=e128]:
+              - listitem [ref=e129]:
+                - generic [ref=e131]:
+                  - generic [ref=e132]:
+                    - radio "Standard" [checked] [ref=e133]
+                    - generic [ref=e136]: Standard
+                  - generic [ref=e137]:
+                    - radio "Wide" [ref=e138]
+                    - generic [ref=e141]: Wide
+          - generic [ref=e142]:
+            - generic [ref=e143]: Color
+            - list [ref=e145]:
+              - listitem [ref=e146]:
+                - generic [ref=e148]:
+                  - generic [ref=e149]:
+                    - radio "Automatic" [ref=e150]
+                    - generic [ref=e153]: Automatic
+                  - generic [ref=e154]:
+                    - radio "Light" [checked] [ref=e155]
+                    - generic [ref=e158]: Light
+                  - generic [ref=e159]:
+                    - radio "Dark" [ref=e160]
+                    - generic [ref=e163]: Dark
+      - generic "The Slovak Spectator" [ref=e164]:
+        - generic [ref=e166]: From Wikipedia, the free encyclopedia
+        - generic [ref=e169]:
+          - text: (Redirected from
+          - link "Slovak Spectator" [ref=e170] [cursor=pointer]:
+            - /url: /w/index.php?title=Slovak_Spectator&redirect=no
+          - text: )
+        - generic [ref=e171]:
+          - generic [ref=e172]:
+            - link "Sorry to interrupt, but our fundraiser won't last long. This Monday, we ask you to join the 2% of readers who give. If everyone reading this right now gave just €2,75, we'd hit our goal quickly. €2,75 is all we ask. Give €2,75 Maybe later" [ref=e173] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e174]:
+                - strong [ref=e175]: Sorry to interrupt, but our fundraiser won't last long.
+                - text: This Monday, we ask you to join the 2% of readers who give. If everyone reading this right now gave just €2,75, we'd hit our goal quickly. €2,75 is all we ask.
+              - generic [ref=e176]:
+                - button "Give €2,75" [ref=e177]
+                - button "Maybe later" [ref=e178]
+            - img "Close" [ref=e180] [cursor=pointer]
+          - region "fundraising banner" [ref=e183]:
+            - generic [ref=e184]:
+              - generic [ref=e185]:
+                - img [ref=e186]
+                - text: "18 May: Wikipedia still can't be sold"
+              - generic [ref=e190]: We're sorry we've made several attempts to reach you lately, but it's Monday, 18 May, and we still need some help. If everyone reading this gave €2,75 today, we'd hit our goal in a few hours. Most readers don't donate; less than 2% do. Wikipedia is run by a nonprofit, not by a billionaire. So if Wikipedia has given you €2,75 worth of knowledge, please give. Any contribution helps, whether it's €2,75 or €25.
+              - generic [ref=e192]:
+                - button "Give €2,75" [ref=e193] [cursor=pointer]:
+                  - generic [ref=e194]: Give €2,75
+                - button "Give a different amount" [ref=e195] [cursor=pointer]
+                - img [ref=e198]
+              - generic:
+                - img
+            - generic [ref=e201]:
+              - button "Maybe later" [ref=e202] [cursor=pointer]:
+                - text: Maybe later
+                - img [ref=e203]
+              - button "I already donated" [ref=e208] [cursor=pointer]
+              - button "Close" [ref=e209] [cursor=pointer]:
+                - text: Close
+                - img [ref=e210]
+        - generic [ref=e214]:
+          - link "icon" [ref=e217] [cursor=pointer]:
+            - /url: /wiki/File:Question_book-new.svg
+            - img "icon" [ref=e218]
+          - generic [ref=e219]:
+            - text: This article
+            - generic [ref=e220]:
+              - text: needs additional citations for
+              - link "verification" [ref=e221] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:Verifiability
+            - text: .
+            - generic [ref=e222]:
+              - text: Please help
+              - link "improve this article" [ref=e223] [cursor=pointer]:
+                - /url: /wiki/Special:EditPage/The_Slovak_Spectator
+              - text: by
+              - link "adding citations to reliable sources" [ref=e224] [cursor=pointer]:
+                - /url: /wiki/Help:Referencing_for_beginners
+              - text: . Unsourced material may be challenged and removed.
+              - generic [ref=e226]:
+                - text: "Find sources:"
+                - link "\"The Slovak Spectator\"" [ref=e227] [cursor=pointer]:
+                  - /url: https://www.google.com/search?as_eq=wikipedia&q=%22The+Slovak+Spectator%22
+                - text: –
+                - link "news" [ref=e228] [cursor=pointer]:
+                  - /url: https://www.google.com/search?tbm=nws&q=%22The+Slovak+Spectator%22+-wikipedia&tbs=ar:1
+                - text: ·
+                - link "newspapers" [ref=e229] [cursor=pointer]:
+                  - /url: https://www.google.com/search?&q=%22The+Slovak+Spectator%22&tbs=bkt:s&tbm=bks
+                - text: ·
+                - link "books" [ref=e230] [cursor=pointer]:
+                  - /url: https://www.google.com/search?tbs=bks:1&q=%22The+Slovak+Spectator%22+-wikipedia
+                - text: ·
+                - link "scholar" [ref=e231] [cursor=pointer]:
+                  - /url: https://scholar.google.com/scholar?q=%22The+Slovak+Spectator%22
+                - text: ·
+                - link "JSTOR" [ref=e232] [cursor=pointer]:
+                  - /url: https://www.jstor.org/action/doBasicSearch?Query=%22The+Slovak+Spectator%22&acc=on&wc=on
+            - generic [ref=e234]: (January 2025)
+            - generic [ref=e236]:
+              - text: (
+              - link "Learn how and when to remove this message" [ref=e238] [cursor=pointer]:
+                - /url: /wiki/Help:Maintenance_template_removal
+              - text: )
+          - table "The Slovak Spectator" [ref=e239]:
+            - caption [ref=e240]: The Slovak Spectator
+            - rowgroup [ref=e241]:
+              - row [ref=e242]:
+                - cell [ref=e243]:
+                  - link [ref=e245] [cursor=pointer]:
+                    - /url: /wiki/File:The_Slovak_Spectator_logo_2018.svg
+                    - img [ref=e246]
+              - row "Type Print & online newspaper/ magazine" [ref=e247]:
+                - rowheader "Type" [ref=e248]
+                - cell "Print & online newspaper/ magazine" [ref=e249]
+              - row "Publisher Petit Press" [ref=e250]:
+                - rowheader "Publisher" [ref=e251]
+                - cell "Petit Press" [ref=e252]
+              - row "Editor-in-chief Peter Dlhopolec" [ref=e253]:
+                - rowheader "Editor-in-chief" [ref=e254]:
+                  - generic [ref=e255]: Editor-in-chief
+                - cell "Peter Dlhopolec" [ref=e256]
+              - row "Founded 1 March 1995; 31 years ago" [ref=e257]:
+                - rowheader "Founded" [ref=e258]
+                - cell "1 March 1995; 31 years ago" [ref=e259]
+              - row "Language English" [ref=e260]:
+                - rowheader "Language" [ref=e261]
+                - cell "English" [ref=e262]
+              - row "Headquarters Bratislava, Slovakia" [ref=e263]:
+                - rowheader "Headquarters" [ref=e264]
+                - cell "Bratislava, Slovakia" [ref=e265]:
+                  - link "Bratislava" [ref=e266] [cursor=pointer]:
+                    - /url: /wiki/Bratislava
+                  - text: ", Slovakia"
+              - row "Sister newspapers Sme, Korzár and various regional MY newspapers" [ref=e267]:
+                - rowheader "Sister newspapers" [ref=e268]:
+                  - generic [ref=e269]: Sister newspapers
+                - cell "Sme, Korzár and various regional MY newspapers" [ref=e270]:
+                  - link "Sme" [ref=e272] [cursor=pointer]:
+                    - /url: /wiki/Sme
+                  - text: ","
+                  - link "Korzár" [ref=e274] [cursor=pointer]:
+                    - /url: /wiki/Korz%C3%A1r
+                  - text: and various regional MY newspapers
+              - row "ISSN 1335-9843 (print) 1336-0922 (web)" [ref=e275]:
+                - rowheader "ISSN" [ref=e276]:
+                  - link "ISSN" [ref=e277] [cursor=pointer]:
+                    - /url: /wiki/ISSN_(identifier)
+                - cell "1335-9843 (print) 1336-0922 (web)" [ref=e278]:
+                  - link "1335-9843" [ref=e279] [cursor=pointer]:
+                    - /url: https://www.worldcat.org/search?fq=x0:jrnl&q=n2:1335-9843
+                  - text: (print)
+                  - link "1336-0922" [ref=e280] [cursor=pointer]:
+                    - /url: https://www.worldcat.org/search?fq=x0:jrnl&q=n2:1336-0922
+                  - text: (web)
+              - row "Website spectator.sme.sk" [ref=e281]:
+                - rowheader "Website" [ref=e282]
+                - cell "spectator.sme.sk" [ref=e283]:
+                  - link "spectator.sme.sk" [ref=e285] [cursor=pointer]:
+                    - /url: https://spectator.sme.sk
+                    - text: spectator
+                    - text: .sme
+                    - text: .sk
+          - paragraph [ref=e286]:
+            - generic [ref=e287]: The Slovak Spectator
+            - text: is an English-language newspaper/magazine published in Slovakia.
+          - paragraph [ref=e288]:
+            - text: "The Slovak Spectator is published by The Rock, s.r.o. and was founded by four Americans: Rick Zednik, Richard Lewis, Eric Koomen and Daniel J. Stoll. Koomen and Stoll are the sole owners among the largest media company in Slovakia, Petit Press, which also owns"
+            - link "Sme" [ref=e290] [cursor=pointer]:
+              - /url: /wiki/Sme
+            - text: ","
+            - link "Korzár" [ref=e292] [cursor=pointer]:
+              - /url: /wiki/Korz%C3%A1r
+            - text: ", and various regional MY newspapers."
+            - superscript [ref=e293]:
+              - link "[1]" [ref=e294] [cursor=pointer]:
+                - /url: "#cite_note-1"
+            - superscript [ref=e295]:
+              - link "[2]" [ref=e296] [cursor=pointer]:
+                - /url: "#cite_note-2"
+          - generic [ref=e297]:
+            - heading "References" [level=2] [ref=e298]
+            - generic [ref=e299]:
+              - text: "["
+              - link "edit" [ref=e300] [cursor=pointer]:
+                - /url: /w/index.php?title=The_Slovak_Spectator&action=edit&section=1
+              - text: "]"
+          - list [ref=e303]:
+            - listitem [ref=e304]:
+              - link "Jump up" [ref=e307] [cursor=pointer]:
+                - /url: "#cite_ref-1"
+                - text: ^
+              - generic [ref=e308]:
+                - generic [ref=e309]:
+                  - 'link "\"Petit Press: Domovská stránka\"" [ref=e310] [cursor=pointer]':
+                    - /url: http://www.petitpress.sk
+                  - text: (in Slovak). Petit Press
+                  - generic [ref=e311]: . Retrieved 26 February 2023
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Petit+Press%3A+Domovsk%C3%A1+str%C3%A1nka&rft.pub=Petit+Press&rft_id=http%3A%2F%2Fwww.petitpress.sk&rfr_id=info%3Asid%2Fen.wikipedia.org%3AThe+Slovak+Spectator"
+            - listitem [ref=e312]:
+              - link "Jump up" [ref=e315] [cursor=pointer]:
+                - /url: "#cite_ref-2"
+                - text: ^
+              - generic [ref=e316]:
+                - generic [ref=e317]:
+                  - text: Školkay, Andrej (2011).
+                  - link "Media Law in Slovakia" [ref=e318] [cursor=pointer]:
+                    - /url: https://books.google.com/books?id=FZi9HMWjR2IC&pg=PA30
+                  - text: . Kluwer Law International. p. 30.
+                  - link "ISBN" [ref=e319] [cursor=pointer]:
+                    - /url: /wiki/ISBN_(identifier)
+                  - link "978-90-411-3439-4" [ref=e320] [cursor=pointer]:
+                    - /url: /wiki/Special:BookSources/978-90-411-3439-4
+                  - generic [ref=e321]: . Retrieved 14 January 2015
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=Media+Law+in+Slovakia&rft.pages=30&rft.pub=Kluwer+Law+International&rft.date=2011&rft.isbn=978-90-411-3439-4&rft.aulast=%C5%A0kolkay&rft.aufirst=Andrej&rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DFZi9HMWjR2IC%26pg%3DPA30&rfr_id=info%3Asid%2Fen.wikipedia.org%3AThe+Slovak+Spectator"
+          - generic [ref=e322]:
+            - heading "External links" [level=2] [ref=e323]
+            - generic [ref=e324]:
+              - text: "["
+              - link "edit" [ref=e325] [cursor=pointer]:
+                - /url: /w/index.php?title=The_Slovak_Spectator&action=edit&section=2
+              - text: "]"
+          - list [ref=e326]:
+            - listitem [ref=e327]:
+              - link "Official website" [ref=e330] [cursor=pointer]:
+                - /url: https://spectator.sme.sk
+          - note [ref=e331]:
+            - link "Stub icon 1" [ref=e333] [cursor=pointer]:
+              - /url: /wiki/File:Newspaper.svg
+              - img "Stub icon 1" [ref=e334]
+            - link "Stub icon 2" [ref=e336] [cursor=pointer]:
+              - /url: /wiki/File:Flag_of_Slovakia.svg
+              - img "Stub icon 2" [ref=e337]
+            - paragraph [ref=e338]:
+              - text: This Slovakian newspaper-related article is a
+              - link "stub" [ref=e339] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:Stub
+              - text: . You can help Wikipedia by
+              - link "adding missing information" [ref=e340] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/w/index.php?title=The_Slovak_Spectator&action=edit
+              - text: .
+            - text: · ·
+        - generic [ref=e342]:
+          - link "Categories" [ref=e343] [cursor=pointer]:
+            - /url: /wiki/Help:Category
+          - text: ":"
+          - list [ref=e344]:
+            - listitem [ref=e345]:
+              - link "1995 establishments in Slovakia" [ref=e346] [cursor=pointer]:
+                - /url: /wiki/Category:1995_establishments_in_Slovakia
+            - listitem [ref=e347]:
+              - link "English-language newspapers published in Europe" [ref=e348] [cursor=pointer]:
+                - /url: /wiki/Category:English-language_newspapers_published_in_Europe
+            - listitem [ref=e349]:
+              - link "Newspapers established in 1995" [ref=e350] [cursor=pointer]:
+                - /url: /wiki/Category:Newspapers_established_in_1995
+            - listitem [ref=e351]:
+              - link "Newspapers published in Slovakia" [ref=e352] [cursor=pointer]:
+                - /url: /wiki/Category:Newspapers_published_in_Slovakia
+            - listitem [ref=e353]:
+              - link "Weekly newspapers" [ref=e354] [cursor=pointer]:
+                - /url: /wiki/Category:Weekly_newspapers
+            - listitem [ref=e355]:
+              - link "Newspapers published in Europe stubs" [ref=e356] [cursor=pointer]:
+                - /url: /wiki/Category:Newspapers_published_in_Europe_stubs
+            - listitem [ref=e357]:
+              - link "Mass media in Slovakia stubs" [ref=e358] [cursor=pointer]:
+                - /url: /wiki/Category:Mass_media_in_Slovakia_stubs
+    - contentinfo [ref=e360]:
+      - list [ref=e361]:
+        - listitem [ref=e362]: This page was last edited on 3 October 2025, at 12:54 (UTC).
+        - listitem [ref=e363]:
+          - text: Text is available under the
+          - link "Creative Commons Attribution-ShareAlike 4.0 License" [ref=e364] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+          - text: ; additional terms may apply. By using this site, you agree to the
+          - link "Terms of Use" [ref=e365] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+          - text: and
+          - link "Privacy Policy" [ref=e366] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+          - text: . Wikipedia® is a registered trademark of the
+          - link "Wikimedia Foundation, Inc." [ref=e367] [cursor=pointer]:
+            - /url: https://wikimediafoundation.org/
+          - text: ", a non-profit organization."
+      - list:
+        - listitem [ref=e368]:
+          - link "Privacy policy" [ref=e369] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e370]:
+          - link "About Wikipedia" [ref=e371] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:About
+        - listitem [ref=e372]:
+          - link "Disclaimers" [ref=e373] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:General_disclaimer
+        - listitem [ref=e374]:
+          - link "Contact Wikipedia" [ref=e375] [cursor=pointer]:
+            - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+        - listitem [ref=e376]:
+          - link "Legal & safety contacts" [ref=e377] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+        - listitem [ref=e378]:
+          - link "Code of Conduct" [ref=e379] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e380]:
+          - link "Developers" [ref=e381] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e382]:
+          - link "Statistics" [ref=e383] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/en.wikipedia.org
+        - listitem [ref=e384]:
+          - link "Cookie statement" [ref=e385] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e386]:
+          - link "Mobile view" [ref=e387] [cursor=pointer]:
+            - /url: //en.wikipedia.org/w/index.php?title=The_Slovak_Spectator&mobileaction=toggle_view_mobile
+      - list [ref=e388]:
+        - listitem [ref=e389]:
+          - link "Wikimedia Foundation" [ref=e390] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e392]
+        - listitem [ref=e393]:
+          - link "Powered by MediaWiki" [ref=e394] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e396]
+  - generic [ref=e397]:
+    - list

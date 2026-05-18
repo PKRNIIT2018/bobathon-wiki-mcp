@@ -1,0 +1,1602 @@
+- generic [active] [ref=e1]:
+  - link "Jump to content" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "Site" [ref=e6]:
+        - generic "Main menu" [ref=e7]:
+          - button "Main menu" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: Main menu
+      - link "Wikipedia The Free Encyclopedia" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - generic [ref=e13]:
+          - img "Wikipedia" [ref=e14]
+          - img "The Free Encyclopedia" [ref=e15]
+    - generic [ref=e16]:
+      - search [ref=e17]:
+        - generic [ref=e20]:
+          - searchbox "Search Wikipedia" [ref=e23]
+          - button "Search" [ref=e25]
+      - navigation "Personal tools" [ref=e26]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Donate" [ref=e32] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+          - listitem [ref=e33]:
+            - link "Create account" [ref=e34] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:CreateAccount&returnto=Playwright
+          - listitem [ref=e35]:
+            - link "Log in" [ref=e36] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:UserLogin&returnto=Playwright
+  - generic [ref=e38]:
+    - navigation "Contents" [ref=e42]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "Contents" [level=2] [ref=e46]
+          - button "hide" [ref=e47] [cursor=pointer]
+        - list [ref=e48]:
+          - listitem [ref=e49]:
+            - link "(Top)" [ref=e50] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e51]: (Top)
+          - listitem [ref=e52]:
+            - link "Etymology" [ref=e53] [cursor=pointer]:
+              - /url: "#Etymology"
+              - generic [ref=e54]: Etymology
+            - list
+          - listitem [ref=e55]:
+            - link "History" [ref=e56] [cursor=pointer]:
+              - /url: "#History"
+              - generic [ref=e57]: History
+            - button "Toggle History subsection" [expanded] [ref=e58]:
+              - generic [ref=e60]: Toggle History subsection
+            - list [ref=e61]:
+              - listitem [ref=e62]:
+                - link "Early playwrights" [ref=e63] [cursor=pointer]:
+                  - /url: "#Early_playwrights"
+                  - generic [ref=e64]: Early playwrights
+                - list
+              - listitem [ref=e65]:
+                - link "Aristotle's Poetics techniques" [ref=e66] [cursor=pointer]:
+                  - /url: "#Aristotle's_Poetics_techniques"
+                  - generic [ref=e68]: Aristotle's Poetics techniques
+                - list
+              - listitem [ref=e69]:
+                - link "Medieval" [ref=e70] [cursor=pointer]:
+                  - /url: "#Medieval"
+                  - generic [ref=e71]: Medieval
+                - list
+              - listitem [ref=e72]:
+                - link "Neo-classical theory" [ref=e73] [cursor=pointer]:
+                  - /url: "#Neo-classical_theory"
+                  - generic [ref=e74]: Neo-classical theory
+                - list
+              - listitem [ref=e75]:
+                - link "Cretan Renaissance theatre" [ref=e76] [cursor=pointer]:
+                  - /url: "#Cretan_Renaissance_theatre"
+                  - generic [ref=e77]: Cretan Renaissance theatre
+                - list
+              - listitem [ref=e78]:
+                - link "19th century" [ref=e79] [cursor=pointer]:
+                  - /url: "#19th_century"
+                  - generic [ref=e80]: 19th century
+                - list
+              - listitem [ref=e81]:
+                - link "Contemporary playwrights in the United States" [ref=e82] [cursor=pointer]:
+                  - /url: "#Contemporary_playwrights_in_the_United_States"
+                  - generic [ref=e83]: Contemporary playwrights in the United States
+                - list [ref=e84]:
+                  - listitem [ref=e85]:
+                    - link "New play development" [ref=e86] [cursor=pointer]:
+                      - /url: "#New_play_development"
+                      - generic [ref=e87]: New play development
+                    - list
+          - listitem [ref=e88]:
+            - link "See also" [ref=e89] [cursor=pointer]:
+              - /url: "#See_also"
+              - generic [ref=e90]: See also
+            - list
+          - listitem [ref=e91]:
+            - link "Notes" [ref=e92] [cursor=pointer]:
+              - /url: "#Notes"
+              - generic [ref=e93]: Notes
+            - list
+          - listitem [ref=e94]:
+            - link "References" [ref=e95] [cursor=pointer]:
+              - /url: "#References"
+              - generic [ref=e96]: References
+            - list
+          - listitem [ref=e97]:
+            - link "External links" [ref=e98] [cursor=pointer]:
+              - /url: "#External_links"
+              - generic [ref=e99]: External links
+            - list
+    - main [ref=e101]:
+      - generic [ref=e102]:
+        - heading "Playwright" [level=1] [ref=e103]:
+          - generic [ref=e104]: Playwright
+        - generic [ref=e105]:
+          - button "Go to an article in another language. Available in 85 languages" [ref=e106] [cursor=pointer]
+          - generic [ref=e109]: 85 languages
+      - generic [ref=e111]:
+        - navigation "Namespaces" [ref=e113]:
+          - generic [ref=e114]:
+            - generic:
+              - list:
+                - listitem [ref=e115]:
+                  - link "Article" [ref=e116] [cursor=pointer]:
+                    - /url: /wiki/Playwright
+                    - generic [ref=e117]: Article
+                - listitem [ref=e118]:
+                  - link "Talk" [ref=e119] [cursor=pointer]:
+                    - /url: /wiki/Talk:Playwright
+                    - generic [ref=e120]: Talk
+        - generic [ref=e121]:
+          - navigation "Views" [ref=e122]:
+            - generic [ref=e123]:
+              - generic:
+                - list:
+                  - listitem [ref=e124]:
+                    - link "Read" [ref=e125] [cursor=pointer]:
+                      - /url: /wiki/Playwright
+                      - generic [ref=e126]: Read
+                  - listitem [ref=e127]:
+                    - link "Edit" [ref=e128] [cursor=pointer]:
+                      - /url: /w/index.php?title=Playwright&action=edit
+                      - generic [ref=e129]: Edit
+                  - listitem [ref=e130]:
+                    - link "View history" [ref=e131] [cursor=pointer]:
+                      - /url: /w/index.php?title=Playwright&action=history
+                      - generic [ref=e132]: View history
+          - navigation "Page tools" [ref=e133]:
+            - generic [ref=e134]:
+              - button "Tools" [ref=e135] [cursor=pointer]
+              - generic [ref=e137] [cursor=pointer]: Tools
+      - navigation "Appearance" [ref=e140]:
+        - generic [ref=e142]:
+          - generic [ref=e143]:
+            - generic [ref=e144]: Appearance
+            - button "hide" [ref=e145] [cursor=pointer]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Text
+            - list [ref=e149]:
+              - listitem [ref=e150]:
+                - generic [ref=e152]:
+                  - generic [ref=e153]:
+                    - radio "Small" [ref=e154]
+                    - generic [ref=e157]: Small
+                  - generic [ref=e158]:
+                    - radio "Standard" [checked] [ref=e159]
+                    - generic [ref=e162]: Standard
+                  - generic [ref=e163]:
+                    - radio "Large" [ref=e164]
+                    - generic [ref=e167]: Large
+          - generic [ref=e168]:
+            - generic [ref=e169]: Width
+            - list [ref=e171]:
+              - listitem [ref=e172]:
+                - generic [ref=e174]:
+                  - generic [ref=e175]:
+                    - radio "Standard" [checked] [ref=e176]
+                    - generic [ref=e179]: Standard
+                  - generic [ref=e180]:
+                    - radio "Wide" [ref=e181]
+                    - generic [ref=e184]: Wide
+          - generic [ref=e185]:
+            - generic [ref=e186]: Color
+            - list [ref=e188]:
+              - listitem [ref=e189]:
+                - generic [ref=e191]:
+                  - generic [ref=e192]:
+                    - radio "Automatic" [ref=e193]
+                    - generic [ref=e196]: Automatic
+                  - generic [ref=e197]:
+                    - radio "Light" [checked] [ref=e198]
+                    - generic [ref=e201]: Light
+                  - generic [ref=e202]:
+                    - radio "Dark" [ref=e203]
+                    - generic [ref=e206]: Dark
+      - generic "Playwright" [ref=e207]:
+        - generic [ref=e209]: From Wikipedia, the free encyclopedia
+        - generic [ref=e212]:
+          - text: (Redirected from
+          - link "Playwrite" [ref=e213] [cursor=pointer]:
+            - /url: /w/index.php?title=Playwrite&redirect=no
+          - text: )
+        - generic [ref=e214]:
+          - generic [ref=e215]:
+            - link "Sorry to interrupt, but our fundraiser won't last long. This Monday, we ask you to join the 2% of readers who give. If everyone reading this right now gave just €2,75, we'd hit our goal quickly. €2,75 is all we ask. Give €2,75 Maybe later" [ref=e216] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e217]:
+                - strong [ref=e218]: Sorry to interrupt, but our fundraiser won't last long.
+                - text: This Monday, we ask you to join the 2% of readers who give. If everyone reading this right now gave just €2,75, we'd hit our goal quickly. €2,75 is all we ask.
+              - generic [ref=e219]:
+                - button "Give €2,75" [ref=e220]
+                - button "Maybe later" [ref=e221]
+            - img "Close" [ref=e223] [cursor=pointer]
+          - region "fundraising banner" [ref=e226]:
+            - generic [ref=e227]:
+              - generic [ref=e228]:
+                - img [ref=e229]
+                - text: "18 May: Wikipedia still can't be sold"
+              - generic [ref=e233]: We're sorry we've made several attempts to reach you lately, but it's Monday, 18 May, and we still need some help. If everyone reading this gave €2,75 today, we'd hit our goal in a few hours. Most readers don't donate; less than 2% do. Wikipedia is run by a nonprofit, not by a billionaire. So if Wikipedia has given you €2,75 worth of knowledge, please give. Any contribution helps, whether it's €2,75 or €25.
+              - generic [ref=e235]:
+                - button "Give €2,75" [ref=e236] [cursor=pointer]:
+                  - generic [ref=e237]: Give €2,75
+                - button "Give a different amount" [ref=e238] [cursor=pointer]
+                - img [ref=e241]
+              - generic:
+                - img
+            - generic [ref=e244]:
+              - button "Maybe later" [ref=e245] [cursor=pointer]:
+                - text: Maybe later
+                - img [ref=e246]
+              - button "I already donated" [ref=e251] [cursor=pointer]
+              - button "Close" [ref=e252] [cursor=pointer]:
+                - text: Close
+                - img [ref=e253]
+        - generic [ref=e257]:
+          - note [ref=e258]:
+            - text: For the software, see
+            - link "Playwright (software)" [ref=e259] [cursor=pointer]:
+              - /url: /wiki/Playwright_(software)
+            - text: .
+          - figure "Ben Jonson coined the term \"playwright\"." [ref=e260]:
+            - link [ref=e261] [cursor=pointer]:
+              - /url: /wiki/File:Benjamin_Jonson_by_Abraham_van_Blyenberch.jpg
+              - img [ref=e262]
+            - generic [ref=e263]:
+              - link "Ben Jonson" [ref=e264] [cursor=pointer]:
+                - /url: /wiki/Ben_Jonson
+              - text: coined the term "playwright".
+          - paragraph [ref=e265]:
+            - text: A playwright or dramatist is a person who writes
+            - link "plays" [ref=e266] [cursor=pointer]:
+              - /url: /wiki/Play_(theatre)
+            - text: ", which are a form of"
+            - link "drama" [ref=e267] [cursor=pointer]:
+              - /url: /wiki/Drama
+            - text: that primarily consists of
+            - link "dialogue" [ref=e268] [cursor=pointer]:
+              - /url: /wiki/Dialogue
+            - text: between
+            - link "characters" [ref=e269] [cursor=pointer]:
+              - /url: /wiki/Character_(arts)
+            - text: and is intended for
+            - link "theatrical" [ref=e270] [cursor=pointer]:
+              - /url: /wiki/Theatre
+            - link "performance" [ref=e271] [cursor=pointer]:
+              - /url: /wiki/Performance
+            - text: rather than just
+            - link "reading" [ref=e272] [cursor=pointer]:
+              - /url: /wiki/Reading_(process)
+            - text: .
+            - link "Ben Jonson" [ref=e273] [cursor=pointer]:
+              - /url: /wiki/Ben_Jonson
+            - text: coined the term playwright and is the first person in
+            - link "English literature" [ref=e274] [cursor=pointer]:
+              - /url: /wiki/English_literature
+            - text: to refer to playwrights as separate from
+            - link "poets" [ref=e275] [cursor=pointer]:
+              - /url: /wiki/Poet
+            - text: .
+          - paragraph [ref=e276]:
+            - text: The earliest playwrights in
+            - link "Western literature" [ref=e277] [cursor=pointer]:
+              - /url: /wiki/Western_literature
+            - text: with surviving works are the
+            - link "Ancient Greeks" [ref=e278] [cursor=pointer]:
+              - /url: /wiki/Ancient_Greek
+            - text: .
+            - link "William Shakespeare" [ref=e279] [cursor=pointer]:
+              - /url: /wiki/William_Shakespeare
+            - text: is amongst the most famous playwrights in literature, both in England and across the world.
+          - generic [ref=e280]:
+            - heading "Etymology" [level=2] [ref=e281]
+            - generic [ref=e282]:
+              - text: "["
+              - link "edit" [ref=e283] [cursor=pointer]:
+                - /url: /w/index.php?title=Playwright&action=edit&section=1
+              - text: "]"
+          - paragraph [ref=e284]:
+            - text: The word play is from Middle English
+            - generic "Middle English (1100-1500)-language text" [ref=e285]: pleye
+            - text: ", from Old English"
+            - generic "Old English (ca. 450-1100)-language text" [ref=e286]: plæġ, pleġa, plæġa
+            - text: ('play, exercise; sport, game; drama, applause').
+            - superscript [ref=e287]:
+              - link "[1]" [ref=e288] [cursor=pointer]:
+                - /url: "#cite_note-1"
+            - text: The word
+            - link "wright" [ref=e290] [cursor=pointer]:
+              - /url: https://en.wiktionary.org/wiki/wright
+            - text: is an archaic English term for a
+            - link "craftsperson" [ref=e291] [cursor=pointer]:
+              - /url: /wiki/Artisan
+            - text: or builder (as in a
+            - link "wheelwright" [ref=e292] [cursor=pointer]:
+              - /url: /wiki/Wheelwright
+            - text: or
+            - link "cartwright" [ref=e293] [cursor=pointer]:
+              - /url: /wiki/Wagon
+            - text: ).
+            - superscript [ref=e294]:
+              - link "[2]" [ref=e295] [cursor=pointer]:
+                - /url: "#cite_note-2"
+            - text: The words combine to indicate a person who has wrought words, themes, and other elements into a dramatic form — a play. (The
+            - link "homophone" [ref=e296] [cursor=pointer]:
+              - /url: /wiki/Homophone
+            - text: with write is coincidental.)
+          - paragraph [ref=e297]:
+            - text: The first recorded use of the term playwright is from 1605,
+            - superscript [ref=e298]:
+              - link "[3]" [ref=e299] [cursor=pointer]:
+                - /url: "#cite_note-3"
+            - text: 73 years before the first written record of the term dramatist.
+            - superscript [ref=e300]:
+              - link "[4]" [ref=e301] [cursor=pointer]:
+                - /url: "#cite_note-4"
+            - text: It appears to have been first used in a pejorative sense by
+            - link "Ben Jonson" [ref=e302] [cursor=pointer]:
+              - /url: /wiki/Ben_Jonson
+            - superscript [ref=e303]:
+              - link "[5]" [ref=e304] [cursor=pointer]:
+                - /url: "#cite_note-5"
+            - text: to suggest a mere tradesman fashioning works for the theatre.
+          - paragraph [ref=e305]:
+            - text: Jonson uses the word in his Epigram 49, which is thought to refer to
+            - link "John Marston" [ref=e306] [cursor=pointer]:
+              - /url: /wiki/John_Marston_(playwright)
+            - superscript [ref=e307]:
+              - link "[6]" [ref=e308] [cursor=pointer]:
+                - /url: "#cite_note-6"
+            - text: or
+            - link "Thomas Dekker" [ref=e309] [cursor=pointer]:
+              - /url: /wiki/Thomas_Dekker_(writer)
+            - text: ":"
+            - superscript [ref=e310]:
+              - link "[7]" [ref=e311] [cursor=pointer]:
+                - /url: "#cite_note-7"
+          - blockquote [ref=e312]:
+            - paragraph [ref=e314]:
+              - text: Epigram XLIX — On Playwright
+              - text: PLAYWRIGHT me reads, and still my verses damns,
+              - text: He says I want the tongue of epigrams;
+              - text: I have no salt, no bawdry he doth mean;
+              - text: For witty, in his language, is obscene.
+              - text: Playwright, I loath to have thy manners known
+              - text: In my chaste book; I profess them in thine own.
+          - paragraph [ref=e315]: Jonson described himself as a poet, not a playwright, since plays during that time were written in meter and so were regarded as the province of poets. This view was held as late as the early 19th century. The term "playwright" later again lost this negative connotation.
+          - generic [ref=e316]:
+            - heading "History" [level=2] [ref=e317]
+            - generic [ref=e318]:
+              - text: "["
+              - link "edit" [ref=e319] [cursor=pointer]:
+                - /url: /w/index.php?title=Playwright&action=edit&section=2
+              - text: "]"
+          - note [ref=e320]:
+            - text: "Further information:"
+            - link "List of playwrights" [ref=e321] [cursor=pointer]:
+              - /url: /wiki/List_of_playwrights
+          - generic [ref=e322]:
+            - heading "Early playwrights" [level=3] [ref=e323]
+            - generic [ref=e324]:
+              - text: "["
+              - link "edit" [ref=e325] [cursor=pointer]:
+                - /url: /w/index.php?title=Playwright&action=edit&section=3
+              - text: "]"
+          - paragraph [ref=e326]:
+            - text: The earliest playwrights in Western literature with surviving works are the
+            - link "Ancient Greeks" [ref=e327] [cursor=pointer]:
+              - /url: /wiki/Ancient_Greek
+            - text: . These early plays were for annual
+            - link "Athenian" [ref=e328] [cursor=pointer]:
+              - /url: /wiki/Athens
+            - text: competitions among play writers
+            - superscript [ref=e329]:
+              - link "[8]" [ref=e330] [cursor=pointer]:
+                - /url: "#cite_note-8"
+            - text: held around the 5th century BC. Such notables as
+            - link "Aeschylus" [ref=e331] [cursor=pointer]:
+              - /url: /wiki/Aeschylus
+            - text: ","
+            - link "Sophocles" [ref=e332] [cursor=pointer]:
+              - /url: /wiki/Sophocles
+            - text: ","
+            - link "Euripides" [ref=e333] [cursor=pointer]:
+              - /url: /wiki/Euripides
+            - text: ", and"
+            - link "Aristophanes" [ref=e334] [cursor=pointer]:
+              - /url: /wiki/Aristophanes
+            - text: established forms still relied on by their modern counterparts. We have complete texts
+            - link "extant" [ref=e335] [cursor=pointer]:
+              - /url: /wiki/Extant_literature
+            - text: by Aeschylus, Sophocles, and
+            - link "Euripides" [ref=e336] [cursor=pointer]:
+              - /url: /wiki/Euripides
+            - text: .
+            - superscript [ref=e337]:
+              - link "[9]" [ref=e338] [cursor=pointer]:
+                - /url: "#cite_note-9"
+            - superscript [ref=e339]:
+              - link "[a]" [ref=e340] [cursor=pointer]:
+                - /url: "#cite_note-10"
+            - text: The origins of
+            - link "Athenian tragedy" [ref=e341] [cursor=pointer]:
+              - /url: /wiki/Tragedy#Greek
+            - text: remain obscure, though by the 5th century it was
+            - link "institutionalised" [ref=e342] [cursor=pointer]:
+              - /url: /wiki/Institution
+            - text: in competitions (
+            - link "agon" [ref=e344] [cursor=pointer]:
+              - /url: /wiki/Agon
+            - text: ) held as part of festivities celebrating
+            - link "Dionysos" [ref=e345] [cursor=pointer]:
+              - /url: /wiki/Dionysos
+            - text: (the
+            - link "god" [ref=e346] [cursor=pointer]:
+              - /url: /wiki/Family_tree_of_the_Greek_gods
+            - text: of
+            - link "wine" [ref=e347] [cursor=pointer]:
+              - /url: /wiki/Wine
+            - text: and
+            - link "fertility" [ref=e348] [cursor=pointer]:
+              - /url: /wiki/Fertility
+            - text: ).
+            - superscript [ref=e349]:
+              - link "[10]" [ref=e350] [cursor=pointer]:
+                - /url: "#cite_note-11"
+            - text: As contestants in the
+            - link "City Dionysia's" [ref=e351] [cursor=pointer]:
+              - /url: /wiki/City_Dionysia
+            - text: competition (the most prestigious of the festivals to stage drama), playwrights were required to present a
+            - link "tetralogy" [ref=e352] [cursor=pointer]:
+              - /url: /wiki/Tetralogy
+            - text: of plays (though the individual works were not necessarily connected by story or theme), which usually consisted of three tragedies and one satyr play.
+            - superscript [ref=e353]:
+              - link "[11]" [ref=e354] [cursor=pointer]:
+                - /url: "#cite_note-12"
+            - superscript [ref=e356]:
+              - link "[b]" [ref=e357] [cursor=pointer]:
+                - /url: "#cite_note-13"
+          - paragraph [ref=e358]:
+            - text: For the ancient Greeks, playwriting involved
+            - link "poïesis" [ref=e360] [cursor=pointer]:
+              - /url: /wiki/Poiesis
+            - text: ", \"the act of making\". This is the source of the English word poet."
+          - paragraph [ref=e361]:
+            - text: Despite
+            - link "Chinese Theatre" [ref=e362] [cursor=pointer]:
+              - /url: /wiki/Chinese_Theatre
+            - text: having performers dated back to the 6th century BC with
+            - link "You Meng" [ref=e363] [cursor=pointer]:
+              - /url: /wiki/You_Meng
+            - text: ", their perspective of theatre was such that plays had no other role than \"performer\" or \"actor\", but given that the performers were also the ones who invented their performances, they could be considered a form of playwright."
+            - superscript [ref=e364]:
+              - link "[12]" [ref=e365] [cursor=pointer]:
+                - /url: "#cite_note-14"
+          - paragraph [ref=e366]:
+            - text: Outside of the Western world there is
+            - link "Indian classical drama" [ref=e367] [cursor=pointer]:
+              - /url: /wiki/Indian_classical_drama
+            - text: ", with one of the oldest known playwrights being"
+            - link "Śudraka" [ref=e368] [cursor=pointer]:
+              - /url: /wiki/%C5%9Audraka
+            - text: ", whose attributed plays can be dated to the second century BC."
+            - superscript [ref=e369]:
+              - link "[13]" [ref=e370] [cursor=pointer]:
+                - /url: "#cite_note-15"
+            - text: The
+            - link "Nāṭya Shāstra" [ref=e372] [cursor=pointer]:
+              - /url: /wiki/Natya_Shastra
+            - text: ", a text on the performing arts from between 500BC-500AD, categorizes playwrights as being among the members of a theatre company, although playwrights were generally the highest in social status, with some being kings."
+            - superscript [ref=e373]:
+              - link "[14]" [ref=e374] [cursor=pointer]:
+                - /url: "#cite_note-16"
+          - generic [ref=e375]:
+            - heading "Aristotle's Poetics techniques" [level=3] [ref=e376]: Aristotle's Poetics techniques
+            - generic [ref=e377]:
+              - text: "["
+              - link "edit" [ref=e378] [cursor=pointer]:
+                - /url: /w/index.php?title=Playwright&action=edit&section=4
+              - text: "]"
+          - paragraph [ref=e379]:
+            - text: In the 4th century BCE,
+            - link "Aristotle" [ref=e380] [cursor=pointer]:
+              - /url: /wiki/Aristotle
+            - text: wrote his
+            - link "Poetics" [ref=e382] [cursor=pointer]:
+              - /url: /wiki/Poetics_(Aristotle)
+            - text: ", in which he analyzed the principle of action or praxis as the basis for tragedy."
+            - superscript [ref=e383]:
+              - link "[15]" [ref=e384] [cursor=pointer]:
+                - /url: "#cite_note-:0-17"
+            - text: "He then considered elements of drama:"
+            - link "plot" [ref=e385] [cursor=pointer]:
+              - /url: /wiki/Plot_(narrative)
+            - text: (
+            - generic [ref=e386]:
+              - generic "Greek-language text" [ref=e387]: μύθος
+              - generic "Greek-language text" [ref=e388]: mythos
+            - text: ), character (
+            - generic [ref=e389]:
+              - generic "Greek-language text" [ref=e390]: ἔθος
+              - generic "Greek-language text" [ref=e391]:
+                - link "ethos" [ref=e393] [cursor=pointer]:
+                  - /url: /wiki/Ethos
+            - text: ), thought (
+            - generic "Greek-language text" [ref=e395]:
+              - link "dianoia" [ref=e397] [cursor=pointer]:
+                - /url: /wiki/Dianoia
+            - text: ), diction (
+            - generic "Greek-language text" [ref=e399]:
+              - link "lexis" [ref=e401] [cursor=pointer]:
+                - /url: /wiki/Lexis_(Aristotle)
+            - text: ), music (
+            - generic "Greek-language text" [ref=e403]:
+              - link "melodia" [ref=e405] [cursor=pointer]:
+                - /url: /wiki/Melody
+            - text: ), and spectacle (
+            - generic "Greek-language text" [ref=e407]: opsis
+            - text: ). Since the
+            - link "myths" [ref=e408] [cursor=pointer]:
+              - /url: /wiki/Mythology
+            - text: on which
+            - link "Greek tragedy" [ref=e409] [cursor=pointer]:
+              - /url: /wiki/Greek_tragedy
+            - text: were based were widely known, plot had to do with the arrangement and selection of existing material.
+            - superscript [ref=e410]:
+              - link "[15]" [ref=e411] [cursor=pointer]:
+                - /url: "#cite_note-:0-17"
+            - text: Character was determined by choice and by action. Tragedy is
+            - link "mimesis" [ref=e412] [cursor=pointer]:
+              - /url: /wiki/Mimesis
+            - text: — "the imitation of an action that is serious". He developed his notion of
+            - link "hamartia" [ref=e413] [cursor=pointer]:
+              - /url: /wiki/Hamartia
+            - text: ", or tragic flaw, an error in judgment by the main character or"
+            - link "protagonist" [ref=e414] [cursor=pointer]:
+              - /url: /wiki/Protagonist
+            - text: ", which provides the basis for the \"conflict-driven\" play."
+            - superscript [ref=e415]:
+              - link "[15]" [ref=e416] [cursor=pointer]:
+                - /url: "#cite_note-:0-17"
+          - figure "The Chandos portrait, likely depicting Shakespeare, c. 1611" [ref=e417]:
+            - link [ref=e418] [cursor=pointer]:
+              - /url: /wiki/File:William_Shakespeare_by_John_Taylor,_edited.jpg
+              - img [ref=e419]
+            - generic [ref=e421]:
+              - text: The
+              - link "Chandos portrait" [ref=e422] [cursor=pointer]:
+                - /url: /wiki/Chandos_portrait
+              - text: ", likely depicting Shakespeare, c. 1611"
+          - generic [ref=e423]:
+            - heading "Medieval" [level=3] [ref=e424]
+            - generic [ref=e425]:
+              - text: "["
+              - link "edit" [ref=e426] [cursor=pointer]:
+                - /url: /w/index.php?title=Playwright&action=edit&section=5
+              - text: "]"
+          - paragraph [ref=e427]:
+            - text: There were also a number of secular performances staged in the Middle Ages, the earliest of which is The Play of the Greenwood by
+            - link "Adam de la Halle" [ref=e428] [cursor=pointer]:
+              - /url: /wiki/Adam_de_la_Halle
+            - text: in 1276. It contains satirical scenes and
+            - link "folk" [ref=e429] [cursor=pointer]:
+              - /url: /wiki/Folk_culture
+            - text: material such as
+            - link "faeries" [ref=e430] [cursor=pointer]:
+              - /url: /wiki/Faeries
+            - text: and other supernatural occurrences.
+            - link "Farces" [ref=e431] [cursor=pointer]:
+              - /url: /wiki/Farce
+            - text: also rose dramatically in popularity after the 13th century. The majority of these plays come from France and Germany and are similar in tone and form, emphasizing
+            - link "sex" [ref=e432] [cursor=pointer]:
+              - /url: /wiki/Sex
+            - text: and bodily excretions.
+            - superscript [ref=e433]:
+              - link "[16]" [ref=e434] [cursor=pointer]:
+                - /url: "#cite_note-18"
+          - paragraph [ref=e435]:
+            - text: The best known playwright of farces is
+            - link "Hans Sachs" [ref=e436] [cursor=pointer]:
+              - /url: /wiki/Hans_Sachs
+            - text: (1494–1576) who wrote 198 dramatic works. In England,
+            - link "The Second Shepherds' Play" [ref=e437] [cursor=pointer]:
+              - /url: /wiki/The_Second_Shepherds%27_Play
+            - text: of the
+            - link "Wakefield Cycle" [ref=e438] [cursor=pointer]:
+              - /url: /wiki/Wakefield_Cycle
+            - text: is the best known early farce. However, farce did not appear independently in England until the 16th century with the work of
+            - link "John Heywood" [ref=e439] [cursor=pointer]:
+              - /url: /wiki/John_Heywood
+            - text: (1497–1580).
+          - paragraph [ref=e440]:
+            - text: Playwright
+            - link "William Shakespeare" [ref=e441] [cursor=pointer]:
+              - /url: /wiki/William_Shakespeare
+            - text: remains arguably the most influential writer in the English language, and his works continue to be studied and reinterpreted. Most playwrights of the period typically collaborated with others at some point, as critics agree Shakespeare did, mostly early and late in his career.
+            - superscript [ref=e442]:
+              - link "[17]" [ref=e443] [cursor=pointer]:
+                - /url: "#cite_note-19"
+            - text: His plays have been
+            - link "translated" [ref=e444] [cursor=pointer]:
+              - /url: /wiki/List_of_translations_of_works_by_William_Shakespeare
+            - text: into every major
+            - link "living language" [ref=e445] [cursor=pointer]:
+              - /url: /wiki/Modern_language
+            - text: and are performed more often than those of any other playwright.
+            - superscript [ref=e446]:
+              - link "[18]" [ref=e447] [cursor=pointer]:
+                - /url: "#cite_note-20"
+          - paragraph [ref=e448]:
+            - text: In England, after the
+            - link "interregnum" [ref=e449] [cursor=pointer]:
+              - /url: /wiki/Interregnum_(British_Isles)
+            - text: ", and"
+            - link "Restoration" [ref=e450] [cursor=pointer]:
+              - /url: /wiki/Restoration_(England)
+            - text: of the
+            - link "monarchy" [ref=e451] [cursor=pointer]:
+              - /url: /wiki/Monarchy
+            - text: in 1660, there was a move toward neoclassical dramaturgy. Between
+            - link "the Restoration" [ref=e452] [cursor=pointer]:
+              - /url: /wiki/Stuart_Restoration
+            - text: of the monarchy in 1660 and the end of the 17th century, classical ideas were in vogue. As a result, critics of the time mostly rated Shakespeare below
+            - link "John Fletcher" [ref=e453] [cursor=pointer]:
+              - /url: /wiki/John_Fletcher_(playwright)
+            - text: and Ben Jonson.
+            - superscript [ref=e454]:
+              - link "[19]" [ref=e455] [cursor=pointer]:
+                - /url: "#cite_note-21"
+            - text: This period saw the first professional woman playwright,
+            - link "Aphra Behn" [ref=e456] [cursor=pointer]:
+              - /url: /wiki/Aphra_Behn
+            - text: .
+          - paragraph [ref=e457]:
+            - text: As a reaction to the decadence of Charles II era productions,
+            - link "sentimental comedy" [ref=e458] [cursor=pointer]:
+              - /url: /wiki/Sentimental_comedy
+            - text: grew in popularity. Playwrights like
+            - link "Colley Cibber" [ref=e459] [cursor=pointer]:
+              - /url: /wiki/Colley_Cibber
+            - text: and
+            - link "Richard Steele" [ref=e460] [cursor=pointer]:
+              - /url: /wiki/Richard_Steele
+            - text: believed that humans were inherently good but capable of being led astray.
+            - superscript [ref=e461]:
+              - link "[20]" [ref=e462] [cursor=pointer]:
+                - /url: "#cite_note-Campbell-22"
+            - superscript [ref=e463]:
+              - link "[21]" [ref=e464] [cursor=pointer]:
+                - /url: "#cite_note-Harman-23"
+          - generic [ref=e465]:
+            - heading "Neo-classical theory" [level=3] [ref=e466]
+            - generic [ref=e467]:
+              - text: "["
+              - link "edit" [ref=e468] [cursor=pointer]:
+                - /url: /w/index.php?title=Playwright&action=edit&section=6
+              - text: "]"
+          - figure "The literary production of Aleksis Kivi, the Finnish national author, consisted mainly of plays. One of his best-known plays is Heath Cobblers from 1864." [ref=e469]:
+            - link [ref=e470] [cursor=pointer]:
+              - /url: /wiki/File:Aleksis_Kivi.jpg
+              - img [ref=e471]
+            - generic [ref=e472]:
+              - text: The literary production of
+              - link "Aleksis Kivi" [ref=e473] [cursor=pointer]:
+                - /url: /wiki/Aleksis_Kivi
+              - text: ", the"
+              - link "Finnish" [ref=e474] [cursor=pointer]:
+                - /url: /wiki/Finland
+              - text: national author, consisted mainly of plays. One of his best-known plays is
+              - link "Heath Cobblers" [ref=e476] [cursor=pointer]:
+                - /url: /wiki/Heath_Cobblers
+              - text: from 1864.
+          - paragraph [ref=e477]:
+            - text: The
+            - link "Italian Renaissance" [ref=e478] [cursor=pointer]:
+              - /url: /wiki/Italian_Renaissance
+            - text: brought about a stricter interpretation of Aristotle, as this long-lost work came to light in the late 15th century. The
+            - link "neoclassical" [ref=e479] [cursor=pointer]:
+              - /url: /wiki/Neoclassical_architecture
+            - text: ideal, which was to reach its apogee in France during the 17th century, dwelled upon the
+            - link "unities" [ref=e480] [cursor=pointer]:
+              - /url: /wiki/Unities
+            - text: ", of action, place, and time. This meant that the playwright had to construct the play so that its \"virtual\" time would not exceed 24 hours, that it would be restricted to a single setting, and that there would be no subplots. Other terms, such as verisimilitude and decorum, circumscribed the subject matter significantly. For example, verisimilitude limits of the unities. Decorum fitted proper protocols for behavior and language on stage."
+          - paragraph [ref=e481]:
+            - text: In France, contained too many events and actions, thus, violating the 24-hour restriction of the unity of time. Neoclassicism never had as much traction in England, and
+            - link "Shakespeare" [ref=e482] [cursor=pointer]:
+              - /url: /wiki/Shakespeare
+            - text: "'s plays are directly opposed to these models, while in Italy, improvised and bawdy"
+            - link "commedia dell'arte" [ref=e483] [cursor=pointer]:
+              - /url: /wiki/Commedia_dell%27arte
+            - text: and opera were more popular forms.
+          - paragraph [ref=e484]:
+            - text: One structural unit that is still useful to playwrights today is the "
+            - link "French scene" [ref=e485] [cursor=pointer]:
+              - /url: /wiki/French_scenes
+            - text: "\", which is a scene in a play where the beginning and end are marked by a change in the makeup of the group of characters onstage rather than by the lights going up or down or the set being changed."
+            - superscript [ref=e486]:
+              - link "[22]" [ref=e487] [cursor=pointer]:
+                - /url: "#cite_note-George-24"
+          - paragraph [ref=e488]: "Notable playwrights:"
+          - list [ref=e489]:
+            - listitem [ref=e490]:
+              - link "Pierre Corneille" [ref=e491] [cursor=pointer]:
+                - /url: /wiki/Pierre_Corneille
+              - text: (1606–84)
+            - listitem [ref=e492]:
+              - link "Molière" [ref=e493] [cursor=pointer]:
+                - /url: /wiki/Moli%C3%A8re
+              - text: (1622–73)
+            - listitem [ref=e494]:
+              - link "Jean Racine" [ref=e495] [cursor=pointer]:
+                - /url: /wiki/Jean_Racine
+              - text: (1639–99)
+          - generic [ref=e496]:
+            - heading "Cretan Renaissance theatre" [level=3] [ref=e497]
+            - generic [ref=e498]:
+              - text: "["
+              - link "edit" [ref=e499] [cursor=pointer]:
+                - /url: /w/index.php?title=Playwright&action=edit&section=7
+              - text: "]"
+          - paragraph [ref=e500]:
+            - text: Greek theater was alive and flourishing on the island of Crete. During the
+            - link "Cretan Renaissance" [ref=e501] [cursor=pointer]:
+              - /url: /wiki/Cretan_school
+            - text: two notable Greek playwrights
+            - link "Georgios Chortatzis" [ref=e502] [cursor=pointer]:
+              - /url: /wiki/Georgios_Chortatzis
+            - text: and
+            - link "Vitsentzos Kornaros" [ref=e503] [cursor=pointer]:
+              - /url: /wiki/Vitsentzos_Kornaros
+            - text: were present in the latter part of the 16th century.
+            - superscript [ref=e504]:
+              - link "[23]" [ref=e505] [cursor=pointer]:
+                - /url: "#cite_note-25"
+          - generic [ref=e506]:
+            - heading "19th century" [level=3] [ref=e507]
+            - generic [ref=e508]:
+              - text: "["
+              - link "edit" [ref=e509] [cursor=pointer]:
+                - /url: /w/index.php?title=Playwright&action=edit&section=8
+              - text: "]"
+          - paragraph [ref=e510]:
+            - text: The plays of
+            - link "Gotthold Ephraim Lessing" [ref=e511] [cursor=pointer]:
+              - /url: /wiki/Gotthold_Ephraim_Lessing
+            - text: ","
+            - link "Johann Wolfgang von Goethe" [ref=e512] [cursor=pointer]:
+              - /url: /wiki/Johann_Wolfgang_von_Goethe
+            - text: ","
+            - link "Friedrich Schiller" [ref=e513] [cursor=pointer]:
+              - /url: /wiki/Friedrich_Schiller
+            - text: ", and other"
+            - link "Sturm und Drang" [ref=e515] [cursor=pointer]:
+              - /url: /wiki/Sturm_und_Drang
+            - text: playwrights inspired a growing faith in feeling and instinct as guides to moral behavior and were part of the
+            - link "German romanticism" [ref=e516] [cursor=pointer]:
+              - /url: /wiki/German_Romanticism
+            - text: movement.
+            - link "Aleksandr Ostrovsky" [ref=e517] [cursor=pointer]:
+              - /url: /wiki/Aleksandr_Ostrovsky
+            - text: was Russia's first professional playwright).
+          - generic [ref=e518]:
+            - heading "Contemporary playwrights in the United States" [level=3] [ref=e519]
+            - generic [ref=e520]:
+              - text: "["
+              - link "edit" [ref=e521] [cursor=pointer]:
+                - /url: /w/index.php?title=Playwright&action=edit&section=9
+              - text: "]"
+          - paragraph [ref=e522]:
+            - text: Author and playwright
+            - link "Agatha Christie" [ref=e523] [cursor=pointer]:
+              - /url: /wiki/Agatha_Christie
+            - text: wrote
+            - link "The Moustrap" [ref=e525] [cursor=pointer]:
+              - /url: /wiki/The_Mousetrap
+            - text: ", a"
+            - link "murder mystery" [ref=e526] [cursor=pointer]:
+              - /url: /wiki/Murder_mystery
+            - text: play which is the
+            - link "longest-running West End show" [ref=e527] [cursor=pointer]:
+              - /url: /wiki/List_of_the_longest-running_West_End_shows
+            - text: ", it has by far the longest run of any play in the world, with its 29,500th performance having taken place as of February 2024."
+            - superscript [ref=e528]:
+              - link "[24]" [ref=e529] [cursor=pointer]:
+                - /url: "#cite_note-26"
+          - paragraph [ref=e530]:
+            - text: Contemporary playwrights in the
+            - link "United States" [ref=e531] [cursor=pointer]:
+              - /url: /wiki/United_States
+            - text: are affected by recent declines in theatre attendance.
+            - superscript [ref=e532]:
+              - link "[25]" [ref=e533] [cursor=pointer]:
+                - /url: "#cite_note-27"
+            - text: No longer the only outlet for serious drama or entertaining comedies, theatrical productions must use ticket sales as a source of income, which has caused many of them to reduce the number of new works being produced. For example,
+            - link "Playwrights Horizons" [ref=e534] [cursor=pointer]:
+              - /url: /wiki/Playwrights_Horizons
+            - text: produced only six plays in the 2002–03 seasons, compared with thirty-one in 1973–74.
+            - superscript [ref=e535]:
+              - link "[26]" [ref=e536] [cursor=pointer]:
+                - /url: "#cite_note-28"
+            - text: Playwrights commonly encounter difficulties in getting their shows produced and often cannot earn a living through their plays alone, leading them to take up other jobs to supplement their incomes.
+            - superscript [ref=e537]:
+              - link "[27]" [ref=e538] [cursor=pointer]:
+                - /url: "#cite_note-29"
+          - paragraph [ref=e539]:
+            - text: Many playwrights are also
+            - link "film makers" [ref=e540] [cursor=pointer]:
+              - /url: /wiki/Film_makers
+            - text: . For instance, filmmaker
+            - link "Morgan Spurlock" [ref=e541] [cursor=pointer]:
+              - /url: /wiki/Morgan_Spurlock
+            - text: began his career as a playwright, winning awards for his play The Phoenix at both the New York
+            - link "International Fringe Festival" [ref=e542] [cursor=pointer]:
+              - /url: /wiki/Fringe_theatre
+            - text: in 1999 and the Route 66 American Playwriting Competition in 2000.
+            - superscript [ref=e543]:
+              - link "[28]" [ref=e544] [cursor=pointer]:
+                - /url: "#cite_note-30"
+          - generic [ref=e545]:
+            - heading "New play development" [level=4] [ref=e546]
+            - generic [ref=e547]:
+              - text: "["
+              - link "edit" [ref=e548] [cursor=pointer]:
+                - /url: /w/index.php?title=Playwright&action=edit&section=10
+              - text: "]"
+          - paragraph [ref=e549]:
+            - text: Today, theatre companies have new play development programs meant to develop new American voices in playwriting. Many regional theatres have hired dramaturges and literary managers in an effort to showcase various festivals for new work, or bring in playwrights for residencies.
+            - superscript [ref=e550]:
+              - link "[29]" [ref=e551] [cursor=pointer]:
+                - /url: "#cite_note-31"
+            - text: Funding through national organizations, such as the
+            - link "National Endowment for the Arts" [ref=e552] [cursor=pointer]:
+              - /url: /wiki/National_Endowment_for_the_Arts
+            - superscript [ref=e553]:
+              - link "[30]" [ref=e554] [cursor=pointer]:
+                - /url: "#cite_note-32"
+            - text: and the
+            - link "Theatre Communications Group" [ref=e555] [cursor=pointer]:
+              - /url: /wiki/Theatre_Communications_Group
+            - text: ", encouraged the partnerships of professional theatre companies and emerging playwrights."
+            - superscript [ref=e556]:
+              - link "[31]" [ref=e557] [cursor=pointer]:
+                - /url: "#cite_note-33"
+          - paragraph [ref=e558]:
+            - text: Playwrights will often have a
+            - link "cold reading" [ref=e559] [cursor=pointer]:
+              - /url: /wiki/Cold_reading_(theatrical)
+            - text: of a script in an informal sitdown setting, which allows them to evaluate their own plays and the actors performing them. Cold reading means that the actors haven't rehearsed the work, or may be seeing it for the first time, and usually, the technical requirements are minimal.
+            - superscript [ref=e560]:
+              - link "[32]" [ref=e561] [cursor=pointer]:
+                - /url: "#cite_note-34"
+            - text: The O'Neill Festival
+            - superscript [ref=e562]:
+              - link "[33]" [ref=e563] [cursor=pointer]:
+                - /url: "#cite_note-35"
+            - text: offers summer retreats for young playwrights to develop their work with directors and actors.
+          - paragraph [ref=e564]:
+            - text: Playwriting
+            - link "collectives" [ref=e565] [cursor=pointer]:
+              - /url: /wiki/Collective
+            - text: like 13P and Orbiter 3
+            - superscript [ref=e566]:
+              - link "[34]" [ref=e567] [cursor=pointer]:
+                - /url: "#cite_note-36"
+            - text: gather members together to produce, rather than develop, new works. The idea of the playwriting collective is in response to plays being stuck in the development process and never advancing to production.
+            - superscript [ref=e568]:
+              - link "[35]" [ref=e569] [cursor=pointer]:
+                - /url: "#cite_note-37"
+          - generic [ref=e570]:
+            - heading "See also" [level=2] [ref=e571]
+            - generic [ref=e572]:
+              - text: "["
+              - link "edit" [ref=e573] [cursor=pointer]:
+                - /url: /w/index.php?title=Playwright&action=edit&section=11
+              - text: "]"
+          - list [ref=e574]:
+            - listitem [ref=e575]:
+              - link "Screenwriter" [ref=e576] [cursor=pointer]:
+                - /url: /wiki/Screenwriter
+          - generic [ref=e577]:
+            - heading "Notes" [level=2] [ref=e578]
+            - generic [ref=e579]:
+              - text: "["
+              - link "edit" [ref=e580] [cursor=pointer]:
+                - /url: /w/index.php?title=Playwright&action=edit&section=12
+              - text: "]"
+          - list [ref=e583]:
+            - listitem [ref=e584]:
+              - link "Jump up" [ref=e587] [cursor=pointer]:
+                - /url: "#cite_ref-10"
+                - text: ^
+              - generic [ref=e588]:
+                - text: The theory that
+                - link "Prometheus Bound" [ref=e590] [cursor=pointer]:
+                  - /url: /wiki/Prometheus_Bound
+                - text: was not written by Aeschylus adds a fourth, anonymous playwright to those whose work survives.
+            - listitem [ref=e591]:
+              - link "Jump up" [ref=e594] [cursor=pointer]:
+                - /url: "#cite_ref-13"
+                - text: ^
+              - generic [ref=e595]:
+                - text: Exceptions to this pattern were made, as with
+                - link "Euripides" [ref=e596] [cursor=pointer]:
+                  - /url: /wiki/Euripides
+                - text: "'"
+                - link "Alcestis" [ref=e598] [cursor=pointer]:
+                  - /url: /wiki/Alcestis_(play)
+                - text: in 438 BC. There were also separate competitions at the
+                - link "City Dionysia" [ref=e599] [cursor=pointer]:
+                  - /url: /wiki/Dionysia#City_Dionysia
+                - text: for the performance of
+                - link "dithyrambs" [ref=e600] [cursor=pointer]:
+                  - /url: /wiki/Dithyramb
+                - text: and, after 488–7 BC,
+                - link "comedies" [ref=e601] [cursor=pointer]:
+                  - /url: /wiki/Ancient_Greek_comedy
+                - text: .
+          - generic [ref=e602]:
+            - heading "References" [level=2] [ref=e603]
+            - generic [ref=e604]:
+              - text: "["
+              - link "edit" [ref=e605] [cursor=pointer]:
+                - /url: /w/index.php?title=Playwright&action=edit&section=13
+              - text: "]"
+          - list [ref=e608]:
+            - listitem [ref=e609]:
+              - link "Jump up" [ref=e612] [cursor=pointer]:
+                - /url: "#cite_ref-1"
+                - text: ^
+              - generic [ref=e613]:
+                - generic [ref=e614]:
+                  - link "\"Definition of PLAY\"" [ref=e615] [cursor=pointer]:
+                    - /url: https://www.merriam-webster.com/dictionary/play
+                  - text: . www.merriam-webster.com. 2024-04-28.
+                  - link "Archived" [ref=e616] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20240527172354/https://www.merriam-webster.com/dictionary/play
+                  - text: from the original on 2024-05-27
+                  - generic [ref=e617]: . Retrieved 2024-04-29
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=www.merriam-webster.com&rft.atitle=Definition+of+PLAY&rft.date=2024-04-28&rft_id=https%3A%2F%2Fwww.merriam-webster.com%2Fdictionary%2Fplay&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e618]:
+              - link "Jump up" [ref=e621] [cursor=pointer]:
+                - /url: "#cite_ref-2"
+                - text: ^
+              - generic [ref=e622]:
+                - generic [ref=e623]:
+                  - link "\"Definition of WRIGHT\"" [ref=e624] [cursor=pointer]:
+                    - /url: https://www.merriam-webster.com/dictionary/wright
+                  - text: . www.merriam-webster.com.
+                  - link "Archived" [ref=e625] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20240527172337/https://www.merriam-webster.com/dictionary/wright
+                  - text: from the original on 2024-05-27
+                  - generic [ref=e626]: . Retrieved 2024-04-29
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=www.merriam-webster.com&rft.atitle=Definition+of+WRIGHT&rft_id=https%3A%2F%2Fwww.merriam-webster.com%2Fdictionary%2Fwright&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e627]:
+              - link "Jump up" [ref=e630] [cursor=pointer]:
+                - /url: "#cite_ref-3"
+                - text: ^
+              - generic [ref=e631]:
+                - generic [ref=e632]:
+                  - link "\"Definition of playwright\"" [ref=e633] [cursor=pointer]:
+                    - /url: https://www.merriam-webster.com/dictionary/playwright
+                  - text: .
+                  - link "Merriam-Webster" [ref=e635] [cursor=pointer]:
+                    - /url: /wiki/Merriam-Webster
+                  - text: .
+                  - link "Archived" [ref=e636] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20180117102704/https://www.merriam-webster.com/dictionary/playwright
+                  - text: from the original on 17 January 2018
+                  - generic [ref=e637]: . Retrieved 27 April 2018
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Merriam-Webster&rft.atitle=Definition+of+playwright&rft_id=https%3A%2F%2Fwww.merriam-webster.com%2Fdictionary%2Fplaywright&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e638]:
+              - link "Jump up" [ref=e641] [cursor=pointer]:
+                - /url: "#cite_ref-4"
+                - text: ^
+              - generic [ref=e642]:
+                - generic [ref=e643]:
+                  - link "\"Definition of dramatist\"" [ref=e644] [cursor=pointer]:
+                    - /url: https://www.merriam-webster.com/dictionary/dramatist
+                  - text: . Merriam-Webster.
+                  - link "Archived" [ref=e645] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20180127083801/https://www.merriam-webster.com/dictionary/dramatist
+                  - text: from the original on 27 January 2018
+                  - generic [ref=e646]: . Retrieved 27 April 2018
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Merriam-Webster&rft.atitle=Definition+of+dramatist&rft_id=https%3A%2F%2Fwww.merriam-webster.com%2Fdictionary%2Fdramatist&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e647]:
+              - link "Jump up" [ref=e650] [cursor=pointer]:
+                - /url: "#cite_ref-5"
+                - text: ^
+              - generic [ref=e651]:
+                - generic [ref=e652]:
+                  - 'link "\"Jonson, Ben, The Works of Ben Jonson, Boston: Phillips, Sampson and Co., 1853. page 788\"" [ref=e653] [cursor=pointer]':
+                    - /url: http://www.luminarium.org/sevenlit/jonson/epigram49.htm
+                  - text: ". Luminarium: Anthology of English Literature. 2003-08-10."
+                  - link "Archived" [ref=e654] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20120712214209/http://www.luminarium.org/sevenlit/jonson/epigram49.htm
+                  - text: from the original on 2012-07-12
+                  - generic [ref=e655]: . Retrieved 2012-04-23
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Jonson%2C+Ben%2C+The+Works+of+Ben+Jonson%2C+Boston%3A+Phillips%2C+Sampson+and+Co.%2C+1853.+page+788&rft.pub=Luminarium%3A+Anthology+of+English+Literature&rft.date=2003-08-10&rft_id=http%3A%2F%2Fwww.luminarium.org%2Fsevenlit%2Fjonson%2Fepigram49.htm&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e656]:
+              - link "Jump up" [ref=e659] [cursor=pointer]:
+                - /url: "#cite_ref-6"
+                - text: ^
+              - generic [ref=e660]:
+                - generic [ref=e661]: "Allen, Morse S. (1920). The satire of John Marston. Columbis, Ohio: The F. J. Heer Printing Co. p. 75."
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=The+satire+of+John+Marston&rft.place=Columbis%2C+Ohio&rft.pages=75&rft.pub=The+F.+J.+Heer+Printing+Co.&rft.date=1920&rft.aulast=Allen&rft.aufirst=Morse+S.&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e662]:
+              - link "Jump up" [ref=e665] [cursor=pointer]:
+                - /url: "#cite_ref-7"
+                - text: ^
+              - generic [ref=e666]:
+                - generic [ref=e667]:
+                  - text: "Jonson, Ben; Cain, Thomas Grant Stevens; Connolly, Ruth (2022). The poems of Ben Jonson. Longman annotated English poets. Abingdon, Oxon New York: Routledge. p. 42."
+                  - link "ISBN" [ref=e668] [cursor=pointer]:
+                    - /url: /wiki/ISBN_(identifier)
+                  - link "978-1-315-69619-5" [ref=e669] [cursor=pointer]:
+                    - /url: /wiki/Special:BookSources/978-1-315-69619-5
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=The+poems+of+Ben+Jonson&rft.place=Abingdon%2C+Oxon+New+York&rft.series=Longman+annotated+English+poets&rft.pages=42&rft.pub=Routledge&rft.date=2022&rft.isbn=978-1-315-69619-5&rft.aulast=Jonson&rft.aufirst=Ben&rft.au=Cain%2C+Thomas+Grant+Stevens&rft.au=Connolly%2C+Ruth&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e670]:
+              - link "Jump up" [ref=e673] [cursor=pointer]:
+                - /url: "#cite_ref-8"
+                - text: ^
+              - generic [ref=e674]: Fraser, Neil. playwright History Explained, The Cowood Press, 2004, page 11
+            - listitem [ref=e675]:
+              - link "Jump up" [ref=e678] [cursor=pointer]:
+                - /url: "#cite_ref-9"
+                - text: ^
+              - text: Brockett and Hildy (2003, 15).
+            - listitem [ref=e679]:
+              - link "Jump up" [ref=e682] [cursor=pointer]:
+                - /url: "#cite_ref-11"
+                - text: ^
+              - text: Brockett and Hildy (2003, 13–15) and Brown (1995, 441–447).
+            - listitem [ref=e683]:
+              - link "Jump up" [ref=e686] [cursor=pointer]:
+                - /url: "#cite_ref-12"
+                - text: ^
+              - text: Brown (1995, 442) and Brockett and Hildy (2003, 15–17).
+            - listitem [ref=e687]:
+              - link "Jump up" [ref=e690] [cursor=pointer]:
+                - /url: "#cite_ref-14"
+                - text: ^
+              - generic [ref=e691]:
+                - generic [ref=e692]:
+                  - text: Ye, Tan (2008).
+                  - link "Historical dictionary of Chinese theater" [ref=e693] [cursor=pointer]:
+                    - /url: https://www.worldcat.org/title/182662750
+                  - text: ". Historical dictionaries of literature and the arts. Lanham, Md: Scarecrow Press."
+                  - link "ISBN" [ref=e694] [cursor=pointer]:
+                    - /url: /wiki/ISBN_(identifier)
+                  - link "978-0-8108-5514-4" [ref=e695] [cursor=pointer]:
+                    - /url: /wiki/Special:BookSources/978-0-8108-5514-4
+                  - text: .
+                  - link "OCLC" [ref=e696] [cursor=pointer]:
+                    - /url: /wiki/OCLC_(identifier)
+                  - link "182662750" [ref=e697] [cursor=pointer]:
+                    - /url: https://search.worldcat.org/oclc/182662750
+                  - text: .
+                  - link "Archived" [ref=e698] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20240527172404/https://search.worldcat.org/title/182662750
+                  - text: from the original on 2024-05-27
+                  - generic [ref=e699]: . Retrieved 2024-04-30
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=Historical+dictionary+of+Chinese+theater&rft.place=Lanham%2C+Md&rft.series=Historical+dictionaries+of+literature+and+the+arts&rft.pub=Scarecrow+Press&rft.date=2008&rft_id=info%3Aoclcnum%2F182662750&rft.isbn=978-0-8108-5514-4&rft.aulast=Ye&rft.aufirst=Tan&rft_id=https%3A%2F%2Fwww.worldcat.org%2Ftitle%2F182662750&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e700]:
+              - link "Jump up" [ref=e703] [cursor=pointer]:
+                - /url: "#cite_ref-15"
+                - text: ^
+              - generic [ref=e704]:
+                - generic [ref=e705]:
+                  - text: Stoneman, Richard (2019).
+                  - 'link "The Greek experience of India: from Alexander to the Indo-Greeks" [ref=e706] [cursor=pointer]':
+                    - /url: https://www.worldcat.org/title/on1032723070
+                  - text: ". Princeton: Princeton University Press."
+                  - link "ISBN" [ref=e707] [cursor=pointer]:
+                    - /url: /wiki/ISBN_(identifier)
+                  - link "978-0-691-15403-9" [ref=e708] [cursor=pointer]:
+                    - /url: /wiki/Special:BookSources/978-0-691-15403-9
+                  - text: .
+                  - link "OCLC" [ref=e709] [cursor=pointer]:
+                    - /url: /wiki/OCLC_(identifier)
+                  - link "1032723070" [ref=e710] [cursor=pointer]:
+                    - /url: https://search.worldcat.org/oclc/1032723070
+                  - text: .
+                  - link "Archived" [ref=e711] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20240527172349/https://search.worldcat.org/title/on1032723070
+                  - text: from the original on 2024-05-27
+                  - generic [ref=e712]: . Retrieved 2024-04-30
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=The+Greek+experience+of+India%3A+from+Alexander+to+the+Indo-Greeks&rft.place=Princeton&rft.pub=Princeton+University+Press&rft.date=2019&rft_id=info%3Aoclcnum%2Fon1032723070&rft.isbn=978-0-691-15403-9&rft.aulast=Stoneman&rft.aufirst=Richard&rft_id=https%3A%2F%2Fwww.worldcat.org%2Ftitle%2Fon1032723070&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e713]:
+              - link "Jump up" [ref=e716] [cursor=pointer]:
+                - /url: "#cite_ref-16"
+                - text: ^
+              - generic [ref=e717]:
+                - generic [ref=e718]:
+                  - text: "Richmond, Farley P., ed. (1993). Indian theatre: traditions of performance. Performing arts series. Delhi: Motilal Banarsidass Publ."
+                  - link "ISBN" [ref=e719] [cursor=pointer]:
+                    - /url: /wiki/ISBN_(identifier)
+                  - link "978-81-208-0981-9" [ref=e720] [cursor=pointer]:
+                    - /url: /wiki/Special:BookSources/978-81-208-0981-9
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=Indian+theatre%3A+traditions+of+performance&rft.place=Delhi&rft.series=Performing+arts+series&rft.pub=Motilal+Banarsidass+Publ&rft.date=1993&rft.isbn=978-81-208-0981-9&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e721]:
+              - generic [ref=e722]:
+                - text: ^
+                - 'link "Jump up to: a" [ref=e723] [cursor=pointer]':
+                  - /url: "#cite_ref-:0_17-0"
+                  - generic [ref=e724]: "Jump up to:"
+                  - superscript [ref=e725]:
+                    - generic [ref=e726]: a
+                - link "b" [ref=e727] [cursor=pointer]:
+                  - /url: "#cite_ref-:0_17-1"
+                  - superscript [ref=e728]:
+                    - generic [ref=e729]: b
+                - link "c" [ref=e730] [cursor=pointer]:
+                  - /url: "#cite_ref-:0_17-2"
+                  - superscript [ref=e731]:
+                    - generic [ref=e732]: c
+              - generic [ref=e733]:
+                - generic [ref=e734]: Aristotle (1902). Poetics. Translated by Butcher, S.H. (3rd ed.). Macmillan. p. 45.
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=Poetics&rft.pages=45&rft.edition=3rd&rft.pub=Macmillan&rft.date=1902&rft.au=Aristotle&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e735]:
+              - link "Jump up" [ref=e738] [cursor=pointer]:
+                - /url: "#cite_ref-18"
+                - text: ^
+              - text: Brockett and Hildy (2003, 96)
+            - listitem [ref=e739]:
+              - link "Jump up" [ref=e742] [cursor=pointer]:
+                - /url: "#cite_ref-19"
+                - text: ^
+              - generic [ref=e743]:
+                - generic [ref=e744]:
+                  - text: "Thomson, Peter (2003). \"Conventions of Playwriting\". Shakespeare: An Oxford Guide. Oxford University Press. p. 49."
+                  - link "ISBN" [ref=e745] [cursor=pointer]:
+                    - /url: /wiki/ISBN_(identifier)
+                  - link "978-0-19-924522-2" [ref=e746] [cursor=pointer]:
+                    - /url: /wiki/Special:BookSources/978-0-19-924522-2
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=bookitem&rft.atitle=Conventions+of+Playwriting&rft.btitle=Shakespeare%3A+An+Oxford+Guide&rft.pages=49&rft.pub=Oxford+University+Press&rft.date=2003&rft.isbn=978-0-19-924522-2&rft.aulast=Thomson&rft.aufirst=Peter&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e747]:
+              - link "Jump up" [ref=e750] [cursor=pointer]:
+                - /url: "#cite_ref-20"
+                - text: ^
+              - generic [ref=e751]:
+                - generic [ref=e752]:
+                  - text: "Craig, Leon Harold (2003). Of Philosophers and Kings: Political Philosophy in Shakespeare's Macbeth and King Lear. Toronto:"
+                  - link "University of Toronto Press" [ref=e753] [cursor=pointer]:
+                    - /url: /wiki/University_of_Toronto_Press
+                  - text: . p. 3.
+                  - link "ISBN" [ref=e754] [cursor=pointer]:
+                    - /url: /wiki/ISBN_(identifier)
+                  - link "978-0-8020-8605-1" [ref=e755] [cursor=pointer]:
+                    - /url: /wiki/Special:BookSources/978-0-8020-8605-1
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=Of+Philosophers+and+Kings%3A+Political+Philosophy+in+Shakespeare%27s+Macbeth+and+King+Lear&rft.place=Toronto&rft.pages=3&rft.pub=University+of+Toronto+Press&rft.date=2003&rft.isbn=978-0-8020-8605-1&rft.aulast=Craig&rft.aufirst=Leon+Harold&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e756]:
+              - link "Jump up" [ref=e759] [cursor=pointer]:
+                - /url: "#cite_ref-21"
+                - text: ^
+              - generic [ref=e760]:
+                - generic [ref=e761]:
+                  - text: Grady, Hugh (2001). "Shakespeare criticism, 1600–1900". The Cambridge Companion to Shakespeare. Cambridge.
+                  - link "Cambridge University Press" [ref=e762] [cursor=pointer]:
+                    - /url: /wiki/Cambridge_University_Press
+                  - text: . p. 269.
+                  - link "ISBN" [ref=e763] [cursor=pointer]:
+                    - /url: /wiki/ISBN_(identifier)
+                  - link "978-1-139-00010-9" [ref=e764] [cursor=pointer]:
+                    - /url: /wiki/Special:BookSources/978-1-139-00010-9
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=bookitem&rft.atitle=Shakespeare+criticism%2C+1600%E2%80%931900&rft.btitle=The+Cambridge+Companion+to+Shakespeare.+Cambridge&rft.pages=269&rft.pub=Cambridge+University+Press&rft.date=2001&rft.isbn=978-1-139-00010-9&rft.aulast=Grady&rft.aufirst=Hugh&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e765]:
+              - link "Jump up" [ref=e768] [cursor=pointer]:
+                - /url: "#cite_ref-Campbell_22-0"
+                - text: ^
+              - generic [ref=e769]:
+                - generic [ref=e770]:
+                  - text: Campbell, William.
+                  - link "\"Sentimental Comedy in England and on the Continent\"" [ref=e771] [cursor=pointer]:
+                    - /url: http://www.bartleby.com/220/0402.html
+                  - text: . The Cambridge History of English and American Literature.
+                  - link "Archived" [ref=e772] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20150402100336/http://www.bartleby.com/220/0402.html
+                  - text: from the original on 2 April 2015
+                  - generic [ref=e773]: . Retrieved 28 February 2015
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=The+Cambridge+History+of+English+and+American+Literature&rft.atitle=Sentimental+Comedy+in+England+and+on+the+Continent&rft.aulast=Campbell&rft.aufirst=William&rft_id=http%3A%2F%2Fwww.bartleby.com%2F220%2F0402.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e774]:
+              - link "Jump up" [ref=e777] [cursor=pointer]:
+                - /url: "#cite_ref-Harman_23-0"
+                - text: ^
+              - generic [ref=e778]:
+                - generic [ref=e779]:
+                  - text: Harman, William (2011). A Handbook to Literature (12 ed.). Longman.
+                  - link "ISBN" [ref=e780] [cursor=pointer]:
+                    - /url: /wiki/ISBN_(identifier)
+                  - link "978-0205024018" [ref=e781] [cursor=pointer]:
+                    - /url: /wiki/Special:BookSources/978-0205024018
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=A+Handbook+to+Literature&rft.edition=12&rft.pub=Longman&rft.date=2011&rft.isbn=978-0205024018&rft.aulast=Harman&rft.aufirst=William&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e782]:
+              - link "Jump up" [ref=e785] [cursor=pointer]:
+                - /url: "#cite_ref-George_24-0"
+                - text: ^
+              - generic [ref=e786]:
+                - text: George, Kathleen (1994)
+                - 'link "Playwriting: The First Workshop" [ref=e788] [cursor=pointer]':
+                  - /url: //archive.org/details/playwritingfirst0000geor
+                - text: ", Focal Press,"
+                - link "ISBN" [ref=e789] [cursor=pointer]:
+                  - /url: /wiki/ISBN_(identifier)
+                - link "978-0-240-80190-2" [ref=e790] [cursor=pointer]:
+                  - /url: /wiki/Special:BookSources/978-0-240-80190-2
+                - text: ", p. 154."
+            - listitem [ref=e791]:
+              - link "Jump up" [ref=e794] [cursor=pointer]:
+                - /url: "#cite_ref-25"
+                - text: ^
+              - generic [ref=e795]:
+                - generic [ref=e796]:
+                  - text: Robert Browning (1983). Medieval and Modern Greek.
+                  - link "Cambridge University Press" [ref=e797] [cursor=pointer]:
+                    - /url: /wiki/Cambridge_University_Press
+                  - text: . pp. 90–91.
+                  - link "ISBN" [ref=e798] [cursor=pointer]:
+                    - /url: /wiki/ISBN_(identifier)
+                  - link "0-521-29978-0" [ref=e799] [cursor=pointer]:
+                    - /url: /wiki/Special:BookSources/0-521-29978-0
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=Medieval+and+Modern+Greek&rft.pages=90-91&rft.pub=Cambridge+University+Press&rft.date=1983&rft.isbn=0-521-29978-0&rft.au=Robert+Browning&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e800]:
+              - link "Jump up" [ref=e803] [cursor=pointer]:
+                - /url: "#cite_ref-26"
+                - text: ^
+              - generic [ref=e804]:
+                - generic [ref=e805]:
+                  - link "\"Celebrating 29,500 perfoemnces\"" [ref=e806] [cursor=pointer]:
+                    - /url: https://twitter.com/MousetrapLondon/status/1761043808500814155
+                  - text: . Agatha Christie's The Mousetrap
+                  - generic [ref=e807]: . Retrieved 24 March 2024
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Agatha+Christie%27s+The+Mousetrap&rft.atitle=Celebrating+29%2C500+perfoemnces&rft_id=https%3A%2F%2Ftwitter.com%2FMousetrapLondon%2Fstatus%2F1761043808500814155&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e808]:
+              - link "Jump up" [ref=e811] [cursor=pointer]:
+                - /url: "#cite_ref-27"
+                - text: ^
+              - generic [ref=e812]:
+                - generic [ref=e813]:
+                  - text: Pierson, Alexandra; Merrill, Amelia; Coutinho, Gabriela Furtado; Pierce, Jerald Raymond; Sims, Joseph; Weinert-Kendt, Rob (2023-07-24).
+                  - 'link "\"Theatre in Crisis: What We''re Losing, and What Comes Next\"" [ref=e814] [cursor=pointer]':
+                    - /url: https://www.americantheatre.org/2023/07/24/theatre-in-crisis-what-were-losing-and-what-comes-next/
+                  - text: . AMERICAN THEATRE.
+                  - link "Archived" [ref=e815] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20240527164143/https://www.americantheatre.org/2023/07/24/theatre-in-crisis-what-were-losing-and-what-comes-next/
+                  - text: from the original on 2024-05-27
+                  - generic [ref=e816]: . Retrieved 2024-04-29
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=AMERICAN+THEATRE&rft.atitle=Theatre+in+Crisis%3A+What+We%27re+Losing%2C+and+What+Comes+Next&rft.date=2023-07-24&rft.aulast=Pierson&rft.aufirst=Alexandra&rft.au=Merrill%2C+Amelia&rft.au=Coutinho%2C+Gabriela+Furtado&rft.au=Pierce%2C+Jerald+Raymond&rft.au=Sims%2C+Joseph&rft.au=Weinert-Kendt%2C+Rob&rft_id=https%3A%2F%2Fwww.americantheatre.org%2F2023%2F07%2F24%2Ftheatre-in-crisis-what-were-losing-and-what-comes-next%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e817]:
+              - link "Jump up" [ref=e820] [cursor=pointer]:
+                - /url: "#cite_ref-28"
+                - text: ^
+              - generic [ref=e821]:
+                - generic [ref=e822]:
+                  - text: Soloski, Alexis (2003-05-21).
+                  - 'link "\"The Plays What They Wrote: The Best Scripts Not Yet Mounted on a New York Stage\"" [ref=e823] [cursor=pointer]':
+                    - /url: https://web.archive.org/web/20071210095919/http://www.villagevoice.com/theater/0321%2Csoloski%2C44226%2C11.html
+                  - text: . The Village Voice. Archived from
+                  - link "the original" [ref=e824] [cursor=pointer]:
+                    - /url: http://www.villagevoice.com/theater/0321,soloski,44226,11.html
+                  - text: on 2007-12-10
+                  - generic [ref=e825]: . Retrieved 2012-04-23
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=The+Plays+What+They+Wrote%3A+The+Best+Scripts+Not+Yet+Mounted+on+a+New+York+Stage&rft.pub=The+Village+Voice&rft.date=2003-05-21&rft.aulast=Soloski&rft.aufirst=Alexis&rft_id=http%3A%2F%2Fwww.villagevoice.com%2Ftheater%2F0321%2Csoloski%2C44226%2C11.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e826]:
+              - link "Jump up" [ref=e829] [cursor=pointer]:
+                - /url: "#cite_ref-29"
+                - text: ^
+              - generic [ref=e830]:
+                - generic [ref=e831]: "London, Todd (2009). Outrageous Fortune: The Life and Times of the New American Play. Theatre Development Fund."
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=Outrageous+Fortune%3A+The+Life+and+Times+of+the+New+American+Play&rft.pub=Theatre+Development+Fund&rft.date=2009&rft.aulast=London&rft.aufirst=Todd&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e832]:
+              - link "Jump up" [ref=e835] [cursor=pointer]:
+                - /url: "#cite_ref-30"
+                - text: ^
+              - generic [ref=e836]:
+                - generic [ref=e837]:
+                  - text: Roberts, Genevieve (March 31, 2012).
+                  - 'link "\"Morgan Spurlock: ''I was doing funny walks around the house aged six''\"" [ref=e838] [cursor=pointer]':
+                    - /url: https://www.independent.co.uk/news/people/profiles/morgan-spurlock-i-was-doing-funny-walks-around-the-house-aged-six-7606234.html
+                    - text: "\"Morgan Spurlock: 'I was doing funny walks around the house aged six'"
+                    - text: "\""
+                  - text: . Independent.co.uk.
+                  - link "Archived" [ref=e840] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20140504003915/http://www.independent.co.uk/news/people/profiles/morgan-spurlock-i-was-doing-funny-walks-around-the-house-aged-six-7606234.html
+                  - text: from the original on May 4, 2014
+                  - generic [ref=e841]: . Retrieved May 3, 2014
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Morgan+Spurlock%3A+%27I+was+doing+funny+walks+around+the+house+aged+six%27&rft.pub=Independent.co.uk&rft.date=2012-03-31&rft.aulast=Roberts&rft.aufirst=Genevieve&rft_id=https%3A%2F%2Fwww.independent.co.uk%2Fnews%2Fpeople%2Fprofiles%2Fmorgan-spurlock-i-was-doing-funny-walks-around-the-house-aged-six-7606234.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e842]:
+              - link "Jump up" [ref=e845] [cursor=pointer]:
+                - /url: "#cite_ref-31"
+                - text: ^
+              - generic [ref=e846]:
+                - generic [ref=e847]: Haimbach, Brian Prince (2006). Contemporary new play development. University of Georgia.
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=Contemporary+new+play+development&rft.pub=University+of+Georgia&rft.date=2006&rft.aulast=Haimbach&rft.aufirst=Brian+Prince&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e848]:
+              - link "Jump up" [ref=e851] [cursor=pointer]:
+                - /url: "#cite_ref-32"
+                - text: ^
+              - generic [ref=e852]:
+                - generic [ref=e853]:
+                  - 'link "\"GRANTS FOR ARTS PROJECTS: Theater\"" [ref=e854] [cursor=pointer]':
+                    - /url: https://www.arts.gov/grants/grants-for-arts-projects/theater
+                  - text: . www.arts.gov.
+                  - link "Archived" [ref=e855] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20240527164146/https://www.arts.gov/grants/grants-for-arts-projects/theater
+                  - text: from the original on 2024-05-27
+                  - generic [ref=e856]: . Retrieved 2024-04-29
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=www.arts.gov&rft.atitle=GRANTS+FOR+ARTS+PROJECTS%3A+Theater&rft_id=https%3A%2F%2Fwww.arts.gov%2Fgrants%2Fgrants-for-arts-projects%2Ftheater&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e857]:
+              - link "Jump up" [ref=e860] [cursor=pointer]:
+                - /url: "#cite_ref-33"
+                - text: ^
+              - generic [ref=e861]:
+                - generic [ref=e862]:
+                  - link "\"Home - Edgerton Foundation New Play Awards\"" [ref=e863] [cursor=pointer]:
+                    - /url: https://circle.tcg.org/edgertonfoundationnewplayawards/home
+                  - text: . circle.tcg.org.
+                  - link "Archived" [ref=e864] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20240527164839/https://circle.tcg.org/edgertonfoundationnewplayawards/home
+                  - text: from the original on 2024-05-27
+                  - generic [ref=e865]: . Retrieved 2024-04-29
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=circle.tcg.org&rft.atitle=Home+-+Edgerton+Foundation+New+Play+Awards&rft_id=https%3A%2F%2Fcircle.tcg.org%2Fedgertonfoundationnewplayawards%2Fhome&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e866]:
+              - link "Jump up" [ref=e869] [cursor=pointer]:
+                - /url: "#cite_ref-34"
+                - text: ^
+              - generic [ref=e870]:
+                - generic [ref=e871]:
+                  - link "\"What is a Cold Reading? Do I memorize my lines?\"" [ref=e872] [cursor=pointer]:
+                    - /url: https://tophollywoodactingcoach.com/2012/04/what-is-a-cold-reading/
+                  - text: . Kid's Top Hollywood Acting Coach. 26 October 2022.
+                  - link "Archived" [ref=e873] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20240527172402/https://tophollywoodactingcoach.com/2012/04/what-is-a-cold-reading/
+                  - text: from the original on 27 May 2024
+                  - generic [ref=e874]: . Retrieved 26 October 2022
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Kid%27s+Top+Hollywood+Acting+Coach&rft.atitle=What+is+a+Cold+Reading%3F+Do+I+memorize+my+lines%3F&rft.date=2022-10-26&rft_id=https%3A%2F%2Ftophollywoodactingcoach.com%2F2012%2F04%2Fwhat-is-a-cold-reading%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e875]:
+              - link "Jump up" [ref=e878] [cursor=pointer]:
+                - /url: "#cite_ref-35"
+                - text: ^
+              - generic [ref=e879]:
+                - generic [ref=e880]:
+                  - link "\"Young Playwrights Festival | Eugene O'Neill Theater Center\"" [ref=e881] [cursor=pointer]:
+                    - /url: https://www.theoneill.org/ypf
+                  - text: . theoneill.
+                  - link "Archived" [ref=e882] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20240527172422/https://www.theoneill.org/ypf
+                  - text: from the original on 2024-05-27
+                  - generic [ref=e883]: . Retrieved 2024-04-29
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=theoneill&rft.atitle=Young+Playwrights+Festival+%7C+Eugene+O%27Neill+Theater+Center&rft_id=https%3A%2F%2Fwww.theoneill.org%2Fypf&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e884]:
+              - link "Jump up" [ref=e887] [cursor=pointer]:
+                - /url: "#cite_ref-36"
+                - text: ^
+              - generic [ref=e888]:
+                - generic [ref=e889]:
+                  - link "\"Orbiter 3\"" [ref=e890] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20240527172907/http://www.orbiter3.org/
+                  - text: . Orbiter 3. Archived from the original on 2024-05-27
+                  - generic [ref=e891]: . Retrieved 2024-04-29
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Orbiter+3&rft.atitle=Orbiter+3&rft_id=http%3A%2F%2Fwww.orbiter3.org%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+            - listitem [ref=e892]:
+              - link "Jump up" [ref=e895] [cursor=pointer]:
+                - /url: "#cite_ref-37"
+                - text: ^
+              - generic [ref=e896]:
+                - generic [ref=e897]:
+                  - link "\"13 Playwrights Is Preparing To Implode\"" [ref=e898] [cursor=pointer]:
+                    - /url: https://www.huffpost.com/entry/13-playwrights-13p_b_1697919
+                  - text: . HuffPost. 2012-07-26.
+                  - link "Archived" [ref=e899] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20240527172913/https://www.huffpost.com/entry/13-playwrights-13p_b_1697919
+                  - text: from the original on 2024-05-27
+                  - generic [ref=e900]: . Retrieved 2024-04-29
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=HuffPost&rft.atitle=13+Playwrights+Is+Preparing+To+Implode&rft.date=2012-07-26&rft_id=https%3A%2F%2Fwww.huffpost.com%2Fentry%2F13-playwrights-13p_b_1697919&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright"
+          - generic [ref=e901]:
+            - heading "External links" [level=2] [ref=e902]
+            - generic [ref=e903]:
+              - text: "["
+              - link "edit" [ref=e904] [cursor=pointer]:
+                - /url: /w/index.php?title=Playwright&action=edit&section=14
+              - text: "]"
+          - list [ref=e905]:
+            - listitem [ref=e906]:
+              - link "Wikiversity logo" [ref=e908] [cursor=pointer]:
+                - /url: /wiki/File:Wikiversity_logo_2017.svg
+                - img "Wikiversity logo" [ref=e909]
+              - text: Learning materials related to
+              - link "Collaborative play writing" [ref=e910] [cursor=pointer]:
+                - /url: https://en.wikiversity.org/wiki/Collaborative_play_writing
+              - text: at Wikiversity
+            - listitem [ref=e911]:
+              - link "Wiktionary logo" [ref=e913] [cursor=pointer]:
+                - /url: /wiki/File:Wiktionary-logo-en-v2.svg
+                - img "Wiktionary logo" [ref=e914]
+              - text: The dictionary definition of
+              - link "playwright" [ref=e915] [cursor=pointer]:
+                - /url: https://en.wiktionary.org/wiki/Special:Search/playwright
+              - text: at Wiktionary
+            - listitem [ref=e916]:
+              - link "Wikimedia Commons logo" [ref=e918] [cursor=pointer]:
+                - /url: /wiki/File:Commons-logo.svg
+                - img "Wikimedia Commons logo" [ref=e919]
+              - text: Media related to
+              - link "Playwrights" [ref=e920] [cursor=pointer]:
+                - /url: https://commons.wikimedia.org/wiki/Category:Playwrights
+              - text: at Wikimedia Commons
+          - navigation "Authority control databases Edit this at Wikidata" [ref=e921]:
+            - table [ref=e922]:
+              - rowgroup [ref=e923]:
+                - row "[hide] Authority control databases Edit this at Wikidata" [ref=e924]:
+                  - columnheader "[hide] Authority control databases Edit this at Wikidata" [ref=e925]:
+                    - button "[hide]" [expanded] [ref=e926] [cursor=pointer]
+                    - generic [ref=e927]:
+                      - link "Authority control databases" [ref=e928] [cursor=pointer]:
+                        - /url: /wiki/Help:Authority_control
+                      - link "Edit this at Wikidata" [ref=e930] [cursor=pointer]:
+                        - /url: https://www.wikidata.org/wiki/Q214917#identifiers
+                        - img "Edit this at Wikidata" [ref=e931]
+                - row "International GND (2 · 3)" [ref=e932]:
+                  - rowheader "International" [ref=e933]
+                  - cell "GND (2 · 3)" [ref=e934]:
+                    - list [ref=e936]:
+                      - listitem [ref=e937]:
+                        - generic "Theaterdichter" [ref=e939]:
+                          - link "GND" [ref=e940] [cursor=pointer]:
+                            - /url: https://d-nb.info/gnd/7708037-3
+                        - list [ref=e941]:
+                          - listitem [ref=e942]:
+                            - text: (
+                            - generic "Dramatiker" [ref=e944]:
+                              - link "2" [ref=e945] [cursor=pointer]:
+                                - /url: https://d-nb.info/gnd/4140241-8
+                            - text: ·
+                          - listitem [ref=e946]:
+                            - generic "Dramatikerin" [ref=e948]:
+                              - link "3" [ref=e949] [cursor=pointer]:
+                                - /url: https://d-nb.info/gnd/4123077-2
+                            - text: )
+                - row "National United States · France · BnF data · Japan · Czech Republic (2) · Israel" [ref=e950]:
+                  - rowheader "National" [ref=e951]
+                  - cell "United States · France · BnF data · Japan · Czech Republic (2) · Israel" [ref=e952]:
+                    - list [ref=e954]:
+                      - listitem [ref=e955]:
+                        - link "United States" [ref=e957] [cursor=pointer]:
+                          - /url: https://id.loc.gov/authorities/sh85039342
+                        - text: ·
+                      - listitem [ref=e958]:
+                        - generic "Auteurs dramatiques" [ref=e960]:
+                          - link "France" [ref=e961] [cursor=pointer]:
+                            - /url: https://catalogue.bnf.fr/ark:/12148/cb119319006
+                        - text: ·
+                      - listitem [ref=e962]:
+                        - generic "Auteurs dramatiques" [ref=e964]:
+                          - link "BnF data" [ref=e965] [cursor=pointer]:
+                            - /url: https://data.bnf.fr/ark:/12148/cb119319006
+                        - text: ·
+                      - listitem [ref=e966]:
+                        - link "Japan" [ref=e968] [cursor=pointer]:
+                          - /url: https://id.ndl.go.jp/auth/ndlna/00562314
+                        - text: ·
+                      - listitem [ref=e969]:
+                        - generic "dramatici" [ref=e971]:
+                          - link "Czech Republic" [ref=e972] [cursor=pointer]:
+                            - /url: https://aleph.nkp.cz/F/?func=find-c&local_base=aut&ccl_term=ica=ph119601&CON_LNG=ENG
+                        - list [ref=e973]:
+                          - listitem [ref=e974]:
+                            - text: (
+                            - generic "dramatičky" [ref=e976]:
+                              - link "2" [ref=e977] [cursor=pointer]:
+                                - /url: https://aleph.nkp.cz/F/?func=find-c&local_base=aut&ccl_term=ica=ph871629&CON_LNG=ENG
+                            - text: )
+                        - text: ·
+                      - listitem [ref=e978]:
+                        - link "Israel" [ref=e980] [cursor=pointer]:
+                          - /url: https://www.nli.org.il/en/authorities/987007562739305171
+                - row "Other Yale LUX" [ref=e981]:
+                  - rowheader "Other" [ref=e982]
+                  - cell "Yale LUX" [ref=e983]:
+                    - list [ref=e985]:
+                      - listitem [ref=e986]:
+                        - link "Yale LUX" [ref=e988] [cursor=pointer]:
+                          - /url: https://lux.collections.yale.edu/view/concept/2285f97a-a896-4448-ba15-777090f58dc2
+        - generic [ref=e990]:
+          - link "Categories" [ref=e991] [cursor=pointer]:
+            - /url: /wiki/Help:Category
+          - text: ":"
+          - list [ref=e992]:
+            - listitem [ref=e993]:
+              - link "Dramatists and playwrights" [ref=e994] [cursor=pointer]:
+                - /url: /wiki/Category:Dramatists_and_playwrights
+            - listitem [ref=e995]:
+              - link "Mass media occupations" [ref=e996] [cursor=pointer]:
+                - /url: /wiki/Category:Mass_media_occupations
+            - listitem [ref=e997]:
+              - link "Theatrical occupations" [ref=e998] [cursor=pointer]:
+                - /url: /wiki/Category:Theatrical_occupations
+    - contentinfo [ref=e1000]:
+      - list [ref=e1001]:
+        - listitem [ref=e1002]: This page was last edited on 12 May 2026, at 13:14 (UTC).
+        - listitem [ref=e1003]:
+          - text: Text is available under the
+          - link "Creative Commons Attribution-ShareAlike 4.0 License" [ref=e1004] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+          - text: ; additional terms may apply. By using this site, you agree to the
+          - link "Terms of Use" [ref=e1005] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+          - text: and
+          - link "Privacy Policy" [ref=e1006] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+          - text: . Wikipedia® is a registered trademark of the
+          - link "Wikimedia Foundation, Inc." [ref=e1007] [cursor=pointer]:
+            - /url: https://wikimediafoundation.org/
+          - text: ", a non-profit organization."
+      - list:
+        - listitem [ref=e1008]:
+          - link "Privacy policy" [ref=e1009] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e1010]:
+          - link "About Wikipedia" [ref=e1011] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:About
+        - listitem [ref=e1012]:
+          - link "Disclaimers" [ref=e1013] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:General_disclaimer
+        - listitem [ref=e1014]:
+          - link "Contact Wikipedia" [ref=e1015] [cursor=pointer]:
+            - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+        - listitem [ref=e1016]:
+          - link "Legal & safety contacts" [ref=e1017] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+        - listitem [ref=e1018]:
+          - link "Code of Conduct" [ref=e1019] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e1020]:
+          - link "Developers" [ref=e1021] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e1022]:
+          - link "Statistics" [ref=e1023] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/en.wikipedia.org
+        - listitem [ref=e1024]:
+          - link "Cookie statement" [ref=e1025] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e1026]:
+          - link "Mobile view" [ref=e1027] [cursor=pointer]:
+            - /url: //en.wikipedia.org/w/index.php?title=Playwright&mobileaction=toggle_view_mobile
+      - list [ref=e1028]:
+        - listitem [ref=e1029]:
+          - link "Wikimedia Foundation" [ref=e1030] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e1032]
+        - listitem [ref=e1033]:
+          - link "Powered by MediaWiki" [ref=e1034] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e1036]
+  - generic [ref=e1037]:
+    - list

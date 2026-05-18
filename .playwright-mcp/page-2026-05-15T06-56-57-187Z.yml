@@ -1,0 +1,1717 @@
+- generic [active] [ref=e1]:
+  - link "Jump to content" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "Site" [ref=e6]:
+        - generic "Main menu" [ref=e7]:
+          - button "Main menu" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: Main menu
+      - link "Wikipedia The Free Encyclopedia" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - generic [ref=e13]:
+          - img "Wikipedia" [ref=e14]
+          - img "The Free Encyclopedia" [ref=e15]
+    - generic [ref=e16]:
+      - search [ref=e17]:
+        - generic [ref=e20]:
+          - searchbox "Search Wikipedia" [ref=e23]
+          - button "Search" [ref=e25]
+      - navigation "Personal tools" [ref=e26]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Donate" [ref=e32] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+          - listitem [ref=e33]:
+            - link "Create account" [ref=e34] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:CreateAccount&returnto=Web+scraping
+          - listitem [ref=e35]:
+            - link "Log in" [ref=e36] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:UserLogin&returnto=Web+scraping
+  - generic [ref=e38]:
+    - navigation "Contents" [ref=e42]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "Contents" [level=2] [ref=e46]
+          - button "hide" [ref=e47] [cursor=pointer]
+        - list [ref=e48]:
+          - listitem [ref=e49]:
+            - link "(Top)" [ref=e50] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e51]: (Top)
+          - listitem [ref=e52]:
+            - link "History" [ref=e53] [cursor=pointer]:
+              - /url: "#History"
+              - generic [ref=e54]: History
+            - list
+          - listitem [ref=e55]:
+            - link "Techniques" [ref=e56] [cursor=pointer]:
+              - /url: "#Techniques"
+              - generic [ref=e57]: Techniques
+            - button "Toggle Techniques subsection" [expanded] [ref=e58]:
+              - generic [ref=e60]: Toggle Techniques subsection
+            - list [ref=e61]:
+              - listitem [ref=e62]:
+                - link "Human copy-and-paste" [ref=e63] [cursor=pointer]:
+                  - /url: "#Human_copy-and-paste"
+                  - generic [ref=e64]: Human copy-and-paste
+                - list
+              - listitem [ref=e65]:
+                - link "Text pattern matching" [ref=e66] [cursor=pointer]:
+                  - /url: "#Text_pattern_matching"
+                  - generic [ref=e67]: Text pattern matching
+                - list
+              - listitem [ref=e68]:
+                - link "HTTP programming" [ref=e69] [cursor=pointer]:
+                  - /url: "#HTTP_programming"
+                  - generic [ref=e70]: HTTP programming
+                - list
+              - listitem [ref=e71]:
+                - link "HTML parsing" [ref=e72] [cursor=pointer]:
+                  - /url: "#HTML_parsing"
+                  - generic [ref=e73]: HTML parsing
+                - list
+              - listitem [ref=e74]:
+                - link "DOM parsing" [ref=e75] [cursor=pointer]:
+                  - /url: "#DOM_parsing"
+                  - generic [ref=e76]: DOM parsing
+                - list
+              - listitem [ref=e77]:
+                - link "Vertical aggregation" [ref=e78] [cursor=pointer]:
+                  - /url: "#Vertical_aggregation"
+                  - generic [ref=e79]: Vertical aggregation
+                - list
+              - listitem [ref=e80]:
+                - link "Semantic annotation recognizing" [ref=e81] [cursor=pointer]:
+                  - /url: "#Semantic_annotation_recognizing"
+                  - generic [ref=e82]: Semantic annotation recognizing
+                - list
+              - listitem [ref=e83]:
+                - link "Computer vision web-page analysis" [ref=e84] [cursor=pointer]:
+                  - /url: "#Computer_vision_web-page_analysis"
+                  - generic [ref=e85]: Computer vision web-page analysis
+                - list
+          - listitem [ref=e86]:
+            - link "Legal issues" [ref=e87] [cursor=pointer]:
+              - /url: "#Legal_issues"
+              - generic [ref=e88]: Legal issues
+            - button "Toggle Legal issues subsection" [expanded] [ref=e89]:
+              - generic [ref=e91]: Toggle Legal issues subsection
+            - list [ref=e92]:
+              - listitem [ref=e93]:
+                - link "United States" [ref=e94] [cursor=pointer]:
+                  - /url: "#United_States"
+                  - generic [ref=e95]: United States
+                - list
+              - listitem [ref=e96]:
+                - link "European Union" [ref=e97] [cursor=pointer]:
+                  - /url: "#European_Union"
+                  - generic [ref=e98]: European Union
+                - list
+              - listitem [ref=e99]:
+                - link "Australia" [ref=e100] [cursor=pointer]:
+                  - /url: "#Australia"
+                  - generic [ref=e101]: Australia
+                - list
+              - listitem [ref=e102]:
+                - link "India" [ref=e103] [cursor=pointer]:
+                  - /url: "#India"
+                  - generic [ref=e104]: India
+                - list
+          - listitem [ref=e105]:
+            - link "Methods to prevent web scraping" [ref=e106] [cursor=pointer]:
+              - /url: "#Methods_to_prevent_web_scraping"
+              - generic [ref=e107]: Methods to prevent web scraping
+            - list
+          - listitem [ref=e108]:
+            - link "See also" [ref=e109] [cursor=pointer]:
+              - /url: "#See_also"
+              - generic [ref=e110]: See also
+            - list
+          - listitem [ref=e111]:
+            - link "References" [ref=e112] [cursor=pointer]:
+              - /url: "#References"
+              - generic [ref=e113]: References
+            - list
+    - main [ref=e115]:
+      - generic [ref=e116]:
+        - heading "Web scraping" [level=1] [ref=e117]:
+          - generic [ref=e118]: Web scraping
+        - generic [ref=e119]:
+          - button "Go to an article in another language. Available in 22 languages" [ref=e120] [cursor=pointer]
+          - generic [ref=e123]: 22 languages
+      - generic [ref=e125]:
+        - navigation "Namespaces" [ref=e127]:
+          - generic [ref=e128]:
+            - generic:
+              - list:
+                - listitem [ref=e129]:
+                  - link "Article" [ref=e130] [cursor=pointer]:
+                    - /url: /wiki/Web_scraping
+                    - generic [ref=e131]: Article
+                - listitem [ref=e132]:
+                  - link "Talk" [ref=e133] [cursor=pointer]:
+                    - /url: /wiki/Talk:Web_scraping
+                    - generic [ref=e134]: Talk
+        - generic [ref=e135]:
+          - navigation "Views" [ref=e136]:
+            - generic [ref=e137]:
+              - generic:
+                - list:
+                  - listitem [ref=e138]:
+                    - link "Read" [ref=e139] [cursor=pointer]:
+                      - /url: /wiki/Web_scraping
+                      - generic [ref=e140]: Read
+                  - listitem [ref=e141]:
+                    - link "Edit" [ref=e142] [cursor=pointer]:
+                      - /url: /w/index.php?title=Web_scraping&action=edit
+                      - generic [ref=e143]: Edit
+                  - listitem [ref=e144]:
+                    - link "View history" [ref=e145] [cursor=pointer]:
+                      - /url: /w/index.php?title=Web_scraping&action=history
+                      - generic [ref=e146]: View history
+          - navigation "Page tools" [ref=e147]:
+            - generic [ref=e148]:
+              - button "Tools" [ref=e149] [cursor=pointer]
+              - generic [ref=e151] [cursor=pointer]: Tools
+      - navigation "Appearance" [ref=e154]:
+        - generic [ref=e156]:
+          - generic [ref=e157]:
+            - generic [ref=e158]: Appearance
+            - button "hide" [ref=e159] [cursor=pointer]
+          - generic [ref=e160]:
+            - generic [ref=e161]: Text
+            - list [ref=e163]:
+              - listitem [ref=e164]:
+                - generic [ref=e166]:
+                  - generic [ref=e167]:
+                    - radio "Small" [ref=e168]
+                    - generic [ref=e171]: Small
+                  - generic [ref=e172]:
+                    - radio "Standard" [checked] [ref=e173]
+                    - generic [ref=e176]: Standard
+                  - generic [ref=e177]:
+                    - radio "Large" [ref=e178]
+                    - generic [ref=e181]: Large
+          - generic [ref=e182]:
+            - generic [ref=e183]: Width
+            - list [ref=e185]:
+              - listitem [ref=e186]:
+                - generic [ref=e188]:
+                  - generic [ref=e189]:
+                    - radio "Standard" [checked] [ref=e190]
+                    - generic [ref=e193]: Standard
+                  - generic [ref=e194]:
+                    - radio "Wide" [ref=e195]
+                    - generic [ref=e198]: Wide
+          - generic [ref=e199]:
+            - generic [ref=e200]: Color
+            - list [ref=e202]:
+              - listitem [ref=e203]:
+                - generic [ref=e205]:
+                  - generic [ref=e206]:
+                    - radio "Automatic" [ref=e207]
+                    - generic [ref=e210]: Automatic
+                  - generic [ref=e211]:
+                    - radio "Light" [checked] [ref=e212]
+                    - generic [ref=e215]: Light
+                  - generic [ref=e216]:
+                    - radio "Dark" [ref=e217]
+                    - generic [ref=e220]: Dark
+      - generic "Web scraping" [ref=e221]:
+        - generic [ref=e223]: From Wikipedia, the free encyclopedia
+        - generic [ref=e225]:
+          - note [ref=e226]:
+            - text: For broader coverage of this topic, see
+            - link "Data scraping" [ref=e227] [cursor=pointer]:
+              - /url: /wiki/Data_scraping
+            - text: .
+          - note [ref=e228]:
+            - text: "\"Web scraper\" redirects here. For websites that scrape content, see"
+            - link "Scraper site" [ref=e229] [cursor=pointer]:
+              - /url: /wiki/Scraper_site
+            - text: .
+          - link "icon" [ref=e232] [cursor=pointer]:
+            - /url: /wiki/File:Question_book-new.svg
+            - img "icon" [ref=e233]
+          - generic [ref=e234]:
+            - text: This article
+            - generic [ref=e235]:
+              - text: needs additional citations for
+              - link "verification" [ref=e236] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:Verifiability
+            - text: .
+            - generic [ref=e237]:
+              - text: Please help
+              - link "improve this article" [ref=e238] [cursor=pointer]:
+                - /url: /wiki/Special:EditPage/Web_scraping
+              - text: by
+              - link "adding citations to reliable sources" [ref=e239] [cursor=pointer]:
+                - /url: /wiki/Help:Referencing_for_beginners
+              - text: . Unsourced material may be challenged and removed.
+              - generic [ref=e241]:
+                - text: "Find sources:"
+                - link "\"Web scraping\"" [ref=e242] [cursor=pointer]:
+                  - /url: https://www.google.com/search?as_eq=wikipedia&q=%22Web+scraping%22
+                - text: –
+                - link "news" [ref=e243] [cursor=pointer]:
+                  - /url: https://www.google.com/search?tbm=nws&q=%22Web+scraping%22+-wikipedia&tbs=ar:1
+                - text: ·
+                - link "newspapers" [ref=e244] [cursor=pointer]:
+                  - /url: https://www.google.com/search?&q=%22Web+scraping%22&tbs=bkt:s&tbm=bks
+                - text: ·
+                - link "books" [ref=e245] [cursor=pointer]:
+                  - /url: https://www.google.com/search?tbs=bks:1&q=%22Web+scraping%22+-wikipedia
+                - text: ·
+                - link "scholar" [ref=e246] [cursor=pointer]:
+                  - /url: https://scholar.google.com/scholar?q=%22Web+scraping%22
+                - text: ·
+                - link "JSTOR" [ref=e247] [cursor=pointer]:
+                  - /url: https://www.jstor.org/action/doBasicSearch?Query=%22Web+scraping%22&acc=on&wc=on
+            - generic [ref=e249]: (April 2023)
+            - generic [ref=e251]:
+              - text: (
+              - link "Learn how and when to remove this message" [ref=e253] [cursor=pointer]:
+                - /url: /wiki/Help:Maintenance_template_removal
+              - text: )
+          - paragraph [ref=e254]:
+            - text: Web scraping, web harvesting, or web data extraction is
+            - link "data scraping" [ref=e255] [cursor=pointer]:
+              - /url: /wiki/Data_scraping
+            - text: used for
+            - link "extracting data" [ref=e256] [cursor=pointer]:
+              - /url: /wiki/Data_extraction
+            - text: from
+            - link "websites" [ref=e257] [cursor=pointer]:
+              - /url: /wiki/Website
+            - text: .
+            - superscript [ref=e258]:
+              - link "[1]" [ref=e259] [cursor=pointer]:
+                - /url: "#cite_note-1"
+            - text: Web scraping software may directly access the
+            - link "World Wide Web" [ref=e260] [cursor=pointer]:
+              - /url: /wiki/World_Wide_Web
+            - text: using the
+            - link "Hypertext Transfer Protocol" [ref=e261] [cursor=pointer]:
+              - /url: /wiki/Hypertext_Transfer_Protocol
+            - text: or a web browser. While web scraping can be done manually by a software user, the term typically refers to automated processes implemented using a
+            - link "bot" [ref=e262] [cursor=pointer]:
+              - /url: /wiki/Internet_bot
+            - text: or
+            - link "web crawler" [ref=e263] [cursor=pointer]:
+              - /url: /wiki/Web_crawler
+            - text: . It is a form of copying in which specific data is gathered and copied from the web, typically into a central local
+            - link "database" [ref=e264] [cursor=pointer]:
+              - /url: /wiki/Database
+            - text: or
+            - link "spreadsheet" [ref=e265] [cursor=pointer]:
+              - /url: /wiki/Spreadsheet
+            - text: ", for later"
+            - link "retrieval" [ref=e266] [cursor=pointer]:
+              - /url: /wiki/Data_retrieval
+            - text: or
+            - link "analysis" [ref=e267] [cursor=pointer]:
+              - /url: /wiki/Data_analysis
+            - text: .
+          - paragraph [ref=e268]:
+            - text: Scraping a web page involves fetching it and then extracting data from it. Fetching is the downloading of a page (which a browser does when a user views a page). Therefore, web crawling is a main component of web scraping, to fetch pages for later processing. Having fetched, extraction can take place. The content of a page may be
+            - link "parsed" [ref=e269] [cursor=pointer]:
+              - /url: /wiki/Parsing
+            - text: ", searched and reformatted, and its data copied into a spreadsheet or loaded into a database. Web scrapers typically take something out of a page, to make use of it for another purpose somewhere else. An example would be finding and copying names and telephone numbers, companies and their URLs, or e-mail addresses to a list (contact scraping). Another example is collecting competitors product prices for marketing purposes, which can involve gathering large-scale pricing datasets from e-commerce websites and analysing them using data science techniques such as trend analysis, predictive modelling, and competitive benchmarking."
+          - paragraph [ref=e270]:
+            - link "Contact scraping" [ref=e271] [cursor=pointer]:
+              - /url: /wiki/Contact_scraping
+            - text: is a type of web scraping that is used as a component of applications used for
+            - link "web indexing" [ref=e272] [cursor=pointer]:
+              - /url: /wiki/Web_indexing
+            - text: ","
+            - link "web mining" [ref=e273] [cursor=pointer]:
+              - /url: /wiki/Web_mining
+            - text: and
+            - link "data mining" [ref=e274] [cursor=pointer]:
+              - /url: /wiki/Data_mining
+            - text: ", online price change monitoring and"
+            - link "price comparison" [ref=e275] [cursor=pointer]:
+              - /url: /wiki/Comparison_shopping_website
+            - text: ", product review scraping (to watch the competition), gathering real estate listings, weather data monitoring,"
+            - link "website change detection" [ref=e276] [cursor=pointer]:
+              - /url: /wiki/Change_detection_and_notification
+            - text: ", research, tracking online presence and reputation,"
+            - link "web mashup" [ref=e277] [cursor=pointer]:
+              - /url: /wiki/Web_mashup
+            - text: ", and"
+            - link "web data integration" [ref=e278] [cursor=pointer]:
+              - /url: /wiki/Web_data_integration
+            - text: .
+          - paragraph [ref=e279]:
+            - link "Web pages" [ref=e280] [cursor=pointer]:
+              - /url: /wiki/Web_page
+            - text: are built using text-based
+            - link "markup languages" [ref=e281] [cursor=pointer]:
+              - /url: /wiki/Markup_languages
+            - text: (
+            - link "HTML" [ref=e282] [cursor=pointer]:
+              - /url: /wiki/HTML
+            - text: and
+            - link "XHTML" [ref=e283] [cursor=pointer]:
+              - /url: /wiki/XHTML
+            - text: ), and frequently contain a wealth of useful data in text form. However, most web pages are designed for human
+            - link "end-users" [ref=e284] [cursor=pointer]:
+              - /url: /wiki/End-user_(computer_science)
+            - text: and not for ease of automated use. As a result, specialized tools and software have been developed to facilitate the scraping of web pages. Web scraping applications include
+            - link "market research" [ref=e285] [cursor=pointer]:
+              - /url: /wiki/Market_research
+            - text: ", price comparison, content monitoring and"
+            - link "artificial intelligence" [ref=e286] [cursor=pointer]:
+              - /url: /wiki/Artificial_intelligence
+            - text: . Businesses rely on web scraping services to efficiently gather and utilize this data.
+          - paragraph [ref=e287]:
+            - text: Newer forms of web scraping involve monitoring
+            - link "data feeds" [ref=e288] [cursor=pointer]:
+              - /url: /wiki/Data_feed
+            - text: from
+            - link "web servers" [ref=e289] [cursor=pointer]:
+              - /url: /wiki/Web_servers
+            - text: . For example,
+            - link "JSON" [ref=e290] [cursor=pointer]:
+              - /url: /wiki/JSON
+            - text: is commonly used as a transport mechanism between the client and the web server.
+          - paragraph [ref=e291]:
+            - text: There are methods that some websites use to prevent web scraping, such as detecting and disallowing bots from crawling (viewing) their pages. In response, web scraping systems use techniques involving
+            - link "DOM" [ref=e292] [cursor=pointer]:
+              - /url: /wiki/Document_Object_Model
+            - text: parsing,
+            - link "computer vision" [ref=e293] [cursor=pointer]:
+              - /url: /wiki/Computer_vision
+            - text: and
+            - link "natural language processing" [ref=e294] [cursor=pointer]:
+              - /url: /wiki/Natural_language_processing
+            - text: to simulate human-like browsing to enable gathering web page content for offline parsing.
+          - generic [ref=e295]:
+            - heading "History" [level=2] [ref=e296]
+            - generic [ref=e297]:
+              - text: "["
+              - link "edit" [ref=e298] [cursor=pointer]:
+                - /url: /w/index.php?title=Web_scraping&action=edit&section=1
+              - text: "]"
+          - paragraph [ref=e299]:
+            - text: After the
+            - link "birth of the World Wide Web" [ref=e300] [cursor=pointer]:
+              - /url: /wiki/History_of_the_World_Wide_Web
+            - text: in 1989, the first web robot,
+            - superscript [ref=e301]:
+              - link "[2]" [ref=e302] [cursor=pointer]:
+                - /url: "#cite_note-2"
+            - link "World Wide Web Wanderer" [ref=e303] [cursor=pointer]:
+              - /url: /wiki/World_Wide_Web_Wanderer
+            - text: ", was created in June 1993, which was intended only to measure the size of the web."
+          - paragraph [ref=e304]:
+            - text: In December 1993, the first crawler-based web search engine,
+            - link "JumpStation" [ref=e305] [cursor=pointer]:
+              - /url: /wiki/JumpStation
+            - text: ", was launched."
+            - superscript [ref=e306]:
+              - text: "["
+              - link "citation needed" [ref=e308] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:Citation_needed
+              - text: "]"
+            - text: As there were fewer websites available on the web, search engines at that time used to rely on human administrators to collect and format links. In comparison, Jump Station was the first WWW search engine to rely on a web robot.
+          - paragraph [ref=e309]:
+            - text: In 2000, the first Web
+            - link "API" [ref=e310] [cursor=pointer]:
+              - /url: /wiki/API
+            - text: and
+            - link "API" [ref=e311] [cursor=pointer]:
+              - /url: /wiki/API
+            - text: crawler were created. In 2000,
+            - link "Salesforce" [ref=e312] [cursor=pointer]:
+              - /url: /wiki/Salesforce.com
+            - text: and
+            - link "eBay" [ref=e313] [cursor=pointer]:
+              - /url: /wiki/EBay
+            - text: launched their own API, with which programmers could access and download some of the data available to the public.
+            - superscript [ref=e314]:
+              - link "[3]" [ref=e315] [cursor=pointer]:
+                - /url: "#cite_note-3"
+            - text: Since then, many websites offer web APIs for people to access their public database.
+          - generic [ref=e316]:
+            - heading "Techniques" [level=2] [ref=e317]
+            - generic [ref=e318]:
+              - text: "["
+              - link "edit" [ref=e319] [cursor=pointer]:
+                - /url: /w/index.php?title=Web_scraping&action=edit&section=2
+              - text: "]"
+          - generic [ref=e323]:
+            - text: This section
+            - generic [ref=e324]:
+              - text: contains
+              - link "instructions or advice" [ref=e325] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:What_Wikipedia_is_not#GUIDE
+            - text: .
+            - generic [ref=e326]:
+              - text: Wikipedia is not a guidebook; please help
+              - link "rewrite such content" [ref=e327] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/w/index.php?title=Web_scraping&action=edit
+              - text: to be encyclopedic or move it to
+              - link "Wikiversity" [ref=e328] [cursor=pointer]:
+                - /url: https://en.wikiversity.org/wiki/
+              - text: ","
+              - link "Wikibooks" [ref=e329] [cursor=pointer]:
+                - /url: https://en.wikibooks.org/wiki/
+              - text: ", or"
+              - link "Wikivoyage" [ref=e330] [cursor=pointer]:
+                - /url: https://en.wikivoyage.org/wiki/
+              - text: .
+            - generic [ref=e332]: (October 2025)
+          - paragraph [ref=e333]:
+            - text: Data extraction techniques range from manual collection to sophisticated automated systems. Advanced methods analyze the underlying structure of web pages to transform unstructured content into a
+            - link "machine-readable format" [ref=e334] [cursor=pointer]:
+              - /url: /wiki/Machine-readable_medium_and_data
+            - text: . These techniques utilize
+            - link "text processing" [ref=e335] [cursor=pointer]:
+              - /url: /wiki/Text_processing
+            - text: or
+            - link "artificial intelligence" [ref=e336] [cursor=pointer]:
+              - /url: /wiki/Artificial_intelligence
+            - text: ", aligning with the technical goals of the"
+            - link "Semantic Web" [ref=e337] [cursor=pointer]:
+              - /url: /wiki/Semantic_Web
+            - text: .
+          - generic [ref=e338]:
+            - heading "Human copy-and-paste" [level=3] [ref=e339]
+            - generic [ref=e340]:
+              - text: "["
+              - link "edit" [ref=e341] [cursor=pointer]:
+                - /url: /w/index.php?title=Web_scraping&action=edit&section=3
+              - text: "]"
+          - paragraph [ref=e342]: The simplest form of web scraping is manual copying and pasting of data from a web page into a text file or spreadsheet. This approach requires no technical tools and can be used when automated scraping is blocked by website restrictions or when human judgment is necessary to interpret complex content. However, manual scraping is highly inefficient for large datasets, as it is time-consuming, prone to human error, and mentally exhausting. For this reason, it is generally considered impractical compared to automated methods, except in cases where automation is not feasible.
+          - generic [ref=e343]:
+            - heading "Text pattern matching" [level=3] [ref=e344]
+            - generic [ref=e345]:
+              - text: "["
+              - link "edit" [ref=e346] [cursor=pointer]:
+                - /url: /w/index.php?title=Web_scraping&action=edit&section=4
+              - text: "]"
+          - paragraph [ref=e347]:
+            - text: A simple yet capable approach to extract information from web pages is to use the UNIX
+            - link "grep" [ref=e348] [cursor=pointer]:
+              - /url: /wiki/Grep
+            - text: command or
+            - link "regular expression" [ref=e349] [cursor=pointer]:
+              - /url: /wiki/Regular_expression
+            - text: "-matching facilities of programming languages (for instance"
+            - link "Perl" [ref=e350] [cursor=pointer]:
+              - /url: /wiki/Perl
+            - text: or
+            - link "Python" [ref=e351] [cursor=pointer]:
+              - /url: /wiki/Python_(programming_language)
+            - text: ), in order to find text matching a specified pattern.
+          - generic [ref=e352]:
+            - heading "HTTP programming" [level=3] [ref=e353]
+            - generic [ref=e354]:
+              - text: "["
+              - link "edit" [ref=e355] [cursor=pointer]:
+                - /url: /w/index.php?title=Web_scraping&action=edit&section=5
+              - text: "]"
+          - paragraph [ref=e356]:
+            - link "Static" [ref=e357] [cursor=pointer]:
+              - /url: /wiki/Static_web_page
+            - text: and
+            - link "dynamic web pages" [ref=e358] [cursor=pointer]:
+              - /url: /wiki/Dynamic_web_page
+            - text: can be retrieved by posting HTTP requests to the remote web server using
+            - link "socket programming" [ref=e359] [cursor=pointer]:
+              - /url: /wiki/Socket_programming
+            - text: .
+          - generic [ref=e360]:
+            - heading "HTML parsing" [level=3] [ref=e361]
+            - generic [ref=e362]:
+              - text: "["
+              - link "edit" [ref=e363] [cursor=pointer]:
+                - /url: /w/index.php?title=Web_scraping&action=edit&section=6
+              - text: "]"
+          - paragraph [ref=e364]:
+            - text: Many websites have large collections of pages generated dynamically from an underlying structured source like a database. Data of the same category are typically encoded into similar pages by a common script or template. In data mining, a program that detects such templates in a particular information source, extracts its content, and translates it into a relational form, is called a
+            - link "wrapper" [ref=e365] [cursor=pointer]:
+              - /url: /wiki/Wrapper_(data_mining)
+            - text: . Wrapper generation algorithms assume that input pages of a wrapper induction system conform to a common template and that they can be easily identified in terms of a URL common scheme.
+            - superscript [ref=e366]:
+              - link "[4]" [ref=e367] [cursor=pointer]:
+                - /url: "#cite_note-4"
+            - text: Moreover, some
+            - link "semi-structured data" [ref=e368] [cursor=pointer]:
+              - /url: /wiki/Semi-structured_data
+            - text: query languages, such as
+            - link "XQuery" [ref=e369] [cursor=pointer]:
+              - /url: /wiki/XQuery
+            - text: and the HTQL, can be used to parse HTML pages and to retrieve and transform page content.
+          - generic [ref=e370]:
+            - heading "DOM parsing" [level=3] [ref=e371]
+            - generic [ref=e372]:
+              - text: "["
+              - link "edit" [ref=e373] [cursor=pointer]:
+                - /url: /w/index.php?title=Web_scraping&action=edit&section=7
+              - text: "]"
+          - note [ref=e374]:
+            - text: "Further information:"
+            - link "Document Object Model" [ref=e375] [cursor=pointer]:
+              - /url: /wiki/Document_Object_Model
+          - paragraph [ref=e376]:
+            - text: By using a program such as
+            - link "Selenium" [ref=e377] [cursor=pointer]:
+              - /url: /wiki/Selenium_(software)
+            - text: or
+            - link "Playwright" [ref=e378] [cursor=pointer]:
+              - /url: /wiki/Playwright_(software)
+            - text: ", developers can control a web browser such as"
+            - link "Chrome" [ref=e379] [cursor=pointer]:
+              - /url: /wiki/ChromeOS
+            - text: or
+            - link "Firefox" [ref=e380] [cursor=pointer]:
+              - /url: /wiki/Firefox
+            - text: wherein they can load, navigate, and retrieve data from websites. This method can be especially useful for scraping data from dynamic sites since a web browser will fully load each page. Once an entire page is loaded, you can access and parse the
+            - link "DOM" [ref=e381] [cursor=pointer]:
+              - /url: /wiki/Document_Object_Model
+            - text: using an expression language such as
+            - link "XPath" [ref=e382] [cursor=pointer]:
+              - /url: /wiki/XPath
+            - text: .
+          - generic [ref=e383]:
+            - heading "Vertical aggregation" [level=3] [ref=e384]
+            - generic [ref=e385]:
+              - text: "["
+              - link "edit" [ref=e386] [cursor=pointer]:
+                - /url: /w/index.php?title=Web_scraping&action=edit&section=8
+              - text: "]"
+          - paragraph [ref=e387]:
+            - text: There are several companies that have developed vertical specific harvesting platforms. These platforms create and monitor a multitude of "bots" for specific verticals with no "man in the loop" (no direct human involvement), and no work related to a specific target site. The preparation involves establishing the knowledge base for the entire vertical and then the platform creates the bots automatically. The platform's robustness is measured by the quality of the information it retrieves (usually number of fields) and its scalability (how quick it can scale up to hundreds or thousands of sites). This scalability is mostly used to target the
+            - link "Long Tail" [ref=e388] [cursor=pointer]:
+              - /url: /wiki/Long_Tail
+            - text: of sites that common aggregators find complicated or too labor-intensive to harvest content from.
+          - generic [ref=e389]:
+            - heading "Semantic annotation recognizing" [level=3] [ref=e390]
+            - generic [ref=e391]:
+              - text: "["
+              - link "edit" [ref=e392] [cursor=pointer]:
+                - /url: /w/index.php?title=Web_scraping&action=edit&section=9
+              - text: "]"
+          - paragraph [ref=e393]:
+            - text: The pages being scraped may embrace
+            - link "metadata" [ref=e394] [cursor=pointer]:
+              - /url: /wiki/Metadata
+            - text: or semantic markups and annotations, which can be used to locate specific data snippets. If the annotations are embedded in the pages, as
+            - link "Microformat" [ref=e395] [cursor=pointer]:
+              - /url: /wiki/Microformat
+            - text: does, this technique can be viewed as a special case of DOM parsing. In another case, the annotations, organized into a semantic layer,
+            - superscript [ref=e396]:
+              - link "[5]" [ref=e397] [cursor=pointer]:
+                - /url: "#cite_note-5"
+            - text: are stored and managed separately from the web pages, so the scrapers can retrieve data schema and instructions from this layer before scraping the pages.
+          - generic [ref=e398]:
+            - heading "Computer vision web-page analysis" [level=3] [ref=e399]
+            - generic [ref=e400]:
+              - text: "["
+              - link "edit" [ref=e401] [cursor=pointer]:
+                - /url: /w/index.php?title=Web_scraping&action=edit&section=10
+              - text: "]"
+          - paragraph [ref=e402]:
+            - text: There are efforts using
+            - link "machine learning" [ref=e403] [cursor=pointer]:
+              - /url: /wiki/Machine_learning
+            - text: and
+            - link "computer vision" [ref=e404] [cursor=pointer]:
+              - /url: /wiki/Computer_vision
+            - text: that attempt to identify and extract information from web pages by interpreting pages visually as a human being might.
+            - superscript [ref=e405]:
+              - link "[6]" [ref=e406] [cursor=pointer]:
+                - /url: "#cite_note-6"
+          - generic [ref=e407]:
+            - heading "Legal issues" [level=2] [ref=e408]
+            - generic [ref=e409]:
+              - text: "["
+              - link "edit" [ref=e410] [cursor=pointer]:
+                - /url: /w/index.php?title=Web_scraping&action=edit&section=11
+              - text: "]"
+          - img "Globe icon." [ref=e414]
+          - generic [ref=e415]:
+            - text: The examples and perspective in this section
+            - generic [ref=e416]:
+              - text: deal primarily with the United States and do not represent a
+              - link "worldwide view" [ref=e417] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:WikiProject_Countering_systemic_bias
+              - text: of the subject
+            - text: .
+            - generic [ref=e418]:
+              - text: You may
+              - link "improve this section" [ref=e419] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/w/index.php?title=Web_scraping&action=edit
+              - text: ", discuss the issue on the"
+              - link "talk page" [ref=e420] [cursor=pointer]:
+                - /url: /wiki/Talk:Web_scraping
+              - text: ", or create a new section, as appropriate."
+            - generic [ref=e422]: (October 2015)
+            - generic [ref=e424]:
+              - text: (
+              - link "Learn how and when to remove this message" [ref=e426] [cursor=pointer]:
+                - /url: /wiki/Help:Maintenance_template_removal
+              - text: )
+          - paragraph [ref=e427]:
+            - text: The legality of web scraping varies across the world. In general, web scraping may be against the
+            - link "terms of service" [ref=e428] [cursor=pointer]:
+              - /url: /wiki/Terms_of_service
+            - text: of some websites, but the enforceability of these terms is unclear.
+            - superscript [ref=e429]:
+              - link "[7]" [ref=e430] [cursor=pointer]:
+                - /url: "#cite_note-7"
+          - generic [ref=e431]:
+            - heading "United States" [level=3] [ref=e432]
+            - generic [ref=e433]:
+              - text: "["
+              - link "edit" [ref=e434] [cursor=pointer]:
+                - /url: /w/index.php?title=Web_scraping&action=edit&section=12
+              - text: "]"
+          - paragraph [ref=e435]:
+            - text: In the United States, website owners can use three major
+            - link "legal claims" [ref=e436] [cursor=pointer]:
+              - /url: /wiki/Cause_of_action
+            - text: "to prevent undesired web scraping: (1) copyright infringement (compilation), (2) violation of the"
+            - link "Computer Fraud and Abuse Act" [ref=e437] [cursor=pointer]:
+              - /url: /wiki/Computer_Fraud_and_Abuse_Act
+            - text: ("CFAA"), and (3)
+            - link "trespass to chattel" [ref=e438] [cursor=pointer]:
+              - /url: /wiki/Trespass_to_chattels
+            - text: .
+            - superscript [ref=e439]:
+              - link "[8]" [ref=e440] [cursor=pointer]:
+                - /url: "#cite_note-8"
+            - text: However, the effectiveness of these claims relies upon meeting various criteria, and the case law is still evolving. For example, with regard to copyright, while outright duplication of original expression will in many cases be illegal, in the United States the courts ruled in
+            - link "Feist Publications v. Rural Telephone Service" [ref=e441] [cursor=pointer]:
+              - /url: /wiki/Feist_Publications,_Inc.,_v._Rural_Telephone_Service_Co.
+            - text: that duplication of facts is allowable.
+          - paragraph [ref=e442]:
+            - text: U.S. courts have acknowledged that users of "scrapers" or "robots" may be held liable for committing
+            - link "trespass to chattels" [ref=e443] [cursor=pointer]:
+              - /url: /wiki/Trespass_to_chattels
+            - text: ","
+            - superscript [ref=e444]:
+              - link "[9]" [ref=e445] [cursor=pointer]:
+                - /url: "#cite_note-9"
+            - superscript [ref=e446]:
+              - link "[10]" [ref=e447] [cursor=pointer]:
+                - /url: "#cite_note-10"
+            - text: which involves a computer system itself being considered personal property upon which the user of a scraper is trespassing. The best known of these cases,
+            - link "eBay v. Bidder's Edge" [ref=e449] [cursor=pointer]:
+              - /url: /wiki/EBay_v._Bidder%27s_Edge
+            - text: ", resulted in an injunction ordering Bidder's Edge to stop accessing, collecting, and indexing auctions from the eBay web site. This case involved automatic placing of bids, known as"
+            - link "auction sniping" [ref=e450] [cursor=pointer]:
+              - /url: /wiki/Auction_sniping
+            - text: . However, in order to succeed on a claim of trespass to
+            - link "chattels" [ref=e451] [cursor=pointer]:
+              - /url: /wiki/Personal_property
+            - text: ", the"
+            - link "plaintiff" [ref=e452] [cursor=pointer]:
+              - /url: /wiki/Plaintiff
+            - text: must demonstrate that the
+            - link "defendant" [ref=e453] [cursor=pointer]:
+              - /url: /wiki/Defendant
+            - text: intentionally and without authorization interfered with the plaintiff's possessory interest in the computer system and that the defendant's unauthorized use caused damage to the plaintiff. Not all cases of web spidering brought before the courts have been considered trespass to chattels.
+            - superscript [ref=e454]:
+              - link "[11]" [ref=e455] [cursor=pointer]:
+                - /url: "#cite_note-11"
+          - paragraph [ref=e456]:
+            - text: One of the first major tests of
+            - link "screen scraping" [ref=e457] [cursor=pointer]:
+              - /url: /wiki/Screen_scraping
+            - text: involved
+            - link "American Airlines" [ref=e458] [cursor=pointer]:
+              - /url: /wiki/American_Airlines
+            - text: (AA), and a firm called FareChase.
+            - superscript [ref=e459]:
+              - link "[12]" [ref=e460] [cursor=pointer]:
+                - /url: "#cite_note-12"
+            - text: AA successfully obtained an
+            - link "injunction" [ref=e461] [cursor=pointer]:
+              - /url: /wiki/Injunction
+            - text: from a Texas trial court, stopping FareChase from selling software that enables users to compare online fares if the software also searches AA's website. The airline argued that FareChase's websearch software trespassed on AA's servers when it collected the publicly available data. FareChase filed an appeal in March 2003. By June, FareChase and AA agreed to settle and the appeal was dropped.
+            - superscript [ref=e462]:
+              - link "[13]" [ref=e463] [cursor=pointer]:
+                - /url: "#cite_note-13"
+          - paragraph [ref=e464]:
+            - link "Southwest Airlines" [ref=e465] [cursor=pointer]:
+              - /url: /wiki/Southwest_Airlines
+            - text: has also challenged screen-scraping practices, and has involved both FareChase and another firm, Outtask, in a legal claim. Southwest Airlines charged that the screen-scraping is Illegal since it is an example of "Computer Fraud and Abuse" and has led to "Damage and Loss" and "Unauthorized Access" of Southwest's site. It also constitutes "Interference with Business Relations", "Trespass", and "Harmful Access by Computer". They also claimed that screen-scraping constitutes what is legally known as "Misappropriation and Unjust Enrichment", as well as being a breach of the web site's user agreement. Outtask denied all these claims, claiming that the prevailing law, in this case, should be
+            - link "US Copyright law" [ref=e466] [cursor=pointer]:
+              - /url: /wiki/US_Copyright_law
+            - text: and that under copyright, the pieces of information being scraped would not be subject to copyright protection. Although the cases were never resolved in the
+            - link "Supreme Court of the United States" [ref=e467] [cursor=pointer]:
+              - /url: /wiki/Supreme_Court_of_the_United_States
+            - text: ", FareChase was eventually shuttered by parent company"
+            - link "Yahoo!" [ref=e468] [cursor=pointer]:
+              - /url: /wiki/Yahoo!
+            - text: ", and Outtask was purchased by travel expense company Concur."
+            - superscript [ref=e469]:
+              - link "[14]" [ref=e470] [cursor=pointer]:
+                - /url: "#cite_note-impervawp2011-14"
+            - text: In 2012, a startup called 3Taps scraped classified housing ads from Craigslist. Craigslist sent 3Taps a cease-and-desist letter and blocked their IP addresses and later sued, in
+            - link "Craigslist v. 3Taps" [ref=e472] [cursor=pointer]:
+              - /url: /wiki/Craigslist_v._3Taps
+            - text: . The court held that the cease-and-desist letter and IP blocking was sufficient for Craigslist to properly claim that 3Taps had violated the
+            - link "Computer Fraud and Abuse Act" [ref=e473] [cursor=pointer]:
+              - /url: /wiki/Computer_Fraud_and_Abuse_Act
+            - text: (CFAA).
+          - paragraph [ref=e474]:
+            - text: Although these are early scraping decisions, and the theories of liability are not uniform, it is difficult to ignore a pattern emerging that the courts are prepared to protect proprietary content on commercial sites from uses which are undesirable to the owners of such sites. However, the degree of protection for such content is not settled and will depend on the type of access made by the scraper, the amount of information accessed and copied, the degree to which the access adversely affects the site owner's system and the types and manner of prohibitions on such conduct.
+            - superscript [ref=e475]:
+              - link "[15]" [ref=e476] [cursor=pointer]:
+                - /url: "#cite_note-15"
+          - paragraph [ref=e477]:
+            - text: While the law in this area becomes more settled, entities contemplating using scraping programs to access a public web site should also consider whether such action is authorized by reviewing the terms of use and other terms or notices posted on or made available through the site. In
+            - generic [ref=e478]:
+              - link "Cvent Inc." [ref=e479] [cursor=pointer]:
+                - /url: /wiki/Cvent
+              - text: v.
+              - link "Eventbrite Inc." [ref=e480] [cursor=pointer]:
+                - /url: /wiki/Eventbrite
+            - text: (2010), the United States
+            - link "district court for the eastern district of Virginia" [ref=e481] [cursor=pointer]:
+              - /url: /wiki/United_States_District_Court_for_the_Eastern_District_of_Virginia
+            - text: ", ruled that the terms of use should be brought to the users' attention in order for a"
+            - link "browsewrap" [ref=e482] [cursor=pointer]:
+              - /url: /wiki/Browsewrap
+            - text: contract or license to be enforceable.
+            - superscript [ref=e483]:
+              - link "[16]" [ref=e484] [cursor=pointer]:
+                - /url: "#cite_note-16"
+            - text: In a 2014 case, filed in the
+            - link "United States District Court for the Eastern District of Pennsylvania" [ref=e485] [cursor=pointer]:
+              - /url: /wiki/United_States_District_Court_for_the_Eastern_District_of_Pennsylvania
+            - text: ","
+            - superscript [ref=e486]:
+              - link "[17]" [ref=e487] [cursor=pointer]:
+                - /url: "#cite_note-17"
+            - text: e-commerce site
+            - link "QVC" [ref=e488] [cursor=pointer]:
+              - /url: /wiki/QVC
+            - text: objected to the Pinterest-like shopping aggregator Resultly's 'scraping of QVC's site for real-time pricing data. QVC alleges that Resultly "excessively crawled" QVC's retail site (allegedly sending 200-300 search requests to QVC's website per minute, sometimes to up to 36,000 requests per minute) which caused QVC's site to crash for two days, resulting in lost sales for QVC.
+            - superscript [ref=e489]:
+              - link "[18]" [ref=e490] [cursor=pointer]:
+                - /url: "#cite_note-18"
+            - text: QVC's complaint alleges that the defendant disguised its web crawler to mask its source IP address and thus prevented QVC from quickly repairing the problem. This is a particularly interesting scraping case because QVC is seeking damages for the unavailability of their website, which QVC claims was caused by Resultly.
+          - paragraph [ref=e491]:
+            - text: In the plaintiff's web site during the period of this trial, the terms of use link are displayed among all the links of the site, at the bottom of the page as most sites on the internet. This ruling contradicts the Irish ruling described below. The court also rejected the plaintiff's argument that the browse-wrap restrictions were enforceable in view of Virginia's adoption of the Uniform Computer Information Transactions Act (UCITA)—a uniform law that many believed was in favor on common browse-wrap contracting practices.
+            - superscript [ref=e492]:
+              - link "[19]" [ref=e493] [cursor=pointer]:
+                - /url: "#cite_note-19"
+          - paragraph [ref=e494]:
+            - text: In
+            - link "Facebook, Inc. v. Power Ventures, Inc." [ref=e496] [cursor=pointer]:
+              - /url: /wiki/Facebook,_Inc._v._Power_Ventures,_Inc.
+            - text: ", a district court ruled in 2012 that Power Ventures could not scrape Facebook pages on behalf of a Facebook user. The case is on appeal, and the"
+            - link "Electronic Frontier Foundation" [ref=e497] [cursor=pointer]:
+              - /url: /wiki/Electronic_Frontier_Foundation
+            - text: filed a brief in 2015 asking that it be overturned.
+            - superscript [ref=e498]:
+              - link "[20]" [ref=e499] [cursor=pointer]:
+                - /url: "#cite_note-20"
+            - superscript [ref=e500]:
+              - link "[21]" [ref=e501] [cursor=pointer]:
+                - /url: "#cite_note-21"
+            - text: In
+            - link "Associated Press v. Meltwater U.S. Holdings, Inc." [ref=e503] [cursor=pointer]:
+              - /url: /wiki/Associated_Press_v._Meltwater_U.S._Holdings,_Inc.
+            - text: ", a court in the US held Meltwater liable for scraping and republishing news information from the Associated Press, but a court in the United Kingdom held in favor of Meltwater."
+          - paragraph [ref=e504]:
+            - text: The
+            - link "Ninth Circuit" [ref=e505] [cursor=pointer]:
+              - /url: /wiki/Ninth_Circuit
+            - text: ruled in 2019 that web scraping did not violate the CFAA in
+            - link "hiQ Labs v. LinkedIn" [ref=e507] [cursor=pointer]:
+              - /url: /wiki/HiQ_Labs_v._LinkedIn
+            - text: . The case was appealed to the
+            - link "United States Supreme Court" [ref=e508] [cursor=pointer]:
+              - /url: /wiki/United_States_Supreme_Court
+            - text: ", which returned the case to the Ninth Circuit to reconsider the case in light of the 2021 Supreme Court decision in"
+            - link "Van Buren v. United States" [ref=e510] [cursor=pointer]:
+              - /url: /wiki/Van_Buren_v._United_States
+            - text: which narrowed the applicability of the CFAA.
+            - superscript [ref=e511]:
+              - link "[22]" [ref=e512] [cursor=pointer]:
+                - /url: "#cite_note-22"
+            - text: On this review, the Ninth Circuit upheld their prior decision.
+            - superscript [ref=e513]:
+              - link "[23]" [ref=e514] [cursor=pointer]:
+                - /url: "#cite_note-23"
+          - paragraph [ref=e515]:
+            - link "Internet Archive" [ref=e516] [cursor=pointer]:
+              - /url: /wiki/Internet_Archive
+            - text: collects and distributes a significant number of publicly available web pages without being considered to be in violation of copyright laws.
+            - superscript [ref=e517]:
+              - text: "["
+              - link "citation needed" [ref=e519] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:Citation_needed
+              - text: "]"
+          - generic [ref=e520]:
+            - heading "European Union" [level=3] [ref=e521]
+            - generic [ref=e522]:
+              - text: "["
+              - link "edit" [ref=e523] [cursor=pointer]:
+                - /url: /w/index.php?title=Web_scraping&action=edit&section=13
+              - text: "]"
+          - paragraph [ref=e524]:
+            - text: In February 2006, the
+            - link "Danish Maritime and Commercial Court" [ref=e525] [cursor=pointer]:
+              - /url: /wiki/Maritime_and_Commercial_Court_(Denmark)
+            - text: (Copenhagen) ruled that systematic crawling, indexing, and deep linking by portal site ofir.dk of real estate site Home.dk does not conflict with Danish law or the database directive of the European Union.
+            - superscript [ref=e526]:
+              - link "[24]" [ref=e527] [cursor=pointer]:
+                - /url: "#cite_note-24"
+          - paragraph [ref=e528]:
+            - text: Ethical data scraping supports offmarket sourcing in business but must comply with GDPR to avoid privacy violations in automated data collection.
+            - superscript [ref=e529]:
+              - link "[25]" [ref=e530] [cursor=pointer]:
+                - /url: "#cite_note-25"
+          - paragraph [ref=e531]:
+            - text: In a February 2010 case complicated by matters of jurisdiction, Ireland's High Court delivered a verdict that illustrates the
+            - link "inchoate" [ref=e532] [cursor=pointer]:
+              - /url: /wiki/Inchoate_offense
+            - text: state of developing case law. In the case of Ryanair Ltd v Billigfluege.de GmbH, Ireland's High Court ruled
+            - link "Ryanair's" [ref=e533] [cursor=pointer]:
+              - /url: /wiki/Ryanair
+            - text: "\""
+            - link "click-wrap" [ref=e534] [cursor=pointer]:
+              - /url: /wiki/Clickwrap
+            - text: "\" agreement to be legally binding. In contrast to the findings of the United States District Court Eastern District of Virginia and those of the Danish Maritime and Commercial Court, Justice"
+            - link "Michael Hanna" [ref=e535] [cursor=pointer]:
+              - /url: /wiki/Michael_Hanna_(judge)
+            - text: ruled that the hyperlink to Ryanair's terms and conditions was plainly visible, and that placing the onus on the user to agree to terms and conditions in order to gain access to online services is sufficient to comprise a contractual relationship.
+            - superscript [ref=e536]:
+              - link "[26]" [ref=e537] [cursor=pointer]:
+                - /url: "#cite_note-26"
+            - text: The decision is under appeal in Ireland's Supreme Court.
+            - superscript [ref=e538]:
+              - link "[27]" [ref=e539] [cursor=pointer]:
+                - /url: "#cite_note-27"
+          - paragraph [ref=e540]:
+            - text: On April 30, 2020, the French Data Protection Authority (CNIL) released new guidelines on web scraping.
+            - superscript [ref=e541]:
+              - link "[28]" [ref=e542] [cursor=pointer]:
+                - /url: "#cite_note-28"
+            - text: The CNIL guidelines made it clear that publicly available data is still personal data and cannot be repurposed without the knowledge of the person to whom that data belongs.
+            - superscript [ref=e543]:
+              - link "[29]" [ref=e544] [cursor=pointer]:
+                - /url: "#cite_note-29"
+          - generic [ref=e545]:
+            - heading "Australia" [level=3] [ref=e546]
+            - generic [ref=e547]:
+              - text: "["
+              - link "edit" [ref=e548] [cursor=pointer]:
+                - /url: /w/index.php?title=Web_scraping&action=edit&section=14
+              - text: "]"
+          - paragraph [ref=e549]:
+            - text: In Australia, the
+            - link "Spam Act 2003" [ref=e550] [cursor=pointer]:
+              - /url: /wiki/Spam_Act_2003
+            - text: outlaws some forms of web harvesting, although this only applies to email addresses.
+            - superscript [ref=e551]:
+              - link "[30]" [ref=e552] [cursor=pointer]:
+                - /url: "#cite_note-30"
+            - superscript [ref=e553]:
+              - link "[31]" [ref=e554] [cursor=pointer]:
+                - /url: "#cite_note-31"
+          - generic [ref=e555]:
+            - heading "India" [level=3] [ref=e556]
+            - generic [ref=e557]:
+              - text: "["
+              - link "edit" [ref=e558] [cursor=pointer]:
+                - /url: /w/index.php?title=Web_scraping&action=edit&section=15
+              - text: "]"
+          - paragraph [ref=e559]:
+            - text: Leaving a few cases dealing with IPR infringement, Indian courts have not expressly ruled on the legality of web scraping. However, since all common forms of electronic contracts are enforceable in India, violating the terms of use prohibiting data scraping will be a violation of the contract law. It will also violate the
+            - link "Information Technology Act, 2000" [ref=e560] [cursor=pointer]:
+              - /url: /wiki/Information_Technology_Act,_2000#:~:text=From_Wikipedia,_the_free_encyclopedia_The_Information_Technology,in_India_dealing_with_cybercrime_and_electronic_commerce.
+            - text: ", which penalizes unauthorized access to a computer resource or extracting data from a computer resource."
+          - generic [ref=e561]:
+            - heading "Methods to prevent web scraping" [level=2] [ref=e562]
+            - generic [ref=e563]:
+              - text: "["
+              - link "edit" [ref=e564] [cursor=pointer]:
+                - /url: /w/index.php?title=Web_scraping&action=edit&section=16
+              - text: "]"
+          - paragraph [ref=e565]: "The administrator of a website can use various measures to stop or slow a bot. Some techniques include:"
+          - list [ref=e566]:
+            - listitem [ref=e567]:
+              - text: Blocking an
+              - link "IP address" [ref=e568] [cursor=pointer]:
+                - /url: /wiki/IP_address
+              - text: either manually or based on criteria such as
+              - link "geolocation" [ref=e569] [cursor=pointer]:
+                - /url: /wiki/Geolocation
+              - text: and
+              - link "DNSRBL" [ref=e570] [cursor=pointer]:
+                - /url: /wiki/DNSBL
+              - text: . This will also block all browsing from that address.
+            - listitem [ref=e571]:
+              - text: Disabling any
+              - link "web service" [ref=e572] [cursor=pointer]:
+                - /url: /wiki/Web_service
+              - link "API" [ref=e573] [cursor=pointer]:
+                - /url: /wiki/Application_programming_interface
+              - text: that the website's system might expose.
+            - listitem [ref=e574]:
+              - text: Bots sometimes declare who they are (using
+              - link "user agent" [ref=e575] [cursor=pointer]:
+                - /url: /wiki/User_agent
+              - link "strings" [ref=e576] [cursor=pointer]:
+                - /url: /wiki/String_(computer_science)
+              - text: ) and can be blocked on that basis using
+              - link "robots.txt" [ref=e577] [cursor=pointer]:
+                - /url: /wiki/Robots_exclusion_standard
+              - text: ; '
+              - link "googlebot" [ref=e578] [cursor=pointer]:
+                - /url: /wiki/Googlebot
+              - text: "' is an example. Other bots make no distinction between themselves and a human using a browser."
+            - listitem [ref=e579]: Bots can be blocked by monitoring excess traffic.
+            - listitem [ref=e580]:
+              - text: Bots can sometimes be blocked with tools to verify that it is a real person accessing the site, like a
+              - link "CAPTCHA" [ref=e581] [cursor=pointer]:
+                - /url: /wiki/CAPTCHA
+              - text: ". Bots are sometimes coded to explicitly break specific CAPTCHA patterns or may employ third-party services that utilize human labor to read and respond in real-time to CAPTCHA challenges. They can be triggered because the bot is: 1) making too many requests in a short time, 2) using low-quality proxies, or 3) not covering the web scraper’s fingerprint properly."
+              - superscript [ref=e582]:
+                - link "[32]" [ref=e583] [cursor=pointer]:
+                  - /url: "#cite_note-32"
+            - listitem [ref=e584]:
+              - text: "Commercial anti-bot services: Companies offer anti-bot and anti-scraping services for websites. A few web"
+              - link "application firewalls" [ref=e585] [cursor=pointer]:
+                - /url: /wiki/Application_firewall
+              - text: have limited bot detection capabilities as well. However, many such solutions are not very effective.
+              - superscript [ref=e586]:
+                - link "[33]" [ref=e587] [cursor=pointer]:
+                  - /url: "#cite_note-33"
+            - listitem [ref=e588]:
+              - text: Locating bots with a
+              - link "honeypot" [ref=e589] [cursor=pointer]:
+                - /url: /wiki/Honeypot_(computing)
+              - text: or other method to identify the IP addresses of automated crawlers.
+            - listitem [ref=e590]:
+              - link "Obfuscation" [ref=e591] [cursor=pointer]:
+                - /url: /wiki/Obfuscation
+              - text: using
+              - link "CSS sprites" [ref=e592] [cursor=pointer]:
+                - /url: /wiki/CSS_sprite
+              - text: to display such data as telephone numbers or email addresses, at the cost of
+              - link "accessibility" [ref=e593] [cursor=pointer]:
+                - /url: /wiki/Web_accessibility
+              - text: to
+              - link "screen reader" [ref=e594] [cursor=pointer]:
+                - /url: /wiki/Screen_reader
+              - text: users.
+            - listitem [ref=e595]:
+              - text: Because bots rely on consistency in the front-end code of a target website, adding small variations to the HTML/CSS surrounding important data and navigation elements would require more human involvement in the initial set up of a bot and if done effectively may render the target website too difficult to scrape due to the diminished ability to automate the scraping process.
+              - superscript [ref=e596]:
+                - link "[34]" [ref=e597] [cursor=pointer]:
+                  - /url: "#cite_note-34"
+            - listitem [ref=e598]:
+              - text: Websites can declare if crawling is allowed or not in the
+              - link "robots.txt" [ref=e599] [cursor=pointer]:
+                - /url: /wiki/Robots_exclusion_standard
+              - text: file and allow partial access, limit the crawl rate, specify the optimal time to crawl and more.
+            - listitem [ref=e600]:
+              - text: Trapping bots in a
+              - link "tarpit" [ref=e601] [cursor=pointer]:
+                - /url: /wiki/Tarpit_(networking)
+              - text: ", feeding them nonsensical data to"
+              - link "poison their dataset" [ref=e602] [cursor=pointer]:
+                - /url: /wiki/Data_poisoning
+              - text: . This method is particularly effective against bots which ignore robots.txt files.
+              - superscript [ref=e603]:
+                - link "[35]" [ref=e604] [cursor=pointer]:
+                  - /url: "#cite_note-35"
+            - listitem [ref=e605]:
+              - text: "TLS Fingerprinting: Modern security systems analyze the"
+              - link "Transport Layer Security" [ref=e606] [cursor=pointer]:
+                - /url: /wiki/Transport_Layer_Security
+              - text: (TLS) handshake to identify the client application. Different clients (e.g.,
+              - link "Google Chrome" [ref=e607] [cursor=pointer]:
+                - /url: /wiki/Google_Chrome
+              - text: vs. a
+              - link "Python" [ref=e608] [cursor=pointer]:
+                - /url: /wiki/Python_(programming_language)
+              - text: script) send
+              - link "cryptographic ciphers" [ref=e609] [cursor=pointer]:
+                - /url: /wiki/Cipher_suite
+              - text: and extensions in unique orders. This creates a unique "fingerprint" (such as a JA3 signature) that allows servers to detect and block automated scripts regardless of their
+              - link "IP address" [ref=e610] [cursor=pointer]:
+                - /url: /wiki/IP_address
+              - text: .
+              - superscript [ref=e611]:
+                - link "[36]" [ref=e612] [cursor=pointer]:
+                  - /url: "#cite_note-SalesforceJA3-36"
+              - superscript [ref=e613]:
+                - link "[37]" [ref=e614] [cursor=pointer]:
+                  - /url: "#cite_note-HasDataTLS-37"
+          - generic [ref=e615]:
+            - heading "See also" [level=2] [ref=e616]
+            - generic [ref=e617]:
+              - text: "["
+              - link "edit" [ref=e618] [cursor=pointer]:
+                - /url: /w/index.php?title=Web_scraping&action=edit&section=17
+              - text: "]"
+          - navigation "Portals" [ref=e619]:
+            - listitem [ref=e620]:
+              - link "icon" [ref=e623] [cursor=pointer]:
+                - /url: /wiki/File:Crystal_Clear_app_linneighborhood.svg
+                - img "icon" [ref=e624]
+              - link "Internet portal" [ref=e626] [cursor=pointer]:
+                - /url: /wiki/Portal:Internet
+          - list [ref=e628]:
+            - listitem [ref=e629]:
+              - link "Archive.today" [ref=e630] [cursor=pointer]:
+                - /url: /wiki/Archive.today
+            - listitem [ref=e631]:
+              - link "Common Crawl Foundation" [ref=e632] [cursor=pointer]:
+                - /url: /wiki/Common_Crawl_Foundation
+            - listitem [ref=e633]:
+              - link "Comparison of feed aggregators" [ref=e634] [cursor=pointer]:
+                - /url: /wiki/Comparison_of_feed_aggregators
+            - listitem [ref=e635]:
+              - link "Data scraping" [ref=e636] [cursor=pointer]:
+                - /url: /wiki/Data_scraping
+            - listitem [ref=e637]:
+              - link "Data wrangling" [ref=e638] [cursor=pointer]:
+                - /url: /wiki/Data_wrangling
+            - listitem [ref=e639]:
+              - link "Importer" [ref=e640] [cursor=pointer]:
+                - /url: /wiki/Importer_(computing)
+            - listitem [ref=e641]:
+              - link "Job wrapping" [ref=e642] [cursor=pointer]:
+                - /url: /wiki/Job_wrapping
+            - listitem [ref=e643]:
+              - link "Knowledge extraction" [ref=e644] [cursor=pointer]:
+                - /url: /wiki/Knowledge_extraction
+            - listitem [ref=e645]:
+              - link "OpenSocial" [ref=e646] [cursor=pointer]:
+                - /url: /wiki/OpenSocial
+            - listitem [ref=e647]:
+              - link "Scraper site" [ref=e648] [cursor=pointer]:
+                - /url: /wiki/Scraper_site
+            - listitem [ref=e649]:
+              - link "Fake news website" [ref=e650] [cursor=pointer]:
+                - /url: /wiki/Fake_news_website
+            - listitem [ref=e651]:
+              - link "Spamdexing" [ref=e652] [cursor=pointer]:
+                - /url: /wiki/Spamdexing
+            - listitem [ref=e653]:
+              - link "Domain name drop list" [ref=e654] [cursor=pointer]:
+                - /url: /wiki/Domain_name_drop_list
+            - listitem [ref=e655]:
+              - link "Text corpus" [ref=e656] [cursor=pointer]:
+                - /url: /wiki/Text_corpus
+            - listitem [ref=e657]:
+              - link "Web archiving" [ref=e658] [cursor=pointer]:
+                - /url: /wiki/Web_archiving
+            - listitem [ref=e659]:
+              - link "Web crawler" [ref=e660] [cursor=pointer]:
+                - /url: /wiki/Web_crawler
+            - listitem [ref=e661]:
+              - link "Offline reader" [ref=e662] [cursor=pointer]:
+                - /url: /wiki/Offline_reader
+            - listitem [ref=e663]:
+              - link "Link farm" [ref=e664] [cursor=pointer]:
+                - /url: /wiki/Link_farm
+              - text: (blog network)
+            - listitem [ref=e665]:
+              - link "Search engine scraping" [ref=e666] [cursor=pointer]:
+                - /url: /wiki/Search_engine_scraping
+            - listitem [ref=e667]:
+              - link "Web crawlers" [ref=e668] [cursor=pointer]:
+                - /url: /wiki/Category:Web_crawlers
+          - generic [ref=e669]:
+            - heading "References" [level=2] [ref=e670]
+            - generic [ref=e671]:
+              - text: "["
+              - link "edit" [ref=e672] [cursor=pointer]:
+                - /url: /w/index.php?title=Web_scraping&action=edit&section=18
+              - text: "]"
+          - list [ref=e675]:
+            - listitem [ref=e676]:
+              - link "Jump up" [ref=e679] [cursor=pointer]:
+                - /url: "#cite_ref-1"
+                - text: ^
+              - generic [ref=e680]:
+                - generic [ref=e681]:
+                  - text: Thapelo, Tsaone Swaabow; Namoshe, Molaletsa; Matsebe, Oduetse; Motshegwa, Tshiamo; Bopape, Mary-Jane Morongwa (2021-07-28).
+                  - 'link "\"SASSCAL WebSAPI: A Web Scraping Application Programming Interface to Support Access to SASSCAL''s Weather Data\"" [ref=e682] [cursor=pointer]':
+                    - /url: https://doi.org/10.5334%2Fdsj-2021-024
+                  - text: . Data Science Journal. 20 24.
+                  - link "doi" [ref=e683] [cursor=pointer]:
+                    - /url: /wiki/Doi_(identifier)
+                  - text: ":"
+                  - generic "Freely accessible" [ref=e684]:
+                    - link "10.5334/dsj-2021-024" [ref=e685] [cursor=pointer]:
+                      - /url: https://doi.org/10.5334%2Fdsj-2021-024
+                  - text: .
+                  - link "ISSN" [ref=e686] [cursor=pointer]:
+                    - /url: /wiki/ISSN_(identifier)
+                  - link "1683-1470" [ref=e687] [cursor=pointer]:
+                    - /url: https://search.worldcat.org/issn/1683-1470
+                  - text: .
+                  - link "S2CID" [ref=e688] [cursor=pointer]:
+                    - /url: /wiki/S2CID_(identifier)
+                  - link "237719804" [ref=e689] [cursor=pointer]:
+                    - /url: https://api.semanticscholar.org/CorpusID:237719804
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.jtitle=Data+Science+Journal&rft.atitle=SASSCAL+WebSAPI%3A+A+Web+Scraping+Application+Programming+Interface+to+Support+Access+to+SASSCAL%27s+Weather+Data&rft.volume=20&rft.artnum=24&rft.date=2021-07-28&rft_id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A237719804%23id-name%3DS2CID&rft.issn=1683-1470&rft_id=info%3Adoi%2F10.5334%2Fdsj-2021-024&rft.aulast=Thapelo&rft.aufirst=Tsaone+Swaabow&rft.au=Namoshe%2C+Molaletsa&rft.au=Matsebe%2C+Oduetse&rft.au=Motshegwa%2C+Tshiamo&rft.au=Bopape%2C+Mary-Jane+Morongwa&rft_id=https%3A%2F%2Fdoi.org%2F10.5334%252Fdsj-2021-024&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e690]:
+              - link "Jump up" [ref=e693] [cursor=pointer]:
+                - /url: "#cite_ref-2"
+                - text: ^
+              - generic [ref=e694]:
+                - generic [ref=e695]:
+                  - link "\"Search Engine History.com\"" [ref=e696] [cursor=pointer]:
+                    - /url: http://www.searchenginehistory.com/
+                  - text: . Search Engine History
+                  - generic [ref=e697]: . Retrieved November 26, 2019
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Search+Engine+History&rft.atitle=Search+Engine+History.com&rft_id=http%3A%2F%2Fwww.searchenginehistory.com%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e698]:
+              - link "Jump up" [ref=e701] [cursor=pointer]:
+                - /url: "#cite_ref-3"
+                - text: ^
+              - generic [ref=e702]:
+                - generic [ref=e703]:
+                  - link "\"eBay, API's, and the Connected Web\"" [ref=e704] [cursor=pointer]:
+                    - /url: https://thehistoryoftheweb.com/ebay-apis-connected-web/
+                  - text: . THE HISTORY OF THE WEB. 3 September 1995
+                  - generic [ref=e705]: . Retrieved June 23, 2025
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=THE+HISTORY+OF+THE+WEB&rft.atitle=eBay%2C+API%27s%2C+and+the+Connected+Web&rft.date=1995-09-03&rft_id=https%3A%2F%2Fthehistoryoftheweb.com%2Febay-apis-connected-web%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e706]:
+              - link "Jump up" [ref=e709] [cursor=pointer]:
+                - /url: "#cite_ref-4"
+                - text: ^
+              - generic [ref=e710]:
+                - generic [ref=e711]:
+                  - text: Song, Ruihua; Microsoft Research (Sep 14, 2007).
+                  - link "\"Joint optimization of wrapper generation and template detection\"" [ref=e712] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20161011080619/https://pdfs.semanticscholar.org/4fb4/3c5a212df751e84c3b2f8d29fabfe56c3616.pdf
+                  - text: (PDF). Proceedings of the 13th ACM SIGKDD international conference on Knowledge discovery and data mining. p. 894.
+                  - link "doi" [ref=e713] [cursor=pointer]:
+                    - /url: /wiki/Doi_(identifier)
+                  - text: ":"
+                  - link "10.1145/1281192.1281287" [ref=e714] [cursor=pointer]:
+                    - /url: https://doi.org/10.1145%2F1281192.1281287
+                  - text: .
+                  - link "ISBN" [ref=e715] [cursor=pointer]:
+                    - /url: /wiki/ISBN_(identifier)
+                  - link "9781595936097" [ref=e716] [cursor=pointer]:
+                    - /url: /wiki/Special:BookSources/9781595936097
+                  - text: .
+                  - link "S2CID" [ref=e717] [cursor=pointer]:
+                    - /url: /wiki/S2CID_(identifier)
+                  - link "833565" [ref=e718] [cursor=pointer]:
+                    - /url: https://api.semanticscholar.org/CorpusID:833565
+                  - text: . Archived from
+                  - link "the original" [ref=e719] [cursor=pointer]:
+                    - /url: https://pdfs.semanticscholar.org/4fb4/3c5a212df751e84c3b2f8d29fabfe56c3616.pdf
+                  - text: (PDF) on October 11, 2016.
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=bookitem&rft.atitle=Joint+optimization+of+wrapper+generation+and+template+detection&rft.btitle=Proceedings+of+the+13th+ACM+SIGKDD+international+conference+on+Knowledge+discovery+and+data+mining&rft.pages=894&rft.date=2007-09-14&rft_id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A833565%23id-name%3DS2CID&rft_id=info%3Adoi%2F10.1145%2F1281192.1281287&rft.isbn=9781595936097&rft.aulast=Song&rft.aufirst=Ruihua&rft.au=Microsoft+Research&rft_id=https%3A%2F%2Fpdfs.semanticscholar.org%2F4fb4%2F3c5a212df751e84c3b2f8d29fabfe56c3616.pdf&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e720]:
+              - link "Jump up" [ref=e723] [cursor=pointer]:
+                - /url: "#cite_ref-5"
+                - text: ^
+              - link "Semantic annotation based web scraping" [ref=e725] [cursor=pointer]:
+                - /url: http://www.gooseeker.com/en/node/knowledgebase/freeformat
+            - listitem [ref=e726]:
+              - link "Jump up" [ref=e729] [cursor=pointer]:
+                - /url: "#cite_ref-6"
+                - text: ^
+              - generic [ref=e730]:
+                - generic [ref=e731]:
+                  - text: Roush, Wade (2012-07-25).
+                  - link "\"Diffbot Is Using Computer Vision to Reinvent the Semantic Web\"" [ref=e732] [cursor=pointer]:
+                    - /url: http://www.xconomy.com/san-francisco/2012/07/25/diffbot-is-using-computer-vision-to-reinvent-the-semantic-web/
+                  - text: . Xconomy. www.xconomy.com
+                  - generic [ref=e733]: . Retrieved 2013-03-15
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Xconomy&rft.atitle=Diffbot+Is+Using+Computer+Vision+to+Reinvent+the+Semantic+Web&rft.date=2012-07-25&rft.aulast=Roush&rft.aufirst=Wade&rft_id=http%3A%2F%2Fwww.xconomy.com%2Fsan-francisco%2F2012%2F07%2F25%2Fdiffbot-is-using-computer-vision-to-reinvent-the-semantic-web%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e734]:
+              - link "Jump up" [ref=e737] [cursor=pointer]:
+                - /url: "#cite_ref-7"
+                - text: ^
+              - generic [ref=e738]:
+                - generic [ref=e739]:
+                  - link "\"FAQ about linking – Are website terms of use binding contracts?\"" [ref=e740] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20020308222536/http://www.chillingeffects.org/linking/faq.cgi#QID596
+                  - text: . www.chillingeffects.org. 2007-08-20. Archived from
+                  - link "the original" [ref=e741] [cursor=pointer]:
+                    - /url: http://www.chillingeffects.org/linking/faq.cgi#QID596
+                  - text: on 2002-03-08
+                  - generic [ref=e742]: . Retrieved 2007-08-20
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=FAQ+about+linking+%E2%80%93+Are+website+terms+of+use+binding+contracts%3F&rft.pub=www.chillingeffects.org&rft.date=2007-08-20&rft_id=http%3A%2F%2Fwww.chillingeffects.org%2Flinking%2Ffaq.cgi%23QID596&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e743]:
+              - link "Jump up" [ref=e746] [cursor=pointer]:
+                - /url: "#cite_ref-8"
+                - text: ^
+              - generic [ref=e747]:
+                - generic [ref=e748]:
+                  - text: Kenneth, Hirschey, Jeffrey (2014-01-01).
+                  - 'link "\"Symbiotic Relationships: Pragmatic Acceptance of Data Scraping\"" [ref=e749] [cursor=pointer]':
+                    - /url: http://scholarship.law.berkeley.edu/btlj/vol29/iss4/16/
+                  - text: . Berkeley Technology Law Journal. 29 (4).
+                  - link "doi" [ref=e750] [cursor=pointer]:
+                    - /url: /wiki/Doi_(identifier)
+                  - text: ":"
+                  - link "10.15779/Z38B39B" [ref=e751] [cursor=pointer]:
+                    - /url: https://doi.org/10.15779%2FZ38B39B
+                  - text: .
+                  - link "ISSN" [ref=e752] [cursor=pointer]:
+                    - /url: /wiki/ISSN_(identifier)
+                  - link "1086-3818" [ref=e753] [cursor=pointer]:
+                    - /url: https://search.worldcat.org/issn/1086-3818
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.jtitle=Berkeley+Technology+Law+Journal&rft.atitle=Symbiotic+Relationships%3A+Pragmatic+Acceptance+of+Data+Scraping&rft.volume=29&rft.issue=4&rft.date=2014-01-01&rft_id=info%3Adoi%2F10.15779%2FZ38B39B&rft.issn=1086-3818&rft.aulast=Kenneth&rft.aufirst=Hirschey%2C+Jeffrey&rft_id=http%3A%2F%2Fscholarship.law.berkeley.edu%2Fbtlj%2Fvol29%2Fiss4%2F16%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e754]:
+              - link "Jump up" [ref=e757] [cursor=pointer]:
+                - /url: "#cite_ref-9"
+                - text: ^
+              - generic [ref=e758]:
+                - generic [ref=e759]:
+                  - 'link "\"Internet Law, Ch. 06: Trespass to Chattels\"" [ref=e760] [cursor=pointer]':
+                    - /url: http://www.tomwbell.com/NetLaw/Ch06.html
+                  - text: . www.tomwbell.com. 2007-08-20
+                  - generic [ref=e761]: . Retrieved 2007-08-20
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Internet+Law%2C+Ch.+06%3A+Trespass+to+Chattels&rft.pub=www.tomwbell.com&rft.date=2007-08-20&rft_id=http%3A%2F%2Fwww.tomwbell.com%2FNetLaw%2FCh06.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e762]:
+              - link "Jump up" [ref=e765] [cursor=pointer]:
+                - /url: "#cite_ref-10"
+                - text: ^
+              - generic [ref=e766]:
+                - generic [ref=e767]:
+                  - link "\"What are the \"trespass to chattels\" claims some companies or website owners have brought?\"" [ref=e768] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20020308222536/http://www.chillingeffects.org/linking/faq.cgi#QID460
+                  - text: . www.chillingeffects.org. 2007-08-20. Archived from
+                  - link "the original" [ref=e769] [cursor=pointer]:
+                    - /url: http://www.chillingeffects.org/linking/faq.cgi#QID460
+                  - text: on 2002-03-08
+                  - generic [ref=e770]: . Retrieved 2007-08-20
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=What+are+the+%22trespass+to+chattels%22+claims+some+companies+or+website+owners+have+brought%3F&rft.pub=www.chillingeffects.org&rft.date=2007-08-20&rft_id=http%3A%2F%2Fwww.chillingeffects.org%2Flinking%2Ffaq.cgi%23QID460&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e771]:
+              - link "Jump up" [ref=e774] [cursor=pointer]:
+                - /url: "#cite_ref-11"
+                - text: ^
+              - generic [ref=e775]:
+                - generic [ref=e776]:
+                  - link "\"Ticketmaster Corp. v. Tickets.com, Inc\"" [ref=e777] [cursor=pointer]:
+                    - /url: http://www.tomwbell.com/NetLaw/Ch07/Ticketmaster.html
+                  - text: . 2007-08-20
+                  - generic [ref=e778]: . Retrieved 2007-08-20
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Ticketmaster+Corp.+v.+Tickets.com%2C+Inc.&rft.date=2007-08-20&rft_id=http%3A%2F%2Fwww.tomwbell.com%2FNetLaw%2FCh07%2FTicketmaster.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e779]:
+              - link "Jump up" [ref=e782] [cursor=pointer]:
+                - /url: "#cite_ref-12"
+                - text: ^
+              - generic [ref=e783]:
+                - generic [ref=e784]:
+                  - link "\"American Airlines v. FareChase\"" [ref=e785] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20110723131832/http://www.fornova.net/documents/AAFareChase.pdf
+                  - text: (PDF). 2007-08-20. Archived from
+                  - link "the original" [ref=e786] [cursor=pointer]:
+                    - /url: http://www.fornova.net/documents/AAFareChase.pdf
+                  - text: (PDF) on 2011-07-23
+                  - generic [ref=e787]: . Retrieved 2007-08-20
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=American+Airlines+v.+FareChase&rft.date=2007-08-20&rft_id=http%3A%2F%2Fwww.fornova.net%2Fdocuments%2FAAFareChase.pdf&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e788]:
+              - link "Jump up" [ref=e791] [cursor=pointer]:
+                - /url: "#cite_ref-13"
+                - text: ^
+              - generic [ref=e792]:
+                - generic [ref=e793]:
+                  - link "\"American Airlines, FareChase Settle Suit\"" [ref=e794] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20160305025808/http://www.thefreelibrary.com/American+Airlines,+FareChase+Settle+Suit.-a0103213546
+                  - text: . The Free Library. 2003-06-13. Archived from
+                  - link "the original" [ref=e795] [cursor=pointer]:
+                    - /url: http://www.thefreelibrary.com/American+Airlines,+FareChase+Settle+Suit.-a0103213546
+                  - text: on 2016-03-05
+                  - generic [ref=e796]: . Retrieved 2012-02-26
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=American+Airlines%2C+FareChase+Settle+Suit.&rft.pub=The+Free+Library&rft.date=2003-06-13&rft_id=http%3A%2F%2Fwww.thefreelibrary.com%2FAmerican%2BAirlines%2C%2BFareChase%2BSettle%2BSuit.-a0103213546&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e797]:
+              - link "Jump up" [ref=e800] [cursor=pointer]:
+                - /url: "#cite_ref-impervawp2011_14-0"
+                - text: ^
+              - generic [ref=e801]:
+                - text: Imperva (2011).
+                - link "Detecting and Blocking Site Scraping Attacks" [ref=e802] [cursor=pointer]:
+                  - /url: http://www.imperva.com/docs/WP_Detecting_and_Blocking_Site_Scraping_Attacks.pdf
+                - text: . Imperva white paper.
+            - listitem [ref=e803]:
+              - link "Jump up" [ref=e806] [cursor=pointer]:
+                - /url: "#cite_ref-15"
+                - text: ^
+              - generic [ref=e807]:
+                - generic [ref=e808]:
+                  - text: Adler, Kenneth A. (2003-07-29).
+                  - 'link "\"Controversy Surrounds ''Screen Scrapers'': Software Helps Users Access Web Sites But Activity by Competitors Comes Under Scrutiny\"" [ref=e809] [cursor=pointer]':
+                    - /url: https://web.archive.org/web/20110211123854/http://library.findlaw.com/2003/Jul/29/132944.html
+                  - text: . Archived from
+                  - link "the original" [ref=e810] [cursor=pointer]:
+                    - /url: http://library.findlaw.com/2003/Jul/29/132944.html
+                  - text: on 2011-02-11
+                  - generic [ref=e811]: . Retrieved 2010-10-27
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Controversy+Surrounds+%27Screen+Scrapers%27%3A+Software+Helps+Users+Access+Web+Sites+But+Activity+by+Competitors+Comes+Under+Scrutiny&rft.date=2003-07-29&rft.aulast=Adler&rft.aufirst=Kenneth+A.&rft_id=http%3A%2F%2Flibrary.findlaw.com%2F2003%2FJul%2F29%2F132944.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e812]:
+              - link "Jump up" [ref=e815] [cursor=pointer]:
+                - /url: "#cite_ref-16"
+                - text: ^
+              - generic [ref=e816]:
+                - generic [ref=e817]:
+                  - link "\"CVENT, Inc. v. Eventbrite, Inc.,et al\"" [ref=e818] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20130921054619/http://www.fornova.net/documents/Cvent.pdf
+                  - text: (PDF). 2014-11-24. Archived from
+                  - link "the original" [ref=e819] [cursor=pointer]:
+                    - /url: http://www.fornova.net/documents/Cvent.pdf
+                  - text: (PDF) on 2013-09-21
+                  - generic [ref=e820]: . Retrieved 2015-11-05
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=CVENT%2C+Inc.+v.+Eventbrite%2C+Inc.%2Cet+al&rft.date=2014-11-24&rft_id=http%3A%2F%2Fwww.fornova.net%2Fdocuments%2FCvent.pdf&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e821]:
+              - link "Jump up" [ref=e824] [cursor=pointer]:
+                - /url: "#cite_ref-17"
+                - text: ^
+              - generic [ref=e825]:
+                - generic [ref=e826]:
+                  - link "\"QVC Inc. v. Resultly LLC, No. 14-06714 (E.D. Pa. filed Nov. 24, 2014)\"" [ref=e827] [cursor=pointer]:
+                    - /url: https://www.scribd.com/doc/249068700/LinkedIn-v-Resultly-LLC-Complaint?secret_password=pEVKDbnvhQL52oKfdrmT
+                  - text: . United States District Court for the Eastern District of Pennsylvania
+                  - generic [ref=e828]: . Retrieved 5 November 2015
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=United+States+District+Court+for+the+Eastern+District+of+Pennsylvania&rft.atitle=QVC+Inc.+v.+Resultly+LLC%2C+No.+14-06714+%28E.D.+Pa.+filed+Nov.+24%2C+2014%29&rft_id=https%3A%2F%2Fwww.scribd.com%2Fdoc%2F249068700%2FLinkedIn-v-Resultly-LLC-Complaint%3Fsecret_password%3DpEVKDbnvhQL52oKfdrmT&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e829]:
+              - link "Jump up" [ref=e832] [cursor=pointer]:
+                - /url: "#cite_ref-18"
+                - text: ^
+              - generic [ref=e833]:
+                - generic [ref=e834]:
+                  - text: Neuburger, Jeffrey D (5 December 2014).
+                  - link "\"QVC Sues Shopping App for Web Scraping That Allegedly Triggered Site Outage\"" [ref=e835] [cursor=pointer]:
+                    - /url: http://newmedialaw.proskauer.com/2014/12/05/qvc-sues-shopping-app-for-web-scraping-that-allegedly-triggered-site-outage/
+                  - text: . The National Law Review. Proskauer Rose LLP
+                  - generic [ref=e836]: . Retrieved 5 November 2015
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.jtitle=The+National+Law+Review&rft.atitle=QVC+Sues+Shopping+App+for+Web+Scraping+That+Allegedly+Triggered+Site+Outage&rft.date=2014-12-05&rft.aulast=Neuburger&rft.aufirst=Jeffrey+D&rft_id=http%3A%2F%2Fnewmedialaw.proskauer.com%2F2014%2F12%2F05%2Fqvc-sues-shopping-app-for-web-scraping-that-allegedly-triggered-site-outage%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e837]:
+              - link "Jump up" [ref=e840] [cursor=pointer]:
+                - /url: "#cite_ref-19"
+                - text: ^
+              - generic [ref=e841]:
+                - generic [ref=e842]:
+                  - link "\"Did Iqbal/Twombly Raise the Bar for Browsewrap Claims?\"" [ref=e843] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20110723132015/http://www.fornova.net/documents/pblog-bna-com.pdf
+                  - text: (PDF). 2010-09-17. Archived from
+                  - link "the original" [ref=e844] [cursor=pointer]:
+                    - /url: http://www.fornova.net/documents/pblog-bna-com.pdf
+                  - text: (PDF) on 2011-07-23
+                  - generic [ref=e845]: . Retrieved 2010-10-27
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Did+Iqbal%2FTwombly+Raise+the+Bar+for+Browsewrap+Claims%3F&rft.date=2010-09-17&rft_id=http%3A%2F%2Fwww.fornova.net%2Fdocuments%2Fpblog-bna-com.pdf&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e846]:
+              - link "Jump up" [ref=e849] [cursor=pointer]:
+                - /url: "#cite_ref-20"
+                - text: ^
+              - generic [ref=e850]:
+                - generic [ref=e851]:
+                  - link "\"Can Scraping Non-Infringing Content Become Copyright Infringement... Because Of How Scrapers Work? | Techdirt\"" [ref=e852] [cursor=pointer]:
+                    - /url: https://www.techdirt.com/articles/20090605/2228205147.shtml
+                  - text: . Techdirt. 2009-06-10
+                  - generic [ref=e853]: . Retrieved 2016-05-24
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Techdirt.&rft.atitle=Can+Scraping+Non-Infringing+Content+Become+Copyright+Infringement...+Because+Of+How+Scrapers+Work%3F+%7C+Techdirt&rft.date=2009-06-10&rft_id=https%3A%2F%2Fwww.techdirt.com%2Farticles%2F20090605%2F2228205147.shtml&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e854]:
+              - link "Jump up" [ref=e857] [cursor=pointer]:
+                - /url: "#cite_ref-21"
+                - text: ^
+              - generic [ref=e858]:
+                - generic [ref=e859]:
+                  - link "\"Facebook v. Power Ventures\"" [ref=e860] [cursor=pointer]:
+                    - /url: https://www.eff.org/cases/facebook-v-power-ventures
+                  - text: . Electronic Frontier Foundation. July 2011
+                  - generic [ref=e861]: . Retrieved 2016-05-24
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Electronic+Frontier+Foundation&rft.atitle=Facebook+v.+Power+Ventures&rft.date=2011-07&rft_id=https%3A%2F%2Fwww.eff.org%2Fcases%2Ffacebook-v-power-ventures&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e862]:
+              - link "Jump up" [ref=e865] [cursor=pointer]:
+                - /url: "#cite_ref-22"
+                - text: ^
+              - generic [ref=e866]:
+                - generic [ref=e867]:
+                  - text: Chung, Andrew (June 14, 2021).
+                  - link "\"U.S. Supreme Court revives LinkedIn bid to shield personal data\"" [ref=e868] [cursor=pointer]:
+                    - /url: https://www.reuters.com/technology/us-supreme-court-revives-linkedin-bid-shield-personal-data-2021-06-14/
+                  - text: .
+                  - link "Reuters" [ref=e869] [cursor=pointer]:
+                    - /url: /wiki/Reuters
+                  - generic [ref=e870]: . Retrieved June 14, 2021
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=U.S.+Supreme+Court+revives+LinkedIn+bid+to+shield+personal+data&rft.pub=Reuters&rft.date=2021-06-14&rft.aulast=Chung&rft.aufirst=Andrew&rft_id=https%3A%2F%2Fwww.reuters.com%2Ftechnology%2Fus-supreme-court-revives-linkedin-bid-shield-personal-data-2021-06-14%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e871]:
+              - link "Jump up" [ref=e874] [cursor=pointer]:
+                - /url: "#cite_ref-23"
+                - text: ^
+              - generic [ref=e875]:
+                - generic [ref=e876]:
+                  - text: Whittaker, Zack (18 April 2022).
+                  - link "\"Web scraping is legal, US appeals court reaffirms\"" [ref=e877] [cursor=pointer]:
+                    - /url: https://techcrunch.com/2022/04/18/web-scraping-legal-court/
+                  - text: . TechCrunch.
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=TechCrunch&rft.atitle=Web+scraping+is+legal%2C+US+appeals+court+reaffirms&rft.date=2022-04-18&rft.aulast=Whittaker&rft.aufirst=Zack&rft_id=https%3A%2F%2Ftechcrunch.com%2F2022%2F04%2F18%2Fweb-scraping-legal-court%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e878]:
+              - link "Jump up" [ref=e881] [cursor=pointer]:
+                - /url: "#cite_ref-24"
+                - text: ^
+              - generic [ref=e882]:
+                - generic [ref=e883]:
+                  - link "\"UDSKRIFT AF SØ- & HANDELSRETTENS DOMBOG\"" [ref=e884] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20071012005033/http://www.bvhd.dk/uploads/tx_mocarticles/S_-_og_Handelsrettens_afg_relse_i_Ofir-sagen.pdf
+                  - text: (PDF) (in Danish). bvhd.dk. 2006-02-24. Archived from
+                  - link "the original" [ref=e885] [cursor=pointer]:
+                    - /url: http://www.bvhd.dk/uploads/tx_mocarticles/S_-_og_Handelsrettens_afg_relse_i_Ofir-sagen.pdf
+                  - text: (PDF) on 2007-10-12
+                  - generic [ref=e886]: . Retrieved 2007-05-30
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=UDSKRIFT+AF+S%C3%98-+%26+HANDELSRETTENS+DOMBOG&rft.pub=bvhd.dk&rft.date=2006-02-24&rft_id=http%3A%2F%2Fwww.bvhd.dk%2Fuploads%2Ftx_mocarticles%2FS_-_og_Handelsrettens_afg_relse_i_Ofir-sagen.pdf&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e887]:
+              - link "Jump up" [ref=e890] [cursor=pointer]:
+                - /url: "#cite_ref-25"
+                - text: ^
+              - generic [ref=e891]:
+                - generic [ref=e892]:
+                  - link "\"AI Act | Shaping Europe's digital future\"" [ref=e893] [cursor=pointer]:
+                    - /url: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+                  - text: . digital-strategy.ec.europa.eu. 2025-09-16
+                  - generic [ref=e894]: . Retrieved 2025-09-28
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=digital-strategy.ec.europa.eu&rft.atitle=AI+Act+%7C+Shaping+Europe%27s+digital+future&rft.date=2025-09-16&rft_id=https%3A%2F%2Fdigital-strategy.ec.europa.eu%2Fen%2Fpolicies%2Fregulatory-framework-ai&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e895]:
+              - link "Jump up" [ref=e898] [cursor=pointer]:
+                - /url: "#cite_ref-26"
+                - text: ^
+              - generic [ref=e899]:
+                - generic [ref=e900]:
+                  - link "\"High Court of Ireland Decisions >> Ryanair Ltd -v- Billigfluege.de GMBH 2010 IEHC 47 (26 February 2010)\"" [ref=e901] [cursor=pointer]:
+                    - /url: http://www.bailii.org/ie/cases/IEHC/2010/H47.html
+                  - text: . British and Irish Legal Information Institute. 2010-02-26
+                  - generic [ref=e902]: . Retrieved 2012-04-19
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=High+Court+of+Ireland+Decisions+%3E%3E+Ryanair+Ltd+-v-+Billigfluege.de+GMBH+2010+IEHC+47+%2826+February+2010%29&rft.pub=British+and+Irish+Legal+Information+Institute&rft.date=2010-02-26&rft_id=http%3A%2F%2Fwww.bailii.org%2Fie%2Fcases%2FIEHC%2F2010%2FH47.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e903]:
+              - link "Jump up" [ref=e906] [cursor=pointer]:
+                - /url: "#cite_ref-27"
+                - text: ^
+              - generic [ref=e907]:
+                - generic [ref=e908]:
+                  - text: Matthews, Áine (June 2010).
+                  - 'link "\"Intellectual Property: Website Terms of Use\"" [ref=e909] [cursor=pointer]':
+                    - /url: https://web.archive.org/web/20120624103316/http://www.lkshields.ie/htmdocs/publications/newsletters/update26/update26_03.htm
+                  - text: ". Issue 26: June 2010. LK Shields Solicitors Update. p. 03. Archived from"
+                  - link "the original" [ref=e910] [cursor=pointer]:
+                    - /url: http://www.lkshields.ie/htmdocs/publications/newsletters/update26/update26_03.htm
+                  - text: on 2012-06-24
+                  - generic [ref=e911]: . Retrieved 2012-04-19
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Issue+26%3A+June+2010&rft.atitle=Intellectual+Property%3A+Website+Terms+of+Use&rft.pages=03&rft.date=2010-06&rft.aulast=Matthews&rft.aufirst=%C3%81ine&rft_id=http%3A%2F%2Fwww.lkshields.ie%2Fhtmdocs%2Fpublications%2Fnewsletters%2Fupdate26%2Fupdate26_03.htm&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e912]:
+              - link "Jump up" [ref=e915] [cursor=pointer]:
+                - /url: "#cite_ref-28"
+                - text: ^
+              - generic [ref=e916]:
+                - generic [ref=e917]:
+                  - link "\"La réutilisation des données publiquement accessibles en ligne à des fins de démarchage commercial | CNIL\"" [ref=e918] [cursor=pointer]:
+                    - /url: https://www.cnil.fr/fr/la-reutilisation-des-donnees-publiquement-accessibles-en-ligne-des-fins-de-demarchage-commercial
+                  - text: . www.cnil.fr (in French)
+                  - generic [ref=e919]: . Retrieved 2020-07-05
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=www.cnil.fr&rft.atitle=La+r%C3%A9utilisation+des+donn%C3%A9es+publiquement+accessibles+en+ligne+%C3%A0+des+fins+de+d%C3%A9marchage+commercial+%7C+CNIL&rft_id=https%3A%2F%2Fwww.cnil.fr%2Ffr%2Fla-reutilisation-des-donnees-publiquement-accessibles-en-ligne-des-fins-de-demarchage-commercial&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e920]:
+              - link "Jump up" [ref=e923] [cursor=pointer]:
+                - /url: "#cite_ref-29"
+                - text: ^
+              - generic [ref=e924]:
+                - generic [ref=e925]:
+                  - text: FindDataLab.com (2020-06-09).
+                  - link "\"Can You Still Perform Web Scraping With The New CNIL Guidelines?\"" [ref=e926] [cursor=pointer]:
+                    - /url: https://medium.com/@finddatalab/can-you-still-perform-web-scraping-with-the-new-cnil-guidelines-bf3e20d0edc2
+                  - text: . Medium
+                  - generic [ref=e927]: . Retrieved 2020-07-05
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Medium&rft.atitle=Can+You+Still+Perform+Web+Scraping+With+The+New+CNIL+Guidelines%3F&rft.date=2020-06-09&rft.au=FindDataLab.com&rft_id=https%3A%2F%2Fmedium.com%2F%40finddatalab%2Fcan-you-still-perform-web-scraping-with-the-new-cnil-guidelines-bf3e20d0edc2&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e928]:
+              - link "Jump up" [ref=e931] [cursor=pointer]:
+                - /url: "#cite_ref-30"
+                - text: ^
+              - generic [ref=e932]:
+                - generic [ref=e933]:
+                  - text: National Office for the Information Economy (February 2004).
+                  - 'link "\"Spam Act 2003: An overview for business\"" [ref=e934] [cursor=pointer]':
+                    - /url: https://web.archive.org/web/20191203113701/https://www.lloyds.com/~/media/5880dae185914b2487bed7bd63b96286.ashx
+                  - text: . Australian Communications Authority. p. 6. Archived from
+                  - link "the original" [ref=e935] [cursor=pointer]:
+                    - /url: https://www.lloyds.com/~/media/5880dae185914b2487bed7bd63b96286.ashx
+                  - text: on 2019-12-03
+                  - generic [ref=e936]: . Retrieved 2017-12-07
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Spam+Act+2003%3A+An+overview+for+business&rft.pages=6&rft.pub=Australian+Communications+Authority&rft.date=2004-02&rft.au=National+Office+for+the+Information+Economy&rft_id=https%3A%2F%2Fwww.lloyds.com%2F~%2Fmedia%2F5880dae185914b2487bed7bd63b96286.ashx&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e937]:
+              - link "Jump up" [ref=e940] [cursor=pointer]:
+                - /url: "#cite_ref-31"
+                - text: ^
+              - generic [ref=e941]:
+                - generic [ref=e942]:
+                  - text: National Office for the Information Economy (February 2004).
+                  - 'link "\"Spam Act 2003: A practical guide for business\"" [ref=e943] [cursor=pointer]':
+                    - /url: http://www.webstartdesign.com.au/spam_business_practical_guide.pdf
+                  - text: (PDF). Australian Communications Authority. p. 20
+                  - generic [ref=e944]: . Retrieved 2017-12-07
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Spam+Act+2003%3A+A+practical+guide+for+business&rft.pages=20&rft.pub=Australian+Communications+Authority&rft.date=2004-02&rft.au=National+Office+for+the+Information+Economy&rft_id=http%3A%2F%2Fwww.webstartdesign.com.au%2Fspam_business_practical_guide.pdf&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e945]:
+              - link "Jump up" [ref=e948] [cursor=pointer]:
+                - /url: "#cite_ref-32"
+                - text: ^
+              - generic [ref=e949]:
+                - generic [ref=e950]:
+                  - 'link "\"Web Scraping for Beginners: A Guide 2024\"" [ref=e951] [cursor=pointer]':
+                    - /url: https://proxyway.com/guides/what-is-web-scraping
+                  - text: . Proxyway. 2023-08-31
+                  - generic [ref=e952]: . Retrieved 2024-03-15
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Proxyway&rft.atitle=Web+Scraping+for+Beginners%3A+A+Guide+2024&rft.date=2023-08-31&rft_id=https%3A%2F%2Fproxyway.com%2Fguides%2Fwhat-is-web-scraping&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e953]:
+              - link "Jump up" [ref=e956] [cursor=pointer]:
+                - /url: "#cite_ref-33"
+                - text: ^
+              - generic [ref=e957]:
+                - text: Mayank Dhiman
+                - link "Breaking Fraud & Bot Detection Solutions" [ref=e958] [cursor=pointer]:
+                  - /url: https://s3.us-west-2.amazonaws.com/research-papers-mynk/Breaking-Fraud-And-Bot-Detection-Solutions.pdf
+                - text: OWASP AppSec Cali' 2018 Retrieved February 10, 2018.
+            - listitem [ref=e959]:
+              - link "Jump up" [ref=e962] [cursor=pointer]:
+                - /url: "#cite_ref-34"
+                - text: ^
+              - generic [ref=e963]:
+                - generic [ref=e964]:
+                  - link "\"What is web scraping?\"" [ref=e965] [cursor=pointer]:
+                    - /url: https://datadome.co/guides/scraping/what-is-web-scraping-guide/
+                  - text: . DataDome. 2022-03-06
+                  - generic [ref=e966]: . Retrieved 2025-12-16
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=DataDome&rft.atitle=What+is+web+scraping%3F&rft.date=2022-03-06&rft_id=https%3A%2F%2Fdatadome.co%2Fguides%2Fscraping%2Fwhat-is-web-scraping-guide%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e967]:
+              - link "Jump up" [ref=e970] [cursor=pointer]:
+                - /url: "#cite_ref-35"
+                - text: ^
+              - generic [ref=e971]:
+                - generic [ref=e972]:
+                  - text: Belanger, Ashley (28 January 2025).
+                  - link "\"AI haters build tarpits to trap and trick AI scrapers that ignore robots.txt\"" [ref=e973] [cursor=pointer]:
+                    - /url: https://arstechnica.com/tech-policy/2025/01/ai-haters-build-tarpits-to-trap-and-trick-ai-scrapers-that-ignore-robots-txt/
+                  - text: . Ars Technica.
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.jtitle=Ars+Technica&rft.atitle=AI+haters+build+tarpits+to+trap+and+trick+AI+scrapers+that+ignore+robots.txt&rft.date=2025-01-28&rft.aulast=Belanger&rft.aufirst=Ashley&rft_id=https%3A%2F%2Farstechnica.com%2Ftech-policy%2F2025%2F01%2Fai-haters-build-tarpits-to-trap-and-trick-ai-scrapers-that-ignore-robots-txt%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e974]:
+              - link "Jump up" [ref=e977] [cursor=pointer]:
+                - /url: "#cite_ref-SalesforceJA3_36-0"
+                - text: ^
+              - generic [ref=e978]:
+                - generic [ref=e979]:
+                  - link "\"JA3 - A method for profiling SSL/TLS Clients\"" [ref=e980] [cursor=pointer]:
+                    - /url: https://github.com/salesforce/ja3
+                  - text: . Salesforce Engineering
+                  - generic [ref=e981]: . Retrieved 2026-01-27
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=JA3+-+A+method+for+profiling+SSL%2FTLS+Clients&rft.pub=Salesforce+Engineering&rft_id=https%3A%2F%2Fgithub.com%2Fsalesforce%2Fja3&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+            - listitem [ref=e982]:
+              - link "Jump up" [ref=e985] [cursor=pointer]:
+                - /url: "#cite_ref-HasDataTLS_37-0"
+                - text: ^
+              - generic [ref=e986]:
+                - generic [ref=e987]:
+                  - text: Ermakovich, Sergey.
+                  - link "\"What Is Web Scraping?\"" [ref=e988] [cursor=pointer]:
+                    - /url: https://hasdata.com/blog/web-scraping#how-web-scraping-actually-works
+                  - text: . HasData
+                  - generic [ref=e989]: . Retrieved 2026-01-27
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=HasData&rft.atitle=What+Is+Web+Scraping%3F&rft.aulast=Ermakovich&rft.aufirst=Sergey&rft_id=https%3A%2F%2Fhasdata.com%2Fblog%2Fweb-scraping%23how-web-scraping-actually-works&rfr_id=info%3Asid%2Fen.wikipedia.org%3AWeb+scraping"
+        - generic [ref=e991]:
+          - link "Category" [ref=e992] [cursor=pointer]:
+            - /url: /wiki/Help:Category
+          - text: ":"
+          - list [ref=e993]:
+            - listitem [ref=e994]:
+              - link "Web scraping" [ref=e995] [cursor=pointer]:
+                - /url: /wiki/Category:Web_scraping
+    - contentinfo [ref=e997]:
+      - list [ref=e998]:
+        - listitem [ref=e999]: This page was last edited on 9 April 2026, at 19:39 (UTC).
+        - listitem [ref=e1000]:
+          - text: Text is available under the
+          - link "Creative Commons Attribution-ShareAlike 4.0 License" [ref=e1001] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+          - text: ; additional terms may apply. By using this site, you agree to the
+          - link "Terms of Use" [ref=e1002] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+          - text: and
+          - link "Privacy Policy" [ref=e1003] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+          - text: . Wikipedia® is a registered trademark of the
+          - link "Wikimedia Foundation, Inc." [ref=e1004] [cursor=pointer]:
+            - /url: https://wikimediafoundation.org/
+          - text: ", a non-profit organization."
+      - list:
+        - listitem [ref=e1005]:
+          - link "Privacy policy" [ref=e1006] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e1007]:
+          - link "About Wikipedia" [ref=e1008] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:About
+        - listitem [ref=e1009]:
+          - link "Disclaimers" [ref=e1010] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:General_disclaimer
+        - listitem [ref=e1011]:
+          - link "Contact Wikipedia" [ref=e1012] [cursor=pointer]:
+            - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+        - listitem [ref=e1013]:
+          - link "Legal & safety contacts" [ref=e1014] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+        - listitem [ref=e1015]:
+          - link "Code of Conduct" [ref=e1016] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e1017]:
+          - link "Developers" [ref=e1018] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e1019]:
+          - link "Statistics" [ref=e1020] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/en.wikipedia.org
+        - listitem [ref=e1021]:
+          - link "Cookie statement" [ref=e1022] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e1023]:
+          - link "Mobile view" [ref=e1024] [cursor=pointer]:
+            - /url: //en.wikipedia.org/w/index.php?title=Web_scraping&mobileaction=toggle_view_mobile
+      - list [ref=e1025]:
+        - listitem [ref=e1026]:
+          - link "Wikimedia Foundation" [ref=e1027] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e1029]
+        - listitem [ref=e1030]:
+          - link "Powered by MediaWiki" [ref=e1031] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e1033]
+  - generic [ref=e1034]:
+    - list
