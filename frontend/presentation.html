@@ -154,20 +154,37 @@
 
         .slide-logo {
             position: fixed;
-            bottom: 72px;
-            left: 50%;
-            transform: translateX(-50%);
+            top: 60px;
+            right: 16px;
             z-index: 200;
             opacity: 0.85;
             transition: opacity 0.2s;
             pointer-events: none;
         }
         .slide-logo img {
-            height: 200px;
+            height: 150px;
             width: auto;
-            border-radius: 12px;
+            border-radius: 10px;
         }
         .slide-logo.hidden { display: none; }
+        .slide-logo.panel-hidden { display: none !important; }
+
+        .slide-logo-bob {
+            position: fixed;
+            bottom: 72px;
+            left: 0;
+            z-index: 200;
+            opacity: 0.85;
+            transition: opacity 0.2s;
+            pointer-events: none;
+        }
+        .slide-logo-bob img {
+            height: 160px;
+            width: auto;
+            border-radius: 0 8px 8px 0;
+        }
+        .slide-logo-bob.hidden { display: none; }
+        .slide-logo-bob.panel-hidden { display: none !important; }
 
         .toggle-btns {
             position: fixed;
@@ -570,6 +587,7 @@
 <div class="presentation-container" id="presentation">
 
     <div class="slide-logo"><img src="Bobathon_Bratislava.png" alt="Bobathon Bratislava"></div>
+    <div class="slide-logo-bob"><img src="BOB3D_square.png" alt="BOB3D"></div>
 
     <!-- Slide 1: Title -->
     <div class="slide active bg-gradient" data-index="0">
@@ -582,7 +600,7 @@
             </svg>
             <h1>Wikipedia Search with<br>Playwright MCP</h1>
             <p class="subtitle-lg" style="color:rgba(255,255,255,0.85);margin-top:12px;">AI-Powered Browser Automation Demo</p>
-            <div class="presenter">Prasanth Kunnumal Ramesh</div>
+            <div class="presenter"><a href="https://w3.ibm.com/#/people/ZZ029J693" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Prasanth Kunnumal Ramesh</a></div>
             <div class="presenter" style="font-size:1.2rem;margin-top:0;">QA/Test Developer for Invoices@IBM &bull; CIO</div>
             <div class="date">May 19, 2026</div>
         </div>
@@ -740,7 +758,7 @@
     <!-- Slide 6: Architecture -->
     <div class="slide" data-index="5">
         <div class="slide-content">
-            <h2>System Architecture</h2>
+            <h2>Demo System Architecture</h2>
             <p class="subtitle" style="margin-bottom:20px;">End-to-End Data Flow</p>
             <div class="arch">
                 <div>
@@ -1076,39 +1094,50 @@
         <div class="slide-number">13 / 16</div>
     </div>
 
-    <!-- Slide 14: Performance -->
+    <!-- Slide 14: Key Files Reference -->
     <div class="slide" data-index="13">
         <div class="slide-content">
-            <h2>Performance Metrics</h2>
-            <div class="stat-grid" style="margin-top:16px;">
-                <div class="stat-card">
-                    <div class="stat-value">2-3s</div>
-                    <div class="stat-label">Average Search Time</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">800</div>
-                    <div class="stat-label">Summary Characters</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">10</div>
-                    <div class="stat-label">Sections Extracted</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">20+</div>
-                    <div class="stat-label">Infobox Fields</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">~150MB</div>
-                    <div class="stat-label">Memory Usage</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">95%+</div>
-                    <div class="stat-label">Success Rate</div>
-                </div>
-            </div>
-            <div style="margin-top:24px;display:flex;gap:16px;justify-content:center;">
-                <span class="card" style="padding:8px 16px;font-size:14px;">🌐 Browser: Chromium (headless)</span>
-                <span class="card" style="padding:8px 16px;font-size:14px;">⚡ Data extracted in a single evaluate call</span>
+            <h2>Key Files Reference</h2>
+            <p class="subtitle" style="margin-bottom:24px;">For Advanced Users</p>
+            <div class="step-list">
+                <li>
+                    <span class="step-num">1</span>
+                    <div class="step-content">
+                        <strong>MCP Configuration</strong>
+                        <div class="toolcall" style="margin-top:6px;">
+                            <span class="comment">// .bob/mcp.json — Playwright MCP server settings</span><br>
+                            {<br>
+                            &nbsp;&nbsp;<span class="string">"mcpServers"</span>: {<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"playwright"</span>: {<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"command"</span>: <span class="string">"npx"</span>,<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"args"</span>: [<span class="string">"-y"</span>, <span class="string">"@playwright/mcp@latest"</span>]<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+                            &nbsp;&nbsp;}<br>
+                            }
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <span class="step-num">2</span>
+                    <div class="step-content">
+                        <strong>Backend Code</strong>
+                        <div class="toolcall" style="margin-top:6px;">
+                            <span class="comment">// backend/mcpClient.js — MCP Playwright client wrapper</span><br>
+                            <span class="comment">// backend/wikipediaService.js — Search automation &amp; content extraction</span><br>
+                            <span class="comment">// backend/server.js — Express API, MCP init, search endpoint</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <span class="step-num">3</span>
+                    <div class="step-content">
+                        <strong>Frontend Code</strong>
+                        <div class="toolcall" style="margin-top:6px;">
+                            <span class="comment">// frontend/app.js — Client-side search logic &amp; rendering</span><br>
+                            <span class="comment">// frontend/presentation.html — This interactive presentation</span>
+                        </div>
+                    </div>
+                </li>
             </div>
         </div>
         <div class="slide-number">14 / 16</div>
@@ -1160,8 +1189,8 @@
         <div class="slide-number">15 / 16</div>
     </div>
 
-    <!-- Slide 16: Thank You -->
-    <div class="slide bg-gradient" data-index="15">
+    <!-- Slide 17: Thank You -->
+    <div class="slide bg-gradient" data-index="16">
         <div class="slide-content thank-you" style="text-align:center;">
             <svg width="80" height="80" viewBox="0 0 80 80" fill="none" style="margin-bottom:16px;">
                 <circle cx="40" cy="40" r="34" fill="rgba(255,255,255,0.2)"/>
@@ -1171,7 +1200,7 @@
             <p style="font-size:1.3rem;margin-top:8px;opacity:0.9;">Questions?</p>
             <div class="contact-info">
                 📧 Contact: prasanth.kunnumal.ramesh@ibm.com<br>
-                📚 Docs: Available in repository
+                📚 GitHub: <a href="https://github.com/PKRNIIT2018/bobathon-wiki-mcp" target="_blank" rel="noopener noreferrer" style="color:white;text-decoration:underline;">github.com/PKRNIIT2018/bobathon-wiki-mcp</a>
             </div>
             <div style="margin-top:32px;font-size:14px;opacity:0.7;">
                 Code is available in the repository &mdash; feel free to explore and build your own MCP-powered applications!
@@ -1370,6 +1399,8 @@
 
         const logo = document.querySelector('.slide-logo');
         logo.classList.toggle('hidden', current === 0 || current === totalSlides - 1);
+        const logoBob = document.querySelector('.slide-logo-bob');
+        logoBob.classList.toggle('hidden', current === 0 || current === totalSlides - 1);
     }
 
     function navigate(dir) {
@@ -1395,12 +1426,16 @@
         overlay.classList.add('show');
         panelOpen = panelId;
         btn.classList.add('active');
+        document.querySelector('.slide-logo').classList.add('panel-hidden');
+        document.querySelector('.slide-logo-bob').classList.add('panel-hidden');
     }
 
     function closePanels() {
         document.querySelectorAll('.panel').forEach(p => p.classList.remove('open'));
         document.getElementById('overlay').classList.remove('show');
         document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
+        document.querySelector('.slide-logo').classList.remove('panel-hidden');
+        document.querySelector('.slide-logo-bob').classList.remove('panel-hidden');
         panelOpen = null;
     }
 
